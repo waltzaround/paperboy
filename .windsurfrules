@@ -1,0 +1,141 @@
+You are an expert in TypeScript, React, Vite, Shadcn UI, and Tailwind CSS working with a modern React boilerplate.
+
+## Project Overview
+
+This is a React + TypeScript + Vite + React Router v7 boilerplate with shadcn UI components, featuring responsive design patterns and theming support.
+
+## Code Style and Structure
+
+- Write concise, technical TypeScript code with accurate examples.
+- Use functional and declarative programming patterns; avoid classes.
+- Prefer iteration and modularization over code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+- Structure files: exported component, subcomponents, helpers, static content, types.
+
+## Naming Conventions
+
+- Use lowercase with dashes for directories (e.g., components/auth-wizard).
+- Favor named exports for components.
+- PascalCase for component names (e.g., `Button.tsx`).
+- camelCase for functions and variables.
+
+## TypeScript Usage
+
+- Use TypeScript for all code; prefer interfaces over types.
+- Avoid enums; use maps or union types instead.
+- Use functional components with TypeScript interfaces.
+- Ensure proper prop typing for all components.
+
+## Syntax and Formatting
+
+- Use the "function" keyword for pure functions.
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
+- Use declarative JSX.
+- Use semicolons consistently at the end of statements.
+- Maintain consistent indentation (2 spaces).
+
+## UI and Styling
+
+- Use Shadcn UI, and Tailwind for components and styling.
+- Implement responsive design with Tailwind CSS; use a mobile-first approach.
+- Use the `cn` utility from `@/lib/utils` for merging class names.
+- Leverage CSS variables defined in index.css for theming.
+- Support both light and dark themes.
+
+## Component Development
+
+When creating or modifying components:
+
+### New Components
+
+```typescript
+// Example component structure
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: "default" | "secondary" | "ghost";
+  size?: "default" | "sm" | "lg" | "icon";
+}
+
+export function Button({
+  className,
+  variant = "default",
+  size = "default",
+  ...props
+}: ButtonProps) {
+  return (
+    <button
+      className={cn(
+        "base-styles",
+        variant === "secondary" && "secondary-styles",
+        variant === "ghost" && "ghost-styles",
+        size === "sm" && "sm-styles",
+        size === "lg" && "lg-styles",
+        size === "icon" && "icon-styles",
+        className
+      )}
+      {...props}
+    />
+  );
+}
+```
+
+### Sidebar Modifications
+
+When modifying the sidebar:
+
+- Maintain separation between mobile and desktop implementations
+- Preserve the collapsible functionality
+- Ensure proper responsive behavior
+- Update both the Sheet component (mobile) and standard sidebar (desktop)
+
+### Responsive Design
+
+- Design for mobile first, then adapt for larger screens
+- Use Tailwind's responsive prefixes (sm:, md:, lg:, etc.)
+- Test at various viewport sizes
+
+## Performance Considerations
+
+- Minimize state changes and re-renders
+- Keep component responsibilities focused and specific
+- Use appropriate React hooks for state management
+- Optimize imports to prevent bloat
+
+## Accessibility Guidelines
+
+- Include proper ARIA attributes for interactive elements
+- Use semantic HTML elements
+- Ensure proper color contrast for text
+- Include screen reader text for icons (using sr-only class)
+- Ensure keyboard navigation works correctly
+
+## Example Implementation Requests
+
+### Adding a New Component
+
+```
+Create a new Card component that displays content with shadcn UI styling. It should:
+- Accept children and optional header/footer sections
+- Support variants (default, outlined, elevated)
+- Be responsive and support both themes
+- Include proper TypeScript interfaces
+```
+
+### Modifying Existing Components
+
+```
+Update the sidebar component to include a new navigation section for user settings. Ensure:
+- Consistent styling with existing navigation items
+- Proper icon usage following the current pattern
+- Responsive behavior for both mobile and desktop views
+- Collapsed state handling
+```
+
+### Implementing New Features
+
+```
+Implement a theme toggle component that switches between light and dark modes. The component should:
+- Use the existing CSS variables for theming
+- Include a smooth transition between themes
+- Be accessible with proper ARIA attributes
+- Work consistently across all components
+```
