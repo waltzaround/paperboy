@@ -17,7 +17,7 @@ interface NewsArticle {
 
 export function Home() {
   const [articles, setArticles] = useState<NewsArticle[]>([]);
-  const [loading, setLoading] = useState(true);
+
 
   useEffect(() => {
     const loadArticles = async () => {
@@ -68,7 +68,8 @@ export function Home() {
       } catch (error) {
         console.error('Error loading news articles:', error);
       } finally {
-        setLoading(false);
+      
+        console.error('lol');
       }
     };
 
