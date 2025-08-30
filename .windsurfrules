@@ -46,6 +46,8 @@ This is a React + TypeScript + Vite + React Router v7 boilerplate with shadcn UI
 
 When creating or modifying components:
 
+DO NOT RUN THE DEV SERVER UNLESS EXPLICITLY ASKED. ASSUME IT IS ALREADY RUNNING.
+
 ### New Components
 
 ```typescript

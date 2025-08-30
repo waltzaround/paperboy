@@ -22,12 +22,12 @@ export function Home() {
   useEffect(() => {
     const loadArticles = async () => {
       try {
-        // Generate potential filenames for a reasonable date range (last 2 years)
+        // Generate potential filenames for a reasonable date range
         const newsFiles: string[] = [];
-        const startDate = new Date();
-        startDate.setFullYear(startDate.getFullYear() - 2); // Go back 2 years
+        const currentYear = new Date().getFullYear();
+        const startDate = new Date(currentYear, 0, 1); // January 1st of current year
         const endDate = new Date();
-        endDate.setDate(endDate.getDate() + 7); // Include next week for flexibility
+        endDate.setDate(endDate.getDate() + 30); // Include next month for flexibility
         
         // Generate all possible dates from start to end
         for (let date = new Date(startDate); date <= endDate; date.setDate(date.getDate() + 1)) {
@@ -35,9 +35,12 @@ export function Home() {
           newsFiles.push(`${dateStr}.json`);
         }
         
-        // Try to fetch files in batches to avoid overwhelming the browser
-        const batchSize = 50;
+        console.log('Attempting to load files from date range:', startDate.toISOString().slice(0, 10), 'to', endDate.toISOString().slice(0, 10));
+        
         const loadedArticles: NewsArticle[] = [];
+        
+        // Try to fetch files in batches to avoid overwhelming the browser
+        const batchSize = 30;
         
         for (let i = 0; i < newsFiles.length; i += batchSize) {
           const batch = newsFiles.slice(i, i + batchSize);
@@ -45,6 +48,7 @@ export function Home() {
             try {
               const response = await fetch(`/news/${filename}`);
               if (response.ok) {
+                console.log('Successfully loaded:', filename);
                 return await response.json();
               }
               return null;

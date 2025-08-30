@@ -1,0 +1,88 @@
+{
+    "headline": "Parliament Debates Palestine Recognition Amid Heated Clashes Over Job Losses and NCEA Overhaul",
+    "publicationDate": "2025-08-12",
+    "summary": "Parliament held a tense urgent debate on the recognition of a Palestinian state, a topic that dominated Question Time. The chamber also saw fierce exchanges between the Government and Opposition over the economy, recent job losses, and the legacy of COVID-19 spending, alongside a major Government announcement proposing a complete overhaul of the NCEA secondary school qualification.",
+    "topicSummaries": [
+      {
+        "topic": "Urgent Debate Held on Recognition of Palestinian Statehood",
+        "content": "Following multiple questions on the issue, the House held an urgent debate on the Government's decision to consider recognizing a State of Palestine, with a final decision expected in September. Labour, the Greens, and Te Pāti Māori strongly advocated for immediate recognition, citing the severe humanitarian crisis in Gaza and arguing New Zealand is falling behind its international partners. The Government, led by Foreign Minister Winston Peters, defended its cautious approach, stating that while recognition is a matter of \"when, not if,\" a careful and judicious process is required. Peters highlighted that the previous Labour government had six years to grant recognition but failed to do so.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Peeni Henare (Labour)",
+            "quote": "We are being left behind. New Zealand is being left behind on the international stage. Many people we call close partners, the people we call close allies, and others are leading the charge of the recognition of Palestine as a State."
+          },
+          {
+            "speaker": "Rt Hon Winston Peters (Minister of Foreign Affairs)",
+            "quote": "For the Labour Party's benefit, they had 15 years to recognise Palestine statehood... Did they do it in those six years? No. So, please, answer this question—please, answer this question—why on earth now do they think they have the answers when they didn't have them then?"
+          }
+        ],
+        "tags": [
+          "palestine",
+          "foreign-policy",
+          "urgent-debate",
+          "middle-east"
+        ]
+      },
+      {
+        "topic": "Heated Clashes Erupt Over Economy, Job Losses, and $66B COVID-19 Spend",
+        "content": "Question Time was dominated by a bitter economic debate between the Government and the Opposition. Prime Minister Christopher Luxon and Acting Finance Minister Chris Bishop repeatedly blamed the previous Labour government's $66 billion COVID-19 response for the current recession, inflation, and rising unemployment. Opposition Leader Chris Hipkins fiercely challenged the Prime Minister on job losses, particularly in the construction sector, and accused the Finance Minister of being insensitive. The exchange was marked by sharp personal attacks, with Luxon labelling Hipkins 'The Sixty-six Billion Dollar Man'.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "Does he stand by his decision to pause, delay, or cancel construction projects—decisions that have actively made things worse and put 18,000 construction workers out of work since he became Prime Minister?"
+          },
+          {
+            "speaker": "Rt Hon CHRISTOPHER LUXON (Prime Minister)",
+            "quote": "Well, I'd just say to the member, who I think we should start calling 'The Sixty-six Billion Dollar Man'—because when I grew up as a kid, there was a show called 'The Six Million Dollar Man', and this member is the Sixty-six Billion Dollar Man; it's the way to think about it."
+          }
+        ],
+        "tags": [
+          "economy",
+          "job-losses",
+          "cost-of-living",
+          "covid-19"
+        ]
+      },
+      {
+        "topic": "Government Proposes Major Overhaul to Replace NCEA Qualification",
+        "content": "Education Minister Erica Stanford announced a significant proposal to replace the NCEA secondary school qualification system. The proposed changes include replacing NCEA Level 1 with a foundational skills award and introducing new certificates for Levels 2 and 3 that would require students to pass at least four subjects. A key feature of the reform is a return to clear marks out of 100 with grades such as A, B, or C. Stanford justified the overhaul by stating that \"warning lights have been flashing for some time,\" citing statistics showing low curriculum completion, high numbers of blank exam papers, and a lack of confidence in NCEA's reliability among teachers.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon ERICA STANFORD (Minister of Education)",
+            "quote": "The warning lights have been flashing for some time. There are clear issues with the design and implementation of NCEA, which is overly flexible, difficult for parents and employers to understand, and the lack of consistency leaves too much to chance."
+          },
+          {
+            "speaker": "Hon ERICA STANFORD (Minister of Education)",
+            "quote": "Doing nothing in the face of all this is not an option. We have to strengthen the system, and our proposals are designed to do just that."
+          }
+        ],
+        "tags": [
+          "education",
+          "ncea",
+          "policy-announcement",
+          "secondary-school"
+        ]
+      },
+      {
+        "topic": "Government Clarifies Role of Iwi-Māori Partnership Boards in Health System",
+        "content": "In response to questions from Labour's Peeni Henare, Health Minister Simeon Brown clarified the Government's position on the role of iwi-Māori partnership boards (IMPBs). Brown affirmed that IMPBs will continue to be 'powered up' to provide advice on the health needs of Māori directly to the Hauora Māori Advisory Committee. However, he was firm that their role does not extend to commissioning services, a function he stated belongs to Health New Zealand. Labour questioned whether this represented a minimisation of the boards' role and a failure to meet Te Tiriti o Waitangi obligations, a charge the Minister denied.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Peeni Henare (Labour)",
+            "quote": "Does he agree with Hon Dr Shane Reti when he said, 'I want to see IMPBs (iwi-Māori partnership boards) powered up to support the health outcomes for your whānau and your communities'; if so, what does that look like?"
+          },
+          {
+            "speaker": "Hon SIMEON BROWN (Minister of Health)",
+            "quote": "I agree with the Hon Dr Shane Reti, who was very clear that IMPBs should be providing advice on the health needs of Māori across the country and that they should not be commissioning agencies. That's why we're strengthening the Hauora Māori Advisory Committee and clarifying the role of iwi-Māori partnership boards."
+          }
+        ],
+        "tags": [
+          "health",
+          "impb",
+          "māori-health",
+          "te-tiriti-o-waitangi"
+        ]
+      }
+    ],
+    "conclusion": "The day was defined by a major foreign policy debate over Palestine, while domestically, the government and opposition remained locked in a bitter conflict over economic management and job security."
+  }
