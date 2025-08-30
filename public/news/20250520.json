@@ -1,0 +1,116 @@
+[
+  {
+    "headline": "Te Pāti Māori MPs Suspension Debate Delayed Amidst Fierce Parliamentary Standoff",
+    "publicationDate": "2025-05-20",
+    "summary": "Parliament was consumed by a dramatic debate over proposed sanctions against Te Pāti Māori MPs, which was abruptly postponed until after the upcoming Budget. The day also saw fiery exchanges over the government's decision to scrap dozens of pay equity claims and the introduction of controversial legislation to retrospectively alter consumer credit law, impacting a major class-action lawsuit against two of the country's largest banks.",
+    "topicSummaries": [
+      {
+        "topic": "Debate on Te Pāti Māori MPs' Suspension Postponed After Heated Exchange",
+        "content": "A recommendation from the Privileges Committee to suspend Te Pāti Māori co-leaders Debbie Ngarewa-Packer and Rawiri Waititi for 21 days sparked a heated debate. The proposed sanction, for intimidating behaviour during a haka that disrupted a vote in November 2024, was labelled disproportionate by the Opposition, who proposed a 24-hour suspension instead. In a surprise move, the Government adjourned the debate until June 5, ensuring the MPs can participate in this week's Budget proceedings.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Judith Collins (National)",
+            "quote": "It is not about haka. It is not about tikanga. It is not about the Treaty of Waitangi. It is about following the rules of Parliament that we are all obliged to follow and that we all pledged to follow."
+          },
+          {
+            "speaker": "Rt Hon Chris Hipkins (Labour)",
+            "quote": "It is wrong and against the traditions of our democracy for a Government to use its majority in Parliament to suspend and remove from the service of the people of New Zealand its political opponents. This is not a tinpot dictatorship or a banana republic."
+          }
+        ],
+        "tags": [
+          "privilege",
+          "parliamentary-procedure",
+          "Te Pāti Māori",
+          "suspension",
+          "haka"
+        ]
+      },
+      {
+        "topic": "Government Under Fire Over Axing of 33 Pay Equity Claims Ahead of Budget",
+        "content": "The Prime Minister faced intense questioning over the government's decision to extinguish 33 active pay equity claims, affecting hundreds of thousands of predominantly female workers. The Opposition alleges the move, legislated just before the Budget, was a cost-saving measure, while the government maintains it is fixing a system that was \"unworkable and unaffordable\". Further questions directed at the Finance Minister revealed uncertainty around how future pay equity claims from government-funded private sector employers, like hospice nurses, will be settled.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Labour)",
+            "quote": "Why did the Government bring forward legislative changes to the pay equity regime—passing them into law immediately before the Budget—if not to save money?"
+          },
+          {
+            "speaker": "Rt Hon Christopher Luxon (National)",
+            "quote": "Because our primary focus is to fix the mess that we inherited to make it workable and affordable, and so that we don't have librarians being compared to fisheries officers."
+          }
+        ],
+        "tags": [
+          "pay-equity",
+          "budget-2025",
+          "workplace-relations",
+          "gender-equality",
+          "unions"
+        ]
+      },
+      {
+        "topic": "Controversial Bill Introduced to Retroactively Change Consumer Credit Law",
+        "content": "The government introduced the Credit Contracts and Consumer Finance Amendment Bill, which includes a controversial retrospective clause. The change would alter liability rules for lending disclosure breaches that occurred between 2015 and 2019, directly impacting an ongoing class-action lawsuit against ANZ and ASB involving over 180,000 customers. Commerce Minister Scott Simpson argued the change protects smaller lenders from collapse over minor errors, while the Opposition condemned it as an unprecedented move to protect big banks and undermine the rule of law.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Scott Simpson (National)",
+            "quote": "This bill addresses that risk by applying the 2019 changes—made by a Labour administration—to past cases as well, protecting smaller lenders from potential collapse over minor immaterial mistakes, but it still allows courts to make fair decisions."
+          },
+          {
+            "speaker": "Hon Dr Duncan Webb (Labour)",
+            "quote": "This Government is running a tinpot democracy where it will change the law at the whim of lobbyists and banks. That is not a nation ruled by law; it is a nation ruled by the capriciousness of the Government and the whims of their mates, and it's shameful."
+          }
+        ],
+        "tags": [
+          "CCCFA",
+          "consumer-credit",
+          "banking",
+          "class-action",
+          "retrospective-legislation",
+          "consumer-protection"
+        ]
+      },
+      {
+        "topic": "Government Tables Bill to Disestablish Te Pūkenga, Restore Regional Polytechnics",
+        "content": "The first reading was held for a bill to disestablish the national mega-polytechnic Te Pūkenga. The Education and Training Amendment Bill aims to restore a network of regional polytechnics and create new industry-led skills boards. Minister Penny Simmonds described the centralised model as an \"expensive failure\" and said the reform would return decision-making to regions and industry. The Opposition criticised the move as a \"personal vendetta\" lacking a clear funding model or plan, creating further uncertainty for students and staff.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Penny Simmonds (National)",
+            "quote": "Today, all that changes as we introduce a vocational education and training system that is relevant, progressive, and responds directly to the demands for change from industry, business, students, and communities."
+          },
+          {
+            "speaker": "Shanan Halbert (Labour)",
+            "quote": "This piece of legislation offers nothing—offers nothing—towards the certainty for staff, students, and the sector overall. She's offered no solutions to the chronic funding challenges—that is still absent."
+          }
+        ],
+        "tags": [
+          "education",
+          "vocational-training",
+          "Te Pūkenga",
+          "polytechnics",
+          "tertiary-education"
+        ]
+      },
+      {
+        "topic": "Partial Strikes Bill Passes Second Reading",
+        "content": "The Employment Relations (Pay Deductions for Partial Strikes) Amendment Bill passed its second reading, supported by the coalition government. The bill allows employers to deduct pay from workers engaged in partial strike action, such as wearing a campaign badge or working to rule. Government parties argued it restores fairness, ensuring a fair day's pay for a fair day's work. Opposition parties strongly opposed the bill, stating it attacks workers' rights, will lead to more full-blown strikes, and is against international obligations.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Mark Patterson (NZ First)",
+            "quote": "New Zealand First believes very, very firmly that a fair day's work deserves a fair day's pay, but if you're not doing a fair day's work, as you're not doing under a partial strike, you don't deserve a full day's pay."
+          },
+          {
+            "speaker": "Camilla Belich (Labour)",
+            "quote": "This Government has consistently attacked the rights of workers. This bill is an example of that. And again... this bill is potentially, and I think clearly, against our international obligations."
+          }
+        ],
+        "tags": [
+          "industrial-relations",
+          "unions",
+          "strikes",
+          "employment-law",
+          "workers-rights"
+        ]
+      }
+    ],
+    "conclusion": "Parliament's focus was fractured between a dramatic standoff over democratic process and competing visions for worker and consumer rights, setting a tense stage for the upcoming Budget."
+  }
+]

@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, Github, Calendar, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Header } from "./header";
 
 export function About() {
   return (
     <div className="min-h-screen bg-black text-white">
+        <Header />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" asChild>
@@ -31,8 +33,7 @@ export function About() {
               <div className="text-gray-400 leading-relaxed space-y-4">
                 <p>
                   Paperboy automatically scrapes New Zealand's official Hansard records and uses AI 
-                  to create accessible news summaries of parliamentary proceedings. Built by <a href="https://walt.online">Walter Lim</a> 
-                  and <a href="https://www.linkedin.com/in/jonas-kuhn-99526350/"> Jonas Kuhn</a> to make democracy more transparent for everyday New Zealanders.
+                  to create accessible news summaries of parliamentary proceedings. Built by <a href="https://walt.online" className="text-blue-400 hover:text-blue-300 underline">Walter Lim</a>                   and <a href="https://www.linkedin.com/in/jonas-kuhn-99526350/" className="text-blue-400 hover:text-blue-300 underline"> Jonas Kuhn</a> to make democracy more transparent for everyday New Zealanders.
                 </p>
               </div>
             </section>
@@ -42,7 +43,7 @@ export function About() {
               <div className="grid gap-4 md:grid-cols-3">
                 <div className="p-4 bg-gray-900/50 rounded-lg border border-gray-800">
                   <div className="flex items-center gap-2 mb-2">
-                    <Zap className="w-5 h-5 text-blue-400" />
+                    <Zap className="w-5 h-5 text-green-400" />
                     <h3 className="font-medium text-gray-200">Automated Scraping</h3>
                   </div>
                   <p className="text-sm text-gray-400">

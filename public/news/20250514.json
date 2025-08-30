@@ -1,0 +1,95 @@
+[
+  {
+    "headline": "Government and Opposition Clash Over Sweeping Pay Equity Law Changes Amid Budget Prelude",
+    "publicationDate": "2025-05-14",
+    "summary": "Parliament was dominated by a fierce debate over the government's decision to repeal and replace pay equity laws, with the Opposition labelling it an 'economic backhanding' of women. The day also saw the announcement of a new $140 million fund to tackle school truancy, while the Green Party unveiled an alternative budget proposing significant tax increases, immediately drawing fire from government ministers.",
+    "topicSummaries": [
+      {
+        "topic": "Government Overhauls Pay Equity Laws, Sparking Heated Accusations",
+        "content": "The government faced a barrage of criticism over its changes to pay equity legislation, which extinguish 33 existing claims affecting an estimated 180,000 workers, predominantly women. Prime Minister Christopher Luxon defended the move, stating the previous system, enacted in 2020, had become a \"broken, unworkable, unaffordable system\" with unrealistic job comparisons, such as librarians being compared to fisheries officers. The government argues its new framework will be fairer and clearer. However, Leader of the Opposition Chris Hipkins accused the government of repealing protections it once supported simply because the cost was higher than anticipated, framing the move as a cut to the future pay of low-paid women to balance the budget.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "So when he says it's unaffordable, is he saying the thing that changed between National fully endorsing better pay equity protection for women and their decision to repeal those extra provisions was that they found out it was going to cost more than they'd previously thought?"
+          },
+          {
+            "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+            "quote": "No. The system has got completely out of whack as a Labour piece of law, in practice. When you have librarians being compared to fisheries officers, when you have administration workers being compared to civil engineers, it needs some sorting out. We are deeply committed to pay equity, but the practice had become unworkable, unaffordable, and broken. We're fixing it, like everything."
+          }
+        ],
+        "tags": [
+          "pay equity",
+          "Equal Pay Act",
+          "gender pay gap",
+          "workplace relations",
+          "Christopher Luxon",
+          "Chris Hipkins"
+        ]
+      },
+      {
+        "topic": "$140 Million Package Announced to Tackle School Truancy",
+        "content": "A new $140 million funding package aimed at improving school attendance over the next four years was announced as part of the upcoming Budget 2025. Associate Minister of Education David Seymour stated the investment includes $123 million for a new Attendance Service and nearly $17 million for front-line support. The move follows an Education Review Office (ERO) report commissioned by the Minister, which found the existing Attendance Service to be ineffective and inconsistent, prompting recommendations for substantial reform.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon David Seymour (Associate Minister of Education)",
+            "quote": "Today, I announced, on behalf of the Government, that Budget 2025 includes a $140 million package of new spending to improve attendance at schools over the next four years."
+          },
+          {
+            "speaker": "Hon David Seymour (Associate Minister of Education)",
+            "quote": "When I became the Associate Minister of Education, I asked the Education Review Office (ERO) to review the Attendance Service. The report found that the Attendance Service was ineffective. It found that the current system fails to consistently improve student attendance, because funding varies by provider. ERO and the Ministry of Education recommended substantial reform, and that is what we're doing."
+          }
+        ],
+        "tags": [
+          "education",
+          "school attendance",
+          "truancy",
+          "David Seymour",
+          "Budget 2025"
+        ]
+      },
+      {
+        "topic": "Green Party Unveils Alternative Budget with $88 Billion in Proposed New Taxes",
+        "content": "The Green Party released its alternative budget, proposing significant fiscal changes including $88 billion in additional taxes and $44 billion in extra debt. Co-leader Marama Davidson said the plan would fund initiatives such as free GP visits, free early childhood education, and more public housing by taxing wealth. The proposal was immediately attacked by government MPs, with Minister Chris Bishop highlighting the scale of the proposed tax and debt increases, including new wealth, trust, and inheritance taxes, as a concerning prescription for the country.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Marama Davidson (Co-Leader—Green)",
+            "quote": "The Greens are proud of taxing wealth so that we can have free GP visits and free early childhood education and build more public housing and have livable incomes and protect our rivers and nurture our ecosystems."
+          },
+          {
+            "speaker": "Hon Chris Bishop (Minister of Housing)",
+            "quote": "Here are the facts—here is what they've literally just put out in the last couple of hours: $44 billion in additional debt, taking debt to 50 percent of GDP... $88 billion in additional tax—this is all in their budget; higher income tax rates, wealth tax, trust tax, inheritance tax, higher ACC levies, higher company tax, the private jet tax, higher mining taxes, and bringing back the tenant taxes."
+          }
+        ],
+        "tags": [
+          "Green Party",
+          "alternative budget",
+          "tax policy",
+          "economy",
+          "Marama Davidson"
+        ]
+      },
+      {
+        "topic": "Contentious Social Security Bill Advances, Sanctions Under Scrutiny",
+        "content": "The Social Security Amendment Bill continued its passage through the Committee of the whole House, with debate focused on the introduction of new non-financial sanctions for job seekers. Opposition MPs rigorously questioned the details of the new sanctions, including 'upskilling' and 'community work experience', arguing they were punitive, lacked clear definitions, and could negatively impact families without evidence they improve employment outcomes. Social Development Minister Louise Upston defended the changes, stating the intention is to support people into work and that operational guidelines for the new measures are currently being developed.",
+        "keyExchanges": [
+          {
+            "speaker": "Ricardo Menéndez March (Green)",
+            "quote": "I once again wanted to check why there is no—in relationship to upskilling, but I guess this could apply to other sanctions, but specifically on here, why is there a prescribed minimum amount of hours laid out in the legislation but no maximum amount of hours?"
+          },
+          {
+            "speaker": "Hon Louise Upston (Minister for Social Development and Employment)",
+            "quote": "The intention of this bill is all aimed at supporting more people into work, which is aligned with our target: making sure that job seekers know what their requirements are and that they fulfil them. If they have a non-financial sanction, of course they will need to complete that sanction, and these are non-financial. It's fairly straightforward."
+          }
+        ],
+        "tags": [
+          "social security",
+          "welfare reform",
+          "benefit sanctions",
+          "Social Security Amendment Bill",
+          "Louise Upston"
+        ]
+      }
+    ],
+    "conclusion": "The day was defined by a deep ideological clash over the government's economic priorities, pitting fiscal restraint against social support ahead of the upcoming budget."
+  }
+]

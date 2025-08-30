@@ -1,0 +1,150 @@
+[
+  {
+    "headline": "PM Clashes With Opposition on Health Crisis and Homelessness as Contentious Child Welfare Bill Advances",
+    "publicationDate": "2025-04-02",
+    "summary": "Parliament was dominated by fiery exchanges as Prime Minister Christopher Luxon defended his government's record on healthcare and housing against sharp criticism from the Opposition. Lawmakers advanced significant legislation, passing a bill to increase competition in the building sector and holding a deeply divisive third reading debate on the repeal of Section 7AA of the Oranga Tamariki Act. The day also saw key announcements on workplace health and safety reform and new measures to protect victims of crime.",
+    "topicSummaries": [
+      {
+        "topic": "Heated Debate Erupts Over Health System and Rising Homelessness",
+        "content": "A significant portion of Question Time was dedicated to the state of public services, with the Opposition grilling the Prime Minister on healthcare and housing. Leader of the Opposition Chris Hipkins challenged Christopher Luxon over long surgical waitlists in Nelson, attributing them to a government hiring freeze. Concurrently, Green Co-Leader Marama Davidson confronted the Prime Minister on reports from front-line organisations of a significant increase in rough sleeping, which she linked to recent changes in emergency accommodation policy. The Prime Minister staunchly defended his government's actions, denying a hiring freeze, citing a $17 billion increase in health spending, and asserting that support for those in need remains unchanged while blaming inherited backlogs for the issues.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "Has his Government's hiring freeze on doctors and nurses in hospitals made the wait-lists in Nelson shorter or longer?"
+          },
+          {
+            "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+            "quote": "There is more money, there are more staff, and there is no hiring freeze."
+          },
+          {
+            "speaker": "Hon Marama Davidson (Co-Leader—Green)",
+            "quote": "If support is available to those who need it, why has there been a 53 percent rise in rough sleeping in Auckland City over the last four months?"
+          },
+          {
+            "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+            "quote": "As I've said in my previous answers, there will always be support available for people who need it. Nothing has changed in that regard. But I am incredibly proud of the fact that we have taken 2,000 kids out of motel accommodation and put them into proper, dry homes."
+          }
+        ],
+        "tags": [
+          "healthcare",
+          "housing",
+          "homelessness",
+          "Christopher Luxon",
+          "Chris Hipkins",
+          "Marama Davidson",
+          "question time"
+        ]
+      },
+      {
+        "topic": "Oranga Tamariki Act Repeal Sparks Emotional Third Reading Debate",
+        "content": "The highly contentious Oranga Tamariki (Repeal of Section 7AA) Amendment Bill proceeded to its third reading, sparking an emotional and raw debate. Minister for Children Karen Chhour defended the repeal, arguing that Section 7AA had been misused, causing confusion and leading to decisions where a child's race was prioritised over their safety and wellbeing. Opposition speakers vehemently opposed the bill. Labour's Willow-Jean Prime labelled it a \"travesty\" driven by political ideology that will harm vulnerable Māori children and is a breach of Te Tiriti o Waitangi. The Green Party's Dr Lawrence Xu-Nan echoed this, stating there was no empirical evidence for the repeal and that it removes a key accountability mechanism for Oranga Tamariki.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Karen Chhour (Minister for Children)",
+            "quote": "That is why I make no apology for repealing section 7AA from the Act to remove any confusion for people on the ground making decisions on a daily basis to keep children and young people safe."
+          },
+          {
+            "speaker": "Hon Willow-Jean Prime (Labour)",
+            "quote": "Let the record show tonight—or tomorrow, when this bill ultimately passes—that political ideology has driven this repeal and that vulnerable Māori children will be the ones who pay the price."
+          }
+        ],
+        "tags": [
+          "Oranga Tamariki",
+          "Section 7AA",
+          "child welfare",
+          "Te Tiriti o Waitangi",
+          "legislation",
+          "social policy"
+        ]
+      },
+      {
+        "topic": "Bill to Strengthen Protections for Sexual Violence Victims Passes Second Reading",
+        "content": "The Victims of Sexual Violence (Strengthening Legal Protections) Legislation Bill passed its second reading with broad cross-party support. The bill, initiated by the previous Labour government, aims to achieve two key changes. Firstly, it amends the Crimes Act to prevent child victims under 12 from being questioned about consent in most sexual violence cases, increasing the maximum penalty for such offences to 20 years. Secondly, it alters name suppression settings, giving victims the power to agree or disagree to permanent name suppression for a convicted adult offender. While supporting the bill, Labour's Ginny Andersen raised concerns about the potential pressure this places on victims, especially in cases involving multiple victims or very young victims.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Paul Goldsmith (Minister of Justice)",
+            "quote": "This bill places the power in the hands of the victims to decide whether name suppression will be allowed."
+          },
+          {
+            "speaker": "Hon Ginny Andersen (Labour)",
+            "quote": "It's important to put victims at the centre of our justice system, but not to put undue pressure or weight upon them in a process that is already incredibly traumatising for victims of crime."
+          }
+        ],
+        "tags": [
+          "justice",
+          "victims rights",
+          "sexual violence",
+          "legislation",
+          "name suppression",
+          "crime"
+        ]
+      },
+      {
+        "topic": "Sweeping Workplace Health and Safety Reforms Unveiled",
+        "content": "The government announced a significant reform of workplace health and safety laws, a key commitment of the ACT-National coalition agreement. Minister Brooke van Velden detailed changes including a carve-out for small, low-risk businesses from some requirements, clarifying directors' responsibilities to reduce over-compliance, and focusing the law on \"critical risk\" of serious injury or death. The reforms will also establish a public hotline to report the excessive use of road cones. The Green Party's Teanau Tuiono challenged the Minister, questioning how weakening protections for small businesses was justified when their workers are statistically more likely to be injured.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Brooke van Velden (Minister for Workplace Relations and Safety)",
+            "quote": "This is just the start of the reform programme that will be over the next coming months."
+          },
+          {
+            "speaker": "Teanau Tuiono (Green)",
+            "quote": "How does she justify weakening health and safety protections for workers in small businesses when ACC data suggests that workers in small businesses are 57 percent more likely to suffer an injury than their counterparts in large businesses?"
+          }
+        ],
+        "tags": [
+          "health and safety",
+          "workplace safety",
+          "regulation",
+          "ACT Party",
+          "business",
+          "red tape"
+        ]
+      },
+      {
+        "topic": "Building Products Bill to Lower Construction Costs Passes Final Reading",
+        "content": "The Building (Overseas Building Products, Standards, and Certification Schemes) Amendment Bill passed its third and final reading with unanimous support from the House. The legislation aims to lower construction costs and increase competition by making it easier to use overseas building products in New Zealand. Minister Chris Penk stated the bill would recognise credible and comparable overseas standards without lowering New Zealand's own quality benchmarks. While Labour supported the bill as a way to drive affordability, spokesperson Arena Williams noted they would be closely monitoring whether cost savings are passed on to consumers and if local manufacturers are given a \"fair go\" under the new regime.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Chris Penk (Minister for Building and Construction)",
+            "quote": "There will be tens of thousands of new products available very soon. I'm grateful to everyone who's worked hard to bring this policy to fruition and, indeed, to pass it into law shortly, and I commend this bill to the House."
+          },
+          {
+            "speaker": "Arena Williams (Labour—Manurewa)",
+            "quote": "Labour supports this bill because we support competition in the building supply sector and cost reduction for homeowners. This is all about trying to pass on the benefits of overseas imported products into New Zealand to New Zealand consumers, as well as the builders who use them, without unduly burdening local manufacturers."
+          }
+        ],
+        "tags": [
+          "building",
+          "construction",
+          "housing",
+          "cost of living",
+          "legislation",
+          "competition"
+        ]
+      },
+      {
+        "topic": "Government Defends Removing Māori Education Funding",
+        "content": "The government faced questions over its proposal to disestablish Resource Teacher: Māori positions and reinvest the funding. Minister of Education Erica Stanford argued the current system was inequitable, with roles often attached to schools with no Māori immersion learning. She stated the change would ensure resources are directly invested into kura kaupapa Māori and Māori immersion settings. Tākuta Ferris of Te Pāti Māori challenged the Minister on the lack of specific detail about alternative support for teachers and accused her of relying on outdated reports to justify the move.",
+        "keyExchanges": [
+          {
+            "speaker": "Tākuta Ferris (Te Pāti Māori—Te Tai Tonga)",
+            "quote": "If the Resource Teachers: Māori roles are disestablished in 2026, as is being proposed, what specific alternative support—specific alternative support—will be provided to ensure that Māori medium teachers receive the necessary guidance...?"
+          },
+          {
+            "speaker": "Hon Erica Stanford (Minister of Education)",
+            "quote": "The member will need to wait for the Budget, because many of those decisions will be made through the Budget, but can I say that already what we have done in this area to ensure that we are raising the achievement of Māori learners...is to ensure that there are tier 2 structured literacy staffing entitlements available in kura kaupapa Māori..."
+          }
+        ],
+        "tags": [
+          "education",
+          "te reo Māori",
+          "Māori",
+          "funding",
+          "kura kaupapa"
+        ]
+      }
+    ],
+    "conclusion": "Parliamentary consensus on some legislative reforms was overshadowed by deep ideological divisions on health, social welfare, and Treaty obligations."
+  }
+]

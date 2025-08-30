@@ -1,0 +1,94 @@
+[
+  {
+    "headline": "Controversial Oranga Tamariki Bill Repealing Section 7AA Passes Final Hurdle Amid Heated Debate",
+    "publicationDate": "2025-04-03",
+    "summary": "Parliament was marked by deep ideological divides as the Government passed its controversial bill to repeal section 7AA of the Oranga Tamariki Act after a fiery final debate. In contrast, a bill to modernise the Anzac Day Act received unanimous support in its first reading, while Question Time saw sharp exchanges over a multi-million dollar subsidy for the Tīwai Point aluminium smelter.",
+    "topicSummaries": [
+      {
+        "topic": "Oranga Tamariki Section 7AA Repeal Bill Passes Third Reading",
+        "content": "The highly contentious Oranga Tamariki (Repeal of Section 7AA) Amendment Bill has passed its third and final reading, backed by the coalition government parties. The bill removes the clause requiring Oranga Tamariki to prioritise a child's whakapapa and cultural connections in decision-making. The Government argued the repeal is necessary to ensure a child's safety and wellbeing are the paramount considerations, free from any confusion. Opposition parties fiercely opposed the bill, arguing it breaches Te Tiriti o Waitangi, removes vital cultural protections that keep tamariki Māori safe, and ignores the voices of survivors of state care abuse. Despite heated debate, the bill passed 68 to 54.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Willie Jackson (Labour)",
+            "quote": "This is what is being repealed: an agreement between Te Pāti Māori and National Party that talked about the importance of whakapapa and identity, all repealed because of the ignorance of this Government—all repealed. The fear in our communities is that we could go back to where we were."
+          },
+          {
+            "speaker": "Joseph Mooney (National)",
+            "quote": "This is a sound, robust set of responsibilities that are encoded in legislation that that have specifically referred to the importance of whakapapa, the importance of whānau, hapū, and iwi, and the importance of strategic partnerships and Māori organisations. I frankly cannot understand the Opposition opposing this."
+          }
+        ],
+        "tags": [
+          "Oranga Tamariki",
+          "Section 7AA",
+          "child welfare",
+          "Treaty of Waitangi",
+          "legislation"
+        ]
+      },
+      {
+        "topic": "Anzac Day Act Modernisation Bill Receives Bipartisan Support",
+        "content": "A bill to modernise the Anzac Day Act 1966 passed its first reading with unanimous support from all parties in the House. The Anzac Day Amendment Bill aims to broaden the scope of commemoration to formally include New Zealanders who have served in conflicts and peacekeeping missions since the Vietnam War. The changes will also recognise non-military personnel who served in warlike conflicts, such as medical staff and the merchant navy, as well as allied forces. While supporting the bill, members from Labour, the Green Party, and Te Pāti Māori also called for explicit recognition of those who fought and died in the New Zealand Wars of the 19th century.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Chris Penk (National)",
+            "quote": "The bill that comes before the House today is designed to provide for broader and more inclusive recognition and commemoration on Anzac Day of those who have served our country in wars and warlike operations. The Anzac Day Act 1966 currently restricts recognition and commemoration to those who served in six specified conflicts, ending with the war in South Vietnam."
+          },
+          {
+            "speaker": "Steve Abel (Green)",
+            "quote": "I can't think of a better example of the Home Guard than the tangata whenua Māori who defended New Zealand from 1845 to 1872 against British invasion. They certainly must be included, and I find it concerning that there's sort of a silence in the background documents and the commentary on that inclusion."
+          }
+        ],
+        "tags": [
+          "Anzac Day",
+          "veterans",
+          "legislation",
+          "military",
+          "New Zealand Wars"
+        ]
+      },
+      {
+        "topic": "Government Defends $37M Tīwai Point Subsidy Amid 'Corporate Welfare' Claims",
+        "content": "During a tense Question Time, the Government defended its decision to grant the Tīwai Point aluminium smelter a $37 million annual subsidy in the form of free carbon credits. Climate Change Minister Simon Watts argued the decision was crucial for protecting regional jobs and represented a saving of over $100 million per year compared to the subsidy the smelter would have automatically received. The Green Party's Scott Willis challenged the move, labelling it 'corporate welfare' and questioning its fairness as households face rising power bills. Willis highlighted that official advice from multiple agencies had recommended a lower allocation of credits.",
+        "keyExchanges": [
+          {
+            "speaker": "Scott Willis (Green)",
+            "quote": "Does he think it's fair to give Rio Tinto an extra $37 million a year power bill subsidy via free carbon credits in the same week that households across the country are set to get a double-digit rise to their power bills?"
+          },
+          {
+            "speaker": "Hon Simon Watts (National)",
+            "quote": "Well, there you go again: the degrowth Greens would be happy to see jobs go offshore and aluminium produced in coal boilers overseas. This side of the House backs jobs and growth in our regions."
+          }
+        ],
+        "tags": [
+          "Tīwai Point",
+          "climate change",
+          "carbon credits",
+          "subsidies",
+          "Question Time"
+        ]
+      },
+      {
+        "topic": "Bill to Double Disputes Tribunal Claim Limit to $60,000 Passes Second Reading",
+        "content": "Legislation to double the financial limit for claims in the Disputes Tribunal from $30,000 to $60,000 passed its second reading. The Government says the change is designed to improve access to justice, providing a faster and cheaper forum for resolving civil disputes that are too costly to take to the District Court. A new filing fee of $468 will be introduced for claims over $30,000. While supporting the bill's intent, Labour and the Greens raised concerns about the size of the new fee and the lack of an appeal process for potentially life-changing sums, arguing more safeguards are needed.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Nicole McKee (ACT)",
+            "quote": "New Zealanders do not have an affordable place to resolve civil disputes between $30,000 and $60,000. It is uneconomic to take claims of this value to the District Court due to the significant legal and court-related costs. The result is that people either abandon the value of their claim over $30,000 to fall within the tribunal's jurisdiction, or they accept a loss by not pursuing their claim at all."
+          },
+          {
+            "speaker": "Hon Dr Duncan Webb (Labour)",
+            "quote": "Sixty thousand dollars is more than a year's income for someone on the minimum wage, so if they are being sued for $60,000, that could be absolutely devastating... the Disputes Tribunal referee doesn't have to apply the law, and if they get it wrong, there's no right of appeal."
+          }
+        ],
+        "tags": [
+          "Disputes Tribunal",
+          "justice system",
+          "access to justice",
+          "legislation",
+          "civil disputes"
+        ]
+      }
+    ],
+    "conclusion": "The government advanced its legislative agenda by passing the divisive Oranga Tamariki repeal, while finding rare bipartisan consensus on honouring the nation's veterans."
+  }
+]

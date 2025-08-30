@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Calendar, Quote, User } from "lucide-react";
+import { ArrowLeft, Calendar, Quote, User, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { formatTextWithBold, splitIntoParagraphs } from "@/lib/utils";
 import { Header } from "./header";
@@ -67,6 +67,12 @@ export function ArticleDetail() {
     });
   };
 
+  const generateSourceUrl = (dateString: string) => {
+    // Convert from 2025-05-06 format to 20250506 format for the URL
+    const formattedDate = dateString.replace(/-/g, '');
+    return `https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_${formattedDate}_${formattedDate}`;
+  };
+
   if (loading) {
     return (
       <div className="mx-auto max-w-[960px] p-4">
@@ -109,10 +115,24 @@ export function ArticleDetail() {
             className="font-semibold text-4xl leading-tight tracking-tighter"
             dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.headline) }}
           />
-          <div className="flex gap-12 items-center py-4 border-y border-gray-700/30">     <aside className="text-sm text-gray-400 flex items-center gap-1">
-           <Calendar className="w-4 h-4" /> {formatDate(article.publicationDate)}
-          </aside> <aside className="text-sm text-gray-400 flex items-center gap-1"><User className="w-4 h-4" /> Gemini Pro</aside>
-           </div>
+          <div className="flex gap-6 items-center py-4 border-y border-gray-700/30">
+            <aside className="text-xs text-gray-400 flex items-center gap-1">
+              <Calendar className="w-4 h-4" /> {formatDate(article.publicationDate)}
+            </aside>
+            <aside className="text-xs text-gray-400 flex items-center gap-1">
+              <User className="w-4 h-4" /> Gemini Pro
+            </aside>
+            <aside className="text-xs text-blue-400">
+              <a 
+                href={generateSourceUrl(article.publicationDate)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 hover:text-gray-300 transition-colors"
+              >
+                <ExternalLink className="w-4 h-4" />  Source
+              </a>
+            </aside>
+          </div>
           <p 
             className="text-sm text-gray-400 leading-relaxed"
             dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.summary) }}
@@ -205,7 +225,7 @@ export function ArticleDetail() {
         </div>
 
         <footer className="pt-6 border-t border-gray-700">
-          <h3 className="text-lg font-semibold text-gray-200 mb-3">Conclusion</h3>
+          <h3 className="text-2xl tracking-tight font-semibold  mb-3">Conclusion</h3>
           <p 
             className="text-gray-300 leading-relaxed"
             dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.conclusion) }}

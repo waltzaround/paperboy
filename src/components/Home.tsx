@@ -102,9 +102,9 @@ export function Home() {
   return (
     <>
       <Header />
-      <section className="max-w-[1600px] mx-auto px-4 border ">
-        <h1 className="p-4 pb-2 font-semibold text-4xl">Paperboy</h1>
-        <p className="p-4 text-xl pt-0">
+      <section className="max-w-[1600px] mx-auto p-4 py-12 rounded-lg border ">
+        <h1 className="pb-2 font-semibold text-4xl">Paperboy</h1>
+        <p className=" text-xl pt-0">
           The latest political news from New Zealand, straight from Parliament.
         </p>
       </section>
