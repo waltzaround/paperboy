@@ -1,8 +1,13 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { formatTextWithBold } from "@/lib/utils";
+
+interface KeyExchange {
+  speaker: string;
+  quote: string;
+}
 
 interface NewsArticle {
   headline: string;
@@ -11,6 +16,7 @@ interface NewsArticle {
   topicSummaries: Array<{
     topic: string;
     content: string;
+    keyExchanges?: KeyExchange[];
     tags: string[];
   }>;
   conclusion: string;
@@ -37,6 +43,7 @@ export function ArticleDetail() {
         }
         
         const articleData = await response.json();
+        console.log('Loaded article data:', articleData);
         setArticle(articleData);
       } catch (error) {
         console.error('Error loading article:', error);
@@ -109,7 +116,7 @@ export function ArticleDetail() {
         </header>
 
         <div className="space-y-8 mt-24">
-          {article.topicSummaries.map((topic, index) => (
+          {(article.topicSummaries || []).map((topic, index) => (
             <section key={index} className="flex flex-col gap-1">
               <h3 
                 className="text-xl font-semibold text-gray-100"
@@ -119,16 +126,71 @@ export function ArticleDetail() {
                 className="text-gray-400 leading-relaxed"
                 dangerouslySetInnerHTML={{ __html: formatTextWithBold(topic.content) }}
               />
-              {/* <div className="flex flex-wrap gap-2">
-                {topic.tags.map((tag, tagIndex) => (
-                  <span
-                    key={tagIndex}
-                    className="px-2 py-1 bg-gray-700 text-gray-400 text-xs rounded"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div> */}
+              {topic.keyExchanges && topic.keyExchanges.length > 0 && (
+                <div className="mt-6 space-y-4">
+                  {topic.keyExchanges.map((exchange, exchangeIndex) => {
+                    const isLeftWing = exchange.speaker.includes('Labour') || 
+                           
+                                     exchange.speaker.includes('Te Pāti Māori');
+                    const isRightWing = exchange.speaker.includes('National') || 
+                                       exchange.speaker.includes('ACT') || 
+                                       exchange.speaker.includes('NZ First');
+                                   const isGreen =    exchange.speaker.includes('Green') ;
+                    
+                    return (
+                      <div 
+                        key={exchangeIndex} 
+                        className={`relative p-4 rounded-lg border-l-4 ${
+                          isLeftWing 
+                            ? 'bg-red-950/20 border-l-red-500' 
+                            : isRightWing 
+                            ? 'bg-blue-950/20 border-l-blue-500'
+                            : isGreen
+                            ? 'bg-green-950/20 border-l-green-500'
+                            : 'bg-gray-800/20 border-l-gray-500'
+                        }`}
+                      >
+                        <div className="flex items-start gap-3">
+                          <div className={`flex-shrink-0 p-2 rounded-full ${
+                            isLeftWing 
+                              ? 'bg-red-500/10' 
+                              : isRightWing 
+                              ? 'bg-blue-500/10'
+                              : 'bg-gray-500/10'
+                          }`}>
+                            <Quote className={`w-4 h-4 ${
+                              isLeftWing 
+                                ? 'text-red-400' 
+                                : isRightWing 
+                                ? 'text-blue-400'
+                                : isGreen
+                                ? 'text-green-400'
+                                : 'text-gray-400'
+                            }`} />
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2 mb-2">
+                              <span className={`text-sm font-medium ${
+                                isLeftWing 
+                                  ? 'text-red-300' 
+                                  : isRightWing 
+                                  ? 'text-blue-300'
+                                  : 'text-gray-300'
+                              }`}>
+                                {exchange.speaker}
+                              </span>
+                           
+                            </div>
+                            <blockquote className="text-gray-300 leading-relaxed italic">
+                              "{exchange.quote}"
+                            </blockquote>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
             </section>
           ))}
         </div>
@@ -140,7 +202,7 @@ export function ArticleDetail() {
             dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.conclusion) }}
           />
               <div className="flex flex-wrap gap-2">
-            {article.tags.map((tag, index) => (
+            {(article.tags || []).map((tag, index) => (
               <span
                 key={index}
                 className="px-3 py-1 bg-gray-800 text-gray-300 text-sm rounded-full"
