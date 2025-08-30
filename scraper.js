@@ -90,31 +90,36 @@ Your primary goal is to avoid missing key discussions or bills. Analyze the enti
 
 **headline**: Write a compelling, SEO-friendly headline that captures the most important event of the day.
 
-**summary**: A brief, one-paragraph narrative introduction (2-4 sentences) that frames the day's key events for a general reader.
+**publicationDate**: Use the provided date in YYYY-MM-DD format.
 
-**topicSummaries**: Array of the most significant topics from the day. Each topic should have:
-- **topic**: A headline-style title for the event
-- **content**: A neutral, synthesized paragraph explaining the event
-- **keyExchanges**: Array of direct quotes showing the key back-and-forth between MPs
-- **tags**: Relevant keywords for the topic
+**summary**: Write a brief (2-4 sentence) narrative introduction that gives a high-level overview of the day in Parliament.
 
-**conclusion**: A single, powerful sentence summarizing the day's outcome or core tension.
+**topicSummaries**: This is the most critical part.
+- Create one object for each significant event you identified. The number of objects in this array must match the number of key events in the transcript.
+- Order the objects from most to least significant based on journalistic news value. Prioritize major economic news, significant government spending, major policy shifts, progress on important legislation, and highly contentious debates.
 
-### 3. Writing Style Guidelines
+**topic** (within each summary object):
+- Write a concise, headline-style title for the specific event.
+- Incorporate key data like monetary values or statistics directly into the title. This is important! (e.g., "Major $2.7 Billion Defence Upgrade Announced").
+- Do not use redundant prefixes like "Debate on:" or "Question Time:".
 
-- **Accessible Language**: Write for a general audience, not parliamentary insiders.
-- **Neutral Tone**: Present all sides fairly without editorial bias.
-- **Compelling Structure**: Lead with the most newsworthy items.
-- **Direct Quotes**: Use verbatim quotes to show the actual exchanges between MPs.
-- **Context**: Always explain what bills/issues are about before diving into the politics.
+**content** (within each summary object):
+- In a short paragraph, neutrally synthesize the discussion. Clearly explain what the issue is, who the key speakers or parties were (e.g., Government vs. Opposition), their main arguments, and the outcome or next steps. This paragraph provides the essential context for the keyExchanges.
 
-### 4. Quality Standards
+**keyExchanges** (within each summary object):
+- From the debate on this topic, select the single most controversial, sharp, witty, funny, or revealing back-and-forth exchange.
+- The quotes should capture the core conflict or emotion of the debate.
+- Capture the text verbatim. Do not paraphrase.
+- For the speaker field, use the format: "Full Name (Party)".
+- This field is optional. If a topic (like a procedural announcement) has no noteworthy verbal exchanges, you may omit the entire keyExchanges array for that object.
 
-- Ensure all quotes are verbatim from the source material
-- Include party affiliations for all speakers
-- Focus on substantive policy discussions over procedural matters
-- Prioritize topics that affect the general public
-- Maintain journalistic objectivity throughout`;
+**tags** (within each summary object):
+- Provide an array of 2-4 specific keywords relevant only to that topic.
+
+**conclusion**: Write a single, powerful sentence that summarizes the overall outcome of the day or highlights the core tension that remains.
+
+### 3. Tone and Style
+Maintain a neutral, objective, and accessible tone throughout. The language should be simple and clear, suitable for a general reader who is not an expert in parliamentary procedure.`;
 
   const userPrompt = `Please analyze the following parliamentary data from ${date} and create a comprehensive news summary following the JSON structure provided in the system prompt:
 
