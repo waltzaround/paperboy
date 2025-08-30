@@ -37,7 +37,9 @@ export function ArticleDetail() {
         }
         
         const articleData = await response.json();
-        setArticle(articleData);
+        // Handle array format from scraper
+        const article = Array.isArray(articleData) ? articleData[0] : articleData;
+        setArticle(article);
       } catch (error) {
         console.error('Error loading article:', error);
         setError('Article not found');

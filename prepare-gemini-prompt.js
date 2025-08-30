@@ -59,7 +59,7 @@ Your primary goal is to avoid missing key discussions or bills. Analyze the enti
 
 **topic** (within each summary object):
 - Write a concise, headline-style title for the specific event.
-- Incorporate key data like monetary values or statistics directly into the title (e.g., "Major $2.7 Billion Defence Upgrade Announced").
+- Incorporate key data like monetary values or statistics directly into the title. This is important! (e.g., "Major $2.7 Billion Defence Upgrade Announced").
 - Do not use redundant prefixes like "Debate on:" or "Question Time:".
 
 **content** (within each summary object):

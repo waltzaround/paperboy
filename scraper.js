@@ -3,55 +3,29 @@ import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { GoogleGenAI } from '@google/genai';
+import dotenv from 'dotenv';
+
+// Load environment variables from .env file
+dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Initialize Google Gemini AI client
+const ai = new GoogleGenAI({
+  apiKey: process.env.GEMINI_API_KEY
+});
+
 // Function to call Gemini API with the prepared prompt
 async function callGeminiAPI(promptData) {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) {
-    throw new Error('GEMINI_API_KEY environment variable is required');
-  }
-
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
-  
-  const requestBody = {
-    contents: [
-      {
-        parts: [
-          { text: promptData.systemPrompt },
-          { text: promptData.userPrompt }
-        ]
-      }
-    ],
-    generationConfig: {
-      temperature: 0.1,
-      topK: 1,
-      topP: 1,
-      maxOutputTokens: 4096,
-    }
-  };
-
   try {
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(requestBody)
+    const response = await ai.models.generateContent({
+      model: "gemini-2.5-pro",
+      contents: `${promptData.systemPrompt}\n\n${promptData.userPrompt}`,
+
     });
 
-    if (!response.ok) {
-      throw new Error(`Gemini API error: ${response.status} ${response.statusText}`);
-    }
-
-    const data = await response.json();
-    
-    if (!data.candidates || !data.candidates[0] || !data.candidates[0].content) {
-      throw new Error('Invalid response from Gemini API');
-    }
-
-    const generatedText = data.candidates[0].content.parts[0].text;
+    const generatedText = response.text;
     
     // Parse the JSON response from Gemini
     try {

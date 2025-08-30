@@ -54,7 +54,7 @@ export function Home() {
           });
           
           const batchResults = await Promise.all(batchPromises);
-          const validArticles = batchResults.filter(article => article !== null);
+          const validArticles = batchResults.filter(article => article !== null).flat();
           loadedArticles.push(...validArticles);
         }
         
