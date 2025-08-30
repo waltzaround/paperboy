@@ -7,6 +7,7 @@
 	"name": "paperboy-worker",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-08-30",
+	"compatibility_flags": ["nodejs_compat_v2"],
 	"observability": {
 		"enabled": true
 	},
@@ -47,5 +48,8 @@
 	},
 	"browser": {
 		"binding": "BROWSER"
+	},
+	"vars": {
+		"GITHUB_REPO": "waltzaround/paperboy"
 	}
 }
