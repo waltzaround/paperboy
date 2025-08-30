@@ -94,12 +94,12 @@ export function Home() {
     <p className="p-4 text-xl pt-0">The latest political news from New Zealand, straight from Parliament.</p>
   </section>
    
-      <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 border-t border-l">
+      <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  gap-4 m-8">
         {articles.map((article, index) => (
           <Link 
             key={index} 
             to={`/${article.publicationDate}`}
-            className="block group hover:bg-gray-900/50 p-8 transition-colors border-b border-r"
+            className="block group hover:bg-gray-900/50 p-6 transition-colors border rounded-lg"
           >
             <article className="flex flex-col gap-2">
               <aside className="text-xs text-gray-400">{formatDate(article.publicationDate)}</aside>
