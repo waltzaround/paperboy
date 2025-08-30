@@ -15,6 +15,10 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
+import { spawn } from 'child_process';
+import { fileURLToPath } from 'url';
+import path from 'path';
+
 export default {
 	async fetch(req) {
 		const url = new URL(req.url);
@@ -26,15 +30,35 @@ export default {
 	// The scheduled handler is invoked at the interval set in our wrangler.jsonc's
 	// [[triggers]] configuration.
 	async scheduled(event, env, ctx): Promise<void> {
-		// A Cron Trigger can make requests to other endpoints on the Internet,
-		// publish to a Queue, query a D1 Database, and much more.
-		//
-		// We'll keep it simple and make an API call to a Cloudflare API:
-		let resp = await fetch('https://api.cloudflare.com/client/v4/ips');
-		let wasSuccessful = resp.ok ? 'success' : 'fail';
+		// Calculate date range for last 7 days
+		const endDate = new Date();
+		const startDate = new Date();
+		startDate.setDate(endDate.getDate() - 7);
 
-		// You could store this result in KV, write to a D1 Database, or publish to a Queue.
-		// In this template, we'll just log the result:
-		console.log(`trigger fired at ${event.cron}: ${wasSuccessful}`);
+		const startStr = startDate.toISOString().split('T')[0];
+		const endStr = endDate.toISOString().split('T')[0];
+
+		console.log(`Running scraper for dates ${startStr} to ${endStr}`);
+
+		const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+		// Spawn the scraper process
+		const scraper = spawn('node', ['../scraper.js', startStr, endStr], { cwd: __dirname });
+
+		scraper.stdout.on('data', (data) => {
+			console.log(`Scraper stdout: ${data}`);
+		});
+
+		scraper.stderr.on('data', (data) => {
+			console.error(`Scraper stderr: ${data}`);
+		});
+
+		scraper.on('close', (code) => {
+			console.log(`Scraper process exited with code ${code}`);
+		});
+
+		scraper.on('error', (error) => {
+			console.error(`Failed to start scraper: ${error}`);
+		});
 	},
 } satisfies ExportedHandler<Env>;

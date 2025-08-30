@@ -7,11 +7,14 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "scrape": "node scraper.js"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.5",
     "@tailwindcss/vite": "^4.0.14",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.482.0",
