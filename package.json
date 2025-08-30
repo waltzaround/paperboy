@@ -9,9 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "scrape": "node scraper.js",
-    "prepare-prompts": "node prepare-gemini-prompt.js",
-    "summarize": "node summarizer.js",
-    "scrape-and-summarize": "npm run scrape && npm run summarize"
+    "prepare-news": "node prepare-news.js"
   },
   "dependencies": {
     "@google/genai": "^1.16.0",
