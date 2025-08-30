@@ -22,10 +22,12 @@ export function Home() {
   useEffect(() => {
     const loadArticles = async () => {
       try {
-        // Generate potential filenames based on date range
+        // Generate potential filenames for a reasonable date range (last 2 years)
         const newsFiles: string[] = [];
-        const startDate = new Date('2025-08-14');
+        const startDate = new Date();
+        startDate.setFullYear(startDate.getFullYear() - 2); // Go back 2 years
         const endDate = new Date();
+        endDate.setDate(endDate.getDate() + 7); // Include next week for flexibility
         
         // Generate all possible dates from start to end
         for (let date = new Date(startDate); date <= endDate; date.setDate(date.getDate() + 1)) {
@@ -33,21 +35,28 @@ export function Home() {
           newsFiles.push(`${dateStr}.json`);
         }
         
-        // Try to fetch each file, only keep successful ones
-        const articlePromises = newsFiles.map(async (filename) => {
-          try {
-            const response = await fetch(`/news/${filename}`);
-            if (response.ok) {
-              return await response.json();
-            }
-            return null;
-          } catch {
-            return null;
-          }
-        });
+        // Try to fetch files in batches to avoid overwhelming the browser
+        const batchSize = 50;
+        const loadedArticles: NewsArticle[] = [];
         
-        const results = await Promise.all(articlePromises);
-        const loadedArticles = results.filter(article => article !== null);
+        for (let i = 0; i < newsFiles.length; i += batchSize) {
+          const batch = newsFiles.slice(i, i + batchSize);
+          const batchPromises = batch.map(async (filename) => {
+            try {
+              const response = await fetch(`/news/${filename}`);
+              if (response.ok) {
+                return await response.json();
+              }
+              return null;
+            } catch {
+              return null;
+            }
+          });
+          
+          const batchResults = await Promise.all(batchPromises);
+          const validArticles = batchResults.filter(article => article !== null);
+          loadedArticles.push(...validArticles);
+        }
         
         // Sort by publication date (newest first)
         loadedArticles.sort((a, b) => new Date(b.publicationDate).getTime() - new Date(a.publicationDate).getTime());
