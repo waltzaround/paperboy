@@ -65,6 +65,7 @@ export function Home() {
         // Sort by publication date (newest first)
         loadedArticles.sort((a, b) => new Date(b.publicationDate).getTime() - new Date(a.publicationDate).getTime());
         setArticles(loadedArticles);
+        console.log(loadedArticles[0]);
       } catch (error) {
         console.error('Error loading news articles:', error);
       } finally {
