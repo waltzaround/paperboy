@@ -1,0 +1,123 @@
+[
+  {
+    "headline": "Gaza Crisis Dominates Parliament as Government Pushes Urgent Space Bill and Controversial Health Reforms",
+    "publicationDate": "2025-07-22",
+    "summary": "Parliament engaged in a day of intense debate, led by a lengthy and passionate ministerial statement on the escalating crisis in Gaza which saw the Government face cross-party calls for stronger action against Israel. Domestically, the coalition advanced its agenda by introducing a controversial bill to overhaul the health system and passing urgent legislation to regulate space infrastructure on national security grounds. Tense exchanges over the cost of living and the delivery of government promises dominated Question Time.",
+    "topicSummaries": [
+      {
+        "topic": "Government Condemns Gaza 'Horror', Faces Calls for Stronger Action",
+        "content": "Foreign Minister Winston Peters delivered a ministerial statement describing the situation in Gaza as a \"horror\" that must end. He condemned both Hamas for its continued holding of hostages and Israel for a military response he stated had \"long ago ceased to be proportionate, reasonable, or moral.\" Peters highlighted a joint statement with 27 other countries calling for an immediate ceasefire and a two-state solution. However, he faced sharp questioning from opposition parties, who argued that words were not enough. Labour, the Greens, and Te Pāti Māori pressed the government to take more concrete steps, such as joining South Africa's case against Israel at the International Court of Justice, imposing economic sanctions, and immediately recognizing a Palestinian state.",
+        "keyExchanges": [
+          {
+            "speaker": "Rawiri Waititi (Co-Leader—Te Pāti Māori)",
+            "quote": "Does the Minister, and this Government, recognise Palestine as a sovereign State—yes or no?"
+          },
+          {
+            "speaker": "Rt Hon Winston Peters (Minister of Foreign Affairs)",
+            "quote": "We have made it clear that, for us, it's a question of not if but when. But we need to ensure we do not lower the standards of what statehood comprises... We need to establish who it is we're going to negotiate with before we recognise."
+          }
+        ],
+        "tags": [
+          "middle-east",
+          "gaza",
+          "israel",
+          "palestine",
+          "foreign-policy",
+          "ceasefire",
+          "winston-peters"
+        ]
+      },
+      {
+        "topic": "Controversial Health Bill Scrapping Labour Reforms Passes First Reading",
+        "content": "The Government's Healthy Futures (Pae Ora) Amendment Bill passed its first reading, aiming to refocus the health system on patient outcomes. Health Minister Simeon Brown said the bill cuts bureaucracy by legislating five key health targets, repealing Labour-era principles, and scrapping the health charter. The bill also strengthens the role of the Hauora Māori Advisory Committee while refocusing iwi-Māori partnership boards to an advisory capacity. The Labour Party strongly opposed the bill, with Dr Ayesha Verrall labelling it \"ideological and utterly political,\" warning it would diminish Māori and local community voices. The Greens and Te Pāti Māori also condemned the bill, arguing it turns its back on Te Tiriti o Waitangi and strips equity from the health system.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Simeon Brown (Minister of Health)",
+            "quote": "This bill is not complicated. It's not ideological; it's common sense. It puts targets in law, it reduces the bureaucracy, and it puts patients back at the centre of the health system, where they belong."
+          },
+          {
+            "speaker": "Hon Dr Ayesha Verrall (Labour)",
+            "quote": "The claim that this bill is not ideological is really a bald one to make: one that directs the health system to engage more with the private sector is \"not ideological\"... I would say this bill is both ideological and utterly political, and not actually directed at changing anything meaningful in the health system."
+          }
+        ],
+        "tags": [
+          "health",
+          "pae-ora",
+          "health-targets",
+          "māori-health",
+          "legislation",
+          "simeon-brown"
+        ]
+      },
+      {
+        "topic": "Urgent Bill to Regulate Ground-Based Space Infrastructure Introduced",
+        "content": "The Government used urgency to introduce and pass all stages of the Outer Space and High-altitude Activities Amendment Bill, citing immediate national security risks. Minister for Space Judith Collins stated the legislation fills a critical gap by creating an authorisation regime for ground-based infrastructure like satellite tracking stations, which could be misused by foreign actors. The bill empowers the Minister to decline or revoke authorisations based on the national interest. While the Opposition supported the bill's intent, they raised serious concerns about the lack of public scrutiny due to the urgent process, calling for a post-enactment review to address any unintended consequences for the rapidly growing space sector.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Judith Collins (Minister for Space)",
+            "quote": "This bill responds, by the way, to an immediate need to safeguard New Zealand's national security. Ground-based space infrastructure is increasingly being used to support satellite operations, and without a regulatory framework in place, we are exposed to risk, including foreign interference, that cannot be adequately managed under current legislation."
+          },
+          {
+            "speaker": "Hon Rachel Brooking (Labour)",
+            "quote": "On the not-so-good side is that this bill is going through all-stages urgency, and so that means that the bill has only just now become available for people to look at... it is not good law making to do things under all-stages urgency."
+          }
+        ],
+        "tags": [
+          "space",
+          "national-security",
+          "foreign-interference",
+          "legislation",
+          "urgency",
+          "judith-collins"
+        ]
+      },
+      {
+        "topic": "PM Luxon and Hipkins Clash Over FamilyBoost Payouts and Inflation",
+        "content": "Question Time featured a fiery exchange between Prime Minister Christopher Luxon and Opposition Leader Chris Hipkins over the Government's cost of living policies. Hipkins repeatedly questioned how many families had received the full $250 a fortnight promised under the FamilyBoost childcare rebate, a figure Luxon did not provide. The Prime Minister defended the scheme, stating all 62,000 families who applied received their full entitlement based on a sliding scale of income and costs, while accusing Labour of having no proposals to address the cost of living crisis their government had created.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "How many families with kids have been receiving the $250 extra a fortnight that he promised them?"
+          },
+          {
+            "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+            "quote": "I'll just say to the member: if he wants to put a specific question on notice, feel free to do so. But the great news here is that this is a Government that supports low and middle income working New Zealanders, the people the Labour Party purported to care about but don't care about anymore."
+          }
+        ],
+        "tags": [
+          "question-time",
+          "cost-of-living",
+          "familyboost",
+          "childcare",
+          "christopher-luxon",
+          "chris-hipkins",
+          "inflation"
+        ]
+      },
+      {
+        "topic": "New Zealand-UAE Free Trade Deal Passes Final Hurdle in Parliament",
+        "content": "Parliament passed the third and final reading of legislation to enact the New Zealand-United Arab Emirates Comprehensive Economic Partnership Agreement (CEPA). Trade Minister Todd McClay hailed the agreement, negotiated in a record four months, as a high-quality deal that will eliminate tariffs on 99% of New Zealand's goods exports to the UAE within three years. The deal received broad support from National, Labour, ACT, and New Zealand First, who highlighted the economic benefits for exporters. The Green Party and Te Pāti Māori opposed the bill, citing concerns over the UAE's human rights record, the lack of scrutiny in the treaty-making process, and misrepresentation of Te Tiriti o Waitangi principles during negotiations.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Todd McClay (Minister for Trade and Investment)",
+            "quote": "The New Zealand - UAE CEPA is the highest-quality and most liberalising of any of the more than 20 free-trade agreements that the UAE has concluded to date. This is a tremendous achievement for New Zealand, and can I recognise the exemplary work of our trade negotiators."
+          },
+          {
+            "speaker": "Dr Lawrence Xu-Nan (Green)",
+            "quote": "In its current form, the Green Party cannot, in good conscience, support the bill."
+          }
+        ],
+        "tags": [
+          "trade",
+          "free-trade-agreement",
+          "uae",
+          "exports",
+          "economy",
+          "todd-mcclay",
+          "legislation"
+        ]
+      }
+    ],
+    "conclusion": "The government advanced its legislative agenda on health and national security, while navigating intense international pressure and sharp domestic political clashes over its economic record."
+  }
+]

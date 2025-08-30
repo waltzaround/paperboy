@@ -1,0 +1,118 @@
+[
+  {
+    "headline": "Government Defends Housing Policy Amid Rising Homelessness; Major Cyber-Crime Bill Passes",
+    "publicationDate": "2025-07-24",
+    "summary": "Parliament was dominated by fiery exchanges over the cost of living and a surge in homelessness, with the Government defending its policies against Opposition claims of a growing crisis. While ministers faced intense questioning on housing, food, and power prices, the House also passed significant legislation to combat international cyber-crime and began debating new laws against foreign interference.",
+    "topicSummaries": [
+      {
+        "topic": "Heated Debate as Homelessness Rises Following Policy Changes",
+        "content": "The Government faced a barrage of questions regarding rising homelessness and rough sleeping, which a recent report showed has increased significantly in major centres. Opposition MPs from Labour and the Greens linked the surge directly to the Government's new, stricter criteria for accessing emergency housing, quoting frontline service providers who say people in genuine need are being turned away. Associate Minister of Housing Tama Potaka defended the policy changes, stating they were necessary to end the unsafe and expensive reliance on motels. He repeatedly quoted an official report which stated it was not possible to attribute the rise in homelessness to any single policy change, and insisted the government was focused on providing enduring housing solutions.",
+        "keyExchanges": [
+          {
+            "speaker": "Tamatha Paul (Green)",
+            "quote": "Why is rough sleeping up 24 percent in Wellington, up 89 percent in Auckland, up 73 percent in Christchurch, tripled in Taranaki, and up 56 percent in Whangārei over recent months, if not for the Government's decision to restrict access to emergency accommodation?"
+          },
+          {
+            "speaker": "Hon Tama Potaka (National)",
+            "quote": "May I repeat the homelessness insights briefing note: \"It is not possible to determine the extent to which the changes described in this report... reflect existing trends and broader economic and social contexts or are attributable to policy changes.\" Homelessness is not just about housing, and it's actually not only the Government that can help resolve the homelessness challenges."
+          }
+        ],
+        "tags": [
+          "homelessness",
+          "emergency-housing",
+          "social-policy",
+          "cost-of-living",
+          "question-time"
+        ]
+      },
+      {
+        "topic": "Cyber-Crime Bill Passes Final Hurdle",
+        "content": "The Budapest Convention and Related Matters Legislation Amendment Bill passed its third and final reading with broad support, formally preparing New Zealand to join the international convention against cyber-crime. Minister of Justice Paul Goldsmith stated the bill gives law enforcement crucial new tools, such as data preservation orders, to investigate cross-border crimes that cause significant harm to New Zealanders. While Labour and the Greens supported the bill, they raised concerns during the debate. Labour's Dr Duncan Webb questioned the adequacy of review processes for preservation orders, while the Green Party and Te Pāti Māori expressed unease about potential impacts on human rights, lawful protest, and Māori data sovereignty if data is shared with foreign states with different legal standards. Te Pāti Māori was the only party to vote against the bill.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Paul Goldsmith (National)",
+            "quote": "By joining the Budapest Convention, we will join a global community of like-minded countries who are dedicated to working together against cyber-crime. Joining the convention will give our law enforcement agencies new tools to protect New Zealanders."
+          },
+          {
+            "speaker": "Mariameno Kapa-Kingi (Te Pāti Māori)",
+            "quote": "The convention means that we could be compelled to hand over private data to foreign Governments for offences that are not crimes in Aotearoa New Zealand. This risks the safety of Māori data sovereignty and the state of our people as well."
+          }
+        ],
+        "tags": [
+          "cyber-crime",
+          "legislation",
+          "budapest-convention",
+          "law-and-order",
+          "data-sovereignty",
+          "third-reading"
+        ]
+      },
+      {
+        "topic": "Minister Clashes With Opposition Over Cost of Living",
+        "content": "Question Time kicked off with a tense exchange over the cost of living, as Labour's Barbara Edmonds challenged Finance Minister Nicola Willis on the Government's promise to get food prices under control. Citing concerns from social service providers about rising food insecurity and power costs, Edmonds questioned whether life was getting easier for New Zealanders. Minister Willis defended the Government's record, pointing to a significant drop in the food price inflation rate since taking office. She argued that issues like high power prices were a direct result of the previous government's ban on oil and gas exploration, which created a gas shortage.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Barbara Edmonds (Labour)",
+            "quote": "Who is right: front-line community service providers who say the cost of living is getting worse, or Christopher Luxon, who said a year ago, and confirmed again yesterday, that the cost of living is getting under control?"
+          },
+          {
+            "speaker": "Hon Nicola Willis (National)",
+            "quote": "Well, it can both be the case that something is improving but it still hasn't improved enough. That is our position. The simple fact is that inflation, and therefore price increases which drive the cost of living, is much more under control now than it was previously."
+          }
+        ],
+        "tags": [
+          "cost-of-living",
+          "inflation",
+          "economy",
+          "food-prices",
+          "electricity",
+          "question-time"
+        ]
+      },
+      {
+        "topic": "Foreign Interference Bill Faces Scrutiny in Second Reading",
+        "content": "The House began the second reading of the Crimes (Countering Foreign Interference) Amendment Bill, legislation designed to create new criminal offences for deceptive or coercive activities conducted on behalf of a foreign power. Justice Minister Paul Goldsmith said the bill was a country-neutral measure to protect New Zealand's sovereignty and democratic freedoms. However, the bill faced immediate scrutiny from opposition parties. Labour's Dr Duncan Webb noted the law's complexity and the need to strike a careful balance to avoid curtailing legitimate political speech, especially concerning international conflicts. The Green Party's Dr Lawrence Xu-Nan confirmed his party would not support the bill, citing concerns that it lacked sufficient protections for civil liberties and could disproportionately affect migrant and marginalised communities.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Paul Goldsmith (National)",
+            "quote": "The bill is not intended to criminalise lawful exercise of rights and freedoms. I appreciate the committee's work to make this explicit."
+          },
+          {
+            "speaker": "Dr Lawrence Xu-Nan (Green)",
+            "quote": "It is important to mention that while it is important to ensure Aotearoa is protected from genuine threats of foreign interference, this legislation does not ensure sufficient protections for civil liberties and democratic freedom."
+          }
+        ],
+        "tags": [
+          "foreign-interference",
+          "national-security",
+          "legislation",
+          "human-rights",
+          "espionage",
+          "second-reading"
+        ]
+      },
+      {
+        "topic": "Speaker Rejects Challenge on Use of 'Aotearoa'",
+        "content": "NZ First Leader Winston Peters challenged the Speaker on the use of the name \"Aotearoa\" in the House, arguing that the New Zealand Geographic Board has no legal jurisdiction to alter the country's name and that its use in Parliament has no basis in law. Mr Peters requested the Speaker reconsider previous statements on the matter. The Speaker declined, re-reading a ruling from March 2025 which affirmed that while only legislation can change the official name of the country, Standing Order 109 allows members to speak in te reo Māori. He concluded it is not for the Speaker to arbitrate on the use of individual words and considered the matter closed.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Winston Peters (NZ First)",
+            "quote": "In other words, changing the name of this country, New Zealand, based on the Geographic Board has no basis in law or decisions of the Speaker or of this House. As such, we seek your consideration of this matter, given your former statements."
+          },
+          {
+            "speaker": "Speaker",
+            "quote": "However, members may speak in any of the three languages at any time. If other members do not like certain words, they don't have to use them. But it's not a matter of order and I don't expect to have further points of order raised about it."
+          }
+        ],
+        "tags": [
+          "aotearoa",
+          "parliament",
+          "speaker's-ruling",
+          "te-reo-maori",
+          "winston-peters"
+        ]
+      }
+    ],
+    "conclusion": "The Government advanced its legislative agenda while fiercely defending its social and economic record against opposition claims of a deepening crisis for vulnerable New Zealanders."
+  }
+]

@@ -150,43 +150,122 @@ function parseNewsArticle(html, date, hh = null) {
   // Extract headline (assuming it's in h1 or title)
   const headline = $('h1').first().text().trim() || $('title').text().trim() || `Hansard Debate ${date}${hh ? ' ' + hh : ''}`;
 
-  // Extract summary (first paragraph)
-  const summary = $('p').first().text().trim();
+  // Extract all parliamentary content from the hansard structure
+  const content = [];
+  const allText = [];
 
-  // Extract topic summaries (assuming sections with h2 or similar)
+  // Look for the main hansard content structure
+  $('ul.hansard__level li div.body-text div.section').each((i, section) => {
+    const sectionText = $(section).text().trim();
+    if (sectionText) {
+      allText.push(sectionText);
+    }
+
+    // Extract structured content from various paragraph types
+    $(section).find('p').each((j, elem) => {
+      const $elem = $(elem);
+      const text = $elem.text().trim();
+      const className = $elem.attr('class') || '';
+      
+      if (text) {
+        // Extract speaker information from strong tags
+        const strongText = $elem.find('strong').first().text().trim();
+        
+        if (strongText && (className.includes('Speech') || className.includes('Question') || className.includes('Answer'))) {
+          const speaker = strongText;
+          const speechText = text.replace(strongText, '').trim().replace(/^:\s*/, '');
+          content.push({ 
+            speaker, 
+            text: speechText, 
+            type: className,
+            timestamp: $elem.find('a[name*="time_"]').attr('name') || null
+          });
+        } else if (className.includes('Debate') || className.includes('Subject')) {
+          // Handle debate headings and subject headings
+          content.push({ 
+            speaker: '', 
+            text: text, 
+            type: className,
+            isHeading: true
+          });
+        } else if (text.length > 10) {
+          // Capture other significant text content
+          content.push({ 
+            speaker: '', 
+            text: text, 
+            type: className || 'general'
+          });
+        }
+      }
+    });
+  });
+
+  // Fallback: if no hansard structure found, try the original approach
+  if (content.length === 0) {
+    $('p.Speech, p.Interjection, p.ContinueSpeech, p.SubsQuestion, p.SubsAnswer, p.SupQuestion, p.SupAnswer').each((i, elem) => {
+      const $elem = $(elem);
+      const text = $elem.text().trim();
+      const strongText = $elem.find('strong').first().text().trim();
+      const className = $elem.attr('class') || '';
+      
+      if (strongText) {
+        const speaker = strongText;
+        const speechText = text.replace(strongText, '').trim().replace(/^:\s*/, '');
+        content.push({ 
+          speaker, 
+          text: speechText, 
+          type: className,
+          timestamp: $elem.find('a[name*="time_"]').attr('name') || null
+        });
+      } else if (text.length > 10) {
+        content.push({ speaker: '', text, type: className });
+      }
+    });
+  }
+
+  // Extract summary from first meaningful paragraph
+  const summary = content.find(item => item.text && item.text.length > 50)?.text?.substring(0, 200) + '...' || '';
+
+  // Extract topic summaries based on debate headings
   const topicSummaries = [];
-  $('h2, h3').each((i, elem) => {
-    const topic = $(elem).text().trim();
-    const content = $(elem).nextUntil('h2, h3').text().trim();
-    const tags = []; // Could extract from meta keywords or something, for now empty
-    if (topic && content) {
-      topicSummaries.push({ topic, content, tags });
+  let currentTopic = null;
+  let currentContent = [];
+
+  content.forEach(item => {
+    if (item.isHeading || item.type?.includes('Debate') || item.type?.includes('Subject')) {
+      // Save previous topic if exists
+      if (currentTopic && currentContent.length > 0) {
+        topicSummaries.push({
+          topic: currentTopic,
+          content: currentContent.map(c => `${c.speaker}: ${c.text}`).join('\n'),
+          tags: []
+        });
+      }
+      // Start new topic
+      currentTopic = item.text;
+      currentContent = [];
+    } else if (currentTopic && item.text) {
+      currentContent.push(item);
     }
   });
 
-  // Extract conclusion (last paragraph or section)
-  const conclusion = $('p').last().text().trim();
+  // Add final topic
+  if (currentTopic && currentContent.length > 0) {
+    topicSummaries.push({
+      topic: currentTopic,
+      content: currentContent.map(c => `${c.speaker}: ${c.text}`).join('\n'),
+      tags: []
+    });
+  }
 
-  // Extract tags (assuming from meta keywords)
+  // Extract conclusion from last meaningful content
+  const conclusion = content.slice(-3).find(item => item.text && item.text.length > 20)?.text || '';
+
+  // Extract tags from meta keywords
   const tags = $('meta[name="keywords"]').attr('content') ? $('meta[name="keywords"]').attr('content').split(',').map(t => t.trim()) : [];
 
-  // Extract content from speeches and interjections
-  const content = [];
-  $('p.Speech, p.Interjection, p.ContinueSpeech').each((i, elem) => {
-    const text = $(elem).text().trim();
-    const strongText = $(elem).find('strong').first().text().trim();
-    if (strongText) {
-      const speaker = strongText;
-      const speechText = text.replace(strongText, '').trim();
-      content.push({ speaker, text: speechText });
-    } else {
-      // If no strong, treat as continuation or general text
-      content.push({ speaker: '', text });
-    }
-  });
-
-  // Extract full content as concatenated text
-  const fullContent = content.map(item => `${item.speaker}: ${item.text}`).join('\n\n');
+  // Create full content text
+  const fullContent = allText.join('\n\n') || content.map(item => `${item.speaker}: ${item.text}`).join('\n\n');
 
   return {
     headline,
