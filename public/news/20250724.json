@@ -1,0 +1,88 @@
+{
+    "headline": "Homelessness Crisis and Cost of Living Dominate Parliament as Tensions Rise Over Water and Education Funding",
+    "publicationDate": "2025-07-24",
+    "summary": "Parliament was consumed by heated debates on the rising cost of living and a deepening homelessness crisis, with the Government facing intense scrutiny over its social and economic policies. Ministers defended their actions on food prices, emergency housing, and education funding against a barrage of criticism from opposition parties who pointed to growing hardship in communities across the country. The session also saw a fiery exchange over the official use of the name 'Aotearoa' and the third reading of a major bill aimed at tackling international cyber-crime.",
+    "topicSummaries": [
+      {
+        "topic": "Heated Exchanges Erupt Over Cost of Living and Soaring Food Insecurity",
+        "content": "The cost of living crisis was front and centre during Question Time, with Finance Minister Nicola Willis defending the Government's record against accusations of worsening food insecurity. Labour's Barbara Edmonds cited reports from social service providers of unprecedented demand, questioning the Government's claim that costs were getting under control. Willis countered by pointing to a significant drop in the rate of food price inflation since the Government took office, attributing high electricity prices to the previous administration's ban on oil and gas exploration. The exchanges highlighted the deep divide on whether government policies are easing or exacerbating financial pressure on New Zealand households.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Barbara Edmonds (Labour—Mana)",
+            "quote": "Is she saying that the Auckland City Missioner Helen Robinson is wrong when she said, 'People are making terrible, terrible choices. Do I send the kids to school? Do I have the power on? Do I pay for the washing machine to be fixed? Do I have the power on? Do I get food?'"
+          },
+          {
+            "speaker": "Hon Nicola Willis (Minister of Finance)",
+            "quote": "The circumstances which the city missioner outlines are real. The question for the member is how do we address those challenges. And I would also recall, when inflation was rising faster than wages... Since being elected, we have a track record of getting inflation back into target, having interest rates reducing, and ensuring that we are able to forecast real wages increasing..."
+          }
+        ],
+        "tags": [
+          "cost-of-living",
+          "inflation",
+          "food-insecurity",
+          "question-time"
+        ]
+      },
+      {
+        "topic": "Government Under Fire as Reports Show Homelessness Surging Across New Zealand",
+        "content": "The Government faced intense questioning over a reported surge in homelessness, with rough sleeping numbers rising by as much as 89% in Auckland and tripling in Taranaki. The Greens' Tamatha Paul and Labour's Kieran McAnulty confronted Associate Housing Minister Tama Potaka with data from a new Homelessness Insights report and testimony from front-line providers like the Auckland City Mission. They attributed the increase to the Government's decision to restrict access to emergency housing, noting a sharp rise in declined applications. Potaka defended the policy changes, stating the previous system created dangerous and squalid living conditions in motels and that the Government is focused on providing more targeted, enduring support.",
+        "keyExchanges": [
+          {
+            "speaker": "Tamatha Paul (Green—Wellington Central)",
+            "quote": "Why is rough sleeping up 24 percent in Wellington, up 89 percent in Auckland, up 73 percent in Christchurch, tripled in Taranaki, and up 56 percent in Whangārei over recent months, if not for the Government's decision to restrict access to emergency accommodation?"
+          },
+          {
+            "speaker": "Hon TAMA POTAKA (Associate Minister of Housing)",
+            "quote": "I'll repeat this again just for the member's benefit: 'It is not possible to determine the extent to which changes described in this report … are attributable to policy changes.'"
+          }
+        ],
+        "tags": [
+          "homelessness",
+          "emergency-housing",
+          "social-services",
+          "housing-crisis"
+        ]
+      },
+      {
+        "topic": "Budapest Cyber-crime Bill Passes Third Reading Amid Human Rights Concerns",
+        "content": "Parliament passed the Budapest Convention and Related Matters Legislation Amendment Bill, designed to enhance international cooperation in fighting cyber-crime. The bill, which amends several laws including the Search and Surveillance Act, gives law enforcement new tools like 'preservation directions' to prevent the deletion of digital evidence. While supported by National, Labour, ACT, NZ First, and the Greens, Te Pāti Māori opposed it, citing risks to Māori data sovereignty. Labour and the Greens also raised significant concerns about potential human rights infringements, the lack of judicial oversight for some new powers, and the risk of enabling foreign governments to target political dissidents in New Zealand.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon PAUL GOLDSMITH (Minister of Justice)",
+            "quote": "By joining the Budapest Convention, we will join a global community of like-minded countries who are dedicated to working together against cyber-crime. Joining the convention will give our law enforcement agencies new tools to protect New Zealanders."
+          },
+          {
+            "speaker": "Hon Dr DUNCAN WEBB (Labour—Christchurch Central)",
+            "quote": "I just want to kind of identify that I'm a little uneasy about aspects of it, right? The big innovation of this bill is preservation orders... The right of review is entirely administrative. There is a strong principle that administrative action should be subject to judicial supervision, not more administrative action. So an administrative review is problematic."
+          }
+        ],
+        "tags": [
+          "cyber-crime",
+          "budapest-convention",
+          "surveillance",
+          "human-rights"
+        ]
+      },
+      {
+        "topic": "Tensions Flare Over 1% Pay Offer to Secondary Teachers",
+        "content": "The Government's pay offer to secondary school teachers became a flashpoint in Question Time. Education Minister Erica Stanford was challenged on how a 1% annual pay offer over three years aligns with the Government's stated goal to \"back and strengthen\" educators, especially with inflation at 2.7%. The Minister defended the offer as a \"reasonable first offer\" that was \"carefully crafted\" to be affordable for taxpayers, while highlighting other Government support for the workforce, including professional development and paying registration fees. She also pointed to a 30% increase in domestic enrolments for initial teacher education as a sign that people want to be part of the system under the current government.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Willow-Jean Prime (Labour)",
+            "quote": "Does she believe teachers deserve a pay offer that reflects the hard work that they do; if so, how is the lowest pay offer in 30 years even close to enough?"
+          },
+          {
+            "speaker": "Hon ERICA STANFORD (Minister of Education)",
+            "quote": "This was, as I've said, a reasonable first offer and it is disappointing that the Post Primary Teachers' Association did not take that to their members."
+          }
+        ],
+        "tags": [
+          "education",
+          "teacher-pay",
+          "public-sector",
+          "negotiations"
+        ]
+      }
+    ],
+    "conclusion": "The day's proceedings underscored a stark conflict between the Government's fiscal restraint and the escalating social pressures faced by communities, leaving unresolved questions about how essential services will be funded and who will bear the cost."
+  }

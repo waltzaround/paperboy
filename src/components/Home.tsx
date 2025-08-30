@@ -84,40 +84,30 @@ export function Home() {
     });
   };
 
-  if (loading) {
-    return (
-      <>
-        <section className="mx-auto max-w-[960px]">
-          <h1 className="p-4 font-semibold text-6xl">Paperboy</h1>
-          <p className="p-4 text-xl pt-0">The latest political news from New Zealand, straight from Parliament.</p>
-        </section>
-        <section className="p-4 mx-auto max-w-[960px]">
-          <div className="text-center text-gray-400">Loading news articles...</div>
-        </section>
-      </>
-    );
-  }
+
+  
+
 
   return (
-    <>
-      <section className="mx-auto max-w-[960px]">
-        <h1 className="p-4 font-semibold text-6xl">Paperboy</h1>
-        <p className="p-4 text-xl pt-0">The latest political news from New Zealand</p>
-      </section>
-      <section className="p-4 grid gap-4 mx-auto max-w-[960px]">
+    <>  <section className="mx-auto px-4 border border-b-0">
+    <h1 className="p-4 pb-2 font-semibold text-4xl">Paperboy</h1>
+    <p className="p-4 text-xl pt-0">The latest political news from New Zealand, straight from Parliament.</p>
+  </section>
+   
+      <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 border-t border-l">
         {articles.map((article, index) => (
           <Link 
             key={index} 
             to={`/${article.publicationDate}`}
-            className="block hover:bg-gray-900/50 p-4 rounded-lg transition-colors"
+            className="block group hover:bg-gray-900/50 p-8 transition-colors border-b border-r"
           >
             <article className="flex flex-col gap-2">
-              <aside className="text-sm text-gray-400">{formatDate(article.publicationDate)}</aside>
-              <h2 className="font-semibold text-2xl hover:text-blue-400 transition-colors">
+              <aside className="text-xs text-gray-400">{formatDate(article.publicationDate)}</aside>
+              <h2 className="font-semibold text-xl group-hover:text-blue-400 group-hover:underline transition-colors">
                 {article.headline}
               </h2>
               <p 
-                className="text-gray-300"
+                className="text-gray-400 text-sm"
                 dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.summary) }}
               />
             </article>

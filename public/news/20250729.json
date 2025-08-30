@@ -1,0 +1,78 @@
+{
+    "headline": "Government Recommits Oil & Gas Bill, Pushes Through Contentious Electoral Law Changes Amid Heated Debate",
+    "publicationDate": "2025-07-29",
+    "summary": "Parliament was dominated by two major legislative battles today as the Government used an unusual procedure to recommit the Crown Minerals Amendment Bill to address oil and gas decommissioning liabilities. This occurred alongside the contentious first reading of the Electoral Amendment Bill, which seeks to end same-day voter enrolment, sparking fierce accusations of voter suppression from the Opposition.",
+    "topicSummaries": [
+      {
+        "topic": "Crown Minerals Bill Recommitted to Address $2.5B Oil & Gas Decommissioning Liability",
+        "content": "In a highly unusual move, the Government discharged the Crown Minerals Amendment Bill from its third reading and recommitted it to the committee stage to consider a substantial new amendment. Minister for Resources Shane Jones stated the change was necessary to close a \"loophole\" where companies could evade liability for decommissioning costs—estimated at over $2.5 billion—by transferring shares rather than the permit itself. The Opposition, led by Dr. Megan Woods, slammed the process, arguing the Government had secretly consulted with the oil and gas industry to water down taxpayer protections and replace clear statutory rules with broad ministerial discretion.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon SHANE JONES (Minister for Resources)",
+            "quote": "The issue is that there are several ways how a person or an entity can move on from holding a permit... it became evident to us that someone departing through a process of a share transfer or disposal of equity may escape any liability whatsoever."
+          },
+          {
+            "speaker": "Hon Dr MEGAN WOODS (Labour—Wigram)",
+            "quote": "This is a Government that is prepared to put big oil and big gas companies before the interests of the taxpayers of New Zealand, with these watered-down provisions that we are going to be seeking answers about today in these decommissioning obligations that are there."
+          }
+        ],
+        "tags": [
+          "crown-minerals-amendment-bill",
+          "oil-and-gas",
+          "decommissioning",
+          "taxpayer-liability"
+        ]
+      },
+      {
+        "topic": "Controversial Electoral Bill Ending Same-Day Enrolment Passes First Reading",
+        "content": "The Government's Electoral Amendment Bill passed its first reading amid fierce opposition, proposing to end same-day voter enrolment and require citizens to be enrolled 13 days before an election. Minister of Justice Paul Goldsmith argued the change was essential for delivering timely election results and managing administrative strain. However, the Opposition blasted the bill as a direct attack on democracy. Citing a damning Attorney-General's report, Labour's Dr. Duncan Webb warned the move would make it harder for hundreds of thousands to vote, disproportionately affecting renters, young people, Māori, and Pasifika communities. The bill, which also bans all sentenced prisoners from voting, passed 68-54 and now proceeds to the Justice Committee.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon PAUL GOLDSMITH (Minister of Justice)",
+            "quote": "The final vote count used to take two weeks. Last election, it took three. The advice I received is that if we leave things as they are, it could well take even longer in future elections. This gives people a year to get organised, and I have every confidence that New Zealanders can manage."
+          },
+          {
+            "speaker": "Hon Dr DUNCAN WEBB (Labour—Christchurch Central)",
+            "quote": "Well, it's a dark day for democracy. Here in New Zealand, we have a proud tradition of extending the franchise to women before any other country in the world and of constantly making our democracy accessible to everyone, and what's this Government doing? What's Christopher Luxon doing? He is making it harder for people to vote. It's shameful—it's absolutely shameful."
+          }
+        ],
+        "tags": [
+          "electoral-reform",
+          "voting-rights",
+          "election-law",
+          "democracy"
+        ]
+      },
+      {
+        "topic": "Cost of Living, Director Pay, and Surcharge Ban Fuel Fiery Question Time",
+        "content": "Question Time was dominated by tense exchanges over the cost of living and government priorities. Prime Minister Christopher Luxon defended the Government's move to ban surcharges on in-store debit and credit payments as a win for consumers. However, he faced sharp criticism from the Opposition for approving pay rises of up to 80% for Crown entity board directors while offering teachers and nurses increases below inflation. The Government pointed to its tax relief and FamilyBoost policies as key support measures, while Labour and the Greens highlighted rising demand at food banks as evidence that financial pressure on families remains severe.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "Why does his Government think that in a cost of living crisis, hiking up the fees of board directors by up to 80 percent is more important than pay rises for teachers and nurses, who are being offered a paltry 1 percent pay increase—less than the rate of inflation?"
+          },
+          {
+            "speaker": "Rt Hon CHRISTOPHER LUXON (Prime Minister)",
+            "quote": "Well, as the member will well understand, having been a Minister for the public sector, we want to make sure that our Crown entities, which are delivering some our most critical public services, are incredibly well governed and well managed and well led... we've been advised that we need more competitive payment for those directors..."
+          }
+        ],
+        "tags": [
+          "question-time",
+          "cost-of-living",
+          "surcharges",
+          "public-sector-pay"
+        ]
+      },
+      {
+        "topic": "Government Trials Vehicle Clamping Tech to Recover $560M in Unpaid Fines",
+        "content": "The Government is trialling new technology to recover over $560 million in outstanding court fines and reparations. Minister of Justice Paul Goldsmith announced that vehicles registered to those with overdue fines may be clamped and seized by bailiffs. In an initial weekend trial at breath-testing stations, 4,859 vehicles were scanned, identifying 208 people with outstanding fines. The on-the-spot action resulted in 31 people paying their fines in full immediately, while one vehicle was seized and towed. The Minister warned that those who don't pay might \"soon find yourself walking home.\"",
+        "tags": [
+          "justice",
+          "court-fines",
+          "vehicle-clamping",
+          "law-and-order"
+        ]
+      }
+    ],
+    "conclusion": "The day was defined by a government pushing forward with contentious industrial and democratic reforms, sparking accusations of favouring corporate interests and suppressing votes."
+  }

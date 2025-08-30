@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Quote } from "lucide-react";
+import { ArrowLeft, Calendar, Quote, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { formatTextWithBold } from "@/lib/utils";
 
@@ -101,29 +101,31 @@ export function ArticleDetail() {
 
       <article className="space-y-6">
         <header className="space-y-4">
-          <aside className="text-sm text-gray-400">
-            {formatDate(article.publicationDate)}
-          </aside>
+     
           <h1 
-            className="font-semibold text-4xl leading-tight"
+            className="font-semibold text-4xl leading-tight tracking-tighter"
             dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.headline) }}
           />
+          <div className="flex gap-12 items-center py-4 border-y border-gray-700/30">     <aside className="text-sm text-gray-400 flex items-center gap-1">
+           <Calendar className="w-4 h-4" /> {formatDate(article.publicationDate)}
+          </aside> <aside className="text-sm text-gray-400 flex items-center gap-1"><User className="w-4 h-4" /> Gemini Pro</aside>
+           </div>
           <p 
-            className="text-xl text-gray-300 leading-relaxed"
+            className="text-sm text-gray-400 leading-relaxed"
             dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.summary) }}
           />
       
         </header>
 
-        <div className="space-y-8 mt-24">
+        <div className="flex flex-col gap-24 mt-24">
           {(article.topicSummaries || []).map((topic, index) => (
             <section key={index} className="flex flex-col gap-1">
               <h3 
-                className="text-xl font-semibold text-gray-100"
+                className="text-2xl font-semibold text-gray-100 mb-2 text-balance tracking-tighter"
                 dangerouslySetInnerHTML={{ __html: formatTextWithBold(topic.topic) }}
               />
               <div 
-                className="text-gray-400 leading-relaxed"
+                className="text-gray-400 leading-relaxed text-sm"
                 dangerouslySetInnerHTML={{ __html: formatTextWithBold(topic.content) }}
               />
               {topic.keyExchanges && topic.keyExchanges.length > 0 && (
