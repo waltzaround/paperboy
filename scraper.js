@@ -143,6 +143,24 @@ function getDateRange(startDate, endDate) {
   return dates;
 }
 
+// Function to update the news index
+function updateNewsIndex() {
+  const newsDir = path.join(__dirname, 'public', 'news');
+  if (!fs.existsSync(newsDir)) {
+    console.log('News directory does not exist, skipping index update');
+    return;
+  }
+
+  const files = fs.readdirSync(newsDir)
+    .filter(file => file.endsWith('.json') && file !== 'index.json')
+    .sort()
+    .reverse();
+
+  const indexPath = path.join(newsDir, 'index.json');
+  fs.writeFileSync(indexPath, JSON.stringify(files, null, 2));
+  console.log(`Updated index with ${files.length} files: ${indexPath}`);
+}
+
 // Function to parse HTML and extract NewsArticle
 function parseNewsArticle(html, date, hh = null) {
   const $ = cheerio.load(html);
@@ -281,8 +299,7 @@ function parseNewsArticle(html, date, hh = null) {
 
 // Main scraper function
 async function scrapeHansard(startDate, endDate) {
-  const dates = getDateRange(startDate, endDate);
-  const outputDir = path.join(__dirname, 'public', 'news');
+  const outputDir = path.join(__dirname, 'public', 'news', 'raw');
 
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {
@@ -378,18 +395,26 @@ async function scrapeHansard(startDate, endDate) {
           // Generate Gemini prompt from scraped data
           const promptData = prepareGeminiPrompt(articles, date);
           console.log(`Processing ${date} through Gemini API...`);
-          
+
           // Call Gemini API to get structured news article
           const processedArticle = await callGeminiAPI(promptData);
-          
+
           // Save the processed article as a single-item array to match expected format
           const outputPath = path.join(outputDir, `${formattedDate}.json`);
-          fs.writeFileSync(outputPath, JSON.stringify([processedArticle], null, 2));
+          fs.writeFileSync(outputPath, JSON.stringify(processedArticle, null, 2));
           console.log(`Saved processed article to ${outputPath}`);
-          
+
+          // Also save to main news dir for Home.tsx
+          const mainOutputDir = path.join(__dirname, 'public', 'news');
+          if (!fs.existsSync(mainOutputDir)) {
+            fs.mkdirSync(mainOutputDir, { recursive: true });
+          }
+          const mainOutputPath = path.join(mainOutputDir, `${formattedDate}.json`);
+          fs.writeFileSync(mainOutputPath, JSON.stringify(articles, null, 2));
+
         } catch (error) {
           console.error(`Failed to process ${date} through Gemini API:`, error.message);
-          
+
           // Fallback: save raw scraped data if Gemini processing fails
           const outputPath = path.join(outputDir, `${formattedDate}.json`);
           fs.writeFileSync(outputPath, JSON.stringify(articles, null, 2));
@@ -399,6 +424,10 @@ async function scrapeHansard(startDate, endDate) {
         console.log(`No articles found for ${date}`);
       }
     }
+
+    // Update index of available files by reading the directory
+    updateNewsIndex();
+
   } finally {
     await browser.close();
   }
@@ -406,12 +435,18 @@ async function scrapeHansard(startDate, endDate) {
 
 // CLI arguments
 const args = process.argv.slice(2);
-if (args.length !== 2) {
+let startDate, endDate;
+
+if (args.length === 1) {
+  startDate = args[0];
+  endDate = args[0];
+} else if (args.length === 2) {
+  startDate = args[0];
+  endDate = args[1];
+} else {
   console.error('Usage: node scraper.js <start-date> <end-date> (YYYY-MM-DD)');
   process.exit(1);
 }
-
-const [startDate, endDate] = args;
 
 // Validate dates
 if (!/^\d{4}-\d{2}-\d{2}$/.test(startDate) || !/^\d{4}-\d{2}-\d{2}$/.test(endDate)) {

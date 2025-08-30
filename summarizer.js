@@ -39,6 +39,24 @@ try {
   console.warn('xAI/Grok not available:', e.message);
 }
 
+// Function to update the news index
+function updateNewsIndex() {
+  const newsDir = path.join(__dirname, 'public', 'news');
+  if (!fs.existsSync(newsDir)) {
+    console.log('News directory does not exist, skipping index update');
+    return;
+  }
+
+  const files = fs.readdirSync(newsDir)
+    .filter(file => file.endsWith('.json') && file !== 'index.json')
+    .sort()
+    .reverse();
+
+  const indexPath = path.join(newsDir, 'index.json');
+  fs.writeFileSync(indexPath, JSON.stringify(files, null, 2));
+  console.log(`Updated index with ${files.length} files: ${indexPath}`);
+}
+
 // Function to get AI model based on provider
 function getAIModel(provider = process.env.DEFAULT_AI_PROVIDER || 'openai') {
   switch (provider.toLowerCase()) {
@@ -135,7 +153,7 @@ Pay close attention to:
 
 2. Populating the JSON Fields
 headline: Write a compelling, SEO-friendly headline that captures the most important event of the day.
-publicationDate: Use the current date in YYYY-MM-DD format.
+publicationDate: Use the date of the original event in YYYY-MM-DD format.
 summary: Write a brief (2-4 sentence) narrative introduction that gives a high-level overview of the day in Parliament.
 topicSummaries: This is the most critical part. Create one object for each significant event you identified. The number of objects in this array must match the number of key events in the transcript.
   Order the objects from most to least significant based on journalistic news value.
@@ -235,7 +253,7 @@ async function summarizeArticles(specificFile = null) {
               console.log(`Summarizing article ${i + 1}/${data.length} in ${file}...`);
               const aiSummary = await summarizeText(article.fullContent);
               // Replace the article with AI-generated summary
-              data[i] = { ...aiSummary, originalData: article };
+              data[i] = { ...aiSummary };
               console.log(`✓ Summarized article ${i + 1}`);
               processedCount++;
             } catch (error) {
@@ -269,8 +287,7 @@ async function summarizeArticles(specificFile = null) {
             const aiSummary = await summarizeText(data.fullContent);
             // Create processed data with AI summary and original data
             const processedData = {
-              ...aiSummary,
-              originalScrapedData: data
+              ...aiSummary
             };
             const processedPath = path.join(processedDir, file);
             fs.writeFileSync(processedPath, JSON.stringify(processedData, null, 2));
@@ -294,6 +311,9 @@ async function summarizeArticles(specificFile = null) {
       console.log(`⏭️ Skipped ${file} - processing failed`);
     }
   }
+
+  // Update the news index after processing
+  updateNewsIndex();
 
   console.log('Summarization completed');
 }

@@ -9,10 +9,17 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "scrape": "node scraper.js",
-    "prepare-prompts": "node prepare-gemini-prompt.js"
+    "prepare-prompts": "node prepare-gemini-prompt.js",
+    "summarize": "node summarizer.js",
+    "scrape-and-summarize": "npm run scrape && npm run summarize"
   },
   "dependencies": {
     "@google/genai": "^1.16.0",
+    "@langchain/anthropic": "^0.3.26",
+    "@langchain/core": "^0.3.72",
+    "@langchain/google-genai": "^0.2.16",
+    "@langchain/openai": "^0.6.9",
+    "@langchain/xai": "^0.1.0",
     "@react-spring/web": "^9.7.5",
     "@tailwindcss/vite": "^4.0.14",
     "axios": "^1.11.0",
@@ -45,5 +52,5 @@
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
   }
- }
+}
 
