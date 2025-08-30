@@ -71,7 +71,7 @@ Your primary goal is to avoid missing key discussions or bills. Analyze the enti
 - In a short paragraph, neutrally synthesize the discussion. Clearly explain what the issue is, who the key speakers or parties were (e.g., Government vs. Opposition), their main arguments, and the outcome or next steps. This paragraph provides the essential context for the keyExchanges.
 
 **keyExchanges** (within each summary object):
-- From the debate on this topic, select the single most compelling, sharp, witty, funny, or revealing back-and-forth exchange (typically two quotes).
+- From the debate on this topic, select the single most controversial, sharp, witty, funny, or revealing back-and-forth exchange.
 - The quotes should capture the core conflict or emotion of the debate.
 - Capture the text verbatim. Do not paraphrase.
 - For the speaker field, use the format: "Full Name (Party)".
