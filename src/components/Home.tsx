@@ -90,12 +90,12 @@ export function Home() {
 
 
   return (
-    <> <header className="flex justify-between items-center"><a href="/" className="p-3 text-sm font-semibold">Paperboy</a> <div className="text-xs flex items-center gap-4"><a href="/about" className="p-4">About</a><a href="https://www.parliament.nz/en/calendar" target="_blank" className="p-4"> Calendar</a> <a href="https://github.com/waltzaround/paperboy" className="p-4">Source Code</a></div></header> <section className="mx-auto px-4 border border-b-0">
+    <> <header className="flex justify-between items-center"><a href="/" className="p-3 text-sm font-semibold">Paperboy</a> <div className="text-xs flex items-center gap-4"><a href="/about" className="p-4">About</a><a href="https://www.parliament.nz/en/calendar" target="_blank" className="p-4"> Calendar</a> <a href="https://github.com/waltzaround/paperboy" className="p-4">Source Code</a></div></header> <section className="max-w-[1600px] mx-auto px-4 border ">
     <h1 className="p-4 pb-2 font-semibold text-4xl">Paperboy</h1>
     <p className="p-4 text-xl pt-0">The latest political news from New Zealand, straight from Parliament.</p>
   </section>
    
-      <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  gap-4 m-8">
+      <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  gap-4 m-8 max-w-[1600px] mx-auto">
         {articles.map((article, index) => (
           <Link 
             key={index} 
