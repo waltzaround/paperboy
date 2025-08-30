@@ -1,0 +1,121 @@
+[
+  {
+    "headline": "PM Luxon Clashes with Opposition Over Rising Homelessness Amid Fierce Housing Record Defence",
+    "publicationDate": "2025-06-04",
+    "summary": "Parliament was dominated by fiery exchanges during Question Time, as Prime Minister Christopher Luxon defended his government's housing record against Opposition claims of rising homelessness. The ongoing Budget debate also highlighted deep ideological divides, with the Government praising its new business investment scheme while Labour and the Greens condemned cuts to pay equity claims. Later, the House moved into a marathon committee stage session for the new Invest New Zealand Bill.",
+    "topicSummaries": [
+      {
+        "topic": "PM Defends Housing Record as Homelessness Numbers Rise",
+        "content": "A tense Question Time saw Prime Minister Christopher Luxon staunchly defend his government's housing record, while Leader of the Opposition Chris Hipkins presented statistics showing a sharp increase in homelessness. Luxon celebrated a reduction in the social housing waitlist from 27,000 to 19,000 and a significant drop in households in emergency motel accommodation. However, Hipkins countered that these figures coincided with a 58% rise in homelessness in Auckland and 40% in Wellington, questioning whether people were being housed or simply removed from the waitlist. The Prime Minister did not directly answer whether he accepted that homelessness was increasing, focusing instead on getting families and children out of motels and into proper homes.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "Why is he proud of the fact that taking people off the social housing register has coincided with a 58 percent rise in homelessness in Auckland and a 40 percent rise in homelessness in Wellington?"
+          },
+          {
+            "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+            "quote": "What I accept is that we've got more people into housing, and I think that's a really good thing. When I think about those people and families who have moved out of motel accommodation into proper homes, we know that 80 percent of those who have come out of emergency housing have actually found houses."
+          }
+        ],
+        "tags": [
+          "housing",
+          "homelessness",
+          "social housing",
+          "emergency housing",
+          "question time",
+          "Christopher Luxon",
+          "Chris Hipkins"
+        ]
+      },
+      {
+        "topic": "Budget Debate: 'Investment Boost' Championed, Pay Equity Cuts Criticised",
+        "content": "The Budget 2025 debate continued, starkly contrasting the government's economic priorities with the opposition's social concerns. Government MPs praised the new 'Investment Boost' scheme, which allows businesses a 20% upfront deduction on new assets, arguing it stimulates growth and confidence. In contrast, Labour and Green MPs argued the Budget was funded by scrapping 33 active pay equity claims affecting 180,000 women in female-dominated sectors like care work and nursing. The opposition labelled it a 'Budget built on the backs of working women', a charge the government denies, stating they have created a more sustainable pay equity system.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Scott Simpson (Minister of Commerce and Consumer Affairs)",
+            "quote": "I'm referring to the Investment Boost scheme. It's a great programme and it's a policy that is designed to make it easier for business people, whether they be farmers, tradies, small-business people... to deduct immediately a 20 percent tax deduction on the investment and purchase of new capital equipment for their businesses."
+          },
+          {
+            "speaker": "Hon Dr Megan Woods (Labour—Wigram)",
+            "quote": "This will go down in history as a Budget that was paid for by the women of New Zealand... this Government has used money that was set aside to pay them fairly to finance the Budget that they presented two weeks ago."
+          }
+        ],
+        "tags": [
+          "Budget 2025",
+          "Investment Boost",
+          "economy",
+          "pay equity",
+          "women",
+          "business"
+        ]
+      },
+      {
+        "topic": "Government Backs Facial Recognition to Combat Retail Crime",
+        "content": "The government has signalled its support for using facial recognition technology to fight retail crime, following a new report from the Privacy Commission. Minister of Justice Paul Goldsmith told the House the report found a trial by Foodstuffs North Island was compliant with the Privacy Act and effective in reducing harmful behaviour and violent incidents. Goldsmith stated the government welcomes the report and will task an advisory group to consider what further tools can be given to retailers, citing an 85% increase in retail crime between 2019 and 2023.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Paul Goldsmith (Minister of Justice)",
+            "quote": "The report found that not only was the trial compliant with the Privacy Act but was also effective in reducing harmful behaviour and serious violent incidents in stores. We welcome the report and its acknowledgement of the need to use new technology to support our retailers."
+          },
+          {
+            "speaker": "Tom Rutherford (National—Bay of Plenty)",
+            "quote": "Why do we need new tools to deal with retail crime?"
+          }
+        ],
+        "tags": [
+          "retail crime",
+          "facial recognition",
+          "privacy",
+          "justice",
+          "law and order",
+          "Paul Goldsmith"
+        ]
+      },
+      {
+        "topic": "PM Questioned Over Regulatory Bill's Omission of Te Tiriti",
+        "content": "Te Pāti Māori Co-leader Rawiri Waititi challenged the Prime Minister on the Regulatory Standards Bill's omission of the Treaty of Waitangi (Te Tiriti). Waititi cited concerns from the Ministry of Justice and the Waitangi Tribunal that excluding Te Tiriti risks erasing pre-existing Māori rights. The Prime Minister repeatedly deflected the questions, stating that there had been a pre-consultation period and encouraging all interested parties, Māori and non-Māori, to make submissions to the select committee to strengthen the bill.",
+        "keyExchanges": [
+          {
+            "speaker": "Rawiri Waititi (Co-Leader—Te Pāti Māori)",
+            "quote": "Does he agree with the Ministry of Justice that \"the omission of the Treaty\" from the Regulatory Standards Bill \"does not recognise the constitutional significance of the Treaty … nor the Crown's duty to acknowledge the rights and interests of Māori in the development of [policy]\"...?"
+          },
+          {
+            "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+            "quote": "As I've said before, I just would encourage Māori, non-Māori, anybody who wants to strengthen this bill to contribute through the select committee process."
+          }
+        ],
+        "tags": [
+          "Te Tiriti o Waitangi",
+          "Regulatory Standards Bill",
+          "Māori",
+          "consultation",
+          "Rawiri Waititi",
+          "legislation"
+        ]
+      },
+      {
+        "topic": "Invest New Zealand Bill Enters Marathon Committee Session",
+        "content": "The House entered a lengthy committee stage to debate the Invest New Zealand Bill, which aims to establish a new Crown entity focused on attracting foreign direct investment. Having been introduced under urgency, the bill bypassed the select committee process, leading to extensive questioning from Opposition members on its purpose, funding, and governance. The Government defended the move, arguing the new stand-alone agency will provide a singular focus on attracting capital to grow the economy, taking lessons from similar successful models in Ireland and Singapore. Opposition members raised concerns about the transfer of staff and functions from New Zealand Trade and Enterprise (NZTE) and questioned the lack of public scrutiny.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Dr Deborah Russell (Labour)",
+            "quote": "I was querying the institutional memory and what officials might be able to tell us about the disbanding of Investment 2003 and why this particular policy was being revived. So I'm hoping the Minister will have an answer for that."
+          },
+          {
+            "speaker": "Hon Nicola Grigg (Minister of State for Trade and Investment)",
+            "quote": "The new agency Invest New Zealand will be a stand-alone, autonomous Crown entity, as I keep reiterating, focusing on the attraction of FDI... the old Invest New Zealand... lacked the focus on what is now a key priority for the Government, and that is attracting foreign capital in order to grow our economy."
+          }
+        ],
+        "tags": [
+          "Invest New Zealand Bill",
+          "foreign investment",
+          "legislation",
+          "NZTE",
+          "committee stage",
+          "urgency"
+        ]
+      }
+    ],
+    "conclusion": "The government pushed forward its economic growth agenda while facing intense scrutiny over the social consequences of its policies on housing, pay equity, and Treaty obligations."
+  }
+]
