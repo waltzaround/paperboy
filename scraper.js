@@ -1,4 +1,4 @@
-import axios from 'axios';
+import { chromium } from 'playwright';
 import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
@@ -23,11 +23,11 @@ function getDateRange(startDate, endDate) {
 }
 
 // Function to parse HTML and extract NewsArticle
-function parseNewsArticle(html, date, hh) {
+function parseNewsArticle(html, date, hh = null) {
   const $ = cheerio.load(html);
 
   // Extract headline (assuming it's in h1 or title)
-  const headline = $('h1').first().text().trim() || $('title').text().trim() || `Hansard Debate ${date} ${hh}`;
+  const headline = $('h1').first().text().trim() || $('title').text().trim() || `Hansard Debate ${date}${hh ? ' ' + hh : ''}`;
 
   // Extract summary (first paragraph)
   const summary = $('p').first().text().trim();
@@ -49,13 +49,33 @@ function parseNewsArticle(html, date, hh) {
   // Extract tags (assuming from meta keywords)
   const tags = $('meta[name="keywords"]').attr('content') ? $('meta[name="keywords"]').attr('content').split(',').map(t => t.trim()) : [];
 
+  // Extract content from speeches and interjections
+  const content = [];
+  $('p.Speech, p.Interjection, p.ContinueSpeech').each((i, elem) => {
+    const text = $(elem).text().trim();
+    const strongText = $(elem).find('strong').first().text().trim();
+    if (strongText) {
+      const speaker = strongText;
+      const speechText = text.replace(strongText, '').trim();
+      content.push({ speaker, text: speechText });
+    } else {
+      // If no strong, treat as continuation or general text
+      content.push({ speaker: '', text });
+    }
+  });
+
+  // Extract full content as concatenated text
+  const fullContent = content.map(item => `${item.speaker}: ${item.text}`).join('\n\n');
+
   return {
     headline,
     publicationDate: date,
     summary,
     topicSummaries,
     conclusion,
-    tags
+    tags,
+    content,
+    fullContent
   };
 }
 
@@ -69,39 +89,100 @@ async function scrapeHansard(startDate, endDate) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  for (const date of dates) {
-    const formattedDate = formatDate(date);
-    const articles = [];
+  // Launch browser with user-agent spoofing
+  const browser = await chromium.launch({
+    headless: true, // Set to false for debugging
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
+  const context = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+  });
+  const page = await context.newPage();
 
-    console.log(`Scraping date: ${date}`);
+  // Fetch main page with date range filter to extract date links
+  const mainUrl = `https://www.parliament.nz/en/pb/hansard-debates/rhr/?criteria.Timeframe=range&criteria.DateFrom=${startDate}&criteria.DateTo=${endDate}`;
+  console.log("Checking ", mainUrl);
+  await page.goto(mainUrl, { waitUntil: 'networkidle', timeout: 30000 });
+  const mainHtml = await page.content();
+  const $main = cheerio.load(mainHtml);
+  const dateLinks = {};
 
-    for (let hh = 1; hh <= 24; hh++) {
-      const hhStr = hh.toString().padStart(2, '0');
-      const url = `https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansDeb_${formattedDate}_${formattedDate}_${hhStr}`;
-
-      try {
-        const response = await axios.get(url);
-        if (response.status === 200) {
-          const article = parseNewsArticle(response.data, date, hhStr);
-          articles.push(article);
-          console.log(`Fetched: ${url}`);
-        }
-      } catch (error) {
-        if (error.response && error.response.status === 404) {
-          console.log(`Skipped 404: ${url}`);
-        } else {
-          console.error(`Error fetching ${url}: ${error.message}`);
-        }
+  $main('a[href]').each((i, elem) => {
+    const href = $main(elem).attr('href');
+    if (href && href.includes('HansD_')) {
+      const match = href.match(/HansD_(\d{8})_(\d{8})/);
+      if (match) {
+        const dateStr = match[1];
+        const linkDate = dateStr.slice(0, 4) + '-' + dateStr.slice(4, 6) + '-' + dateStr.slice(6, 8);
+        const fullUrl = href.startsWith('http') ? href : 'https://www.parliament.nz' + href;
+        if (!dateLinks[linkDate]) dateLinks[linkDate] = { hansD: null, hansDeb: [] };
+        dateLinks[linkDate].hansD = fullUrl;
+      }
+    } else if (href && href.includes('HansDeb_')) {
+      const match = href.match(/HansDeb_(\d{8})_(\d{8})/);
+      if (match) {
+        const dateStr = match[1];
+        const linkDate = dateStr.slice(0, 4) + '-' + dateStr.slice(4, 6) + '-' + dateStr.slice(6, 8);
+        const fullUrl = href.startsWith('http') ? href : 'https://www.parliament.nz' + href;
+        if (!dateLinks[linkDate]) dateLinks[linkDate] = { hansD: null, hansDeb: [] };
+        dateLinks[linkDate].hansDeb.push(fullUrl);
       }
     }
+  });
 
-    if (articles.length > 0) {
-      const outputPath = path.join(outputDir, `${formattedDate}.json`);
-      fs.writeFileSync(outputPath, JSON.stringify(articles, null, 2));
-      console.log(`Saved ${articles.length} articles to ${outputPath}`);
-    } else {
-      console.log(`No articles found for ${date}`);
+  try {
+    for (const date of Object.keys(dateLinks)) {
+      const formattedDate = formatDate(date);
+      const articles = [];
+
+      console.log(`Scraping date: ${date}`);
+
+      const dateData = dateLinks[date];
+      let links = [];
+      if (dateData.hansD) {
+        links = [dateData.hansD];
+      } else if (dateData.hansDeb.length > 0) {
+        links = dateData.hansDeb;
+      }
+
+      if (links.length > 0) {
+        for (const link of links) {
+          try {
+            // Navigate to the URL
+            const response = await page.goto(link, { waitUntil: 'networkidle', timeout: 30000 });
+
+            if (response && response.ok()) {
+              // Wait for potential Radware challenge to resolve
+              await page.waitForTimeout(2000); // Adjust as needed
+
+              // Get page content
+              const html = await page.content();
+              const hhMatch = link.match(/_(\d{2})$/);
+              const hh = hhMatch ? hhMatch[1] : null;
+              const article = parseNewsArticle(html, date, hh);
+              articles.push(article);
+              console.log(`Fetched: ${link}`);
+            } else {
+              console.error(`Error fetching ${link}: Status ${response ? response.status() : 'unknown'}`);
+            }
+          } catch (error) {
+            console.error(`Error fetching ${link}: ${error.message}`);
+          }
+        }
+      } else {
+        console.log(`No links found for ${date}`);
+      }
+
+      if (articles.length > 0) {
+        const outputPath = path.join(outputDir, `${formattedDate}.json`);
+        fs.writeFileSync(outputPath, JSON.stringify(articles, null, 2));
+        console.log(`Saved ${articles.length} articles to ${outputPath}`);
+      } else {
+        console.log(`No articles found for ${date}`);
+      }
     }
+  } finally {
+    await browser.close();
   }
 }
 
