@@ -102,13 +102,13 @@ export function Home() {
   return (
     <>
       <Header />
-      <section className="max-w-[1600px] mx-auto p-4 py-12 rounded-lg border ">
+      <section className="max-w-[1600px] mx-auto p-4 py-12 rounded-lg border max-2xl:mx-4 max-md:mx-4 max-sm:px-2 mb-4">
         <h1 className="pb-2 font-semibold text-4xl">Paperboy</h1>
         <p className=" text-xl pt-0">
           The latest political news from New Zealand, straight from Parliament.
         </p>
       </section>
-      <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  gap-4 m-8 max-w-[1600px] mx-auto">
+      <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  gap-4  max-w-[1600px] mx-auto  max-2xl:mx-4 max-md:mx-4 max-sm:px-2 ">
         {articles.map((article, index) => (
           <Link
             key={index}
