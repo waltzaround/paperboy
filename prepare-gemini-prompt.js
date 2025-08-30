@@ -1,11 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import dotenv from 'dotenv';
+import { getAIModel } from './ai-model.js';
+
+// Load environment variables
+dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Function to prepare Gemini Pro prompt with scraped data
-function prepareGeminiPrompt(scrapedData, date) {
+// Function to generate AI summary with scraped data
+async function prepareGeminiPrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
   const systemPrompt = `You are an expert news journalist writing for a mainstream audience. Your task is to transform the provided source material into a comprehensive, succinct summary of the day's key parliamentary activities, formatted as a single JSON object.
 
 The JSON object must follow this exact structure. Do not add any text outside of the JSON object.
@@ -90,7 +95,7 @@ Maintain a neutral, objective, and accessible tone throughout. The language shou
 ${scrapedData.fullContent || 'No content available'}
 
 ### Extracted Speeches:
-${scrapedData.content ? scrapedData.content.map(item => 
+${scrapedData.content ? scrapedData.content.map(item =>
   `**${item.speaker}:** ${item.text}`
 ).join('\n\n') : 'No speeches extracted'}
 
@@ -98,23 +103,30 @@ ${scrapedData.content ? scrapedData.content.map(item =>
 ${scrapedData.summary || 'No summary available'}
 
 ### Detected Topics:
-${scrapedData.topicSummaries ? scrapedData.topicSummaries.map(topic => 
+${scrapedData.topicSummaries ? scrapedData.topicSummaries.map(topic =>
   `- ${topic.topic}: ${topic.content}`
 ).join('\n') : 'No topics detected'}
 
 Please analyze this parliamentary data and create a comprehensive news article following the structure and guidelines provided above.`;
 
-  return {
-    systemPrompt,
-    userPrompt,
-    fullPrompt: systemPrompt + '\n\n' + userPrompt
-  };
+  const fullPrompt = systemPrompt + '\n\n' + userPrompt;
+
+  try {
+    const model = getAIModel(provider);
+    const response = await model.invoke(fullPrompt);
+    // Parse the JSON response
+    const jsonResponse = JSON.parse(response.content.trim());
+    return jsonResponse;
+  } catch (error) {
+    console.error(`Error generating summary with ${provider}:`, error.message);
+    throw error;
+  }
 }
 
-// Function to process scraped files and prepare them for Gemini
-function processScrapedFiles(inputDir = null) {
+// Function to process scraped files and generate AI summaries
+async function processScrapedFiles(inputDir = null, provider = process.env.DEFAULT_AI_PROVIDER) {
   const scrapedDir = inputDir || path.join(__dirname, 'scraped-data');
-  const outputDir = path.join(__dirname, 'gemini-prompts');
+  const outputDir = path.join(__dirname, 'ai-summaries');
 
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {
@@ -129,67 +141,67 @@ function processScrapedFiles(inputDir = null) {
   }
 
   const files = fs.readdirSync(scrapedDir).filter(file => file.endsWith('.json'));
-  
+
   if (files.length === 0) {
     console.log('No JSON files found in scraped data directory.');
     return;
   }
 
-  console.log(`Processing ${files.length} scraped files...`);
+  console.log(`Processing ${files.length} scraped files with ${provider}...`);
 
-  files.forEach(file => {
+  for (const file of files) {
     try {
       const filePath = path.join(scrapedDir, file);
       const scrapedData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      
+
       // Extract date from filename (assuming format YYYYMMDD.json)
       const dateMatch = file.match(/(\d{8})\.json/);
-      const date = dateMatch ? 
-        `${dateMatch[1].slice(0,4)}-${dateMatch[1].slice(4,6)}-${dateMatch[1].slice(6,8)}` : 
+      const date = dateMatch ?
+        `${dateMatch[1].slice(0,4)}-${dateMatch[1].slice(4,6)}-${dateMatch[1].slice(6,8)}` :
         scrapedData.publicationDate || new Date().toISOString().split('T')[0];
 
-      const prompt = prepareGeminiPrompt(scrapedData, date);
-      
-      // Save the prepared prompt
-      const outputFile = path.join(outputDir, `prompt-${file}`);
+      const summary = await prepareGeminiPrompt(scrapedData, date, provider);
+
+      // Save the generated summary
+      const outputFile = path.join(outputDir, `summary-${file}`);
       fs.writeFileSync(outputFile, JSON.stringify({
         date,
         originalFile: file,
-        systemPrompt: prompt.systemPrompt,
-        userPrompt: prompt.userPrompt,
-        fullPrompt: prompt.fullPrompt,
+        summary,
         metadata: {
           originalHeadline: scrapedData.headline,
           contentLength: scrapedData.fullContent?.length || 0,
-          speechCount: scrapedData.content?.length || 0
+          speechCount: scrapedData.content?.length || 0,
+          aiProvider: provider
         }
       }, null, 2));
 
-      console.log(`✓ Prepared prompt for ${file} -> prompt-${file}`);
+      console.log(`✓ Generated summary for ${file} -> summary-${file}`);
     } catch (error) {
       console.error(`✗ Error processing ${file}:`, error.message);
     }
-  });
+  }
 
-  console.log(`\nPrompts saved to: ${outputDir}`);
-  console.log('\nTo use with Gemini Pro:');
-  console.log('1. Load the JSON file');
-  console.log('2. Use the "fullPrompt" field as your complete prompt');
-  console.log('3. Or use "systemPrompt" and "userPrompt" separately if your API supports system messages');
+  console.log(`\nSummaries saved to: ${outputDir}`);
+  console.log(`\nUsed AI provider: ${provider}`);
 }
 
 // Function to prepare a single scraped data object
-function prepareSinglePrompt(scrapedData, date) {
-  return prepareGeminiPrompt(scrapedData, date);
+async function prepareSinglePrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
+  return await prepareGeminiPrompt(scrapedData, date, provider);
 }
 
 // CLI usage
 if (import.meta.url === `file://${process.argv[1]}`) {
   const args = process.argv.slice(2);
   const inputDir = args[0] || null;
-  
-  console.log('Preparing Gemini Pro prompts from scraped parliamentary data...\n');
-  processScrapedFiles(inputDir);
+  const provider = args[1] || process.env.DEFAULT_AI_PROVIDER;
+
+  console.log(`Generating AI summaries from scraped parliamentary data using ${provider}...\n`);
+  processScrapedFiles(inputDir, provider).catch(error => {
+    console.error('Summarization failed:', error);
+    process.exit(1);
+  });
 }
 
 export { prepareGeminiPrompt, processScrapedFiles, prepareSinglePrompt };
