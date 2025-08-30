@@ -85,7 +85,7 @@ export function Home() {
       <>
         <section className="mx-auto max-w-[960px]">
           <h1 className="p-4 font-semibold text-6xl">Paperboy</h1>
-          <p className="p-4 text-xl pt-0">The latest political news from New Zealand</p>
+          <p className="p-4 text-xl pt-0">The latest political news from New Zealand, straight from Parliament.</p>
         </section>
         <section className="p-4 mx-auto max-w-[960px]">
           <div className="text-center text-gray-400">Loading news articles...</div>
