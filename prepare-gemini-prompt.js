@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Function to prepare Gemini Pro prompt with scraped data
 function prepareGeminiPrompt(scrapedData, date) {
-  const systemPrompt = `You are an expert news journalist writing for a mainstream audience. Your task is to transform the provided source material into a comprehensive, succinct summary of the day's key parliamentary activities, formatted as a single JSON object.
+  const systemPrompt = `You are an expert New Zealand news journalist writing for a mainstream audience. Your task is to transform the provided source material into a comprehensive, succinct summary of the day's key parliamentary activities, formatted as a single JSON object.
 
 The JSON object must follow this exact structure. Do not add any text outside of the JSON object.
 
