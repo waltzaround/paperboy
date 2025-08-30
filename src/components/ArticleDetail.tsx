@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Calendar, Quote, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { formatTextWithBold } from "@/lib/utils";
+import { formatTextWithBold, splitIntoParagraphs } from "@/lib/utils";
+import { Header } from "./header";
 
 interface KeyExchange {
   speaker: string;
@@ -91,8 +92,9 @@ export function ArticleDetail() {
     );
   }
 
-  return (
-    <div className="mx-auto max-w-[960px] p-4 mb-24">
+  return (<>
+    <Header/>
+    <div className="mx-auto max-w-[800px] p-4 mb-24">
       <Link to="/">
         <Button variant="ghost" className="mb-6">
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -122,13 +124,17 @@ export function ArticleDetail() {
           {(article.topicSummaries || []).map((topic, index) => (
             <section key={index} className="flex flex-col gap-1">
               <h3 
-                className="text-2xl font-semibold text-gray-100 mb-2 text-balance tracking-tighter"
+                className="text-2xl text-balance font-semibold text-gray-100 mb-2  tracking-tighter"
                 dangerouslySetInnerHTML={{ __html: formatTextWithBold(topic.topic) }}
               />
-              <div 
-                className="text-gray-400 leading-relaxed text-sm"
-                dangerouslySetInnerHTML={{ __html: formatTextWithBold(topic.content) }}
-              />
+              <div className="text-gray-400 leading-relaxed text-sm space-y-4">
+                {splitIntoParagraphs(topic.content).map((paragraph, paragraphIndex) => (
+                  <p 
+                    key={paragraphIndex}
+                    dangerouslySetInnerHTML={{ __html: formatTextWithBold(paragraph) }}
+                  />
+                ))}
+              </div>
               {topic.keyExchanges && topic.keyExchanges.length > 0 && (
                 <div className="mt-6 space-y-4">
                   {topic.keyExchanges.map((exchange, exchangeIndex) => {
@@ -184,7 +190,7 @@ export function ArticleDetail() {
                               </span>
                            
                             </div>
-                            <blockquote className="text-gray-300 leading-relaxed italic">
+                            <blockquote className="text-gray-300 leading-relaxed italic text-xs">
                               "{exchange.quote}"
                             </blockquote>
                           </div>
@@ -216,6 +222,6 @@ export function ArticleDetail() {
           </div>
         </footer>
       </article>
-    </div>
+    </div></>
   );
 }
