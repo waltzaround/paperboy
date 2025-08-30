@@ -1,88 +1,119 @@
-{
-    "headline": "Parliament Debates Palestine Recognition Amid Heated Clashes Over Job Losses and NCEA Overhaul",
+[
+  {
+    "headline": "Parliament Debates Palestine Recognition Amid Fierce Economic Clashes and New 'Boy Racer' Bill",
     "publicationDate": "2025-08-12",
-    "summary": "Parliament held a tense urgent debate on the recognition of a Palestinian state, a topic that dominated Question Time. The chamber also saw fierce exchanges between the Government and Opposition over the economy, recent job losses, and the legacy of COVID-19 spending, alongside a major Government announcement proposing a complete overhaul of the NCEA secondary school qualification.",
+    "summary": "Parliament was dominated by an urgent debate on whether New Zealand should recognise a State of Palestine, sparking emotional exchanges over the nation's foreign policy stance. The heated debate followed a fiery Question Time where the Government and Opposition clashed over the economy, job losses, and the cost of living. The day also saw the introduction of new legislation aimed at cracking down on antisocial driving with tougher penalties, including vehicle forfeiture.",
     "topicSummaries": [
       {
-        "topic": "Urgent Debate Held on Recognition of Palestinian Statehood",
-        "content": "Following multiple questions on the issue, the House held an urgent debate on the Government's decision to consider recognizing a State of Palestine, with a final decision expected in September. Labour, the Greens, and Te Pāti Māori strongly advocated for immediate recognition, citing the severe humanitarian crisis in Gaza and arguing New Zealand is falling behind its international partners. The Government, led by Foreign Minister Winston Peters, defended its cautious approach, stating that while recognition is a matter of \"when, not if,\" a careful and judicious process is required. Peters highlighted that the previous Labour government had six years to grant recognition but failed to do so.",
+        "topic": "Urgent Debate on Palestinian Statehood Dominates Parliament",
+        "content": "An urgent debate, prompted by Labour's Peeni Henare, centred on the Government's decision to wait until September to consider recognising a State of Palestine. Labour, the Greens, and Te Pāti Māori strongly condemned the delay, citing the severe humanitarian crisis in Gaza and arguing New Zealand was falling behind its international partners. Foreign Affairs Minister Winston Peters defended the Government's position, stating it was a complex issue requiring a careful and judicious process, and criticised Labour for not taking the same action during its years in power. The debate saw Green Party Co-leader Chlöe Swarbrick ejected from the House after refusing to apologise for calling some government MPs \"spineless\".",
         "keyExchanges": [
           {
             "speaker": "Hon Peeni Henare (Labour)",
-            "quote": "We are being left behind. New Zealand is being left behind on the international stage. Many people we call close partners, the people we call close allies, and others are leading the charge of the recognition of Palestine as a State."
+            "quote": "We asked the question of the Government: how many more people will suffer and how many more people will die because of the Government dragging its heels on such an important matter? We are being left behind. New Zealand is being left behind on the international stage."
           },
           {
-            "speaker": "Rt Hon Winston Peters (Minister of Foreign Affairs)",
-            "quote": "For the Labour Party's benefit, they had 15 years to recognise Palestine statehood... Did they do it in those six years? No. So, please, answer this question—please, answer this question—why on earth now do they think they have the answers when they didn't have them then?"
+            "speaker": "Rt Hon Winston Peters (NZ First)",
+            "quote": "For the Labour Party's benefit, they had 15 years to recognise Palestine statehood... Did they do it in those six years? No. So, please, answer this question—why on earth now do they think they have the answers when they didn't have them then?"
           }
         ],
         "tags": [
           "palestine",
+          "israel",
           "foreign-policy",
           "urgent-debate",
-          "middle-east"
+          "gaza",
+          "humanitarian-crisis"
         ]
       },
       {
-        "topic": "Heated Clashes Erupt Over Economy, Job Losses, and $66B COVID-19 Spend",
-        "content": "Question Time was dominated by a bitter economic debate between the Government and the Opposition. Prime Minister Christopher Luxon and Acting Finance Minister Chris Bishop repeatedly blamed the previous Labour government's $66 billion COVID-19 response for the current recession, inflation, and rising unemployment. Opposition Leader Chris Hipkins fiercely challenged the Prime Minister on job losses, particularly in the construction sector, and accused the Finance Minister of being insensitive. The exchange was marked by sharp personal attacks, with Luxon labelling Hipkins 'The Sixty-six Billion Dollar Man'.",
+        "topic": "PM Luxon and Opposition Clash Over Economy and Job Losses",
+        "content": "Question Time featured tense exchanges over the state of the economy, with Opposition Leader Chris Hipkins repeatedly challenging Prime Minister Christopher Luxon on job losses and the cost of living. Hipkins questioned the Prime Minister on Finance Minister Nicola Willis's comment that newly unemployed people \"shouldn't take it personally\". Luxon defended the remark's context, attributing the economic hardship and job losses to the previous Labour government's spending, which he dubbed \"The Sixty-six Billion Dollar Man's\" legacy. The Opposition argued the government was out of touch and making things worse, while the Prime Minister maintained his government was focused on driving economic growth.",
         "keyExchanges": [
           {
-            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
-            "quote": "Does he stand by his decision to pause, delay, or cancel construction projects—decisions that have actively made things worse and put 18,000 construction workers out of work since he became Prime Minister?"
+            "speaker": "Rt Hon Chris Hipkins (Labour)",
+            "quote": "So why doesn't he think people who have lost their jobs should take it personally?"
           },
           {
-            "speaker": "Rt Hon CHRISTOPHER LUXON (Prime Minister)",
-            "quote": "Well, I'd just say to the member, who I think we should start calling 'The Sixty-six Billion Dollar Man'—because when I grew up as a kid, there was a show called 'The Six Million Dollar Man', and this member is the Sixty-six Billion Dollar Man; it's the way to think about it."
+            "speaker": "Rt Hon Christopher Luxon (National)",
+            "quote": "I think people having lost their jobs is an incredibly sad thing. The reason it's happened is because of his administration, because he actually didn't run the economy well, and when you don't run the economy well, you end up causing pain and suffering for low and middle income New Zealanders; and that's exactly what he did."
           }
         ],
         "tags": [
           "economy",
-          "job-losses",
+          "unemployment",
           "cost-of-living",
-          "covid-19"
+          "question-time",
+          "christopher-luxon",
+          "chris-hipkins"
         ]
       },
       {
-        "topic": "Government Proposes Major Overhaul to Replace NCEA Qualification",
-        "content": "Education Minister Erica Stanford announced a significant proposal to replace the NCEA secondary school qualification system. The proposed changes include replacing NCEA Level 1 with a foundational skills award and introducing new certificates for Levels 2 and 3 that would require students to pass at least four subjects. A key feature of the reform is a return to clear marks out of 100 with grades such as A, B, or C. Stanford justified the overhaul by stating that \"warning lights have been flashing for some time,\" citing statistics showing low curriculum completion, high numbers of blank exam papers, and a lack of confidence in NCEA's reliability among teachers.",
+        "topic": "Government Introduces 'Boy Racer' Bill With Vehicle Forfeiture Penalties",
+        "content": "Transport Minister Chris Bishop introduced the Antisocial Road Use Legislation Amendment Bill, aimed at cracking down on illegal street racing, intimidating convoys, and other disruptive driving. The bill's central measure is a presumptive sentence of vehicle forfeiture and destruction after just one offence, a significant strengthening of the current three-strikes policy. Labour supported the bill to the select committee stage, while the Greens opposed it, with MP Tamatha Paul arguing it was based on the \"myth of deterrence\" and would disproportionately harm young Māori men.",
         "keyExchanges": [
           {
-            "speaker": "Hon ERICA STANFORD (Minister of Education)",
-            "quote": "The warning lights have been flashing for some time. There are clear issues with the design and implementation of NCEA, which is overly flexible, difficult for parents and employers to understand, and the lack of consistency leaves too much to chance."
+            "speaker": "Hon Chris Bishop (National)",
+            "quote": "In most cases, courts will be required to order the vehicle be forfeited or destroyed after just one offence. This sends a really powerful message: if you use your car to intimidate and endanger others, you risk losing it."
           },
           {
-            "speaker": "Hon ERICA STANFORD (Minister of Education)",
-            "quote": "Doing nothing in the face of all this is not an option. We have to strengthen the system, and our proposals are designed to do just that."
+            "speaker": "Tamatha Paul (Green)",
+            "quote": "The people who will be impacted by this bill, make no mistakes, are young Māori men. In 2023, Māori made-up around half of those charged with fleeing police. And it's not about the behaviour; it's about systemic bias..."
+          }
+        ],
+        "tags": [
+          "legislation",
+          "crime",
+          "transport",
+          "police",
+          "boy-racers",
+          "vehicle-forfeiture"
+        ]
+      },
+      {
+        "topic": "Education Minister Announces Major Overhaul of NCEA System",
+        "content": "Education Minister Erica Stanford announced a proposal to replace the NCEA qualification with a new system. Key changes include replacing NCEA Level 1 with a \"foundational skills award\", introducing new Level 2 and 3 certificates requiring students to pass at least four subjects, and returning to marks out of 100 with grades like A, B, or C. Stanford argued the reforms were necessary to address issues with NCEA being overly flexible and inconsistent, citing hundreds of thousands of blank exam papers and a lack of teacher confidence in the system as evidence of its failure.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Erica Stanford (National)",
+            "quote": "More than 250,000 exam papers were left blank, students are more than twice as likely to get an Excellence grade if it's marked internally rather than externally, and 60 percent of teachers don't believe that the new NCEA is a reliable measure of student knowledge and skill. Doing nothing in the face of all this is not an option."
+          },
+          {
+            "speaker": "Carl Bates (National)",
+            "quote": "What feedback has she received from parents?"
           }
         ],
         "tags": [
           "education",
           "ncea",
-          "policy-announcement",
-          "secondary-school"
+          "reform",
+          "schools",
+          "erica-stanford"
         ]
       },
       {
-        "topic": "Government Clarifies Role of Iwi-Māori Partnership Boards in Health System",
-        "content": "In response to questions from Labour's Peeni Henare, Health Minister Simeon Brown clarified the Government's position on the role of iwi-Māori partnership boards (IMPBs). Brown affirmed that IMPBs will continue to be 'powered up' to provide advice on the health needs of Māori directly to the Hauora Māori Advisory Committee. However, he was firm that their role does not extend to commissioning services, a function he stated belongs to Health New Zealand. Labour questioned whether this represented a minimisation of the boards' role and a failure to meet Te Tiriti o Waitangi obligations, a charge the Minister denied.",
+        "topic": "Controversial Late-Night Amendments to Resource Management Bill Debated",
+        "content": "During the committee stage debate on the Resource Management (Consenting and Other System Changes) Amendment Bill, the Government introduced a substantial last-minute amendment paper that had not undergone public select committee scrutiny. The most contentious change enables regional councils to permit discharges of contaminants that could render freshwater unsuitable for consumption by farm animals. The Government defended the move, with Minister Chris Bishop stating it was an urgent request from Waikato Regional Council to prevent over 2,500 farms from needing new resource consents. Labour and the Greens strongly opposed the change, arguing it was a major step backwards for freshwater protection.",
         "keyExchanges": [
           {
-            "speaker": "Hon Peeni Henare (Labour)",
-            "quote": "Does he agree with Hon Dr Shane Reti when he said, 'I want to see IMPBs (iwi-Māori partnership boards) powered up to support the health outcomes for your whānau and your communities'; if so, what does that look like?"
+            "speaker": "Hon Damien O'Connor (Labour)",
+            "quote": "I think most farmers around the country would be horrified to think that that legislation is being changed to allow, I would suggest, a small minority of farmers to do this, when, in fact, they have been proud of actually spending millions and millions of dollars to not allow this to happen."
           },
           {
-            "speaker": "Hon SIMEON BROWN (Minister of Health)",
-            "quote": "I agree with the Hon Dr Shane Reti, who was very clear that IMPBs should be providing advice on the health needs of Māori across the country and that they should not be commissioning agencies. That's why we're strengthening the Hauora Māori Advisory Committee and clarifying the role of iwi-Māori partnership boards."
+            "speaker": "Hon Chris Bishop (National)",
+            "quote": "The Government is not going to put itself in a position where 2,500 farms require resource consent for something that they do not require resource consent for right now. That is the short point. We are not prepared to do that."
           }
         ],
         "tags": [
-          "health",
-          "impb",
-          "māori-health",
-          "te-tiriti-o-waitangi"
+          "rma",
+          "environment",
+          "freshwater",
+          "farming",
+          "legislation",
+          "committee-stage"
         ]
       }
     ],
-    "conclusion": "The day was defined by a major foreign policy debate over Palestine, while domestically, the government and opposition remained locked in a bitter conflict over economic management and job security."
+    "conclusion": "The day's proceedings were defined by a sharp divide between the Government's legislative and economic agenda at home and the Opposition's urgent calls for humanitarian leadership on the world stage."
   }
+]

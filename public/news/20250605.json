@@ -1,0 +1,98 @@
+[
+  {
+    "headline": "Te Pāti Māori MPs Suspended in Unprecedented Move After Fiery Parliamentary Debate",
+    "publicationDate": "2025-06-05",
+    "summary": "Parliament was consumed by a bitter and historic debate that culminated in the suspension of three Te Pāti Māori MPs for performing a haka during a vote on the controversial Treaty Principles Bill. The unprecedented disciplinary action, passed along partisan lines, overshadowed a day of contentious questioning on the government's policies, including significant changes to pay equity, speed limits near schools, and national freshwater regulations.",
+    "topicSummaries": [
+      {
+        "topic": "Te Pāti Māori MPs Suspended Following Haka Protest",
+        "content": "The House voted to suspend three Te Pāti Māori MPs following a recommendation from the Privileges Committee, which found their performance of a haka during a vote on the Treaty Principles Bill constituted contempt of Parliament. The Government-majority committee recommended an unprecedented suspension of 21 days for co-leaders Rawiri Waititi and Debbie Ngarewa-Packer, and 7 days for Hana-Rawhiti Maipi-Clarke. The decision broke with the committee's tradition of consensus, with all opposition parties arguing the punishment was disproportionate, vindictive, and set a dangerous precedent for silencing dissent. The ensuing debate saw Te Pāti Māori defend their actions as a legitimate response to a bill they described as 'political violence', while Government members argued the issue was about upholding parliamentary rules and respect for democratic process, not the haka itself. Failed amendments from Labour and the Green Party sought lesser penalties before the suspensions were ultimately confirmed by a party-line vote.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Dr DUNCAN WEBB (Labour—Christchurch Central)",
+            "quote": "The proposed sanctions of seven days and 21 days are disproportionate, unprecedented, and vindictive. I think it's really important to put on the record why we concluded that, whilst there was a contempt of the House, we can't agree with the sanctions proposed by the majority."
+          },
+          {
+            "speaker": "RAWIRI WAITITI (Co-Leader—Te Pāti Māori)",
+            "quote": "This punishment is not about noise control or Standing Orders. It is a warning shot from the colonial State that cannot stomach indigenous defiance. This is the full machinery of the State, swinging its hammer at three Māori bodies."
+          }
+        ],
+        "tags": [
+          "privilege",
+          "Te Pāti Māori",
+          "suspension",
+          "haka",
+          "Treaty Principles Bill",
+          "parliamentary procedure",
+          "protest"
+        ]
+      },
+      {
+        "topic": "Ministers Grilled Over Pay Equity Changes Affecting Low-Paid Women",
+        "content": "The Government faced intense questioning over its recent changes to the pay equity regime, which have resulted in the cancellation of several claims for predominantly female workforces. Labour's Barbara Edmonds read emotional testimony from library and aged-care workers who felt their fight for fair wages had been stripped away. In response, Associate Finance Minister Chris Bishop insisted the government values the workers but needed to make the scheme 'fairer and more affordable'. Labour's Jan Tinetti also challenged the Minister for Women, via proxy, on why her ministry was not consulted on the changes despite the Minister knowing about them for six months.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Barbara Edmonds (Labour—Mana)",
+            "quote": "What does she say to a library worker, in relation to the pay equity changes, who says, 'The end of our claim is devastating to myself and my colleagues. We were so close to a result, and to see that stripped away is incredibly painful.'?"
+          },
+          {
+            "speaker": "Hon JUDITH COLLINS (Attorney-General)",
+            "quote": "It's exactly the same answer as before. The other thing is, of course, that the Public Service Commission has been deeply involved in this, and perhaps you'd like to ask the Minister for the Public Service, who'd be happy to tell her exactly what's what, including what a woman is."
+          }
+        ],
+        "tags": [
+          "pay equity",
+          "women",
+          "finance",
+          "labour",
+          "wages",
+          "Ministry for Women"
+        ]
+      },
+      {
+        "topic": "Government Defends Policy to Increase Speed Limits",
+        "content": "Transport Minister Chris Bishop defended the Government's multi-faceted approach to increasing speed limits. He confirmed public consultation has begun to raise the limit to 110 km/h on Wellington's Transmission Gully. He also faced sharp criticism from the Green Party over the new rule requiring councils to reverse many recently implemented 30 km/h speed limits around schools. The Greens argued this went against community wishes and expert advice, while the Minister defended the move to variable speed limits during pick-up and drop-off times as a 'common-sense' approach that balances safety with traffic flow.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Julie Anne Genter (Green—Rongotai)",
+            "quote": "Why has he not allowed councils to retain safer speed limits that have been accepted by their communities, such as in New Plymouth, where councillor Amanda Clinton-Gohdes said, 'My stomach turns at the thought of having to roll back the changes we made with 89 percent community support.'?"
+          },
+          {
+            "speaker": "Hon CHRIS BISHOP (Minister of Transport)",
+            "quote": "We have a simple view, which is that you should go slowly when there might be kids around, but at 3 a.m. in the morning, when there aren't any children around—in fact, there's no one around—you should be able to go at 50 kilometres an hour."
+          }
+        ],
+        "tags": [
+          "transport",
+          "speed limits",
+          "road safety",
+          "schools",
+          "local government"
+        ]
+      },
+      {
+        "topic": "Sweeping Changes Proposed for Freshwater Rules to 'Cut Red Tape' for Farmers",
+        "content": "The Government announced it is opening consultation on major reforms to the National Policy Statement for Freshwater Management, aimed at cutting 'red tape' for farmers. Associate Environment Minister Andrew Hoggard said the proposals would return power to local communities, allowing councils to set their own contaminant bottom lines by balancing economic and social benefits with environmental protection. He argued the previous government's rules, based on the concept of 'Te Mana o te Wai', had 'strangled agricultural growth and bound farmers in compliance'.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon ANDREW HOGGARD (Associate Minister for the Environment)",
+            "quote": "We are seeking views on proposals which will cut the red tape for farmers so they can get back to feeding New Zealand and the world."
+          },
+          {
+            "speaker": "Cameron Luxton (ACT)",
+            "quote": "How are the proposals a return to localism in freshwater management?"
+          }
+        ],
+        "tags": [
+          "environment",
+          "freshwater",
+          "farming",
+          "agriculture",
+          "regulation",
+          "localism"
+        ]
+      }
+    ],
+    "conclusion": "The House concluded a day of bitter division by voting along party lines to suspend three Te Pāti Māori MPs, setting an unprecedented and contentious disciplinary standard for political protest."
+  }
+]

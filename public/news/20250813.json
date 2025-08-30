@@ -1,68 +1,130 @@
-{
-    "headline": "Green Party Co-Leader Suspended From Parliament Over 'Spineless' Comment",
+[
+  {
+    "headline": "Green Co-leader Suspended from Parliament in Fiery Standoff Over 'Spineless' Comment",
     "publicationDate": "2025-08-13",
-    "summary": "Parliament was marked by procedural drama as Green Party Co-Leader Chlöe Swarbrick was suspended for refusing to apologize for calling government members 'spineless.' The day also saw heated debate over the Government's education reforms impacting Māori learners, and continued scrutiny of its economic management and infrastructure spending promises amid a rise in construction firm collapses.",
+    "summary": "Parliament was dominated by high drama today as Green Party Co-leader Chlöe Swarbrick was suspended from the House for refusing to apologise for calling government MPs \"spineless\" during a debate on Gaza. The unprecedented move sparked a lengthy procedural battle over the Speaker's authority and parliamentary conduct. The day also featured intense debate on major reforms to resource management and water services, alongside heated question time exchanges on the economy, education, and foreign policy.",
     "topicSummaries": [
       {
-        "topic": "Green Co-Leader Chlöe Swarbrick Suspended Over 'Spineless' Accusation",
-        "content": "A significant portion of the day was consumed by the suspension of Green Party Co-Leader Chlöe Swarbrick. The Speaker demanded she withdraw and apologise for calling government members 'spineless' during a debate the previous day. Swarbrick refused, leading to a vote to suspend her from the House. The move sparked a prolonged procedural debate, with Opposition Leader Chris Hipkins arguing it was an unprecedented action for a comment made on a previous day. The Speaker defended his decision, citing a need to raise the standard of debate and combat what he termed 'cyberbullying' in political discourse, a move that drew both criticism and support from various parties.",
+        "topic": "Green Co-leader Chlöe Swarbrick Suspended After Refusing to Apologise",
+        "content": "The parliamentary day began with the Speaker demanding Green Co-leader Chlöe Swarbrick apologise for calling government MPs \"spineless\" during a debate the previous day. After Swarbrick refused, the Speaker ordered her to leave, and when she initially did not, he moved to have her formally suspended. The government parties voted in favour of the suspension, which bars the MP from the House. The move sparked a significant procedural debate, with Opposition Leader Chris Hipkins arguing it was an unprecedented punishment for a comment made on a previous day. The Speaker defended his actions as necessary to raise the standard of debate and combat disrespect among MPs, citing a 2017 Speaker's ruling that allows him to address matters that have a continued impact on the House.",
         "keyExchanges": [
+          {
+            "speaker": "SPEAKER",
+            "quote": "I invite Chlöe Swarbrick to withdraw and apologise for an offensive comment made in the House yesterday."
+          },
+          {
+            "speaker": "Chlöe Swarbrick (Co-Leader—Green)",
+            "quote": "I won't be doing that, Mr Speaker."
+          },
+          {
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "I think the naming of a member for something they had done the day before is not something that has ever happened in the House before. I wonder whether you can reflect on what precedent or Standing Order you're relying on in asking Chlöe Swarbrick to apologise for something the day before..."
+          },
           {
             "speaker": "SPEAKER",
             "quote": "If you think about the comment that was made, 68 members of this House were accused of being spineless. There has never been a time when personal insults like that delivered inside a speech were accepted by this House, and I'm not about to start accepting it."
-          },
-          {
-            "speaker": "Rt Hon Chris Hipkins (Labour)",
-            "quote": "I think the naming of a member for something they had done the day before is not something that has ever happened in the House before. I wonder whether you can reflect on what precedent or Standing Order you're relying on..."
           }
         ],
-        "tags": ["parliamentary procedure", "suspension", "Chlöe Swarbrick", "free speech"]
+        "tags": [
+          "parliamentary procedure",
+          "suspension",
+          "free speech",
+          "Chlöe Swarbrick",
+          "Green Party",
+          "Speaker"
+        ]
       },
       {
-        "topic": "Heated Debate on Māori Education Reforms",
-        "content": "During Question Time, Te Pāti Māori MP Hana-Rawhiti Maipi-Clarke intensely questioned Education Minister Erica Stanford on the impact of proposed education changes on Māori learners. The exchange focused on the replacement of NCEA Level 1 with a Foundational Award and the alleged banning of Māori words from junior teaching resources. Minister Stanford defended the reforms, arguing they set higher aspirations for Māori students and that new te reo Māori phonics resources were being introduced. However, Maipi-Clarke voiced concerns from kura kaupapa providers that the Government was prioritising standardisation over cultural relevance, potentially disengaging Māori students.",
+        "topic": "Heated Debate as Resource Management and Water Services Bills Advance",
+        "content": "In a late-night session, the Government advanced two of its major reform bills through the committee stage. The Resource Management (Consenting and Other System Changes) Amendment Bill prompted intense debate over last-minute amendments that grant the Minister power to block new council plans and make specific changes for Auckland, Christchurch, and Otago. Labour's Rachel Brooking argued the changes amounted to \"last minute overreach\" and an end to localism, while the Government defended them as necessary to streamline development. Separately, the Local Government (Water Services) Bill also progressed, with Opposition MPs questioning the Government on stormwater management obligations for private landowners and significant amendments that subordinate parts of the Resource Management Act to new water services standards.",
         "keyExchanges": [
           {
-            "speaker": "Hana-Rawhiti Maipi-Clarke (Te Pāti Māori)",
-            "quote": "Does she agree with Te Rūnanga Nui o Ngā Kura Kaupapa Māori o Aotearoa that replacing NCEA level 1 with a Foundational Award in literacy and numeracy 'narrows the purpose of learning and risks disengaging students who benefit from a broader kaupapa Māori programme.'?"
+            "speaker": "Hon Rachel Brooking (Labour—Dunedin)",
+            "quote": "What has happened is that it has been derailed, and that is why I think the title needs to change... It involves terrible overreach by central government into our local democracies, and there is, of course, some irony with the Minister in the chair in terms of what was said by the National Government... about bringing back localism."
           },
           {
-            "speaker": "Hon Erica Stanford (National)",
-            "quote": "A Foundational Award in literacy and numeracy and a whole year of learning through a deep curriculum to make sure that they go into Year 12 ready for learning for that first important year of national qualifications is going to set them up for success."
+            "speaker": "Hon Chris Bishop (Minister responsible for RMA Reform)",
+            "quote": "The short point is there still can be plan changes. There's a default that they stop, but there are exemptions—there's the ability to apply to the Minister, to me, for an exemption, so plan changes still can happen—in fact, it's almost certain that some will."
           }
         ],
-        "tags": ["education", "NCEA", "Māori education", "te reo Māori"]
+        "tags": [
+          "Resource Management Act",
+          "RMA reform",
+          "Local Government",
+          "water services",
+          "Three Waters",
+          "housing intensification",
+          "localism"
+        ]
       },
       {
-        "topic": "Government Faces Scrutiny Over Economic Management and Infrastructure Pipeline",
-        "content": "The Government's economic and fiscal management came under fire, with the Opposition linking rising interest rates and cuts to State house builds to 755 construction firm collapses in one year. Prime Minister Christopher Luxon defended his government's actions, blaming the previous administration's spending for high inflation and interest rates. He highlighted a $207 billion infrastructure pipeline, with $6 billion in projects slated to begin before Christmas, as evidence of his government's commitment to building and growth. However, he repeatedly deflected direct questions about whether infrastructure spending in 2026 would be higher or lower than in 2023.",
+        "topic": "PM Clashes with Opposition Over Construction Slump and Infrastructure Spending",
+        "content": "During Question Time, Prime Minister Christopher Luxon faced a barrage of questions from Opposition Leader Chris Hipkins about the struggling construction sector, which has seen over 750 firms collapse in the past year. Hipkins argued a lack of government work was to blame, while Luxon countered that the downturn was caused by high interest rates inherited from the previous government. Luxon defended his government's agenda, pointing to a $207 billion infrastructure pipeline. However, he repeatedly deflected questions on whether actual government spending on infrastructure in 2026 would be higher or lower than in 2023.",
         "keyExchanges": [
           {
-            "speaker": "Rt Hon Chris Hipkins (Labour)",
-            "quote": "Why does he stand by his Government's decision to cut State house builds by 86 percent given construction leaders have stated that house construction is an anchor for the sector, and is that why 755 construction firms have collapsed in just one year under his leadership?"
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "Does he accept that a lack of Government work has contributed to a 48 percent rise in construction firm liquidations and to 18,000 fewer jobs in construction today than when he became Prime Minister?"
           },
           {
-            "speaker": "Rt Hon Christopher Luxon (National)",
-            "quote": "I'm actually proud that we've got an infrastructure pipeline now of $207 billion. I think we have $125 billion of projects under construction. We have announced another $6 billion of infrastructure projects to be built or commenced before Christmas."
+            "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+            "quote": "Well, the reason that the construction industry is doing it incredibly tough isn't because of Kāinga Ora, it's because interest rates skyrocketed under the previous administration... The previous Government spent $66 billion, created high inflation and, as a result, created high interest rates."
           }
         ],
-        "tags": ["economy", "infrastructure", "construction industry", "government spending"]
+        "tags": [
+          "economy",
+          "infrastructure",
+          "construction",
+          "recession",
+          "interest rates",
+          "Christopher Luxon",
+          "Chris Hipkins"
+        ]
       },
       {
-        "topic": "Winston Peters Challenges Use of 'Aotearoa' in Parliament",
-        "content": "NZ First Leader Winston Peters raised a point of order questioning the use of the name 'Aotearoa' in an official parliamentary question, asking who had given the mandate to change the country's name. The Speaker defended its use, stating that as Māori is an official language, it is an acceptable name for Māori to use to identify the nation and has been for a long time. He advised Mr. Peters that the Standing Orders Committee was the appropriate venue to address the matter further, but reiterated that he had ruled on the issue twice and it should not be raised again.",
+        "topic": "Education Minister Defends Curriculum Changes for Māori Learners",
+        "content": "Education Minister Erica Stanford was questioned by Te Pāti Māori's Hana-Rawhiti Maipi-Clarke on the impact of education reforms on Māori learners. Maipi-Clarke challenged the Minister on replacing NCEA Level 1 with a Foundational Award, arguing it narrows learning and disengages students. The Minister defended the move, citing a lack of confidence in NCEA Level 1 from teachers and employers. Stanford also strongly refuted claims her policies involved \"banning\" Māori words from junior teaching resources, stating that existing words in English-learning books would remain and new books would still contain Māori words.",
         "keyExchanges": [
           {
-            "speaker": "Rt Hon Winston Peters (NZ First)",
-            "quote": "I want to know why question No. 1 has got a country imputably called 'Aotearoa', and who gave anybody the mandate to change this country's name?"
+            "speaker": "Hana-Rawhiti Maipi-Clarke (Te Pāti Māori—Hauraki-Waikato)",
+            "quote": "How will her decision to ban nearly all Māori words from junior teaching resources impact the Crown's responsibility to actively protect and promote te reo Māori?"
+          },
+          {
+            "speaker": "Hon Erica Stanford (Minister of Education)",
+            "quote": "I take that responsibility very seriously, which is why we produced the first ever set of Rangaranga Reo ā-Tā, structured literacy books, in te reo Māori... The Māori words in them will remain. In the new books that will round out the series... will still contain Māori words, and to say they're being banned is absolutely wrong."
+          }
+        ],
+        "tags": [
+          "education",
+          "NCEA",
+          "curriculum",
+          "te reo Māori",
+          "Erica Stanford",
+          "kura kaupapa"
+        ]
+      },
+      {
+        "topic": "Use of 'Aotearoa' in Parliament Sparks Procedural Challenge",
+        "content": "NZ First Leader Winston Peters raised a point of order questioning the use of the name \"Aotearoa\" in an official parliamentary question, asking who gave the mandate to change the country's name. The Speaker ruled that as Māori is an official language, the use of Aotearoa is acceptable and has been for a long time, directing Mr. Peters to the Standing Orders Committee for any proposed changes. The exchange highlighted ongoing linguistic and cultural debates within the coalition government, with the Green Party questioning why Peters was allowed to repeatedly challenge the Speaker's rulings on the matter.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Winston Peters (Leader—NZ First)",
+            "quote": "So I want to know why question No. 1 has got a country imputably called \"Aotearoa\", and who gave anybody the mandate to change this country's name?"
           },
           {
             "speaker": "SPEAKER",
-            "quote": "The reality is that Māori is an official language of New Zealand. If that is a name that Māori choose to use to identify the nation, then that is an acceptable thing. It has been for a very long time..."
+            "quote": "The reality is that Māori is an official language of New Zealand. If that is a name that Māori choose to use to identify the nation, then that is an acceptable thing. It has been for a very long time... The Standing Orders Committee would be the right place to bring up that matter."
           }
         ],
-        "tags": ["Aotearoa", "New Zealand name", "Winston Peters", "te reo Māori"]
+        "tags": [
+          "Aotearoa",
+          "New Zealand",
+          "Winston Peters",
+          "NZ First",
+          "te reo Māori",
+          "parliamentary debate"
+        ]
       }
     ],
-    "conclusion": "The day's proceedings were defined by a clash over parliamentary decorum and free speech, revealing deep tensions over political language, while substantive debates on education and the economy highlighted the Government's ongoing struggle to defend its reform agenda against accusations of cultural insensitivity and fiscal mismanagement."
+    "conclusion": "While the government advanced its legislative agenda, the day was defined by the suspension of a party co-leader—a rare event that ignited a fierce debate on parliamentary rules, respect, and the limits of political speech."
   }
+]

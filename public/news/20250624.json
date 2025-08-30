@@ -1,0 +1,119 @@
+[
+  {
+    "headline": "Parliament Debates Middle East Crisis as Tensions Flare Over Treaty Bill and Cost of Living",
+    "publicationDate": "2025-06-24",
+    "summary": "Parliament was dominated by a major foreign policy debate on the escalating Middle East crisis, with the Government defending its diplomatic approach against Opposition calls to condemn US military action. Domestically, fierce exchanges erupted over the cost of living and the exclusion of Treaty of Waitangi principles from a new standards bill. The day also saw the introduction of significant new legislation aimed at overhauling overseas investment and immigration rules.",
+    "topicSummaries": [
+      {
+        "topic": "Government Defends Cautious Middle East Stance Amidst Opposition Condemnation of US Strikes",
+        "content": "Foreign Affairs Minister Winston Peters outlined the Government's response to the Middle East crisis, prioritizing the safety of New Zealanders and a diplomatic approach of \"engagement with all\" over \"simplistic moral posturing.\" He confirmed a C-130 has been sent to the region for potential evacuations and stated the government would wait for all evidence before judging the legality of recent US strikes on Iran. The Opposition, led by Chris Hipkins, argued the strikes are illegal under international law and that New Zealand has a duty to speak out, drawing parallels to the 2003 Iraq invasion. The Green Party's Marama Davidson went further, condemning the US strikes and calling for the New Zealand Government to do the same, leading to a heated exchange.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon CHRIS HIPKINS (Leader of the Opposition)",
+            "quote": "Noting that article 51 on the right to self-defence states specifically that that right is inherent for \"individual or collective self-defence if an armed attack occurs against a Member of the United Nations\", does the New Zealand Government believe that the US's pre-emptive strike on Iran meets that criteria?"
+          },
+          {
+            "speaker": "Rt Hon WINSTON PETERS (Minister of Foreign Affairs)",
+            "quote": "Well, as I said, unlike some, we wait till we get the evidence, and we've said it constantly day after day that instead of rushing to judgment, as we were asked this morning by the media, \"Has peace broken out?\"—\"No,\" we said, \"We're going to trust but verify,\" and when we sought to verify we found that what they were saying by way of questioning was wrong."
+          }
+        ],
+        "tags": [
+          "Middle East",
+          "foreign policy",
+          "international law",
+          "US-Iran",
+          "Winston Peters",
+          "Chris Hipkins"
+        ]
+      },
+      {
+        "topic": "Government Questioned Over Te Tiriti Exclusion from Regulatory Standards Bill",
+        "content": "Te Pāti Māori questioned the Government's commitment to its Treaty of Waitangi obligations regarding the new Regulatory Standards Bill. MP Tākuta Ferris challenged Minister for Māori Development Tama Potaka on why Te Tiriti was excluded from the bill's principles, which aim to set a constitutional standard for all laws. Minister Potaka stated the bill was part of a coalition agreement with ACT and deferred to the select committee process, which has received 130,000 submissions, while reiterating his commitment to addressing inequalities for Māori.",
+        "keyExchanges": [
+          {
+            "speaker": "Tākuta Ferris (Te Pāti Māori)",
+            "quote": "Will the Minister support amendments to the Regulatory Standards Bill to include Te Tiriti o Waitangi and tikanga Māori as foundational principles of good regulation; if not, why not?"
+          },
+          {
+            "speaker": "Hon TAMA POTAKA (Minister for Māori Development)",
+            "quote": "The 130,000 submitters to this bill, and I'm sure many members of this House, will look forward to the summary of those robust and strident submissions that have been made to the select committee and will take up various matters with the architects of this bill."
+          }
+        ],
+        "tags": [
+          "Te Tiriti o Waitangi",
+          "Regulatory Standards Bill",
+          "Te Pāti Māori",
+          "constitutional law",
+          "Māori development"
+        ]
+      },
+      {
+        "topic": "Heated Clashes Erupt Over Inflation and Rising Food Prices",
+        "content": "The cost of living dominated Question Time as Labour leader Chris Hipkins challenged Acting Prime Minister David Seymour on significant increases in the price of staple foods like butter (up 50%) and cheese (up 30%). Mr. Hipkins argued that families are worse off under the current government. Mr. Seymour defended the Government's record, pointing to a drop in the overall inflation rate from 5.6% to 2.5% and falling interest rates, attributing rising dairy prices to improved global prices which benefit New Zealand's farmers.",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Leader of the Opposition)",
+            "quote": "So how are New Zealanders better off when the price of butter has increased by 50 percent and the price of cheese has increased by 30 percent, showing that the cost of living continues to go up under his Government?"
+          },
+          {
+            "speaker": "Hon DAVID SEYMOUR (Acting Prime Minister)",
+            "quote": "New Zealanders are better off because inflation overall has gone down, even though some prices may vary—and sometimes that benefits sectors of the economy that that side of the House seems to hate."
+          }
+        ],
+        "tags": [
+          "cost of living",
+          "inflation",
+          "economy",
+          "food prices",
+          "Question Time",
+          "David Seymour"
+        ]
+      },
+      {
+        "topic": "Greens Accuse Government of Breaching Climate Pact with $200M Fossil Fuel Fund",
+        "content": "Green Party Co-leader Chlöe Swarbrick confronted the Government over its new $200 million fund for the fossil fuel sector, claiming it constitutes a subsidy that breaches New Zealand's commitments under the Agreement on Climate Change, Trade and Sustainability (ACCTS). Ms. Swarbrick cited independent legal advice commissioned by her party, which she was denied leave to table in the House. Minister for Trade Todd McClay strongly refuted the claim, insisting the fund is for commercial investments where the Crown takes a stake and receives profits, not a subsidy, and is necessary for energy security while transitioning away from imported coal.",
+        "keyExchanges": [
+          {
+            "speaker": "Chlöe Swarbrick (Co-Leader—Green)",
+            "quote": "On what basis can he claim that there will be no impact when today it has been reported that independent legal advice shows quite clearly that the $200 million for the fossil fuel industry in his Government's Budget is a subsidy and therefore a breach of the Agreement on Climate Change, Trade and Sustainability?"
+          },
+          {
+            "speaker": "Hon TODD McCLAY (Minister for Trade and Investment)",
+            "quote": "Well, this is not a subsidy, and I refer the member to the definition of fossil fuel subsidies in the ACCTS agreement...Any options the Government pursues around gas exploration and development will take into account New Zealand's international obligations, and the Government intends to do this within the commitments we've made within this agreement."
+          }
+        ],
+        "tags": [
+          "fossil fuels",
+          "climate change",
+          "ACCTS",
+          "trade agreement",
+          "energy",
+          "Chlöe Swarbrick"
+        ]
+      },
+      {
+        "topic": "Government Introduces Bill to Fast-Track Overseas Investment",
+        "content": "The Government introduced a new bill aimed at making New Zealand more attractive to foreign investors by streamlining the approval process. Associate Finance Minister David Seymour said the Overseas Investment (National Interest Test and Other Matters) Amendment Bill would speed up consents for less sensitive investments to just 15 days, arguing it will boost productivity and wages. However, the Labour Party opposed the bill, with Barbara Edmonds raising concerns that it removes the crucial 'benefit to New Zealand' test for most investments, which assesses factors like job creation and environmental protection. New Zealand First supported the bill after securing protections for farmland, fishing quotas, and residential land.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon DAVID SEYMOUR (Associate Minister of Finance)",
+            "quote": "This is the message of a country that is open for business and does not fear the world, but stands proudly amongst our friends who want to do business with us, trade value for value, and get stronger together."
+          },
+          {
+            "speaker": "Hon BARBARA EDMONDS (Labour—Mana)",
+            "quote": "This Government is getting rid of the benefit test...basically saying, \"Here's the red carpet; come in.\" Never mind whether it creates jobs, never mind if it degrades our environment, never mind if New Zealanders can no longer access this asset..."
+          }
+        ],
+        "tags": [
+          "overseas investment",
+          "foreign investment",
+          "economy",
+          "productivity",
+          "legislation",
+          "David Seymour"
+        ]
+      }
+    ],
+    "conclusion": "The Government advanced its agenda of economic liberalisation and fiscal restraint while facing determined opposition that challenged its approach to international law, Treaty obligations, and climate commitments."
+  }
+]

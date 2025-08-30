@@ -7,15 +7,22 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "scrape": "node scraper.js",
+    "prepare-prompts": "node prepare-gemini-prompt.js"
   },
   "dependencies": {
+    "@google/genai": "^1.16.0",
     "@react-spring/web": "^9.7.5",
     "@tailwindcss/vite": "^4.0.14",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^17.2.1",
     "lucide-react": "^0.482.0",
     "ogl": "^1.0.11",
+    "playwright": "^1.55.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.3.0",
@@ -39,3 +46,4 @@
     "vite": "^6.2.0"
   }
  }
+

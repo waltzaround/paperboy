@@ -1,0 +1,120 @@
+[
+  {
+    "headline": "Cost of Living Clashes, Stalking Bill Advances in Heated Parliamentary Session",
+    "publicationDate": "2025-07-23",
+    "summary": "Parliament was the stage for a fiery confrontation over the cost of living, with the Prime Minister and Leader of the Opposition trading blows on economic performance. The day also saw a tense standoff over the use of 'Aotearoa New Zealand' in official proceedings. Amidst the political sparring, significant progress was made on crucial social legislation, as a new bill to criminalise stalking passed its second reading with cross-party support.",
+    "topicSummaries": [
+      {
+        "topic": "PM Luxon and Opposition Leader Hipkins Clash Over Cost of Living",
+        "content": "A fierce debate on the cost of living dominated Question Time. Leader of the Opposition Chris Hipkins challenged Prime Minister Christopher Luxon on his government's promise to reduce living costs, pointing to rising grocery prices and questioning the impact of tax relief policies. The Prime Minister defended his government's record, highlighting that overall inflation has fallen from a peak of 7.3% to 2.7% and arguing that interest rate cuts are providing relief to mortgage holders. He accused the previous Labour government of creating the crisis through \"wasteful spending.\"",
+        "keyExchanges": [
+          {
+            "speaker": "Rt Hon Chris Hipkins (Labour)",
+            "quote": "Does he stand by his statement, \"We are starting our 100-day plan with a laser focus on bringing down the cost of living\"; if so, why, after 574 days, is the cost of living even higher and continuing to increase?"
+          },
+          {
+            "speaker": "Rt Hon Christopher Luxon (National)",
+            "quote": "Look, the member understands that he took the keys to our economy and he put it in a great big ditch. We're hauling the car out of the ditch, we're turning it up the right way, we're getting into first and second gear, and we've got a plan. Our plan is working."
+          }
+        ],
+        "tags": [
+          "cost of living",
+          "inflation",
+          "economy",
+          "Christopher Luxon",
+          "Chris Hipkins",
+          "question time"
+        ]
+      },
+      {
+        "topic": "Stalking and Harassment Bill Passes Second Reading with Cross-Party Support",
+        "content": "A landmark bill creating a specific criminal offence for stalking and harassment passed its second reading, backed by all parties. The legislation, prompted by the murder of Farzana Yaqubi, was strengthened in the select committee process to define a pattern of behaviour as two acts over two years, rather than the originally proposed three acts in one year. While the bill received broad support for providing better tools for police and protection for victims, Labour and the Greens raised concerns that the mental element required—that a stalker \"knows\" their behaviour causes distress—may be too difficult to prove and intend to propose amendments.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Erica Stanford (National)",
+            "quote": "This bill will create a modern, future-proofed, and truly enforceable stalking and harassment offence to ensure this insidious behaviour no longer goes unpunished."
+          },
+          {
+            "speaker": "Hon Ginny Andersen (Labour)",
+            "quote": "We believe it would be better if the bill stated that the stalker knows or ought to know that their behaviour is likely to cause fear or distress."
+          }
+        ],
+        "tags": [
+          "stalking",
+          "harassment",
+          "crime",
+          "justice",
+          "legislation",
+          "victims rights"
+        ]
+      },
+      {
+        "topic": "Foreign Minister Winston Peters Refuses to Answer Question Using 'Aotearoa New Zealand'",
+        "content": "A heated exchange erupted when Green MP Teanau Tuiono asked Minister of Foreign Affairs Winston Peters a question about the \"Aotearoa New Zealand\" marine environment. Mr. Peters repeatedly refused to answer, stating \"no such country exists\" and that the official name is New Zealand. The Speaker intervened, reminding the House of a previous ruling that \"Aotearoa New Zealand\" is an acceptable term, but the Minister maintained his position, arguing that the name has not been changed through proper process and was not used at the international conference in question.",
+        "keyExchanges": [
+          {
+            "speaker": "Teanau Tuiono (Green)",
+            "quote": "What new commitments, if any, has the Government made to protect Aotearoa New Zealand's marine environment following the United Nations Ocean Conference in France last month?"
+          },
+          {
+            "speaker": "Rt Hon Winston Peters (NZ First)",
+            "quote": "Because no such country exists, we made no such commitments."
+          }
+        ],
+        "tags": [
+          "Aotearoa",
+          "New Zealand",
+          "Winston Peters",
+          "Teanau Tuiono",
+          "parliamentary procedure",
+          "identity"
+        ]
+      },
+      {
+        "topic": "Government Defends Māori Health Reforms Amid Accusations of Harm",
+        "content": "Minister of Health Simeon Brown faced intense questioning from Te Pāti Māori Co-leader Debbie Ngarewa-Packer over proposed changes to the Pae Ora (Healthy Futures) Act. Ngarewa-Packer questioned what evidence the government had that its reforms, including changes to Iwi Māori Partnership Boards, would improve Māori health outcomes. Minister Brown defended the changes, arguing the government's focus is on national health targets for all New Zealanders, including Māori, and stated that key health outcomes for Māori worsened when the previous government removed targets. He confirmed that iwi were not consulted on the changes prior to the bill's introduction but will have the opportunity to submit at select committee.",
+        "keyExchanges": [
+          {
+            "speaker": "Debbie Ngarewa-Packer (Te Pāti Māori)",
+            "quote": "What evidence does the Minister rely on to show that defunding Iwi Māori Partnership Boards (IMPBs) and removing Te Tiriti obligations will close the seven- to eight-year Māori life expectancy gap rather than widen it?"
+          },
+          {
+            "speaker": "Hon Simeon Brown (National)",
+            "quote": "The facts speak for themselves. By reinstating health targets and ensuring accountability of the system, we will improve outcomes for all New Zealanders, including Māori."
+          }
+        ],
+        "tags": [
+          "Māori health",
+          "Pae Ora Act",
+          "Te Tiriti o Waitangi",
+          "health policy",
+          "Simeon Brown",
+          "Debbie Ngarewa-Packer"
+        ]
+      },
+      {
+        "topic": "Initial Response to Abuse in Care Inquiry Passes Second Reading Amid Criticism",
+        "content": "The Responding to Abuse in Care Legislation Amendment Bill, the government's first legislative action following the Royal Commission's inquiry, passed its second reading. The bill introduces workforce restrictions for those with overseas convictions, updates the definition of a \"vulnerable adult\" to include disability, and changes search powers in Oranga Tamariki residences. While the government framed it as a crucial first step, Labour and the Greens criticised the bill as \"piecemeal tinkering\" and a \"missed opportunity,\" highlighting a lack of survivor consultation and raising significant concerns about provisions permitting the use of force in care settings.",
+        "keyExchanges": [
+          {
+            "speaker": "Hon Erica Stanford (National)",
+            "quote": "This bill is an action that demonstrates our ongoing commitment to respond to the abuse in care royal commission of inquiry."
+          },
+          {
+            "speaker": "Hon Willow-Jean Prime (Labour)",
+            "quote": "This bill is a missed opportunity. Submitters described this bill as piecemeal tinkering and a squandered opportunity."
+          }
+        ],
+        "tags": [
+          "abuse in care",
+          "Royal Commission",
+          "Oranga Tamariki",
+          "social policy",
+          "legislation",
+          "survivors"
+        ]
+      }
+    ],
+    "conclusion": "The day's proceedings exposed the deep ideological divide between the government's focus on economic growth and deregulation and the opposition's emphasis on persistent cost of living pressures and social justice reforms."
+  }
+]
