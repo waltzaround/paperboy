@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "scrape": "node scraper.js",
+    "fetch": "node scraper.js",
     "prepare-news": "node prepare-news.js"
   },
   "dependencies": {

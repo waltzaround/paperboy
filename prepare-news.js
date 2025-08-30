@@ -10,7 +10,7 @@ dotenv.config();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Function to generate AI summary with scraped data
-async function prepareGeminiPrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
+async function preparePrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
   const systemPrompt = `You are an expert news journalist writing for a mainstream audience. Your task is to transform the provided source material into a comprehensive, succinct summary of the day's key parliamentary activities, formatted as a single JSON object.
 
 The JSON object must follow this exact structure. Do not add any text outside of the JSON object.
@@ -108,7 +108,7 @@ ${scrapedData.topicSummaries ? scrapedData.topicSummaries.map(topic =>
 ).join('\n') : 'No topics detected'}
 
 Please analyze this parliamentary data and create a comprehensive news article following the structure and guidelines provided above.`;
-
+  console.log('UserPrompt:\n\n', userPrompt)
   const fullPrompt = systemPrompt + '\n\n' + userPrompt;
 
   try {
@@ -160,7 +160,7 @@ async function processScrapedFiles(inputDir = null, provider = process.env.DEFAU
         `${dateMatch[1].slice(0,4)}-${dateMatch[1].slice(4,6)}-${dateMatch[1].slice(6,8)}` :
         scrapedData.publicationDate || new Date().toISOString().split('T')[0];
 
-      const summary = await prepareGeminiPrompt(scrapedData, date, provider);
+      const summary = await preparePrompt(scrapedData, date, provider);
 
       // Save the generated summary
       const outputFile = path.join(outputDir, `summary-${file}`);
@@ -188,7 +188,7 @@ async function processScrapedFiles(inputDir = null, provider = process.env.DEFAU
 
 // Function to prepare a single scraped data object
 async function prepareSinglePrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
-  return await prepareGeminiPrompt(scrapedData, date, provider);
+  return await preparePrompt(scrapedData, date, provider);
 }
 
 // CLI usage
@@ -204,4 +204,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   });
 }
 
-export { prepareGeminiPrompt, processScrapedFiles, prepareSinglePrompt };
+export { preparePrompt, processScrapedFiles, prepareSinglePrompt };
