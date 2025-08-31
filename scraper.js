@@ -193,7 +193,7 @@ async function scrapeHansard(startDate, endDate) {
   $main('a[href]').each((i, elem) => {
     const href = $main(elem).attr('href');
     if (href && href.includes('HansD_')) {
-      const match = href.match(/HansD_(\d{8})_(\d{8})/);
+      const match = href.match(/combined\/HansD_(\d{8})_(\d{8})/);
       if (match) {
         const dateStr = match[1];
         const linkDate = dateStr.slice(0, 4) + '-' + dateStr.slice(4, 6) + '-' + dateStr.slice(6, 8);
@@ -221,6 +221,7 @@ async function scrapeHansard(startDate, endDate) {
       console.log(`Scraping date: ${date}`);
 
       const dateData = dateLinks[date];
+      console.log("DateData: ", dateData)
       let links = [];
       if (dateData.hansD) {
         links = [dateData.hansD];

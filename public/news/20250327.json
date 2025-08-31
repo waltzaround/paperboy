@@ -1,0 +1,68 @@
+{
+  "headline": "NZ Parliament advances privacy and building reforms as Privileges Committee closes Henare inquiry, while debates continue on local government ratings and grocery competition",
+  "publicationDate": "2025-03-27",
+  "summary": "Parliament pushed forward two major reforms today: the Privacy Amendment Bill progressed to report back with amendments, introducing a new indirect-collection protection (IPP 3A) and extending its start date to 1 May 2026; the Building (Overseas Building Products, Standards, and Certification Schemes) Amendment Bill moved through its second reading to broaden access to overseas building products while safeguarding standards. The day also featured the Privileges Committee concluding its inquiry into Hon Peeni Henare’s conduct, and ongoing debates on the Government’s handling of local government ratings and grocery competition.",
+  "topicSummaries": [
+    {
+      "topic": "Privacy Amendment Bill advances to report back with amendments (IPP 3A, 1 May 2026 start)",
+      "content": "The House progressed the Privacy Amendment Bill, with Part 1 establishing a new information privacy principle (IPP 3A) to regulate indirect collection of personal information and outlining practical exemptions (including GLAM sector considerations). An amendment paper extends the commencement of IPP 3A to 1 May 2026 to give agencies time to prepare, and Part 2 covers additional, technical amendments. The bill was reported back with amendments, setting the stage for further consideration. The measures aim to strengthen privacy protections while reducing administrative burdens for agencies.",
+      "tags": [
+        "privacy",
+        "IPP 3A",
+        "indirect-collection",
+        "New-Zealand"
+      ]
+    },
+    {
+      "topic": "Building (Overseas Building Products, Standards, and Certification Schemes) Amendment Bill second reading advances",
+      "content": "The Building (Overseas Building Products, Standards, and Certification Schemes) Amendment Bill moved to a second reading, with the Government arguing it will boost competition, resilience, and choice in the building sector. The bill allows recognition of overseas standards and certification schemes by notice, streamlines the citing of international standards, and introduces building product specifications. It also requires building consent authorities to accept overseas-certified products where appropriate, with regulations to roll out these changes progressively to avoid compromising safety and quality.",
+      "tags": [
+        "building",
+        "overseas-standards",
+        "competition",
+        "regulatory-rolling"
+      ]
+    },
+    {
+      "topic": "Privileges Committee concludes inquiry on Hon Peeni Henare’s conduct",
+      "content": "The Privileges Committee’s interim report on the conduct of Hon Peeni Henare during the first reading debate on the Principles of the Treaty of Waitangi Bill found that his actions were disorderly but did not amount to contempt. Henare apologised for stepping onto the floor during the vote, and the committee recommended an apology to the House, which has since been delivered. The motion to note the report was agreed to, marking the matter as concluded for the House.",
+      "tags": [
+        "parliamentary-privilege",
+        "haka",
+        "apology",
+        "contempt"
+      ]
+    },
+    {
+      "topic": "Child Protection (Child Sex Offender Government Agency Registration) Amendment Bill second reading",
+      "content": "The Child Protection (Child Sex Offender Government Agency Registration) Amendment Bill entered its second reading. The bill adds seven qualifying offences to the register and tightens reporting requirements, including earlier notification of residence changes (48 hours before a child resides at a given address) and overseas travel notifications. It also contemplates retrospective administrative changes, which the Attorney-General has identified as inconsistent with NZBORA, though proponents argue the changes are necessary for risk management and child safety. The debate highlighted concerns about retroactivity and the balance between victims’ protections and offenders’ rights as the bill progresses.",
+      "tags": [
+        "child-protection",
+        "sex-offender",
+        "NZBORA",
+        "retrospective"
+      ]
+    },
+    {
+      "topic": "Local Government ratings downgrade debate: Standards & Poor's and policy responses",
+      "content": "Questions to the Minister of Local Government centered on Standard & Poor’s downgrade of 18 councils and three council-controlled organisations. The Government defended its approach, emphasizing Local Water Done Well and increased financing tools via the Local Government Funding Agency (LGFA). S&P had affirmed LGFA ratings, while other commentary suggested policy changes contributed to downgrades. The exchange underscored tensions over central-local government financial risk and the government’s strategy to restore council credit quality and public service delivery.",
+      "tags": [
+        "local-government",
+        "ratings-downgrade",
+        "LGFA",
+        "S&P"
+      ]
+    },
+    {
+      "topic": "Grocery sector competition: ACCC findings and New Zealand policy responses",
+      "content": "In the grocery sector, the Acting Minister of Commerce and Consumer Affairs referenced the Australian Competition and Consumer Commission (ACCC) findings of high concentration and limited incentive to compete on price. The Government signaled continued work to improve competition in New Zealand’s grocery market, including potential new entrants and reduced barriers to entry, while noting that the Commerce Commission would continue its wholesale inquiry and land banking analysis as part of its second grocery report.",
+      "tags": [
+        "grocery-competition",
+        "ACCC",
+        "Commerce-Commission",
+        "market-entry"
+      ]
+    }
+  ],
+  "conclusion": "Today’s proceedings showcased a concerted push on transformative reforms—privacy and building standards—while parliament reflected ongoing cross-party debates on local government resilience and market competition, signaling both progress and continued scrutiny ahead."
+}
