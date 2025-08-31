@@ -7,7 +7,7 @@ export function About() {
   return (
     <div className="min-h-screen bg-black text-white">
         <Header />
-        <CurvedLoop marqueeText="About Paperboy" speed={2} curveAmount={300} direction="left" interactive={false} className="max-h-[30vh]" />
+        <CurvedLoop marqueeText="About Paperboy" speed={1} curveAmount={300} direction="left" interactive={false} className="max-h-[30vh]" />
       <div className="max-w-4xl mx-auto px-4 py-8">
        
 
