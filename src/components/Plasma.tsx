@@ -176,28 +176,41 @@ export const Plasma: React.FC<PlasmaProps> = ({
     let raf = 0;
     const t0 = performance.now();
     const loop = (t: number) => {
-      let timeValue = (t - t0) * 0.001;
+      const timeValue = (t - t0) * 0.001;
 
       if (direction === "pingpong") {
         const cycle = Math.sin(timeValue * 0.5) * directionMultiplier;
-        (program.uniforms.uDirection as any).value = cycle;
+        program.uniforms.uDirection.value = cycle;
       }
 
-      (program.uniforms.iTime as any).value = timeValue;
-      renderer.render({ scene: mesh });
+      program.uniforms.iTime.value = timeValue;
+      
+      try {
+        renderer.render({ scene: mesh });
+      } catch (error) {
+        console.error("Plasma render error:", error);
+        return;
+      }
+      
       raf = requestAnimationFrame(loop);
     };
     raf = requestAnimationFrame(loop);
 
+    const currentContainer = containerRef.current;
+    
     return () => {
       cancelAnimationFrame(raf);
       ro.disconnect();
-      if (mouseInteractive && containerRef.current) {
-        containerRef.current.removeEventListener("mousemove", handleMouseMove);
+      if (mouseInteractive && currentContainer) {
+        currentContainer.removeEventListener("mousemove", handleMouseMove);
       }
       try {
-        containerRef.current?.removeChild(canvas);
-      } catch {}
+        if (currentContainer && canvas) {
+          currentContainer.removeChild(canvas);
+        }
+      } catch (error) {
+        console.warn("Plasma cleanup error:", error);
+      }
     };
   }, [color, speed, direction, scale, opacity, mouseInteractive]);
 

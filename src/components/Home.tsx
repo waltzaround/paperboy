@@ -3,6 +3,47 @@ import { Link } from "react-router-dom";
 import { formatTextWithBold } from "@/lib/utils";
 import { Header } from "./header";
 import Plasma from './Plasma';
+
+function CountdownPill() {
+  const [timeLeft, setTimeLeft] = useState("");
+
+  useEffect(() => {
+    const targetDate = new Date("2025-09-09T14:00:00+12:00"); // 2pm NZ time
+
+    const updateCountdown = () => {
+      const now = new Date();
+      const difference = targetDate.getTime() - now.getTime();
+
+      if (difference > 0) {
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+        if (days > 0) {
+          setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+        } else if (hours > 0) {
+          setTimeLeft(`${hours}h ${minutes}m ${seconds}s`);
+        } else {
+          setTimeLeft(`${minutes}m ${seconds}s`);
+        }
+      } else {
+        setTimeLeft("Parliament has resumed!");
+      }
+    };
+
+    updateCountdown();
+    const interval = setInterval(updateCountdown, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="px-4 py-2 rounded-full border border-white/20 mt-4 text-sm">
+      Parliament will resume in: <span className="font-semibold italic text-white">{timeLeft}</span>
+    </div>
+  );
+}
 interface NewsArticle {
   headline: string;
   publicationDate: string;
@@ -114,10 +155,10 @@ export function Home() {
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center z-10 pointer-events-none">
           <h1 className="pb-2 font-semibold text-4xl text-white drop-shadow-lg">Paperboy</h1>
-          <p className="text-xl pt-0 text-white/90 drop-shadow-md text-center max-w-2xl">
-            The latest political news from New Zealand, straight from Parliament.
+          <p className="text-xl pt-0 text-white/90 drop-shadow-md text-center max-w-xl">
+            The latest political news from New Zealand, straight from parliamentary transcripts.
           </p>
-          <div className="px-4 py-2 rounded-full border border-white/20 mt-4 text-sm">NZ Parliament will resume in: <span className="font-semibold italic text-white">12 hours</span></div>
+          <CountdownPill />
         </div>
       </div>
 
