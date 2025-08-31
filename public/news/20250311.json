@@ -1,0 +1,68 @@
+{
+  "headline": "NZ Parliament Fast-Tracks Bail Reform with EM Monitoring and Advances Northland Expressway as Drug-Driving Rules Tighten",
+  "publicationDate": "2025-03-11",
+  "summary": "Parliament moved swiftly to approve the Bail (Electronic Monitoring) Amendment Bill under urgency, cementing a decade-long practice of Corrections approving absences for defendants on EM bail and validating existing conditions. In the same sitting, debates touched on roadside oral-fluid testing for drugs and announced timelines for the Northland Expressway, signaling a busy agenda for infrastructure and justice policy. The day featured cross-party debate, questions about rights and oversight, and a cross-cutting view of New Zealand’s transportation and safety priorities.",
+  "topicSummaries": [
+    {
+      "topic": "Bail (Electronic Monitoring) Amendment Bill – Urgency Passage, 60-Day Validation, and EM Assessor Empowerment",
+      "content": "Parliament used urgency to push through the Bail (Electronic Monitoring) Amendment Bill, aiming to preserve a longstanding practice whereby Corrections approves absences for defendants on electronically monitored bail (EM bail). The bill validates existing and historic EM-assessor authorisations to approve absences and introduces a 60-day window to replace those conditions, enabling Corrections to continue managing daily absences without clogging courts. It also seeks to clarify the roles between courts and corrections in setting or enabling absences, while addressing concerns raised about retrospective elements and potential implications for victims and rights under the NZ Bill of Rights. The House passed the bill at third reading with broad cross-party support, though Te Pāti Māori expressed opposition to the urgency and broader implications, and Crown Law argued the measure was needed to prevent court backlogs and maintain public safety.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Paul GOLDSMITH (Minister of Justice)",
+          "quote": "The bill will validate existing and historic conditions that authorised electronic monitoring on bail (EM bail) assessors to approve absence of defendants from their bail addresses."
+        },
+        {
+          "speaker": "Dr Duncan WEBB (Labour—Christchurch Central)",
+          "quote": "There are two aspects to this and I would say firstly, there are people out there who have been happily saying, 'You can have bail and you can do this and you can go to tangi.', totally outside of any authority, and so they've been acting illegally."
+        }
+      ],
+      "tags": [
+        "Bail Act 2000",
+        "EM bail",
+        "urgent legislation",
+        "civil immunity"
+      ]
+    },
+    {
+      "topic": "Oral Fluid Drug-Testing Regime – December 2025 Target and Rights Considerations",
+      "content": "The Land Transport (Drug Driving) Amendment Bill was introduced to implement roadside oral fluid testing for drug driving, moving from a previously blocked regime to a roadside screening framework with laboratory confirmation. The Associate Minister of Transport emphasised a December 2025 implementation target, contingent on regulatory steps and procurement. MPs raised concerns on the evidence base for impairment thresholds, the potential for a second oral fluid test, and the balance with rights under the NZ Bill of Rights Act. Green and other parties questioned whether the testing would capture the full range of substances and whether the testing process could infringe on civil liberties, while MPs acknowledged the need to reduce road deaths from drug-impaired driving.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon JAMES MEAGER (Associate Minister of Transport)",
+          "quote": "We are targeting December 2025, once the necessary operational matters and regulations are in place."
+        },
+        {
+          "speaker": "Hon GINNY ANDERSEN (Labour)",
+          "quote": "The Crown Law advice indicates that the conventional practice was not compliant with section 30M of the Bail Act, which underscores the need for urgent fix."
+        }
+      ],
+      "tags": [
+        "drug driving",
+        "oral fluid testing",
+        "rights concerns",
+        "regulatory reform"
+      ]
+    },
+    {
+      "topic": "Northland Expressway – Registrations of Interest Open and Timelines for Construction",
+      "content": "The Government announced the formal opening of registrations of interest for Stage 1 of the Northland Expressway at an infrastructure summit, framing the project as a national-significance road that will connect Northland to Auckland and unlock regional growth. Feedback from regional transport leaders described the project as transformative, with expectations of increased logistical capacity and economic activity. Procurement steps include issuing an expression of interest in mid-2025 and selecting a preferred bidder by early next year, with construction expected to begin shortly after, notably from Warkworth to Te Hana (late 2026) and continued efforts on Brynderwyns.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon CHRIS BISHOP (Minister of Transport)",
+          "quote": "Connecting Northland to Auckland in a new, resilient, safe, and efficient new expressway will unlock growth, boost productivity, and drive higher living standards."
+        },
+        {
+          "speaker": "Andrew McLeod (Northland Corporate Group – Co-Chair)",
+          "quote": "It will be transformative for the upper North Island. Without it, the ability for Northland to support Auckland from the North ... will remain underutilised and [barricaded]."
+        }
+      ],
+      "tags": [
+        "Northland Expressway",
+        "infrastructure",
+        "public–private partnership",
+        "procurement timeline"
+      ]
+    }
+  ],
+  "conclusion": "The day underscored a Parliament actively advancing key governance and infrastructure priorities—tightening drug-driving controls, formalising EM bail processes to relieve court backlogs, and accelerating Northland’s expressway to boost regional growth, all while balancing rights and safety considerations across parties."
+}

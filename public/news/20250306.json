@@ -1,0 +1,128 @@
+{
+  "headline": "Referendums Framework Bill Heads to Committees as Open Data Bill Moves Forward; Ferries Plan Debated, Firearms Reform Scrutinised",
+  "publicationDate": "2025-03-06",
+  "summary": "Parliamentary business on March 6 saw a mix of landmark constitutional steps, cross-party scrutiny of technology and data regulation, and ongoing oversight of major policy areas. The Referendums Framework Bill won a first reading amid sharp exchanges on how referendums should be run alongside general elections, while the Government pressed ahead with the Customer and Product Data Bill’s second reading and outlined next steps for ferries and firearms reform. Debates also touched on the District Court backlog, and enhanced oversight of social workers, indicating a day of significant legislative movement with unresolved tensions on process and scope.",
+  "topicSummaries": [
+    {
+      "topic": "Referendums Framework Bill – First Reading",
+      "content": "The Referendums Framework Bill was introduced to establish a generic framework for referendums conducted alongside general elections, drawing on electoral law foundations and modeled on 2020 arrangements. The debate featured cross-party critique and defence of referendums as a democratic instrument, with ACT urging a streamlined approach and Labour/Greens emphasising safeguards and public education. Notably, Mark Cameron (ACT) dismissed opponents with the line, 'It's simple levers for rednecks,' while Duncan Webb (Labour) warned that the bill tied to the four-year term could become a vehicle for broader policy battles, saying, 'the ACT Party wagging the dog, once again.'",
+      "keyExchanges": [
+        {
+          "speaker": "Mark Cameron (ACT)",
+          "quote": "It's simple levers for rednecks."
+        },
+        {
+          "speaker": "Hon Dr Duncan Webb (Labour)",
+          "quote": "But the fact of the matter is that this bill and the four-year term bill are not something which is going to change New Zealanders' lives, and it's the ACT Party wagging the dog, once again."
+        }
+      ],
+      "tags": [
+        "referendums",
+        "framework",
+        "first-reading",
+        "electoral"
+      ]
+    },
+    {
+      "topic": "Cook Strait ferries programme – further announcements and options",
+      "content": "The Government signalled a renewed approach to the Cook Strait ferries, announcing on 4 February a worldwide search for shipyard partners and outlining two firm options—cost-effective infrastructure with vehicles and passengers, and a rail-enabled variant with rail wagons. Cabinet was to consider these options after March, with further detail expected soon. The exchange highlighted a contrast with the prior iReX project, with Winston Peters detailing how the previous plan ballooned from $401 million to over $4 billion, while stressing the current process aims for value for taxpayers.",
+      "keyExchanges": [
+        {
+          "speaker": "Jenny Marcroft (NZ First)",
+          "quote": "How does this approach differ from the previous project, iReX?"
+        },
+        {
+          "speaker": "Rt Hon Winston Peters",
+          "quote": "The previous project was commissioned at $401 million for two ferries, and then there was an infrastructure cost contained in the forward proposal, which was promptly abandoned, and it went from just over $1 billion to, as Treasury forecast, over $4 billion."
+        }
+      ],
+      "tags": [
+        "ferries",
+        "Cook Strait",
+        "Hyundai",
+        "Cabinet"
+      ]
+    },
+    {
+      "topic": "Customer and Product Data Bill – Second Reading",
+      "content": "The Customer and Product Data Bill, evolving from Consumer Data Rights legislation, aims to create an economy-wide framework for secure data sharing to boost competition and innovation while protecting consumers. The debate reflected broad cross-party support with reservations about derived data, privacy alignment, and how the framework will operate in sectors beyond banking and energy. The Finance Minister and other speakers emphasised real benefits for consumers and competition, while Labour stressed consumer focus and the need to refine safeguards as the regulatory regime develops. The committee’s improvements, including clarifying purposes to benefit customers and tightening director/senior management character requirements for applicants, were noted as positive strides toward practical implementation.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon SIMON WATTS (Labor—Revenue)",
+          "quote": "The Act protects the public by ensuring that social workers are registered, competent, accountable, and follow professional standards."
+        },
+        {
+          "speaker": "Tim COSTLEY (National—Ōtaki)",
+          "quote": "This is another piece of the puzzle as we move towards things like open banking markets."
+        }
+      ],
+      "tags": [
+        "data rights",
+        "privacy",
+        "open banking",
+        "competition"
+      ]
+    },
+    {
+      "topic": "Arms (Shooting Clubs, Shooting Ranges, and Other Matters) Amendment Bill – Part 2",
+      "content": "In committee, Ministers explained the transition of the Firearms Safety Authority from the Police to a new agency as part of wider firearms reform, with section 74A(1) giving ministerial power to define prohibited weapons via Order in Council. Critics warned about insufficient public consultation and the potential to redefine prohibited weapons outside full reform. Nicole McKee argued that changes are part of modernising the Arms Act and that consultation will occur across stages, stressing continued police involvement for enforcement and safety. The debate also covered the commencement date and whether to extend it to a year, with ministers asserting that three months suffices for implementation.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Ginny Andersen (Labour)",
+          "quote": "the point in section 74A(1), which gives specific powers to the Minister to make Orders in Council regarding prohibited definitions—so prohibited weapons is the term used for military-style semi-automatic weapons. ... this would mean that the responsible Minister could, without any consultation with the public or communities, change the definition of what is in fact a prohibited weapon in New Zealand."
+        },
+        {
+          "speaker": "Hon NICOLE McKEE (Associate Minister of Justice)",
+          "quote": "The assertions that the member Ginny Andersen is making that I as a Minister would have sole control over making changes by Order in Council by myself is simply incorrect."
+        }
+      ],
+      "tags": [
+        "firearms",
+        "Order in Council",
+        "consultation",
+        "police"
+      ]
+    },
+    {
+      "topic": "District Court (District Court Judges) Amendment Bill – Third Reading",
+      "content": "The bill, which adds one more District Court judge to total 183, was described by Labour as a symbolic but necessary step to address court backlogs and support victims. Some Opposition members argued the move is a limited fix and questioned its adequacy in the broader justice policy. Speakers highlighted the need to balance symbolism with broader reforms, while welcoming the incremental staffing increase as part of the government's crime-management agenda.",
+      "keyExchanges": [
+        {
+          "speaker": "Dr TRACEY McLELLAN (Labour)",
+          "quote": "District Court judges—where would we be without them?"
+        },
+        {
+          "speaker": "RIMA NAKHLE (National—Takanini)",
+          "quote": "It's a pleasure to be the final speaker as we're ending the third reading for this bill ... increasing the total number of District Court judges by one to 183."
+        }
+      ],
+      "tags": [
+        "courts",
+        "judiciary",
+        "backlog",
+        "third-reading"
+      ]
+    },
+    {
+      "topic": "Social Workers Registration Amendment Bill – Second Reading",
+      "content": "The bill moves to strengthen the Social Workers Registration Act 2003 through six policy amendments, including broader interim suspension grounds, longer interim suppressions, flexible tribunal outcomes, delegation of registration functions, clearer monitoring of prescribed qualifications, and transferring the power to investigate false registrations from the Ministry of Social Development to the board. Labour argued these changes enhance public safety and efficiency, while submitters cautioned about potential cost impacts and the risk of arbitrary suspensions. Official guidance noted an upcoming transfer of investigative functions and a renewed focus on workforce resilience and paid placements for social workers.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon SIMON WATTS (Minister of Revenue)",
+          "quote": "The Act protects the public by ensuring that social workers are registered, competent, accountable, and follow professional standards."
+        },
+        {
+          "speaker": "GLEN BENNETT (Labour)",
+          "quote": "Kia ora, Madam Speaker. It's interesting to listen to ... the important role that they play in every single part of society."
+        }
+      ],
+      "tags": [
+        "social workers",
+        "registration",
+        "suspension",
+        "board"
+      ]
+    }
+  ],
+  "conclusion": "The day produced notable progress on major constitutional and regulatory bills while underscoring ongoing tensions over process, consultation, and the balance between safeguarding public interests and enabling agile reform."
+}
