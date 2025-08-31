@@ -108,7 +108,6 @@ ${scrapedData.topicSummaries ? scrapedData.topicSummaries.map(topic =>
 ).join('\n') : 'No topics detected'}
 
 Please analyze this parliamentary data and create a comprehensive news article following the structure and guidelines provided above.`;
-  console.log('UserPrompt:\n\n', userPrompt)
   const fullPrompt = systemPrompt + '\n\n' + userPrompt;
 
   try {
