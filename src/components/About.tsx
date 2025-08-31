@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import { ArrowLeft, Github, Calendar, Zap } from "lucide-react";
+
+import { Github, Calendar, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "./header";
 import CurvedLoop from './Curvedloop';
