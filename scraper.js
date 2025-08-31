@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
-import { preparePrompt } from './prepare-news.js';
+import { createSummaries } from './prepare-news.js';
 
 // Load environment variables from .env file
 dotenv.config();
@@ -267,38 +267,7 @@ async function scrapeHansard(startDate, endDate) {
         console.log(`No links found for ${date}`);
       }
 
-      if (articles.length > 0) {
-        console.log(`Processing ${date} through AI...`);
-        // Save to main news dir
-        const mainOutputDir = path.join(__dirname, 'public', 'news');
-        if (!fs.existsSync(mainOutputDir)) {
-          fs.mkdirSync(mainOutputDir, { recursive: true });
-        }
-        let count = 0;
-        for (const article of articles) {
-          count++;
-          try {
-            const i = articles.length > 1 ? "_" + count : "";
-            const outPath = path.join(mainOutputDir, `${formattedDate}${i}.json`);
-
-            // Check if file already exists
-            if (fs.existsSync(outPath)) {
-              console.log(`File ${outPath} already exists, skipping...`);
-              continue;
-            }
-
-            // Generate AI summary from scraped data
-            const processedArticle = await preparePrompt(article, date);
-            fs.writeFileSync(outPath, JSON.stringify(processedArticle, null, 2));
-            console.log(`Saved processed article to ${outPath}`);
-
-          } catch (error) {
-            console.error(`Failed to process ${date} through AI:`, error.message);
-          }
-        }
-      } else {
-        console.log(`No articles found for ${date}`);
-      }
+      await createSummaries(articles, date);
     }
 
     // Update index of available files by reading the directory

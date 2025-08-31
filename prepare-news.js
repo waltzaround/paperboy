@@ -122,10 +122,22 @@ Please analyze this parliamentary data and create a comprehensive news article f
   }
 }
 
+// Function to get dates in range
+function getDatesInRange(start, end) {
+  const dates = [];
+  const startDate = new Date(start);
+  const endDate = new Date(end);
+  for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
+    dates.push(d.toISOString().split('T')[0]);
+  }
+  return dates;
+}
+
 // Function to process scraped files and generate AI summaries
-async function processScrapedFiles(inputDir = null, provider = process.env.DEFAULT_AI_PROVIDER) {
-  const scrapedDir = inputDir || path.join(__dirname, 'scraped-data');
-  const outputDir = path.join(__dirname, 'ai-summaries');
+async function processScrapedFiles(startDate, endDate) {
+  const provider = process.env.DEFAULT_AI_PROVIDER;
+  const scrapedDir = path.join(__dirname, 'public', 'news', 'raw');
+  const outputDir = path.join(__dirname, 'public', 'news');
 
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {
@@ -135,54 +147,75 @@ async function processScrapedFiles(inputDir = null, provider = process.env.DEFAU
   // Check if scraped directory exists
   if (!fs.existsSync(scrapedDir)) {
     console.error(`Scraped data directory not found: ${scrapedDir}`);
-    console.log('Please run the scraper first or specify the correct input directory.');
+    console.log('Please run the scraper first.');
     return;
   }
 
-  const files = fs.readdirSync(scrapedDir).filter(file => file.endsWith('.json'));
+  const dates = getDatesInRange(startDate, endDate);
+  console.log(`Processing files from ${startDate} to ${endDate} with ${provider}...`);
 
-  if (files.length === 0) {
-    console.log('No JSON files found in scraped data directory.');
-    return;
-  }
+  for (const date of dates) {
+    // Construct file name from date (YYYYMMDD.json)
+    const fileName = date.replace(/-/g, '') + '.json';
+    const filePath = path.join(scrapedDir, fileName);
 
-  console.log(`Processing ${files.length} scraped files with ${provider}...`);
+    // Check if the specific file exists
+    if (!fs.existsSync(filePath)) {
+      console.log(`File not found: ${filePath} - skipping`);
+      continue;
+    }
 
-  for (const file of files) {
     try {
-      const filePath = path.join(scrapedDir, file);
       const scrapedData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-      // Extract date from filename (assuming format YYYYMMDD.json)
-      const dateMatch = file.match(/(\d{8})\.json/);
-      const date = dateMatch ?
-        `${dateMatch[1].slice(0,4)}-${dateMatch[1].slice(4,6)}-${dateMatch[1].slice(6,8)}` :
-        scrapedData.publicationDate || new Date().toISOString().split('T')[0];
-
-      const summary = await preparePrompt(scrapedData, date, provider);
-
-      // Save the generated summary
-      const outputFile = path.join(outputDir, `summary-${file}`);
-      fs.writeFileSync(outputFile, JSON.stringify({
-        date,
-        originalFile: file,
-        summary,
-        metadata: {
-          originalHeadline: scrapedData.headline,
-          contentLength: scrapedData.fullContent?.length || 0,
-          speechCount: scrapedData.content?.length || 0,
-          aiProvider: provider
-        }
-      }, null, 2));
-
-      console.log(`✓ Generated summary for ${file} -> summary-${file}`);
+      await createSummaries(scrapedData, date)
+        
+      console.log(`✓ Generated summary for ${fileName}`);
     } catch (error) {
-      console.error(`✗ Error processing ${file}:`, error.message);
+      console.error(`✗ Error processing ${fileName}:`, error.message);
     }
   }
 
   console.log(`\nSummaries saved to: ${outputDir}`);
   console.log(`\nUsed AI provider: ${provider}`);
+}
+
+function formatDate(date) {
+  return date.replace(/-/g, "");
+}
+
+export async function createSummaries(articles, date) {
+  if (articles.length > 0) {
+    console.log(`Processing ${date} through AI...`);
+    // Save to main news dir
+    const mainOutputDir = path.join(__dirname, "public", "news");
+    if (!fs.existsSync(mainOutputDir)) {
+      fs.mkdirSync(mainOutputDir, { recursive: true });
+    }
+    let count = 0;
+    for (const article of articles) {
+      count++;
+      try {
+        const i = articles.length > 1 ? "_" + count : "";
+        const outPath = path.join(mainOutputDir, `${formatDate(date)}${i}.json`);
+
+        // Check if file already exists
+        if (fs.existsSync(outPath)) {
+          console.log(`File ${outPath} already exists, skipping...`);
+          continue;
+        }
+
+        // Generate AI summary from scraped data
+        const processedArticle = await preparePrompt(article, date);
+        fs.writeFileSync(outPath, JSON.stringify(processedArticle, null, 2));
+        console.log(`Saved processed article to ${outPath}`);
+      } catch (error) {
+        console.error(`Failed to process ${date} through AI:`, error.message);
+      }
+    }
+  } else {
+    console.log(`No articles found for ${date}`);
+  }
 }
 
 // Function to prepare a single scraped data object
@@ -193,11 +226,16 @@ async function prepareSinglePrompt(scrapedData, date, provider = process.env.DEF
 // CLI usage
 if (import.meta.url === `file://${process.argv[1]}`) {
   const args = process.argv.slice(2);
-  const inputDir = args[0] || null;
-  const provider = args[1] || process.env.DEFAULT_AI_PROVIDER;
+  const startDate = args[0];
+  const endDate = args[1] || startDate;
 
-  console.log(`Generating AI summaries from scraped parliamentary data using ${provider}...\n`);
-  processScrapedFiles(inputDir, provider).catch(error => {
+  if (!startDate) {
+    console.error('Please provide a start date in YYYY-MM-DD format as the first argument.');
+    process.exit(1);
+  }
+
+  console.log(`Generating AI summaries from ${startDate} to ${endDate} from scraped parliamentary data...\n`);
+  processScrapedFiles(startDate, endDate).catch(error => {
     console.error('Summarization failed:', error);
     process.exit(1);
   });
