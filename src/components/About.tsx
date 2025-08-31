@@ -1,21 +1,15 @@
-import { Link } from "react-router-dom";
-import { ArrowLeft, Github, Calendar, Zap } from "lucide-react";
+
+import { Github, Calendar, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "./header";
-
+import CurvedLoop from './Curvedloop';
 export function About() {
   return (
     <div className="min-h-screen bg-black text-white">
         <Header />
+        <CurvedLoop marqueeText="About Paperboy" speed={2} curveAmount={300} direction="left" interactive={false} className="max-h-[30vh]" />
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <div className="mb-8">
-          <Button variant="ghost" size="sm" asChild>
-            <Link to="/" className="inline-flex items-center gap-2 text-gray-400 hover:text-white">
-              <ArrowLeft className="w-4 h-4" />
-              Back to Home
-            </Link>
-          </Button>
-        </div>
+       
 
         <article className="space-y-8">
           <header className="space-y-4">

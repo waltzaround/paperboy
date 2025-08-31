@@ -100,7 +100,8 @@ export function ArticleDetail() {
 
   return (<>
     <Header/>
-    <div className="mx-auto max-w-[800px] p-4 mb-24">
+    <div className="border-t"></div>
+    <div className="mx-auto max-w-[800px] p-4 mb-24 border-x">
       <Link to="/">
         <Button variant="ghost" className="mb-6">
           <ArrowLeft className="w-4 h-4 mr-2" />
