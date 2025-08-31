@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { formatTextWithBold } from "@/lib/utils";
 import { Header } from "./header";
-
+import Plasma from './Plasma';
 interface NewsArticle {
   headline: string;
   publicationDate: string;
@@ -84,12 +84,25 @@ export function Home() {
   return (
     <>
       <Header />
-      <section className="max-w-[1600px] mx-auto p-4 py-12 rounded-lg border max-2xl:mx-4 max-md:mx-4 max-sm:px-2 mb-4">
-        <h1 className="pb-2 font-semibold text-4xl">Paperboy</h1>
-        <p className=" text-xl pt-0">
-          The latest political news from New Zealand, straight from Parliament.
-        </p>
-      </section>
+
+      <div className="relative w-full h-[600px] overflow-hidden border-y mb-6">
+        <Plasma 
+          color="#333333"
+          speed={0.6}
+          direction="forward"
+          scale={1.1}
+          opacity={0.8}
+          mouseInteractive={false}
+        />
+        <div className="absolute inset-0 flex flex-col justify-center items-center z-10 pointer-events-none">
+          <h1 className="pb-2 font-semibold text-4xl text-white drop-shadow-lg">Paperboy</h1>
+          <p className="text-xl pt-0 text-white/90 drop-shadow-md text-center max-w-2xl">
+            The latest political news from New Zealand, straight from Parliament.
+          </p>
+          <div className="px-4 py-2 rounded-full border border-white/20 mt-4 text-sm">NZ Parliament will resume in: <span className="font-semibold italic text-white">12 hours</span></div>
+        </div>
+      </div>
+
       <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  gap-4  max-w-[1600px] mx-auto  max-2xl:mx-4 max-md:mx-4 max-sm:px-2 ">
         {articles.map((article, index) => (
           <Link
