@@ -197,7 +197,7 @@ export function ArticleDetail() {
         <header className="space-y-4 p-6">
      
           <h1 
-            className="font-semibold text-4xl max-md:text-2xl leading-tight tracking-tighter"
+            className="font-semibold text-3xl max-md:text-2xl leading-tight tracking-tighter"
             dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.headline) }}
           />
           <div className="flex gap-6 items-center py-4 border-y border-gray-700/30">
