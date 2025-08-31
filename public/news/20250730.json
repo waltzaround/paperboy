@@ -1,139 +1,108 @@
-[
-  {
-    "headline": "Government Unveils $500M Kiwibank Boost Amid Clashes on Economy, Nurses' Strike, and Electoral Reforms",
-    "publicationDate": "2025-07-30",
-    "summary": "Parliament was dominated by economic debates today as the Government announced a $500 million capital injection for Kiwibank to challenge major banks. The move came as Prime Minister Christopher Luxon faced intense questioning over rising unemployment and the struggling construction sector. Tensions also flared over the ongoing nurses' strike, controversial electoral reforms, and the recognition of Palestinian statehood.",
-    "topicSummaries": [
-      {
-        "topic": "Government Approves $500M Capital Raise for Kiwibank to Boost Competition",
-        "content": "Finance Minister Nicola Willis announced the Government has approved a plan for Kiwibank's parent company to raise up to $500 million from New Zealand professional investment groups. The move, which follows a Commerce Commission recommendation, is designed to give Kiwibank the capital needed to become a stronger competitor against the 'big four' Australian-owned banks. Willis clarified this is not an asset sale, as all funds will be reinvested into the bank for growth, and the Government will maintain at least 51% ownership to safeguard its New Zealand identity.",
-        "keyExchanges": [
-          {
-            "speaker": "Dr Vanessa Weenink (National)",
-            "quote": "Is this an asset sale?"
-          },
-          {
-            "speaker": "Hon Nicola Willis (National)",
-            "quote": "No, this is not an asset sale as all the funds raised will go to Kiwibank to support its future business growth. There is no return of capital to the Crown. A future Government may choose to publicly list Kiwibank to raise further capital, but that won't occur without an electoral mandate."
-          }
-        ],
-        "tags": [
-          "Kiwibank",
-          "banking",
-          "competition",
-          "finance",
-          "NicolaWillis"
-        ]
-      },
-      {
-        "topic": "PM Clashes with Opposition Over Unemployment and Construction Crisis",
-        "content": "A fiery exchange erupted between Prime Minister Christopher Luxon and Opposition Leader Chris Hipkins over the state of the economy. Hipkins challenged the Prime Minister on rising unemployment figures, which he stated were over 400,000, and the loss of 18,000 jobs in the construction sector since the Government took office. Luxon fiercely defended his government's economic plan, attributing the downturn to the previous Labour government's \"reckless spending\" and insisting that increased infrastructure investment would revive the construction industry.",
-        "keyExchanges": [
-          {
-            "speaker": "Rt Hon Chris Hipkins (Labour)",
-            "quote": "So when he claimed earlier this year that he was \"cracking open the construction industry\", was he cracking it open in the way that a wrecking ball cracks open a building?"
-          },
-          {
-            "speaker": "Rt Hon Christopher Luxon (National)",
-            "quote": "Too cute by half, isn't it? It's a lovely metaphor. But, actually, son, let me just say: we're getting the show on the road. We are picking up your mess. Unemployment's the last thing, given your woeful economic mismanagement."
-          }
-        ],
-        "tags": [
-          "economy",
-          "unemployment",
-          "construction",
-          "cost-of-living",
-          "ChristopherLuxon",
-          "ChrisHipkins"
-        ]
-      },
-      {
-        "topic": "Heated Exchanges Over Nurses' Strike and Health Funding",
-        "content": "With nurses on strike across the country, the Prime Minister faced sharp questions from Green Co-Leader Marama Davidson about understaffing in hospitals. Davidson highlighted Te Whatu Ora's claims of \"financial constraints\" preventing the hiring of more graduate nurses, contrasting this with the government's tax cuts. Prime Minister Luxon defended his government's record investment in health, stating 2,100 extra nurses had been hired and pay had increased significantly, urging the union to return to negotiations and not put 1,500 patient surgeries at risk.",
-        "keyExchanges": [
-          {
-            "speaker": "Hon Marama Davidson (Green)",
-            "quote": "Why has Te Whatu Ora said that financial constraints are the reason it cannot afford to employ more nurses to achieve safe staffing levels?"
-          },
-          {
-            "speaker": "Rt Hon Christopher Luxon (National)",
-            "quote": "Well, I'll just say to the member that, actually, Health New Zealand has hired 2,100 extra nurses since we came to Government. Importantly, retention of our nurses has improved... I'd just say to the union, get round the table, negotiate, and don't put 1,500 people's surgeries at risk."
-          }
-        ],
-        "tags": [
-          "health",
-          "nurses",
-          "strike",
-          "TeWhatuOra",
-          "hospitals",
-          "funding"
-        ]
-      },
-      {
-        "topic": "Government's Electoral Reforms Slammed as 'Voter Suppression'",
-        "content": "The Government's proposed electoral reforms, which shorten the pre-election enrolment period, drew accusations of voter suppression from opposition parties. Te Pāti Māori Co-Leader Debbie Ngarewa-Packer questioned the Prime Minister on warnings from the Attorney-General that the changes would breach the Bill of Rights Act and disproportionately harm Māori and Pasifika voters. In the General Debate, Labour's Willie Jackson labeled the move \"racist disenfranchisement.\" The Prime Minister defended the reforms, stating that having 13 days to enrol was ample time for New Zealanders.",
-        "keyExchanges": [
-          {
-            "speaker": "Debbie Ngarewa-Packer (Te Pāti Māori)",
-            "quote": "Why is the Prime Minister advancing electoral reforms that the Attorney-General has warned will breach the New Zealand Bill of Rights Act (NZBORA), disenfranchise over 100,000 people, and will disproportionately harm Māori and Pasifika voters?"
-          },
-          {
-            "speaker": "Rt Hon Christopher Luxon (National)",
-            "quote": "Here, what we're doing is making sure that people have 13 days to get enrolled. That is half the time that the Australians have, and it just represents the fact that New Zealanders are very smart people and will be able to get enrolled in 13 days before an election, rather than 26 like the Australians."
-          }
-        ],
-        "tags": [
-          "electoral-reform",
-          "voting-rights",
-          "BillOfRights",
-          "democracy",
-          "Māori-roll"
-        ]
-      },
-      {
-        "topic": "Pressure Mounts on Government to Recognise Palestinian Statehood",
-        "content": "The Government faced renewed pressure to formally recognise Palestinian statehood, with questions from both Labour and the Green Party. Foreign Minister Winston Peters reiterated the Government's long-held position that recognition is a matter of \"when, not if.\" However, he outlined several conditions for recognition, including the need for a legitimate and viable political entity with representative governance, commitments to non-violence, and security guarantees for Israel. The Prime Minister echoed this stance, stating the immediate focus must be on a ceasefire and humanitarian aid.",
-        "keyExchanges": [
-          {
-            "speaker": "Hon Peeni Henare (Labour)",
-            "quote": "Is now the time for the New Zealand Government to recognise Palestine as a State, and, if not, when?"
-          },
-          {
-            "speaker": "Rt Hon Winston Peters (NZ First)",
-            "quote": "New Zealand has consistently said that we are willing to recognise Palestine—and that it is a question of when, not if—but we do need to see progress on some of the fundamental issues relating to a Palestinian State's legitimacy and viability, including representative governance, commitments to non-violence, regional support, and security guarantees for Israel."
-          }
-        ],
-        "tags": [
-          "Palestine",
-          "Israel",
-          "foreign-policy",
-          "two-state-solution",
-          "WinstonPeters"
-        ]
-      },
-      {
-        "topic": "Consumer Protection Bill for Home Buyers Voted Down",
-        "content": "A member's bill aimed at protecting home buyers was defeated at its first reading. The Property Law (Sunset Clauses) Amendment Bill, sponsored by Labour's Ingrid Leary, sought to prevent property developers from using 'sunset clauses' to cancel off-plan purchase agreements in a rising market, only to resell the property at a higher price. Labour, the Greens, and Te Pāti Māori supported the bill as a necessary consumer protection measure. However, the National, ACT, and NZ First parties voted against it, with government MPs arguing there was insufficient evidence of a widespread problem and that the bill could stifle new housing development.",
-        "keyExchanges": [
-          {
-            "speaker": "Hon Kieran McAnulty (Labour)",
-            "quote": "The Government knows that people have been shafted by sunset clauses and they're not willing to do something about it... when push comes to shove, they will side on the big end of town rather than the small end of town, and this is another example."
-          },
-          {
-            "speaker": "Rima Nakhle (National)",
-            "quote": "The concerns that we have with this member's bill are, for one, that it assumes that there's a widespread misuse of sunset clauses by developers to cancel agreements and resell at higher prices... There hasn't been much evidence to show that this is a systemic problem within Aotearoa New Zealand right now."
-          }
-        ],
-        "tags": [
-          "property",
-          "housing",
-          "consumer-protection",
-          "sunset-clause",
-          "developers",
-          "members-bill"
-        ]
-      }
-    ],
-    "conclusion": "The day concluded with deep divisions on display, from economic policy and workers' rights to the fundamental rules of democracy, setting the stage for ongoing political conflict."
-  }
-]
+{
+  "headline": "NZ Parliament Pushes Key Reforms: Pay-Transparency Bill Advances, Family-Violence Evidence Plan Moves, and Bayswater Clubhouse Heads to Restoration",
+  "publicationDate": "2025-07-30",
+  "summary": "Today in New Zealand’s Parliament, the House advanced a suite of significant policy measures and local reforms. The national focus included progress on a pay-transparency bill and a family-violence evidence reform, while a local bill enabling commercial use of the Bayswater Takapuna clubhouse passed its third reading. Debates also highlighted ongoing tensions over sunset clauses in housing and New Zealand’s stance on Palestine amid international calls for action.",
+  "topicSummaries": [
+    {
+      "topic": "Pay-Transparency Bill Moves Through Committee, Provisions Tighten Remuneration Disclosure",
+      "content": "The Employment Relations (Employee Remuneration Disclosure) Amendment Bill progressed through committee work, with a core provision defining remuneration and a framework allowing employees to discuss their own pay openly. Debates centered on how broad disclosures should be, the definition of 'detriment', and whether the thresholds (including a proposed cap of 180,000 NZD) should be tightened or broadened. Proponents argued the bill would help close gender pay gaps and improve workplace accountability, while opponents warned of compliance burdens on small businesses and potential misuse. The committee defeated several ACT-proposed amendments aimed at narrowing scope or changing the burden of proof, and the bill moves toward a broader committee stage with Parts 1 and 2. Key exchanges highlighted the balance between transparency and practical business concerns, with Labour defending the bill’s broad remit and the opposition pressing for more targeted protections for smaller employers.",
+      "keyExchanges": [
+        {
+          "speaker": "Camilla Belich (Labour)",
+          "quote": "The purpose of this bill is simply to allow people to talk about their own pay, without fear of retribution."
+        },
+        {
+          "speaker": "Laura McClure (ACT)",
+          "quote": "This section applies only in relation to employees whose total remuneration is less than $180,000 per annum."
+        }
+      ],
+      "tags": [
+        "pay transparency",
+        "remuneration disclosure",
+        "employment law",
+        "NZ Parliament"
+      ]
+    },
+    {
+      "topic": "Evidence Bill for Family Violence Proceedings Shifts to Presumed Use of Alternative Evidence Methods",
+      "content": "The Evidence (Giving Family Violence Evidence in Family Court Proceedings) Amendment Bill continued through committee, prioritising the protection of victims in Family Court settings. The legislation introduces a presumption toward using alternative evidence methods (such as evidence given outside the courtroom) while preserving the default use of affidavit evidence, subject to judicial direction. Ministers stressed that many victims may be unaware of available options, hence the presumption to broaden access; critics raised concerns about costs, rural court capacity, and implementation timelines. The bill includes a six-month lead-in after royal assent for rollout, shortened from 12 months after removing a planned video-record option. Exchange highlights included the minister's observation that “People don't know what they don't know,” and a reference to a 28-day notice window for potential changes in how evidence is presented.",
+      "keyExchanges": [
+        {
+          "speaker": "Tracey McLellan (Labour)",
+          "quote": "People don't know what they don't know."
+        },
+        {
+          "speaker": "Tracey McLellan (Labour)",
+          "quote": "The six-month lead-in was certainly based on ministry advice... removing [video-record] removed what was accounting for most of that time."
+        }
+      ],
+      "tags": [
+        "family violence",
+        "evidence reform",
+        "Family Court",
+        "legislation"
+      ]
+    },
+    {
+      "topic": "Auckland Bayswater Clubhouse Amendment Bill Passes Third Reading, Enables Commercial Uses",
+      "content": "The Auckland Harbour Board and Takapuna Borough Council Empowering Amendment Bill received its third reading, finalising a local measure to loosen the 1923 Act’s restrictions and allow commercial activities on the Bayswater club site. The bill aims to fund restoration by permitting ancillary commercial uses (such as cafes or function venues) with revenue reinvested into the building and local community use, while maintaining the land’s primary community purpose. Proponents argued the change would revive a historic waterfront asset and support the region’s sailing heritage, while critics cautioned about potential private gain. The debate featured supportive remarks from the sponsor, Simon Watts, and allied colleagues, including praise for the Bayswater clubhouse’s heritage and its potential future. The motion was agreed to, with the bill now poised to shape the Bayswater site’s long-term viability.",
+      "keyExchanges": [
+        {
+          "speaker": "Dr Carlos Cheung (National)",
+          "quote": "No private profit, no sales of the land; just the ability to keep a valued community asset here."
+        },
+        {
+          "speaker": "Cameron Brewer (National)",
+          "quote": "This could be an ice cream parlour, and this could have some on-licence capability."
+        }
+      ],
+      "tags": [
+        "local bill",
+        "heritage",
+        "community assets",
+        "Auckland"
+      ]
+    },
+    {
+      "topic": "Sunset Clauses Bill on Home Buying Fails First Reading",
+      "content": "Ingrid Leary’s Property Law (Sunset Clauses) Amendment Bill, which would curb developers’ use of sunset clauses to back out of off-plan contracts, did not advance past the first reading as National opposition argued the approach could hamper development and offshore policy reform. The debate featured criticisms that sunset clauses still have legitimate uses and that the government should be cautious about over-regulating contracting to protect both consumers and developers. Proponents argued that sunset clauses have harmed home buyers and that a targeted approach is needed to curb misuse. The vote halted progression of this particular bill for now, underscoring broader tensions around housing policy and regulatory reform.",
+      "keyExchanges": [
+        {
+          "speaker": "Ingrid Leary (Labour)",
+          "quote": "Sunset clauses... are a risk to homebuyers; it's time we fix this."
+        },
+        {
+          "speaker": "Dr Duncan Webb (Labour)",
+          "quote": "Sunset clauses do have a place when there are real reasons—for example, the land can't be subdivided."
+        }
+      ],
+      "tags": [
+        "housing policy",
+        "sunset clauses",
+        "contract law",
+        "parliamentary process"
+      ]
+    },
+    {
+      "topic": "Palestine Recognition Debate: Peters, Luxon, Swarbrick Face Off Over Statehood and Sanctions",
+      "content": "A broader debate on New Zealand’s stance toward Palestine and recognition of a Palestinian state dominated a segment of Question Time, reflecting enduring tensions over the rules-based international order. Minister of Foreign Affairs Winston Peters reiterated that New Zealand supports the two-state solution and would recognise Palestine when conditions for legitimacy and viability exist, while emphasising humanitarian aid and ceasefire concerns. Opposition Green Party members pushed for swifter recognition, with Chlöe Swarbrick challenging the government to act based on principles rather than politics. Prime Minister Christopher Luxon urged a measured approach tied to broader international consensus, noting that further sanctions and diplomatic actions would be calculated within the rules-based framework. The exchanges underscored a divide between moral urgency and strategic caution in foreign policy.",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon WINSTON PETERS (Minister of Foreign Affairs)",
+          "quote": "Yes. We are willing to recognise Palestine—and that it is a question of when, not if—but we do need to see progress on some of the fundamental issues relating to a Palestinian State's legitimacy and viability..."
+        },
+        {
+          "speaker": "Chlöe Swarbrick (Green)",
+          "quote": "Is it only important to uphold the rules-based international order when it is politically convenient?"
+        }
+      ],
+      "tags": [
+        "foreign policy",
+        "Palestine recognition",
+        "two-state solution",
+        "sanctions"
+      ]
+    }
+  ],
+  "conclusion": "Today showcased Parliament aligning on major policy reforms while highlighting sharp disagreements on housing regulation, foreign policy, and the pace of reform, signaling a busy legislative term ahead."
+}

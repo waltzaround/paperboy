@@ -63,33 +63,19 @@ export function Home() {
   useEffect(() => {
     const loadArticles = async () => {
       try {
-        // Generate potential filenames for a reasonable date range
-        const newsFiles: string[] = [];
-        const currentYear = new Date().getFullYear();
-        const startDate = new Date(currentYear, 0, 1); // January 1st of current year
-        const endDate = new Date();
-        endDate.setDate(endDate.getDate() + 30); // Include next month for flexibility
-
-        // Generate all possible dates from start to end
-        for (
-          let date = new Date(startDate);
-          date <= endDate;
-          date.setDate(date.getDate() + 1)
-        ) {
-          const dateStr = date.toISOString().slice(0, 10).replace(/-/g, "");
-          newsFiles.push(`${dateStr}.json`);
+        // First, fetch the index of available files
+        const indexResponse = await fetch('/news/index.json');
+        if (!indexResponse.ok) {
+          console.error('Failed to load index.json');
+          setLoading(false);
+          return;
         }
-
-        console.log(
-          "Attempting to load files from date range:",
-          startDate.toISOString().slice(0, 10),
-          "to",
-          endDate.toISOString().slice(0, 10)
-        );
+        const newsFiles: string[] = await indexResponse.json();
+        console.log('Available files:', newsFiles);
 
         const loadedArticles: NewsArticle[] = [];
 
-        // Try to fetch files in batches to avoid overwhelming the browser
+        // Fetch files in batches to avoid overwhelming the browser
         const batchSize = 30;
 
         for (let i = 0; i < newsFiles.length; i += batchSize) {
@@ -114,13 +100,9 @@ export function Home() {
           loadedArticles.push(...validArticles);
         }
 
-        // Sort by publication date (newest first)
-        loadedArticles.sort(
-          (a, b) =>
-            new Date(b.publicationDate).getTime() -
-            new Date(a.publicationDate).getTime()
-        );
+        // Files are already sorted by the index (newest first)
         setArticles(loadedArticles);
+        console.log(loadedArticles[0]);
       } catch (error) {
         console.error("Error loading news articles:", error);
       } finally {

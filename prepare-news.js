@@ -1,12 +1,17 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import dotenv from 'dotenv';
+import { getAIModel } from './ai-model.js';
+
+// Load environment variables
+dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Function to prepare Gemini Pro prompt with scraped data
-function prepareGeminiPrompt(scrapedData, date) {
-  const systemPrompt = `You are an expert New Zealand news journalist writing for a mainstream audience. Your task is to transform the provided source material into a comprehensive, succinct summary of the day's key parliamentary activities, formatted as a single JSON object.
+// Function to generate AI summary with scraped data
+async function preparePrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
+  const systemPrompt = `You are an expert news journalist writing for a mainstream audience. Your task is to transform the provided source material into a comprehensive, succinct summary of the day's key parliamentary activities, formatted as a single JSON object.
 
 The JSON object must follow this exact structure. Do not add any text outside of the JSON object.
 
@@ -66,7 +71,7 @@ Your primary goal is to avoid missing key discussions or bills. Analyze the enti
 - In a short paragraph, neutrally synthesize the discussion. Clearly explain what the issue is, who the key speakers or parties were (e.g., Government vs. Opposition), their main arguments, and the outcome or next steps. This paragraph provides the essential context for the keyExchanges.
 
 **keyExchanges** (within each summary object):
-- From the debate on this topic, select the single most compelling, sharp, witty, funny, or revealing back-and-forth exchange (typically two quotes).
+- From the debate on this topic, select the single most controversial, sharp, witty, funny, or revealing back-and-forth exchange.
 - The quotes should capture the core conflict or emotion of the debate.
 - Capture the text verbatim. Do not paraphrase.
 - For the speaker field, use the format: "Full Name (Party)".
@@ -90,7 +95,7 @@ Maintain a neutral, objective, and accessible tone throughout. The language shou
 ${scrapedData.fullContent || 'No content available'}
 
 ### Extracted Speeches:
-${scrapedData.content ? scrapedData.content.map(item => 
+${scrapedData.content ? scrapedData.content.map(item =>
   `**${item.speaker}:** ${item.text}`
 ).join('\n\n') : 'No speeches extracted'}
 
@@ -98,23 +103,41 @@ ${scrapedData.content ? scrapedData.content.map(item =>
 ${scrapedData.summary || 'No summary available'}
 
 ### Detected Topics:
-${scrapedData.topicSummaries ? scrapedData.topicSummaries.map(topic => 
+${scrapedData.topicSummaries ? scrapedData.topicSummaries.map(topic =>
   `- ${topic.topic}: ${topic.content}`
 ).join('\n') : 'No topics detected'}
 
 Please analyze this parliamentary data and create a comprehensive news article following the structure and guidelines provided above.`;
+  const fullPrompt = systemPrompt + '\n\n' + userPrompt;
 
-  return {
-    systemPrompt,
-    userPrompt,
-    fullPrompt: systemPrompt + '\n\n' + userPrompt
-  };
+  try {
+    const model = getAIModel(provider);
+    const response = await model.invoke(fullPrompt);
+    // Parse the JSON response
+    const jsonResponse = JSON.parse(response.content.trim());
+    return jsonResponse;
+  } catch (error) {
+    console.error(`Error generating summary with ${provider}:`, error.message);
+    throw error;
+  }
 }
 
-// Function to process scraped files and prepare them for Gemini
-function processScrapedFiles(inputDir = null) {
-  const scrapedDir = inputDir || path.join(__dirname, 'scraped-data');
-  const outputDir = path.join(__dirname, 'gemini-prompts');
+// Function to get dates in range
+function getDatesInRange(start, end) {
+  const dates = [];
+  const startDate = new Date(start);
+  const endDate = new Date(end);
+  for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
+    dates.push(d.toISOString().split('T')[0]);
+  }
+  return dates;
+}
+
+// Function to process scraped files and generate AI summaries
+async function processScrapedFiles(startDate, endDate) {
+  const provider = process.env.DEFAULT_AI_PROVIDER;
+  const scrapedDir = path.join(__dirname, 'public', 'news', 'raw');
+  const outputDir = path.join(__dirname, 'public', 'news');
 
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {
@@ -124,72 +147,98 @@ function processScrapedFiles(inputDir = null) {
   // Check if scraped directory exists
   if (!fs.existsSync(scrapedDir)) {
     console.error(`Scraped data directory not found: ${scrapedDir}`);
-    console.log('Please run the scraper first or specify the correct input directory.');
+    console.log('Please run the scraper first.');
     return;
   }
 
-  const files = fs.readdirSync(scrapedDir).filter(file => file.endsWith('.json'));
-  
-  if (files.length === 0) {
-    console.log('No JSON files found in scraped data directory.');
-    return;
-  }
+  const dates = getDatesInRange(startDate, endDate);
+  console.log(`Processing files from ${startDate} to ${endDate} with ${provider}...`);
 
-  console.log(`Processing ${files.length} scraped files...`);
+  for (const date of dates) {
+    // Construct file name from date (YYYYMMDD.json)
+    const fileName = date.replace(/-/g, '') + '.json';
+    const filePath = path.join(scrapedDir, fileName);
 
-  files.forEach(file => {
-    try {
-      const filePath = path.join(scrapedDir, file);
-      const scrapedData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      
-      // Extract date from filename (assuming format YYYYMMDD.json)
-      const dateMatch = file.match(/(\d{8})\.json/);
-      const date = dateMatch ? 
-        `${dateMatch[1].slice(0,4)}-${dateMatch[1].slice(4,6)}-${dateMatch[1].slice(6,8)}` : 
-        scrapedData.publicationDate || new Date().toISOString().split('T')[0];
-
-      const prompt = prepareGeminiPrompt(scrapedData, date);
-      
-      // Save the prepared prompt
-      const outputFile = path.join(outputDir, `prompt-${file}`);
-      fs.writeFileSync(outputFile, JSON.stringify({
-        date,
-        originalFile: file,
-        systemPrompt: prompt.systemPrompt,
-        userPrompt: prompt.userPrompt,
-        fullPrompt: prompt.fullPrompt,
-        metadata: {
-          originalHeadline: scrapedData.headline,
-          contentLength: scrapedData.fullContent?.length || 0,
-          speechCount: scrapedData.content?.length || 0
-        }
-      }, null, 2));
-
-      console.log(`✓ Prepared prompt for ${file} -> prompt-${file}`);
-    } catch (error) {
-      console.error(`✗ Error processing ${file}:`, error.message);
+    // Check if the specific file exists
+    if (!fs.existsSync(filePath)) {
+      console.log(`File not found: ${filePath} - skipping`);
+      continue;
     }
-  });
 
-  console.log(`\nPrompts saved to: ${outputDir}`);
-  console.log('\nTo use with Gemini Pro:');
-  console.log('1. Load the JSON file');
-  console.log('2. Use the "fullPrompt" field as your complete prompt');
-  console.log('3. Or use "systemPrompt" and "userPrompt" separately if your API supports system messages');
+    try {
+      const scrapedData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+      await createSummaries(scrapedData, date)
+        
+      console.log(`✓ Generated summary for ${fileName}`);
+    } catch (error) {
+      console.error(`✗ Error processing ${fileName}:`, error.message);
+    }
+  }
+
+  console.log(`\nSummaries saved to: ${outputDir}`);
+  console.log(`\nUsed AI provider: ${provider}`);
+}
+
+function formatDate(date) {
+  return date.replace(/-/g, "");
+}
+
+export async function createSummaries(articles, date) {
+  if (articles.length > 0) {
+    console.log(`Processing ${date} through AI...`);
+    // Save to main news dir
+    const mainOutputDir = path.join(__dirname, "public", "news");
+    if (!fs.existsSync(mainOutputDir)) {
+      fs.mkdirSync(mainOutputDir, { recursive: true });
+    }
+    let count = 0;
+    for (const article of articles) {
+      count++;
+      try {
+        const i = articles.length > 1 ? "_" + count : "";
+        const outPath = path.join(mainOutputDir, `${formatDate(date)}${i}.json`);
+
+        // Check if file already exists
+        if (fs.existsSync(outPath)) {
+          console.log(`File ${outPath} already exists, skipping...`);
+          continue;
+        }
+
+        // Generate AI summary from scraped data
+        const processedArticle = await preparePrompt(article, date);
+        fs.writeFileSync(outPath, JSON.stringify(processedArticle, null, 2));
+        console.log(`Saved processed article to ${outPath}`);
+      } catch (error) {
+        console.error(`Failed to process ${date} through AI:`, error.message);
+      }
+    }
+  } else {
+    console.log(`No articles found for ${date}`);
+  }
 }
 
 // Function to prepare a single scraped data object
-function prepareSinglePrompt(scrapedData, date) {
-  return prepareGeminiPrompt(scrapedData, date);
+async function prepareSinglePrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
+  return await preparePrompt(scrapedData, date, provider);
 }
 
 // CLI usage
 if (import.meta.url === `file://${process.argv[1]}`) {
   const args = process.argv.slice(2);
-  const inputDir = args[0] || null;
-  
-  console.log('Preparing Gemini Pro prompts from scraped parliamentary data...\n');
-  processScrapedFiles(inputDir);
+  const startDate = args[0];
+  const endDate = args[1] || startDate;
+
+  if (!startDate) {
+    console.error('Please provide a start date in YYYY-MM-DD format as the first argument.');
+    process.exit(1);
+  }
+
+  console.log(`Generating AI summaries from ${startDate} to ${endDate} from scraped parliamentary data...\n`);
+  processScrapedFiles(startDate, endDate).catch(error => {
+    console.error('Summarization failed:', error);
+    process.exit(1);
+  });
 }
 
-export { prepareGeminiPrompt, processScrapedFiles, prepareSinglePrompt };
+export { preparePrompt, processScrapedFiles, prepareSinglePrompt };
