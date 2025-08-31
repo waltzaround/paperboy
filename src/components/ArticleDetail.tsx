@@ -197,7 +197,7 @@ export function ArticleDetail() {
         <header className="space-y-4 p-6">
      
           <h1 
-            className="font-semibold text-4xl leading-tight tracking-tighter"
+            className="font-semibold text-4xl max-md:text-2xl leading-tight tracking-tighter"
             dangerouslySetInnerHTML={{ __html: formatTextWithBold(article.headline) }}
           />
           <div className="flex gap-6 items-center py-4 border-y border-gray-700/30">
@@ -229,7 +229,7 @@ export function ArticleDetail() {
           {(article.topicSummaries || []).map((topic, index) => (
             <section key={index} className="flex flex-col gap-1">
               <h3 
-                className="text-2xl text-balance font-semibold text-gray-100 mb-2  tracking-tighter"
+                className="text-2xl max-md:text-xl text-balance font-semibold text-gray-100 mb-2  tracking-tighter"
                 dangerouslySetInnerHTML={{ __html: formatTextWithBold(topic.topic) }}
               />
               <div className="text-gray-400 leading-relaxed text-sm space-y-4">
