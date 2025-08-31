@@ -101,16 +101,17 @@ export function ArticleDetail() {
   return (<>
     <Header/>
     <div className="border-t"></div>
-    <div className="mx-auto max-w-[800px] p-4 mb-24 border-x">
-      <Link to="/">
-        <Button variant="ghost" className="mb-6">
+    <div className="mx-auto max-w-[800px] mb-24 border-x">
+      <div className="border-b">
+      <Link to="/" className="">
+        <Button variant="ghost" className="p-4 rounded-none border-r">
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to Home
         </Button>
-      </Link>
+      </Link></div>
 
       <article className="space-y-6">
-        <header className="space-y-4">
+        <header className="space-y-4 p-6">
      
           <h1 
             className="font-semibold text-4xl leading-tight tracking-tighter"
@@ -141,7 +142,7 @@ export function ArticleDetail() {
       
         </header>
 
-        <div className="flex flex-col gap-24 mt-24">
+        <div className="flex flex-col gap-24 mt-16  p-6 border-t">
           {(article.topicSummaries || []).map((topic, index) => (
             <section key={index} className="flex flex-col gap-1">
               <h3 
