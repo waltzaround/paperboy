@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://paperboy.nz/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Disallow crawling of raw news data
+Disallow: /news/raw/

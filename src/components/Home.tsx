@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { formatTextWithBold } from "@/lib/utils";
+import { updatePageSEO, DEFAULT_SEO } from "@/lib/seo";
 import { Header } from "./header";
 import Plasma from './Plasma';
 
@@ -59,6 +60,14 @@ interface NewsArticle {
 
 export function Home() {
   const [articles, setArticles] = useState<NewsArticle[]>([]);
+
+  // Set up SEO for home page
+  useEffect(() => {
+    updatePageSEO({
+      ...DEFAULT_SEO,
+      url: window.location.href
+    });
+  }, []);
 
   useEffect(() => {
     const loadArticles = async () => {

@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node generate-sitemap.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "fetch": "node scraper.js",
-    "prepare-news": "node prepare-news.js"
+    "prepare-news": "node prepare-news.js",
+    "generate-sitemap": "node generate-sitemap.js"
   },
   "dependencies": {
     "@google/genai": "^1.16.0",
