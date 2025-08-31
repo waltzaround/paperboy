@@ -67,7 +67,7 @@ export function Home() {
         const indexResponse = await fetch('/news/index.json');
         if (!indexResponse.ok) {
           console.error('Failed to load index.json');
-          setLoading(false);
+         
           return;
         }
         const newsFiles: string[] = await indexResponse.json();
@@ -138,7 +138,7 @@ export function Home() {
         <div className="absolute inset-0 flex flex-col justify-center items-center z-10 pointer-events-none">
           <h1 className="pb-2 font-semibold text-4xl text-white drop-shadow-lg">Paperboy</h1>
           <p className="text-xl pt-0 text-white/90 drop-shadow-md text-center max-w-xl">
-            The latest political news from New Zealand, straight from parliamentary transcripts.
+            The latest political news from New Zealand, freshly squeezed from parliament.
           </p>
           <CountdownPill />
         </div>
@@ -168,6 +168,7 @@ export function Home() {
           </Link>
         ))}
       </section>
+      <footer className="p-4 py-24"> <p className="text-center"> Made by <a href="https://walt.online" className="text-blue-400 hover:text-blue-300 underline">Walter Lim</a> and <a href="https://www.linkedin.com/in/jonas-kuhn-99526350/" className="text-blue-400 hover:text-blue-300 underline"> Jonas Kuhn</a></p></footer>
     </>
   );
 }
