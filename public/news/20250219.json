@@ -1,0 +1,109 @@
+{
+  "headline": "New Zealand Parliament Advances Major Economic and Privacy Bills: AFF Fund Passed, Wage-Theft Bill Moves Forward, and Right-to-Repair Debates Begin",
+  "publicationDate": "2025-02-19",
+  "summary": "Parliament scrambled through a busy afternoon of questions and debates, approving the Auckland Future Fund bill’s first reading and advancing several major policy measures. Lawmakers debated wage-theft protections, privacy-for-directors in company registers, a right-to-repair framework, and a Maori land public works bill, with cross-party support forming around some issues and sharp exchanges on others. The day underscored tensions between growth-focused governance and concerns over equity, privacy, and local government financing.",
+  "topicSummaries": [
+    {
+      "topic": "Auckland Future Fund Bill Granted First Reading: $1.31B Airport Proceeds to Become Intergenerational Fund With 7.24% Target Return",
+      "content": "The Auckland Council (Auckland Future Fund) Bill was given its first reading, establishing a framework to govern the AFF and protecting its real value over time. The fund, capitalised initially at about $1.31 billion from Auckland Airport shares, is designed to diversify investments and deliver roughly $40 million annually to Auckland, with a target long-run return of 7.24% and 5.24% cash distributions. A 75% super-majority and proper consultation are required for any distributions outside normal parameters. Major speakers highlighted the bill’s potential to stabilise Auckland’s finances and support future infrastructure, while critics warned of local-government funding gaps and questioned the broader policy implications. The bill was sent to the Governance and Administration Committee for consideration.",
+      "keyExchanges": [
+        {
+          "speaker": "Shanan Halbert (Labour)",
+          "quote": "The $400 million in additional revenue that this fund will provide is dwarfed by the $1.2 billion that Auckland lost in revenue when the Government removed the regional fuel tax."
+        },
+        {
+          "speaker": "Simon Court (ACT)",
+          "quote": "The Auckland Future Fund intends to reimburse Auckland ratepayers with a $40 million dividend in the 2025-26 year."
+        }
+      ],
+      "tags": [
+        "Auckland",
+        "AFF Bill",
+        "Local Government Finance",
+        "Investment Fund"
+      ]
+    },
+    {
+      "topic": "Crimes (Theft by Employer) Amendment Bill — Amendment Paper 243 and Committee Stage on Mens Rea and 'Without Reasonable Excuse'",
+      "content": "In Committee, MPs debated New Zealand First’s Amendment Paper 243, which seeks to replace references to 'theft' with a formulation that includes 'without reasonable excuse' and aligns the new provision with existing criminal standards. The discussion centered on balancing penalties against employers who may mistakenly withhold pay, ensuring the law targets intentional wrongdoing without unduly burdening compliant businesses. The exchange also touched on the bill’s title and whether it accurately reflects its intent. The amendment was considered, with further questions about scope and enforcement as the clause 4 amendments were voted on and the bill moved toward reporting with amendments.",
+      "keyExchanges": [
+        {
+          "speaker": "Camilla Belich (Labour)",
+          "quote": "The first part of his question, on why it's in the Crimes Act as opposed to a personal grievance, is really the entire purpose of this bill. It's to recognise the fact that there isn't a criminal sanction available for employees who suffer theft as a result of the actions of their employer."
+        },
+        {
+          "speaker": "Casey Costello (New Zealand First)",
+          "quote": "We needed to ensure that there were not only intentional actions, not only the mens rea to deprive, but that there was no reasonable excuse."
+        }
+      ],
+      "notes": "This event traces the bill’s progression through Committee, including the Amendment Paper process, with focus on mens rea and 'without reasonable excuse' language, and leads to a report with amendments.",
+      "tags": [
+        "Wage Theft",
+        "Criminal Liability",
+        "Amendment Paper",
+        "Committee Stage"
+      ]
+    },
+    {
+      "topic": "Consumer Guarantees (Right to Repair) Amendment Bill — First Reading: Broad Support Across Parties for Repair Access and Waste Reduction",
+      "content": "The Consumer Guarantees (Right to Repair) Amendment Bill was introduced for its first reading, aiming to enshrine a consumer right to repair and to require manufacturers and retailers to provide parts, tools, and information to facilitate repairs. The cross-party support acknowledged repair cafes, small businesses, and advocates for reducing e-waste, while concerns about scope and safety were voiced. The bill passed its first reading amid a party-line vote, and was referred to the Economic Development, Science and Innovation Committee for detailed consideration.",
+      "keyExchanges": [
+        {
+          "speaker": "Arena Williams (Labour)",
+          "quote": "Labour supports this bill because Labour supports the little guy to fix his own car, to fix his own tractor."
+        },
+        {
+          "speaker": "Dan Bidois (National)",
+          "quote": "The devil is in the details."
+        }
+      ],
+      "tags": [
+        "Right to Repair",
+        "Consumer Rights",
+        "Environmental Policy",
+        "First Reading"
+      ]
+    },
+    {
+      "topic": "Companies (Address Information) Amendment Bill — Second Reading Passes With Broad Cross-Party Support; Privacy Protections for Directors Considered",
+      "content": "The Companies (Address Information) Amendment Bill moved to a second reading, with cross-party support from Labour, Greens, NZ First, and Te Pāti Māori; Opposition from National and ACT. The bill would allow directors (also shareholders) to replace a home address in the Companies Register with a service or alternative address and introduce a consent-based process for address changes. Debate covered governance, the bill’s narrow scope, and the broader context of the Companies Act reform. The bill was approved for the second time, and it was referred to a committee for further consideration.",
+      "keyExchanges": [
+        {
+          "speaker": "Melissa Lee (National)",
+          "quote": "This bill is not new to the House. We had similar legislation passed in 2022."
+        },
+        {
+          "speaker": "Camilla Belich (Labour)",
+          "quote": "I think this is actually a really well-named bill, and so I don't consider that we should be considering any alternatives to that."
+        }
+      ],
+      "tags": [
+        "Directors' Addresses",
+        "Privacy Protections",
+        "Company Law Reform",
+        "Second Reading"
+      ]
+    },
+    {
+      "topic": "Public Works (Prohibition of Compulsory Acquisition of Māori Land) Amendment Bill — First Reading: Protecting Māori Land Through Informed Consent",
+      "content": "Hūhana Lyndon (Green) introduced the Public Works (Prohibition of Compulsory Acquisition of Māori Land) Amendment Bill, which seeks to curb compulsory acquisitions of Māori land under the Public Works Act without informed consent from Māori landowners. Lyndon argued that current powers have historically displaced Māori landholders and that the bill would ensure informed hui-based consent. The bill was referred to the Māori Affairs Committee for consideration, reflecting ongoing concerns about Crown land use and treaty rights.",
+      "keyExchanges": [
+        {
+          "speaker": "Hūhana Lyndon (Green)",
+          "quote": "My bill is about informed consent—informed consent."
+        },
+        {
+          "speaker": "Rawiri Waititi (Te Pāti Māori)",
+          "quote": "This is the type of reality that Māori are facing every day."
+        }
+      ],
+      "tags": [
+        "Māori Land",
+        "Public Works Act",
+        "Consent",
+        "First Reading"
+      ]
+    }
+  ],
+  "conclusion": "The day closed with strong momentum for reform—empowering local long-term investment in Auckland, strengthening wage-theft protections and consumer rights, safeguarding director privacy, and advancing Māori land rights—though substantial questions about scope and implementation remain as committees take the next steps."
+}

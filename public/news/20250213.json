@@ -1,0 +1,104 @@
+{
+  "headline": "Parliament Advances Social Justice and Regulatory Reform as Victims’ Protections Pass Third Reading; Ferris Contempt Finding Highlights Privileges Committee Spotlight",
+  "publicationDate": "2025-02-13",
+  "summary": "Parliamentary business focused on justice and regulatory reform, with the Victims of Family Violence legislation passing its third reading to curb litigation abuse, a Privileges Committee finding of deliberate misleading by a member, and first readings for major AML/CFT and regulatory systems bills. An urgent-debate request on mental-health funding was declined, signaling continued prioritisation of governance, safety, and economic resilience. The day showcased cross-party collaboration on crucial social issues while highlighting ongoing scrutiny of parliamentary conduct.",
+  "topicSummaries": [
+    {
+      "topic": "Third Reading: Strengthening Victims' Protections from Litigation Abuse (up to 5 years)",
+      "content": "The Victims of Family Violence (Strengthening Legal Protections) Legislation Bill moved through its final stage with cross-party support, expanding judicial powers to curb litigant abuse in family proceedings. The amendments empower judges to consider a broad pattern of abusive conduct—harassment, annoyance, harm, and psychological abuse—when deciding protective orders, and extend the potential duration of orders to up to five years in exceptional cases. The legislation also recognises that access to justice must be safeguarded while protecting victims, and it includes a plan to monitor and report, with its full effect expected a year after Royal assent. Speakers emphasised the bill as a long-awaited, multi-agency effort aligned with Te Aorerekura and broader family-violence prevention initiatives. The law is set to strengthen protections for families and survivors across care of children and relationship-property matters.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon PAUL GOLDSMITH (Minister of Justice)",
+          "quote": "The amendments in this bill strengthen the courts' statutory powers to protect victims of litigation abuse in family proceedings."
+        },
+        {
+          "speaker": "Hon GINNY ANDERSEN (Labour)",
+          "quote": "This is a crucial piece of legislation that ensures that our justice system is not misused as a weapon of control and coercion."
+        }
+      ],
+      "tags": [
+        "family-violence",
+        "litigation-abuse",
+        "court-powers",
+        "victims"
+      ]
+    },
+    {
+      "topic": "Contempt Found: Tākuta Ferris Deliberately Misled the House; Apology Delivered",
+      "content": "The Privileges Committee concluded that Tākuta Ferris deliberately misled the House when denying a statement asserted during a debate about the conduct of MPs. The committee found that Ferris’s denial, coupled with his later written testimony, suggested a deliberate attempt to mislead the House, constituting a contempt. The report recommended an apology to the House, which Ferris subsequently delivered. The debate featured pointed reflections on parliamentary norms, tikanga, and the responsibilities of MPs to speak truthfully, with leaders across parties stressing the importance of trust and accountability in Parliament.",
+      "keyExchanges": [
+        {
+          "speaker": "Dr DUNCAN WEBB (Labour)",
+          "quote": "We found that Mr Ferris had deliberately misled the House."
+        },
+        {
+          "speaker": "Hon SHANE JONES (NZ First)",
+          "quote": "There is no honour in this arrogant, no honour in this childish, no honour in this contemptuous display of disregard for what it means to be a parliamentarian."
+        }
+      ],
+      "tags": [
+        "privileges-committee",
+        "contempt",
+        "apology",
+        "parliamentary-ethics"
+      ]
+    },
+    {
+      "topic": "First Reading: Anti-Money Laundering and Countering Financing of Terrorism Amendment Bill",
+      "content": "The AML/CFT Amendment Bill was introduced for its first reading, with 26 amendments designed to streamline and modernise New Zealand's anti-money-laundering framework. The government argues the reforms reduce unnecessary compliance costs for low-risk activities while maintaining protections and aligning with international standards. Key features include a new single-supervisor model, a levy, and risk-based obligations that distinguish between higher- and lower-risk actors. The bill forms part of a broader justice-regulatory package and will proceed to the Justice Committee for scrutiny, with public submissions encouraged ahead of a potential 2029 FATF assessment.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon NICOLE McKEE (Associate Minister of Justice)",
+          "quote": "The initial consultation on the much-anticipated rewrites of the Arms Act 1983 is off to a strong start, with 577 submissions received as of today."
+        },
+        {
+          "speaker": "Hon NICOLE McKEE (Associate Minister of Justice)",
+          "quote": "The discussion document does not present draft policy proposals; instead, it seeks input from New Zealanders before any policies are developed."
+        }
+      ],
+      "tags": [
+        "AML-CFT",
+        "regulatory-relief",
+        "submissions",
+        "Justice-Committee"
+      ]
+    },
+    {
+      "topic": "First Readings: Regulatory Systems Package — Occupation Regulation, Tribunals, Courts",
+      "content": "A trio of regulatory-system bills was introduced for their first readings, aiming to tighten regulation, improve court timeliness, and enhance access to justice. The package includes 17 amendments to three occupational-regulation regimes (lawyers and conveyancers, real estate agents, and prostitution licensing), simplifications for tribunal operations (Disputes Tribunal, Motor Vehicle Disputes Tribunal, Tenancy Tribunal, Private Security Personnel Licensing Authority, Parole Board), and reforms to court processes (jury selection, coroners’ evidence, and tribunal financing). The government highlights improved efficiency, reduced administrative burdens, and better alignment with modern governance, while noting the potential for cross-party support given the broad scope of issues touched.",
+      "keyExchanges": [
+        {
+          "speaker": "CAMILLA BELICH (Labour)",
+          "quote": "This regulatory systems bills are really designed to fix problems that can get cross-party support, and to make all of our systems in New Zealand—specifically in relation to courts, tribunals, and a few different particular occupational groups—work more efficiently."
+        },
+        {
+          "speaker": "Hon LAWRENCE XU-NAN (Green)",
+          "quote": "the Greens would be in support of the Regulatory Systems (Courts) Amendment Bill and the Regulatory Systems (Tribunals) Amendment Bill, we cannot support the Regulatory Systems (Occupational Regulation) Amendment Bill."
+        }
+      ],
+      "tags": [
+        "regulatory-bills",
+        "court-timeliness",
+        "regulatory-regulation",
+        "tribunals"
+      ]
+    },
+    {
+      "topic": "Urgent Debate Declined: Mental Health Funding Reallocation",
+      "content": "An application to debate the Minister for Mental Health’s funding reallocation to the mental health innovation fund under Standing Order 399 was declined, with the Speaker noting the matter did not demonstrate sufficient urgency to displace the House’s current business. The move underscored the House’s prioritisation of established schedules and ministerial responsibility, even as members highlighted ongoing concerns about mental-health funding and its impact on service delivery.",
+      "keyExchanges": [
+        {
+          "speaker": "Speaker",
+          "quote": "I do not think the application makes out a case for this matter being sufficiently urgent to give it priority over the business on the Order Paper. The application is declined."
+        }
+      ],
+      "tags": [
+        "urgent-debate",
+        "standing-orders",
+        "mental-health",
+        "funding"
+      ]
+    }
+  ],
+  "conclusion": "The day underscored Parliament’s active engagement with social justice and governance reforms, while reaffirming the need for careful scrutiny of conduct and regulation as New Zealand pushes forward on protections for vulnerable populations and modernization of its regulatory framework."
+}

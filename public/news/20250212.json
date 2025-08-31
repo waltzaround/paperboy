@@ -1,0 +1,83 @@
+{
+  "headline": "NZ Parliament Bets on Growth as Government Wins Confidence Vote and Advances Key Bills",
+  "publicationDate": "2025-02-12",
+  "summary": "Parliament resumed with the Prime Minister outlining a growth-focused agenda, prompting a heated exchange and a pivotal confidence vote that the government survived. Across the day, lawmakers moved five major pieces of legislation forward, including the District Court Judges Amendment Bill, the Oranga Tamariki 7AA repeal bill, the Māori Purposes Bill (First Reading), and the Arms (Shooting Clubs, Shooting Ranges, and Other Matters) Amendment Bill, reflecting deep policy divisions on social issues while backing a pro-growth economic push.",
+  "topicSummaries": [
+    {
+      "topic": "Confidence Vote on 'Going for Growth' Agenda: Government Survives 68-55",
+      "content": "The day opened with a fulsome defence of the government's growth plan following the Prime Minister’s statement. A high-profile question-and-answer session saw the Opposition press the Prime Minister on conduct and governance, culminating in a confidence motion toward the government’s 2025 programme. The government won the vote to express confidence in the coalition and commend its programme for 2025, defeating an opposition amendment that sought to brand the administration as failing. The debate underscored the gulf between parties over how quickly and ambitiously to push policy, with supporters arguing that growth requires a bold, trade-friendly, and investment-led approach, while critics warned of social costs and governance concerns. The final vote affirmed cross-party support for the government’s pathway, signaling continued emphasis on fast-tracked infrastructure, housing, and investment initiatives, even as substantive policy battles loom on health, welfare, and social services.",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon CHRIS HIPKINS (Leader of the Opposition)",
+          "quote": "Does David Seymour's conduct, in driving a Land Rover up the steps of Parliament, despite repeated warnings not to, meet his expectations in terms of ministerial conduct?"
+        }
+      ],
+      "tags": [
+        "PM Statement",
+        "confidence vote",
+        "Going for Growth",
+        "budget",
+        "parliamentary debate"
+      ]
+    },
+    {
+      "topic": "District Court (District Court Judges) Amendment Bill Second Reading: Modest Increase, Big Backlog Questions",
+      "content": "The District Court (District Court Judges) Amendment Bill moved to a second reading, proposing to increase the statutory maximum number of District Court judges by one (from 182 to 183) to bolster capacity ahead of the Sentencing (Reform) Amendment Bill. Proponents argued the move is a practical step to addressing delays in the busy District Court system, while acknowledging that backlogs are driven by broader systemic issues beyond judges alone. Critics warned the measure is incremental and cautioned against treating judicial capacity as a sole proxy for justice reform, noting that substantial backlog drivers include staffing, technology, and funding for AVL and related reforms. The bill passed its second reading and was referred to committee alongside related sentencing reforms, with the aim of reducing delays and speeding up case processing.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Dr Duncan Webb (Labour—Christchurch Central)",
+          "quote": "This bill is an absolute dog's breakfast."
+        }
+      ],
+      "tags": [
+        "District Court",
+        "Judges",
+        "Backlog",
+        "Judicial capacity"
+      ]
+    },
+    {
+      "topic": "Oranga Tamariki (Repeal of Section 7AA) Amendment Bill Second Reading: Retaining iwi Partnerships After Controversy",
+      "content": "The Oranga Tamariki (Repeal of Section 7AA) Amendment Bill proceeded to its second reading amid intense debate. A majority acknowledged concerns about the removal of 7AA while signaling that strategic partnerships with iwi would remain, preserving collaboration provisions and accountability mechanisms. The debate highlighted tensions between social welfare aims and guardianship of Te Tiriti obligations, with Te Pāti Māori arguing the repeal undermines Maori rights and culture; Green Party members warned that weakening oversight jeopardises safety, particularly in the context of the Waitangi Tribunal findings. The clause retaining iwi partnerships and ongoing reporting requirements were central to the passage of the bill, which was approved by a party-line vote after amendments. The day underscored enduring disagreements over the balance between cultural considerations and child welfare in care decisions.",
+      "keyExchanges": [
+        {
+          "speaker": "MARIAMENO KAPA-KINGI (Te Pāti Māori—Te Tai Tokerau)",
+          "quote": "Not one more mokopuna."
+        }
+      ],
+      "tags": [
+        "Oranga Tamariki",
+        "7AA repeal",
+        "Māori rights",
+        "child welfare"
+      ]
+    },
+    {
+      "topic": "Arms (Shooting Clubs, Shooting Ranges, and Other Matters) Amendment Bill Second Reading: Firearm Safety in Focus",
+      "content": "The Arms (Shooting Clubs, Shooting Ranges, and Other Matters) Amendment Bill received a second reading amid polarized views. Proponents, including NZ First, framed the bill as a practical step to simplify club and range registries while maintaining public safety; opponents, notably the Green Party and Te Pāti Māori, argued the changes would erode hard-won safety protections and risk propping up extremist use. A defining exchange featured a pointed assertion from Te Pāti Māori about Christchurch-related concerns and a sharp counter from Green representatives questioning the bill’s safety merits and oversight arrangements, reflecting broader concerns about deregulation in the wake of historical terrorist events. The debate underscored deep-rooted disagreements about how to balance gun safety with sport and heritage interests, with the bill continuing toward the committee stage.",
+      "keyExchanges": [
+        {
+          "speaker": "TĀKUTA FERRIS (Te Pāti Māori—Te Tai Tonga)",
+          "quote": "Guns capable of rapid fire are tools of terror—they are not tools for kai; they are not tools of sport—and their deregulation compromises the safety of all people in Aotearoa."
+        }
+      ],
+      "tags": [
+        "Arms Act",
+        "gun safety",
+        "ranges",
+        "regulation"
+      ]
+    },
+    {
+      "topic": "Māori Purposes Bill First Reading: Technical Revisions and Te Ture Whenua Considerations",
+      "content": "The Māori Purposes Bill, a technical measure aimed at modernising several Māori-related statutes, advanced to its First Reading. Speakers from Labour and National signalled support for straightforward textual corrections, including standardising Māori terminology and adding macrons. The debate touched on substantive questions around Te Ture Whenua Maori Act and the need for careful consultation on any changes that might affect land rights and economic development for Māori, with emphasis on ensuring regulation keeps pace with social and linguistic realities. The bill then progressed to the Māori Affairs Committee for detailed consideration.",
+      "tags": [
+        "Māori Purposes Bill",
+        "First Reading",
+        "Te Ture Whenua",
+        "Māori land"
+      ]
+    }
+  ],
+  "conclusion": "Today’s proceedings closed with a government-confirmed path forward on five major measures and a reaffirmed confidence in its growth agenda, even as parliamentary disagreement over social policy and constitutional rights underscores the enduring fault lines that will shape the year ahead."
+}
