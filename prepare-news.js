@@ -191,6 +191,24 @@ function formatDate(date) {
   return date.replace(/-/g, "");
 }
 
+// Function to update the news index
+function updateNewsIndex() {
+  const newsDir = path.join(__dirname, 'public', 'news');
+  if (!fs.existsSync(newsDir)) {
+    console.log('News directory does not exist, skipping index update');
+    return;
+  }
+
+  const files = fs.readdirSync(newsDir)
+    .filter(file => file.endsWith('.json') && file !== 'index.json')
+    .sort()
+    .reverse(); // Most recent first
+
+  const indexPath = path.join(newsDir, 'index.json');
+  fs.writeFileSync(indexPath, JSON.stringify(files, null, 2));
+  console.log(`Updated index with ${files.length} files: ${indexPath}`);
+}
+
 export async function createSummaries(articles, date) {
   if (articles.length > 0) {
     console.log(`Processing ${date} through AI...`);
@@ -216,6 +234,9 @@ export async function createSummaries(articles, date) {
         const processedArticle = await preparePrompt(article, date);
         fs.writeFileSync(outPath, JSON.stringify(processedArticle, null, 2));
         console.log(`Saved processed article to ${outPath}`);
+        
+        // Update index.json to include the new file
+        updateNewsIndex();
       } catch (error) {
         console.error(`Failed to process ${date} through AI:`, error.message);
       }
