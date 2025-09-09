@@ -3,82 +3,52 @@ import dotenv from 'dotenv';
 // Load environment variables
 dotenv.config();
 
-// Import AI providers dynamically
-let ChatOpenAI, ChatAnthropic, ChatGoogleGenerativeAI, ChatXAI;
+// Function to call Gemini Pro 2.5 directly
+async function generateWithGemini(prompt) {
+  if (!process.env.GOOGLE_API_KEY) {
+    throw new Error('GOOGLE_API_KEY environment variable is required');
+  }
 
-try {
-  const openai = await import('@langchain/openai');
-  ChatOpenAI = openai.ChatOpenAI;
-} catch (e) {
-  console.warn('OpenAI not available:', e.message);
-}
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${process.env.GOOGLE_API_KEY}`;
+  
+  const requestBody = {
+    contents: [{
+      parts: [{
+        text: prompt
+      }]
+    }],
+    generationConfig: {
+      temperature: 0.3,
+      topK: 40,
+      topP: 0.95,
+      maxOutputTokens: 8192,
+    }
+  };
 
-try {
-  const anthropic = await import('@langchain/anthropic');
-  ChatAnthropic = anthropic.ChatAnthropic;
-} catch (e) {
-  console.warn('Anthropic not available:', e.message);
-}
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(requestBody)
+    });
 
-try {
-  const google = await import('@langchain/google-genai');
-  ChatGoogleGenerativeAI = google.ChatGoogleGenerativeAI;
-} catch (e) {
-  console.warn('Google Generative AI not available:', e.message);
-}
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
 
-try {
-  const xai = await import('@langchain/xai');
-  ChatXAI = xai.ChatXAI;
-} catch (e) {
-  console.warn('xAI/Grok not available:', e.message);
-}
-
-// Function to get AI model based on provider
-function getAIModel(provider = process.env.DEFAULT_AI_PROVIDER || 'openai') {
-  switch (provider.toLowerCase()) {
-    case 'openai':
-      if (!ChatOpenAI) throw new Error('OpenAI not installed or API key missing');
-      return new ChatOpenAI({
-        openAIApiKey: process.env.OPENAI_API_KEY,
-        modelName: 'gpt-3.5-turbo',
-        temperature: 0.3,
-      });
-    case 'anthropic':
-      if (!ChatAnthropic) throw new Error('Anthropic not installed or API key missing');
-      return new ChatAnthropic({
-        anthropicApiKey: process.env.ANTHROPIC_API_KEY,
-        modelName: 'claude-3-sonnet-20240229',
-        temperature: 0.3,
-      });
-    case 'google':
-      if (!ChatGoogleGenerativeAI) throw new Error('Google Generative AI not installed or API key missing');
-      return new ChatGoogleGenerativeAI({
-        apiKey: process.env.GOOGLE_API_KEY,
-        modelName: 'gemini-pro',
-        temperature: 0.3,
-      });
-    case 'xai':
-    case 'grok':
-      if (!ChatXAI) throw new Error('xAI/Grok not installed or API key missing');
-      return new ChatXAI({
-        apiKey: process.env.XAI_API_KEY,
-        model: 'grok-beta',
-        temperature: 0.3,
-      });
-    case 'openrouter':
-      if (!ChatOpenAI) throw new Error('OpenAI client not available for OpenRouter');
-      return new ChatOpenAI({
-        apiKey: process.env.OPENROUTER_API_KEY,
-        modelName: process.env.OPENROUTER_MODEL || 'anthropic/claude-3-haiku',
-        temperature: 0.3,
-        configuration: {
-          baseURL: 'https://openrouter.ai/api/v1',
-        },
-      });
-    default:
-      throw new Error(`Unsupported AI provider: ${provider}`);
+    const data = await response.json();
+    
+    if (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts[0]) {
+      return data.candidates[0].content.parts[0].text;
+    } else {
+      throw new Error('Unexpected response structure from Gemini API');
+    }
+  } catch (error) {
+    console.error('Error calling Gemini API:', error);
+    throw error;
   }
 }
 
-export { getAIModel };
+export { generateWithGemini };

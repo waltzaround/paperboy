@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
-import { getAIModel } from './ai-model.js';
+import { generateWithGemini } from './ai-model.js';
 
 // Load environment variables
 dotenv.config();
@@ -10,7 +10,7 @@ dotenv.config();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Function to generate AI summary with scraped data
-async function preparePrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
+async function preparePrompt(scrapedData, date) {
   const systemPrompt = `You are an expert news journalist writing for a mainstream audience. Your task is to transform the provided source material into a comprehensive, succinct summary of the day's key parliamentary activities, formatted as a single JSON object.
 
 The JSON object must follow this exact structure. Do not add any text outside of the JSON object.
@@ -111,13 +111,21 @@ Please analyze this parliamentary data and create a comprehensive news article f
   const fullPrompt = systemPrompt + '\n\n' + userPrompt;
 
   try {
-    const model = getAIModel(provider);
-    const response = await model.invoke(fullPrompt);
+    const responseText = await generateWithGemini(fullPrompt);
+    
+    // Strip markdown code blocks if present
+    let cleanedResponse = responseText.trim();
+    if (cleanedResponse.startsWith('```json')) {
+      cleanedResponse = cleanedResponse.replace(/^```json\s*/, '').replace(/\s*```$/, '');
+    } else if (cleanedResponse.startsWith('```')) {
+      cleanedResponse = cleanedResponse.replace(/^```\s*/, '').replace(/\s*```$/, '');
+    }
+    
     // Parse the JSON response
-    const jsonResponse = JSON.parse(response.content.trim());
+    const jsonResponse = JSON.parse(cleanedResponse.trim());
     return jsonResponse;
   } catch (error) {
-    console.error(`Error generating summary with ${provider}:`, error.message);
+    console.error(`Error generating summary with Gemini 2.5 Pro:`, error.message);
     throw error;
   }
 }
@@ -135,7 +143,6 @@ function getDatesInRange(start, end) {
 
 // Function to process scraped files and generate AI summaries
 async function processScrapedFiles(startDate, endDate) {
-  const provider = process.env.DEFAULT_AI_PROVIDER;
   const scrapedDir = path.join(__dirname, 'public', 'news', 'raw');
   const outputDir = path.join(__dirname, 'public', 'news');
 
@@ -152,7 +159,7 @@ async function processScrapedFiles(startDate, endDate) {
   }
 
   const dates = getDatesInRange(startDate, endDate);
-  console.log(`Processing files from ${startDate} to ${endDate} with ${provider}...`);
+  console.log(`Processing files from ${startDate} to ${endDate} with Gemini 2.5 Pro...`);
 
   for (const date of dates) {
     // Construct file name from date (YYYYMMDD.json)
@@ -177,7 +184,7 @@ async function processScrapedFiles(startDate, endDate) {
   }
 
   console.log(`\nSummaries saved to: ${outputDir}`);
-  console.log(`\nUsed AI provider: ${provider}`);
+  console.log(`\nUsed AI provider: Gemini 2.5 Pro`);
 }
 
 function formatDate(date) {
@@ -219,8 +226,8 @@ export async function createSummaries(articles, date) {
 }
 
 // Function to prepare a single scraped data object
-async function prepareSinglePrompt(scrapedData, date, provider = process.env.DEFAULT_AI_PROVIDER) {
-  return await preparePrompt(scrapedData, date, provider);
+async function prepareSinglePrompt(scrapedData, date) {
+  return await preparePrompt(scrapedData, date);
 }
 
 // CLI usage
