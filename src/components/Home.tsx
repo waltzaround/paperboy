@@ -7,13 +7,40 @@ import Plasma from './Plasma';
 
 function CountdownPill() {
   const [timeLeft, setTimeLeft] = useState("");
+  const [nextMeeting, setNextMeeting] = useState<Date | null>(null);
 
   useEffect(() => {
-    const targetDate = new Date("2025-09-09T14:00:00+12:00"); // 2pm NZ time
+    // Hardcoded parliament meeting dates from RSS feed
+    const parliamentMeetings = [
+      new Date("2025-09-16T14:00:00+12:00"),
+      new Date("2025-09-17T14:00:00+12:00"),
+      new Date("2025-09-18T14:00:00+12:00"),
+      new Date("2025-10-07T14:00:00+13:00"),
+      new Date("2025-10-08T14:00:00+13:00"),
+      new Date("2025-10-09T14:00:00+13:00"),
+      new Date("2025-10-14T14:00:00+13:00"),
+      new Date("2025-10-15T14:00:00+13:00"),
+      new Date("2025-10-16T14:00:00+13:00"),
+      new Date("2025-10-21T14:00:00+13:00"),
+      new Date("2025-10-22T14:00:00+13:00"),
+      new Date("2025-10-23T14:00:00+13:00"),
+      new Date("2025-11-04T14:00:00+13:00")
+    ];
+
+    const now = new Date();
+    const futureMeetings = parliamentMeetings.filter(date => date > now);
+    
+    if (futureMeetings.length > 0) {
+      setNextMeeting(futureMeetings[0]);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!nextMeeting) return;
 
     const updateCountdown = () => {
       const now = new Date();
-      const difference = targetDate.getTime() - now.getTime();
+      const difference = nextMeeting.getTime() - now.getTime();
 
       if (difference > 0) {
         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
@@ -29,7 +56,7 @@ function CountdownPill() {
           setTimeLeft(`${minutes}m ${seconds}s`);
         }
       } else {
-        setTimeLeft("Parliament has resumed!");
+        setTimeLeft("Parliament is meeting now!");
       }
     };
 
@@ -37,14 +64,23 @@ function CountdownPill() {
     const interval = setInterval(updateCountdown, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [nextMeeting]);
+
+  if (!nextMeeting) {
+    return (
+      <div className="px-4 py-2 rounded-full border border-white/20 mt-4 text-sm">
+        No upcoming parliament meetings scheduled
+      </div>
+    );
+  }
 
   return (
     <div className="px-4 py-2 rounded-full border border-white/20 mt-4 text-sm">
-      Parliament will resume in: <span className="font-semibold italic text-white">{timeLeft}</span>
+      Parliament meets in: <span className="font-semibold italic text-white">{timeLeft}</span>
     </div>
   );
 }
+
 interface NewsArticle {
   headline: string;
   publicationDate: string;

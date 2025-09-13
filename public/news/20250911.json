@@ -1,0 +1,128 @@
+{
+  "headline": "Government Passes Budget Bills Amid Fierce Debate on Economic Growth, Job Losses, and Pay Equity",
+  "publicationDate": "2025-09-11",
+  "summary": "Parliament's focus was squarely on the economy as the Government passed its key budget legislation, championing a new 'Investment Boost' tax incentive to spur growth. The move was met with fierce resistance from opposition parties, who condemned the Government's record on rising unemployment, homelessness, and controversial changes to pay equity for 180,000 workers. The day also saw a major overhaul of the high school curriculum announced and tense exchanges over foreign policy and the detention of children in police cells.",
+  "topicSummaries": [
+    {
+      "topic": "$59 Billion Spending Authority Bills Pass Final Reading",
+      "content": "The Government's Appropriation (2025/26 Estimates) Bill and a second Imprest Supply Bill, authorising a total of $59 billion in spending, passed their final readings. Minister of Finance Nicola Willis defended the Budget's centrepiece 'Investment Boost' policy—a tax incentive allowing businesses to deduct 20% of new asset costs—as a crucial driver for jobs and wage growth. In response, Labour and the Greens argued the Government's economic strategy has led to tens of thousands of job losses, a construction downturn, and rising homelessness, accusing the government of having no plan and delivering a budget on the backs of working women.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Nicola Willis (Minister of Finance)",
+          "quote": "The advice that we have received is that it will lead to a higher rate of wage growth than would otherwise be the case, meaning that this truly is a tax policy for the workers."
+        },
+        {
+          "speaker": "Hon Dr Megan Woods (Labour)",
+          "quote": "It is a Government with no plan, it is a Government with no heart, and it is a Government under which the lives of ordinary New Zealanders are getting worse, not better."
+        }
+      ],
+      "tags": [
+        "budget",
+        "appropriation-bill",
+        "economy",
+        "investment-boost"
+      ]
+    },
+    {
+      "topic": "Government Defends Pay Equity Overhaul Amid Accusations of Betrayal",
+      "content": "During a heated Question Time, the Government was challenged over its changes to the pay equity system. Labour's Carmel Sepuloni accused the Government of betraying 180,000 predominantly female workers by encouraging them to invest time and money in claims while secretly planning to cancel them. Representing the Minister for Women, Brooke van Velden defended the new system as fair and functional, stating that a process for claims remains and that information already gathered could still be used.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Carmel Sepuloni (Labour)",
+          "quote": "How can anyone trust this Minister when workers and organisations were expected to invest time, energy, and money into claims when they had already decided to cancel them?"
+        },
+        {
+          "speaker": "Hon Brooke van Velden (ACT)",
+          "quote": "The fact of the matter is that people can take a claim. People are looking to do a claim using information that they already had access to, using resources that they already had access to. This Government is committed to a pay equity system."
+        }
+      ],
+      "tags": [
+        "pay-equity",
+        "workplace-relations",
+        "gender-pay-gap",
+        "labour"
+      ]
+    },
+    {
+      "topic": "Major Overhaul of High School Curriculum Adds STEM, Industry-Led Subjects",
+      "content": "Minister of Education Erica Stanford announced a significant reform of the senior secondary school curriculum for Years 11-13, to be phased in from 2028. The new subject list introduces more STEM-focused options like 'statistics and data science' and 'electronics and mechatronics', alongside new areas such as 'civics, politics, and philosophy' and 'Pacific studies'. A key feature is the introduction of strengthened, industry-led subjects like automotive and infrastructure engineering, which will allow students to graduate with both secondary and tertiary qualifications.",
+      "keyExchanges": [
+        {
+          "speaker": "Dana Kirkpatrick (National)",
+          "quote": "What are some of the new industry-led subjects?"
+        },
+        {
+          "speaker": "Hon Erica Stanford (Minister of Education)",
+          "quote": "Whether a young person wants to be a master builder, an automotive engineer, a teacher, or a lawyer, the curriculum should set them up for success, not split them into separate lanes... Excitingly, students taking these industry-led subjects will likely exit high school with both a secondary qualification and a tertiary qualification at level 2 or 3."
+        }
+      ],
+      "tags": [
+        "education",
+        "curriculum",
+        "ncea",
+        "stem"
+      ]
+    },
+    {
+      "topic": "4,000 Children Held in Police Cells in Past Year, Minister Confirms",
+      "content": "Te Pāti Māori MP Mariameno Kapa-Kingi questioned the Government on reports that 4,000 children and young people were held in police cells over the past year, with some detained for up to eight nights. Responding for the Minister for Children, Nicole McKee stated the Government was aware of the issue and working to address it, attributing the detentions to serious youth crime and a lack of viable placements. The Government highlighted a $33 million Budget investment in youth justice facilities as part of the solution, while asserting that community safety remains a top priority.",
+      "keyExchanges": [
+        {
+          "speaker": "Mariameno Kapa-Kingi (Te Pāti Māori)",
+          "quote": "Can the Minister confirm how many of those tamariki and young people held in police cells for longer than one night were Māori?"
+        },
+        {
+          "speaker": "Hon Nicole McKee (ACT)",
+          "quote": "Oranga Tamariki don't do ancestry.com to figure out exactly what bloodlines people are. What they do do is take those children that have committed crimes and try to keep them in a safe space, and the priority is to make sure that they are kept safe."
+        }
+      ],
+      "tags": [
+        "youth-justice",
+        "oranga-tamariki",
+        "police",
+        "childrens-commissioner"
+      ]
+    },
+    {
+      "topic": "Minister Defends Stance on Palestine Recognition and Sanctions",
+      "content": "Foreign Minister Winston Peters defended the Government's foreign policy regarding Israel and Palestine. In response to questions from Labour's Peeni Henare, Peters stated New Zealand has already implemented sanctions by imposing travel bans on two Israeli Ministers and 35 extremist settlers involved in illegal settlement activity. When challenged on why New Zealand has not joined Australia in recognising Palestine as a state, Peters asserted that New Zealand makes its own foreign policy decisions carefully after considering all evidence.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Peeni Henare (Labour)",
+          "quote": "Why is New Zealand yet to join Australia, our only formal international ally, in recognising Palestine as a State?"
+        },
+        {
+          "speaker": "Rt Hon Winston Peters (NZ First)",
+          "quote": "Because we are a very proud democracy with advances in the democratic system way beyond Australia's, going back two centuries, and we make our own decisions carefully and quietly after we have heard all the evidence... Only fools test the water with both feet."
+        }
+      ],
+      "tags": [
+        "foreign-affairs",
+        "israel",
+        "palestine",
+        "united-nations"
+      ]
+    },
+    {
+      "topic": "Ministers at Odds Over Electricity Market Reform as Review Looms",
+      "content": "Apparent divisions within the Government over electricity market reform were highlighted by the Green Party. MP Scott Willis questioned Energy Minister Simon Watts on conflicting public statements, contrasting the Minister's preference for 'small, surgical interventions' with the Associate Minister's call for 'urgency and bold ideas'. Watts maintained both were right and refused to be drawn on specific reforms, including the potential renationalisation of gentailers, stating the Government will announce its response to the Frontier Economics review in due course.",
+      "keyExchanges": [
+        {
+          "speaker": "Scott Willis (Green)",
+          "quote": "Who was right: the Associate Minister for Energy, who said in relation to the energy sector that, 'Now is the time for urgency and bold ideas.'; or the Minister for Energy, who said 'small, surgical interventions will make a big difference and drive real results for Kiwi households and businesses'?"
+        },
+        {
+          "speaker": "Hon Simon Watts (Minister for Energy)",
+          "quote": "Both are obviously right. The context in which I noted was that we would be looking to make surgical interventions into the energy market. What I failed to note: I'm also a registered paramedic."
+        }
+      ],
+      "tags": [
+        "energy",
+        "electricity-market",
+        "cost-of-living",
+        "gentailers"
+      ]
+    }
+  ],
+  "conclusion": "The Government successfully passed its core budget legislation, cementing its economic agenda against a backdrop of fierce opposition criticism over rising social inequality and job losses."
+}
