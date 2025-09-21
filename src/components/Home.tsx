@@ -10,29 +10,47 @@ function CountdownPill() {
   const [nextMeeting, setNextMeeting] = useState<Date | null>(null);
 
   useEffect(() => {
-    // Hardcoded parliament meeting dates from RSS feed
-    const parliamentMeetings = [
-      new Date("2025-09-16T14:00:00+12:00"),
-      new Date("2025-09-17T14:00:00+12:00"),
-      new Date("2025-09-18T14:00:00+12:00"),
-      new Date("2025-10-07T14:00:00+13:00"),
-      new Date("2025-10-08T14:00:00+13:00"),
-      new Date("2025-10-09T14:00:00+13:00"),
-      new Date("2025-10-14T14:00:00+13:00"),
-      new Date("2025-10-15T14:00:00+13:00"),
-      new Date("2025-10-16T14:00:00+13:00"),
-      new Date("2025-10-21T14:00:00+13:00"),
-      new Date("2025-10-22T14:00:00+13:00"),
-      new Date("2025-10-23T14:00:00+13:00"),
-      new Date("2025-11-04T14:00:00+13:00")
-    ];
+    // Parliament meeting schedule:
+    // Tuesday: 2pm to 6pm, 6pm to 7:30pm, 7:30pm to 10pm
+    // Wednesday: 2pm to 6pm, 6pm to 7:30pm, 7:30pm to 10pm  
+    // Thursday: 2pm to 6pm, none, none
 
+    // Calculate next parliament meeting based on weekly schedule
     const now = new Date();
-    const futureMeetings = parliamentMeetings.filter(date => date > now);
+    const currentDay = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
+    const currentHour = now.getHours();
     
-    if (futureMeetings.length > 0) {
-      setNextMeeting(futureMeetings[0]);
+    // Find next meeting time
+    let nextMeetingDate: Date | null = null;
+    
+    // Check if today is a meeting day and if there's still time
+    if (currentDay === 2) { // Tuesday
+      if (currentHour < 14) { // Before 2pm
+        nextMeetingDate = new Date(now);
+        nextMeetingDate.setHours(14, 0, 0, 0);
+      }
+    } else if (currentDay === 3) { // Wednesday  
+      if (currentHour < 14) { // Before 2pm
+        nextMeetingDate = new Date(now);
+        nextMeetingDate.setHours(14, 0, 0, 0);
+      }
+    } else if (currentDay === 4) { // Thursday
+      if (currentHour < 14) { // Before 2pm
+        nextMeetingDate = new Date(now);
+        nextMeetingDate.setHours(14, 0, 0, 0);
+      }
     }
+    
+    // If no meeting today, find next Tuesday
+    if (!nextMeetingDate) {
+      const daysUntilTuesday = (2 - currentDay + 7) % 7;
+      const nextTuesday = new Date(now);
+      nextTuesday.setDate(now.getDate() + (daysUntilTuesday === 0 ? 7 : daysUntilTuesday));
+      nextTuesday.setHours(14, 0, 0, 0);
+      nextMeetingDate = nextTuesday;
+    }
+    
+    setNextMeeting(nextMeetingDate);
   }, []);
 
   useEffect(() => {
@@ -167,6 +185,51 @@ export function Home() {
     });
   };
 
+  // Generate last 12 months for sidebar navigation
+  const generateLast12Months = () => {
+    const months = [];
+    const now = new Date();
+    
+    for (let i = 0; i < 12; i++) {
+      const date = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      const monthYear = date.toLocaleDateString("en-NZ", {
+        month: "long",
+        year: "numeric"
+      });
+      const monthId = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+      months.push({ monthYear, monthId, date });
+    }
+    
+    return months;
+  };
+
+  // Group articles by month
+  const groupArticlesByMonth = (articles: NewsArticle[]) => {
+    const grouped: { [key: string]: NewsArticle[] } = {};
+    
+    articles.forEach(article => {
+      const date = new Date(article.publicationDate);
+      const monthId = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+      
+      if (!grouped[monthId]) {
+        grouped[monthId] = [];
+      }
+      grouped[monthId].push(article);
+    });
+    
+    return grouped;
+  };
+
+  const months = generateLast12Months();
+  const groupedArticles = groupArticlesByMonth(articles);
+
+  const scrollToMonth = (monthId: string) => {
+    const element = document.getElementById(monthId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <>
       <Header />
@@ -182,29 +245,77 @@ export function Home() {
         </div>
       </div>
 
-      <section className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1  gap-4  max-w-[1600px] mx-auto  max-2xl:mx-4 max-md:mx-4 max-sm:px-2 ">
-        {articles.map((article, index) => (
-          <Link
-            key={index}
-            to={`/${article.publicationDate}`}
-            className="block group hover:bg-gray-900/50 p-6 transition-colors border rounded-lg"
-          >
-            <article className="flex flex-col gap-2">
-              <aside className="text-xs text-gray-400">
-                {formatDate(article.publicationDate)}
-              </aside>
-              <h2 className="font-semibold text-xl group-hover:text-blue-400 group-hover:underline transition-colors">
-                {article.headline}
-              </h2>
-              <p
-                className="text-gray-400 text-sm line-clamp-3"
-                dangerouslySetInnerHTML={{
-                  __html: formatTextWithBold(article.summary),
-                }}
-              />
-            </article>
-          </Link>
-        ))}
+      <section className="grid grid-cols-[320px_1fr] gap-4 max-w-[1400px] mx-auto max-xl:grid-cols-1 max-xl:mx-4">
+        <div>
+          <div className=" p-6 rounded-lg h-fit sticky top-4 max-xl:hidden">
+            <h3 className="font-semibold text-lg mb-4">Browse by Month</h3>
+            <nav className="flex flex-col gap-2">
+              {months.map(({ monthYear, monthId }) => {
+                const hasArticles = groupedArticles[monthId] && groupedArticles[monthId].length > 0;
+                return (
+                  <button
+                    key={monthId}
+                    onClick={() => scrollToMonth(monthId)}
+                    className={`text-left px-3 py-2 rounded transition-colors ${
+                      hasArticles 
+                        ? 'hover:bg-gray-800 text-gray-300 hover:text-white' 
+                        : 'text-gray-600 cursor-not-allowed'
+                    }`}
+                    disabled={!hasArticles}
+                  >
+                    {monthYear}
+                    {hasArticles && (
+                      <span className="ml-2 text-xs text-gray-500">
+                        ({groupedArticles[monthId].length})
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </nav>
+          </div>
+        </div>
+        <div className=" flex flex-col gap-8">
+          {months.map(({ monthYear, monthId }) => {
+            const monthArticles = groupedArticles[monthId];
+            
+            if (!monthArticles || monthArticles.length === 0) {
+              return null;
+            }
+            
+            return (
+              <div key={monthId} id={monthId} className="scroll-mt-8">
+                <h2 className="text-2xl mb-4   text-white   p-6 border rounded-lg">
+                  {monthYear}
+                </h2>
+                <div className="flex flex-col gap-4">
+                  {monthArticles.map((article, index) => (
+                    <Link
+                      key={`${monthId}-${index}`}
+                      to={`/${article.publicationDate}`}
+                      className="block group hover:bg-gray-900/50 p-6 transition-colors border rounded-lg"
+                    >
+                      <article className="flex flex-col gap-2">
+                        <aside className="text-xs text-gray-400">
+                          {formatDate(article.publicationDate)}
+                        </aside>
+                        <h3 className="font-semibold text-xl group-hover:text-blue-400 group-hover:underline transition-colors">
+                          {article.headline}
+                        </h3>
+                        <p
+                          className="text-gray-400 text-sm line-clamp-3"
+                          dangerouslySetInnerHTML={{
+                            __html: formatTextWithBold(article.summary),
+                          }}
+                        />
+                      </article>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </section>
       <footer className="p-4 py-24"> <p className="text-center"> Made by <a href="https://walt.online" className="text-blue-400 hover:text-blue-300 underline">Walter Lim</a> and <a href="https://www.linkedin.com/in/jonas-kuhn-99526350/" className="text-blue-400 hover:text-blue-300 underline"> Jonas Kuhn</a></p></footer>
     </>
