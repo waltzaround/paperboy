@@ -16,6 +16,11 @@ const DISCORD_WEBHOOK_URL = process.env.DISCORD_ENDPOINT;
 
 // Function to send Discord webhook
 async function sendDiscordWebhook(status, details) {
+  if (!DISCORD_WEBHOOK_URL) {
+    console.log('Discord webhook URL not configured, skipping webhook notification');
+    return;
+  }
+
   try {
     const embed = {
       title: "📰 Paperboy Scraper Status Report",
