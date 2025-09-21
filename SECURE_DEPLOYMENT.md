@@ -10,10 +10,11 @@ This guide helps you build the Docker container locally and deploy it to your se
 
 ```bash
 # Make scripts executable
-chmod +x build-local.sh transfer-to-server.sh
+chmod +x build.sh build/*.sh
 
 # Build the Docker image (automatically generates pnpm-lock.yaml if needed)
-./build-local.sh
+./build.sh local
+# Or directly: ./build/build-local.sh
 ```
 
 This creates:
@@ -23,7 +24,7 @@ This creates:
 
 ## 📡 **Step 2: Configure Transfer Script**
 
-Edit `transfer-to-server.sh` and update these variables:
+Edit `build/transfer-to-server.sh` and update these variables:
 ```bash
 SERVER_USER="your-username"        # Your server username
 SERVER_HOST="192.168.1.100"       # Your server IP address
@@ -34,7 +35,8 @@ SERVER_PATH="/opt/paperboy"        # Where to install on server
 
 ```bash
 # Transfer everything except credentials
-./transfer-to-server.sh
+./build.sh transfer
+# Or directly: ./build/transfer-to-server.sh
 ```
 
 This transfers:
@@ -97,8 +99,8 @@ docker-compose exec paperboy-scraper /app/run-scraper.sh
 
 When you need to update the scraper:
 
-1. **On Laptop**: Make changes, run `./build-local.sh`
-2. **Transfer**: Run `./transfer-to-server.sh` 
+1. **On Laptop**: Make changes, run `./build.sh local`
+2. **Transfer**: Run `./build.sh transfer` 
 3. **On Server**: Run `./deploy-server.sh` (it will use the new image)
 
 ## 🛠️ **Troubleshooting**
@@ -136,8 +138,8 @@ After deployment, your server will have:
 
 | Action | Command |
 |--------|---------|
-| Build locally | `./build-local.sh` |
-| Transfer to server | `./transfer-to-server.sh` |
+| Build locally | `./build.sh local` |
+| Transfer to server | `./build.sh transfer` |
 | Deploy on server | `./deploy-server.sh` |
 | Monitor | `./monitor.sh` |
 | View logs | `docker-compose logs -f paperboy-scraper` |
