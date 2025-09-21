@@ -234,7 +234,7 @@ export function Home() {
     <>
       <Header />
 
-      <div className="relative w-full h-[600px] overflow-hidden border-y mb-6">
+      <div className="relative w-full h-[400px] overflow-hidden border-y mb-6">
       
         <div className="absolute inset-0 flex flex-col justify-center items-center z-10 pointer-events-none">
           <h1 className="pb-2 font-semibold text-4xl text-white drop-shadow-lg">Paperboy</h1>
@@ -245,7 +245,7 @@ export function Home() {
         </div>
       </div>
 
-      <section className="grid grid-cols-[320px_1fr] gap-4 max-w-[1400px] mx-auto max-xl:grid-cols-1 max-xl:mx-4">
+      <section className="grid grid-cols-[264px_1fr] gap-4 max-w-[1024px] mx-auto max-xl:grid-cols-1 max-xl:mx-4">
         <div>
           <div className=" p-6 rounded-lg h-fit sticky top-4 max-xl:hidden">
             <h3 className="font-semibold text-lg mb-4">Browse by Month</h3>
