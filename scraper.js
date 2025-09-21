@@ -11,8 +11,8 @@ dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Discord webhook URL
-const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1419139717705891892/krspc6AReQw66irM0DzSrTmZ_qyTwRC7AWY7T_GjhAYipptMx7OLTOBrQtE0cy1uYR4-';
+// Discord webhook URL from environment variables
+const DISCORD_WEBHOOK_URL = process.env.DISCORD_ENDPOINT;
 
 // Function to send Discord webhook
 async function sendDiscordWebhook(status, details) {
