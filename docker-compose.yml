@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  paperboy-scraper:
+    build: .
+    container_name: paperboy-scraper
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - TZ=Pacific/Auckland  # Set timezone to New Zealand
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - GITHUB_REPO=${GITHUB_REPO}
+    env_file:
+      - .env  # Load environment variables from .env file
+    volumes:
+      - ./public/news:/app/public/news  # Persist scraped data
+      - ./logs:/var/log  # Persist logs
+    # Optional: Add health check
+    healthcheck:
+      test: ["CMD", "test", "-f", "/var/log/cron.log"]
+      interval: 1h
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    # Optional: Add labels for better organization
+    labels:
+      - "com.paperboy.service=scraper"
+      - "com.paperboy.schedule=tuesday-thursday-midnight"

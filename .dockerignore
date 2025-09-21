@@ -1,0 +1,54 @@
+# Node modules
+node_modules
+npm-debug.log*
+pnpm-debug.log*
+.pnpm-store
+
+# Git
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Development files
+*.md
+.vscode
+.idea
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+transfer-to-server.sh
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Environment variables (will be handled by docker-compose)
+# Uncomment if you don't want to include .env in the image
+# .env
+
+# Temporary folders
+tmp
+temp
+
+# Screenshots and test files
+*.png
+test-*.js

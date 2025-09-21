@@ -14,6 +14,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // Discord webhook URL from environment variables
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_ENDPOINT;
 
+// GitHub configuration from environment variables
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_REPO = process.env.GITHUB_REPO; // Format: "owner/repo"
+
 // Function to send Discord webhook
 async function sendDiscordWebhook(status, details) {
   if (!DISCORD_WEBHOOK_URL) {
@@ -77,6 +81,14 @@ async function sendDiscordWebhook(status, details) {
       });
     }
 
+    if (details.githubPushed !== undefined) {
+      embed.fields.push({
+        name: "🐙 GitHub Push",
+        value: details.githubPushed ? "✅ Success" : "❌ Failed",
+        inline: true
+      });
+    }
+
     const payload = {
       embeds: [embed]
     };
@@ -96,6 +108,162 @@ async function sendDiscordWebhook(status, details) {
     }
   } catch (error) {
     console.error('Error sending Discord webhook:', error.message);
+  }
+}
+
+// Function to push files to GitHub
+async function pushToGitHub(filePaths, commitMessage) {
+  if (!GITHUB_TOKEN || !GITHUB_REPO) {
+    console.log('GitHub configuration not complete, skipping GitHub push');
+    return false;
+  }
+
+  try {
+    const [owner, repo] = GITHUB_REPO.split('/');
+    const baseUrl = `https://api.github.com/repos/${owner}/${repo}`;
+    
+    // Get the latest commit SHA from main branch
+    const branchResponse = await fetch(`${baseUrl}/git/ref/heads/main`, {
+      headers: {
+        'Authorization': `token ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Paperboy-Scraper'
+      }
+    });
+
+    if (!branchResponse.ok) {
+      throw new Error(`Failed to get branch info: ${branchResponse.status} ${branchResponse.statusText}`);
+    }
+
+    const branchData = await branchResponse.json();
+    const latestCommitSha = branchData.object.sha;
+
+    // Get the tree for the latest commit
+    const commitResponse = await fetch(`${baseUrl}/git/commits/${latestCommitSha}`, {
+      headers: {
+        'Authorization': `token ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Paperboy-Scraper'
+      }
+    });
+
+    if (!commitResponse.ok) {
+      throw new Error(`Failed to get commit info: ${commitResponse.status} ${commitResponse.statusText}`);
+    }
+
+    const commitData = await commitResponse.json();
+    const baseTreeSha = commitData.tree.sha;
+
+    // Create blobs for each file
+    const blobs = [];
+    for (const filePath of filePaths) {
+      if (fs.existsSync(filePath)) {
+        const content = fs.readFileSync(filePath, 'utf8');
+        const blobResponse = await fetch(`${baseUrl}/git/blobs`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `token ${GITHUB_TOKEN}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'User-Agent': 'Paperboy-Scraper',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            content: Buffer.from(content).toString('base64'),
+            encoding: 'base64'
+          })
+        });
+
+        if (!blobResponse.ok) {
+          throw new Error(`Failed to create blob for ${filePath}: ${blobResponse.status} ${blobResponse.statusText}`);
+        }
+
+        const blobData = await blobResponse.json();
+        
+        // Convert absolute path to relative path for GitHub
+        const relativePath = path.relative(__dirname, filePath).replace(/\\/g, '/');
+        
+        blobs.push({
+          path: relativePath,
+          mode: '100644',
+          type: 'blob',
+          sha: blobData.sha
+        });
+      }
+    }
+
+    if (blobs.length === 0) {
+      console.log('No files to push to GitHub');
+      return false;
+    }
+
+    // Create a new tree
+    const treeResponse = await fetch(`${baseUrl}/git/trees`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `token ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Paperboy-Scraper',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        base_tree: baseTreeSha,
+        tree: blobs
+      })
+    });
+
+    if (!treeResponse.ok) {
+      throw new Error(`Failed to create tree: ${treeResponse.status} ${treeResponse.statusText}`);
+    }
+
+    const treeData = await treeResponse.json();
+
+    // Create a new commit
+    const newCommitResponse = await fetch(`${baseUrl}/git/commits`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `token ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Paperboy-Scraper',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: commitMessage,
+        tree: treeData.sha,
+        parents: [latestCommitSha]
+      })
+    });
+
+    if (!newCommitResponse.ok) {
+      throw new Error(`Failed to create commit: ${newCommitResponse.status} ${newCommitResponse.statusText}`);
+    }
+
+    const newCommitData = await newCommitResponse.json();
+
+    // Update the main branch reference
+    const updateRefResponse = await fetch(`${baseUrl}/git/refs/heads/main`, {
+      method: 'PATCH',
+      headers: {
+        'Authorization': `token ${GITHUB_TOKEN}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Paperboy-Scraper',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        sha: newCommitData.sha
+      })
+    });
+
+    if (!updateRefResponse.ok) {
+      throw new Error(`Failed to update branch: ${updateRefResponse.status} ${updateRefResponse.statusText}`);
+    }
+
+    console.log(`Successfully pushed ${blobs.length} files to GitHub: ${GITHUB_REPO}`);
+    console.log(`Commit SHA: ${newCommitData.sha}`);
+    return true;
+
+  } catch (error) {
+    console.error('Error pushing to GitHub:', error.message);
+    return false;
   }
 }
 
@@ -506,6 +674,47 @@ async function scrapeHansard(startDate, endDate) {
       const files = fs.readdirSync(newsDir)
         .filter(file => file.endsWith('.json') && file !== 'index.json');
       statusReport.totalFiles = files.length;
+    }
+
+    // Push new files to GitHub if any articles were processed
+    if (statusReport.articlesProcessed > 0) {
+      console.log('Pushing new articles to GitHub...');
+      
+      // Collect all files to push
+      const filesToPush = [];
+      
+      // Add the index file
+      const indexPath = path.join(newsDir, 'index.json');
+      if (fs.existsSync(indexPath)) {
+        filesToPush.push(indexPath);
+      }
+      
+      // Add processed article files for successful dates
+      for (const date of statusReport.successfulDates) {
+        const formattedDate = formatDate(date);
+        const processedPath = path.join(newsDir, `${formattedDate}.json`);
+        const rawPath = path.join(newsDir, 'raw', `${formattedDate}.json`);
+        
+        if (fs.existsSync(processedPath)) {
+          filesToPush.push(processedPath);
+        }
+        if (fs.existsSync(rawPath)) {
+          filesToPush.push(rawPath);
+        }
+      }
+      
+      if (filesToPush.length > 0) {
+        const commitMessage = `Add Hansard articles for ${statusReport.successfulDates.join(', ')} - ${statusReport.articlesProcessed} articles processed`;
+        const githubSuccess = await pushToGitHub(filesToPush, commitMessage);
+        
+        if (githubSuccess) {
+          statusReport.githubPushed = true;
+          console.log('Successfully pushed articles to GitHub');
+        } else {
+          statusReport.githubPushed = false;
+          statusReport.errors.push('Failed to push to GitHub');
+        }
+      }
     }
 
   } finally {

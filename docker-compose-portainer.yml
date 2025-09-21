@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  paperboy-scraper:
+    image: paperboy-scraper:latest  # Use the pre-built image instead of building
+    container_name: paperboy-scraper
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - TZ=Pacific/Auckland  # Set timezone to New Zealand
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - DISCORD_ENDPOINT=${DISCORD_ENDPOINT}
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - GITHUB_REPO=${GITHUB_REPO}
+    # env_file removed - use Portainer environment variables instead
+    volumes:
+      - /home/walrus/apps/paperboy/public/news:/app/public/news  # Persist scraped data
+      - /home/walrus/apps/paperboy/logs:/var/log  # Persist logs
+    # Optional: Add health check
+    healthcheck:
+      test: ["CMD", "test", "-f", "/var/log/cron.log"]
+      interval: 1h
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    # Optional: Add labels for better organization
+    labels:
+      - "com.paperboy.service=scraper"
+      - "com.paperboy.schedule=tuesday-thursday-midnight"

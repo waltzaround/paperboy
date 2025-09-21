@@ -1,0 +1,6 @@
+# Run scraper at midnight (00:00) every Tuesday (2) and Thursday (4)
+# Format: minute hour day month day-of-week command
+0 0 * * 2,4 /app/run-scraper.sh >> /var/log/scraper.log 2>&1
+
+# Optional: Add a health check that runs every hour
+0 * * * * echo "$(date): Cron is running" >> /var/log/cron.log
