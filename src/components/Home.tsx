@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { formatTextWithBold } from "@/lib/utils";
 import { updatePageSEO, DEFAULT_SEO } from "@/lib/seo";
 import { Header } from "./header";
-import Plasma from './Plasma';
+
 
 function CountdownPill() {
   const [timeLeft, setTimeLeft] = useState("");
