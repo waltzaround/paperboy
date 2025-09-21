@@ -11,6 +11,89 @@ dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Discord webhook URL
+const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1419139717705891892/krspc6AReQw66irM0DzSrTmZ_qyTwRC7AWY7T_GjhAYipptMx7OLTOBrQtE0cy1uYR4-';
+
+// Function to send Discord webhook
+async function sendDiscordWebhook(status, details) {
+  try {
+    const embed = {
+      title: "📰 Paperboy Scraper Status Report",
+      color: status === 'success' ? 0x00ff00 : status === 'partial' ? 0xffaa00 : 0xff0000,
+      timestamp: new Date().toISOString(),
+      fields: [
+        {
+          name: "Status",
+          value: status === 'success' ? "✅ Success" : status === 'partial' ? "⚠️ Partial Success" : "❌ Failed",
+          inline: true
+        },
+        {
+          name: "Date Range",
+          value: details.dateRange || "N/A",
+          inline: true
+        },
+        {
+          name: "Articles Processed",
+          value: details.articlesProcessed?.toString() || "0",
+          inline: true
+        }
+      ]
+    };
+
+    if (details.successfulDates && details.successfulDates.length > 0) {
+      embed.fields.push({
+        name: "✅ Successfully Scraped",
+        value: details.successfulDates.join(', '),
+        inline: false
+      });
+    }
+
+    if (details.failedDates && details.failedDates.length > 0) {
+      embed.fields.push({
+        name: "❌ Failed to Scrape",
+        value: details.failedDates.join(', '),
+        inline: false
+      });
+    }
+
+    if (details.errors && details.errors.length > 0) {
+      embed.fields.push({
+        name: "🐛 Errors",
+        value: details.errors.slice(0, 3).join('\n'),
+        inline: false
+      });
+    }
+
+    if (details.totalFiles) {
+      embed.fields.push({
+        name: "📁 Total Files in Index",
+        value: details.totalFiles.toString(),
+        inline: true
+      });
+    }
+
+    const payload = {
+      embeds: [embed]
+    };
+
+    const response = await fetch(DISCORD_WEBHOOK_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload)
+    });
+
+    if (response.ok) {
+      console.log('Discord webhook sent successfully');
+    } else {
+      console.error('Failed to send Discord webhook:', response.status, response.statusText);
+    }
+  } catch (error) {
+    console.error('Error sending Discord webhook:', error.message);
+  }
+}
+
 // Function to parse date from YYYY-MM-DD to YYYYMMDD
 function formatDate(date) {
   return date.replace(/-/g, '');
@@ -172,6 +255,16 @@ function parseNewsArticle(html, date, hh = null) {
 
 // Main scraper function
 async function scrapeHansard(startDate, endDate) {
+  const scrapingStartTime = new Date();
+  const statusReport = {
+    dateRange: startDate === endDate ? startDate : `${startDate} to ${endDate}`,
+    successfulDates: [],
+    failedDates: [],
+    errors: [],
+    articlesProcessed: 0,
+    totalFiles: 0
+  };
+
   // Launch browser with user-agent spoofing
   const browser = await chromium.launch({
     headless: true, // Set to false for debugging
@@ -193,30 +286,40 @@ async function scrapeHansard(startDate, endDate) {
   $main('a[href]').each((i, elem) => {
     const href = $main(elem).attr('href');
     if (href && href.includes('HansD_')) {
+      console.log(`Found HansD link: ${href}`);
       const match = href.match(/combined\/HansD_(\d{8})_(\d{8})/);
       if (match) {
         const dateStr = match[1];
         const linkDate = dateStr.slice(0, 4) + '-' + dateStr.slice(4, 6) + '-' + dateStr.slice(6, 8);
-        const fullUrl = href.startsWith('http') ? href : 'https://www.parliament.nz' + href;
+        const fullUrl = href.startsWith('http') ? href : 'https://www3.parliament.nz' + href;
         if (!dateLinks[linkDate]) dateLinks[linkDate] = { hansD: null, hansDeb: [] };
         dateLinks[linkDate].hansD = fullUrl;
+        console.log(`Added HansD URL for ${linkDate}: ${fullUrl}`);
       }
     } else if (href && href.includes('HansDeb_')) {
+      console.log(`Found HansDeb link: ${href}`);
       const match = href.match(/HansDeb_(\d{8})_(\d{8})/);
       if (match) {
         const dateStr = match[1];
         const linkDate = dateStr.slice(0, 4) + '-' + dateStr.slice(4, 6) + '-' + dateStr.slice(6, 8);
-        const fullUrl = href.startsWith('http') ? href : 'https://www.parliament.nz' + href;
+        const fullUrl = href.startsWith('http') ? href : 'https://www3.parliament.nz' + href;
         if (!dateLinks[linkDate]) dateLinks[linkDate] = { hansD: null, hansDeb: [] };
         dateLinks[linkDate].hansDeb.push(fullUrl);
+        console.log(`Added HansDeb URL for ${linkDate}: ${fullUrl}`);
       }
     }
+  });
+
+  console.log(`Found ${Object.keys(dateLinks).length} dates with links:`, Object.keys(dateLinks));
+  Object.entries(dateLinks).forEach(([date, links]) => {
+    console.log(`${date}: HansD=${links.hansD}, HansDeb count=${links.hansDeb.length}`);
   });
 
   try {
     for (const date of Object.keys(dateLinks)) {
       const formattedDate = formatDate(date);
       const articles = [];
+      let dateSuccess = false;
 
       console.log(`Scraping date: ${date}`);
 
@@ -232,25 +335,129 @@ async function scrapeHansard(startDate, endDate) {
       if (links.length > 0) {
         for (const link of links) {
           try {
-            // Navigate to the URL
-            const response = await page.goto(link, { waitUntil: 'networkidle', timeout: 30000 });
-
-            if (response && response.ok()) {
-              // Wait for potential Radware challenge to resolve
-              await page.waitForTimeout(2000); // Adjust as needed
-
+            console.log(`Attempting to fetch: ${link}`);
+            
+            // Strategy 1: Try clicking on the link from the search results page instead of direct navigation
+            // Go back to the main search page first
+            await page.goto(mainUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+            await page.waitForTimeout(2000);
+            
+            // Find and click the specific link
+            const linkSelector = `a[href="${link.replace('https://www3.parliament.nz', '')}"]`;
+            console.log(`Looking for link selector: ${linkSelector}`);
+            
+            const linkElement = await page.$(linkSelector);
+            if (linkElement) {
+              console.log(`Found link element, clicking...`);
+              
+              // Click the link and wait for navigation
+              await Promise.all([
+                page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 60000 }),
+                linkElement.click()
+              ]);
+              
+              // Wait for page to fully load
+              await page.waitForTimeout(3000);
+              
+              const pageTitle = await page.title();
+              console.log(`Page title after click: ${pageTitle}`);
+              
               // Get page content
               const html = await page.content();
-              const hhMatch = link.match(/_(\d{2})$/);
-              const hh = hhMatch ? hhMatch[1] : null;
-              const article = parseNewsArticle(html, date, hh);
-              articles.push(article);
-              console.log(`Fetched: ${link}`);
+              
+              // Check if we actually got hansard content
+              if (html.includes('hansard') || html.includes('Hansard') || html.includes('parliamentary') || html.includes('debate')) {
+                const hhMatch = link.match(/_(\d{2})$/);
+                const hh = hhMatch ? hhMatch[1] : null;
+                const article = parseNewsArticle(html, date, hh);
+                articles.push(article);
+                dateSuccess = true;
+                console.log(`Successfully fetched and parsed via click: ${link}`);
+              } else {
+                console.log(`Page content doesn't appear to contain hansard data after click`);
+                console.log(`HTML preview: ${html.substring(0, 500)}...`);
+                
+                // Strategy 2: Try direct navigation with proper referrer
+                console.log(`Trying direct navigation with referrer...`);
+                await page.setExtraHTTPHeaders({
+                  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                  'Accept-Language': 'en-US,en;q=0.5',
+                  'Accept-Encoding': 'gzip, deflate, br',
+                  'DNT': '1',
+                  'Connection': 'keep-alive',
+                  'Upgrade-Insecure-Requests': '1',
+                  'Referer': mainUrl
+                });
+
+                const response = await page.goto(link, { 
+                  waitUntil: 'domcontentloaded', 
+                  timeout: 60000 
+                });
+
+                console.log(`Direct navigation response status: ${response ? response.status() : 'no response'}`);
+
+                if (response && response.ok()) {
+                  await page.waitForTimeout(3000);
+                  const directHtml = await page.content();
+                  
+                  if (directHtml.includes('hansard') || directHtml.includes('Hansard') || directHtml.includes('parliamentary') || directHtml.includes('debate')) {
+                    const hhMatch = link.match(/_(\d{2})$/);
+                    const hh = hhMatch ? hhMatch[1] : null;
+                    const article = parseNewsArticle(directHtml, date, hh);
+                    articles.push(article);
+                    dateSuccess = true;
+                    console.log(`Successfully fetched via direct navigation: ${link}`);
+                  } else {
+                    console.log(`Direct navigation also didn't return hansard content`);
+                  }
+                }
+              }
             } else {
-              console.error(`Error fetching ${link}: Status ${response ? response.status() : 'unknown'}`);
+              console.log(`Link element not found on search page, trying direct navigation...`);
+              
+              // Strategy 2: Direct navigation with referrer
+              await page.setExtraHTTPHeaders({
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'DNT': '1',
+                'Connection': 'keep-alive',
+                'Upgrade-Insecure-Requests': '1',
+                'Referer': mainUrl
+              });
+
+              const response = await page.goto(link, { 
+                waitUntil: 'domcontentloaded', 
+                timeout: 60000 
+              });
+
+              console.log(`Response status: ${response ? response.status() : 'no response'}`);
+
+              if (response && response.ok()) {
+                await page.waitForTimeout(3000);
+                const pageTitle = await page.title();
+                console.log(`Page title: ${pageTitle}`);
+                const html = await page.content();
+                
+                if (html.includes('hansard') || html.includes('Hansard') || html.includes('parliamentary') || html.includes('debate')) {
+                  const hhMatch = link.match(/_(\d{2})$/);
+                  const hh = hhMatch ? hhMatch[1] : null;
+                  const article = parseNewsArticle(html, date, hh);
+                  articles.push(article);
+                  dateSuccess = true;
+                  console.log(`Successfully fetched and parsed: ${link}`);
+                } else {
+                  console.log(`Page content doesn't appear to contain hansard data for: ${link}`);
+                  console.log(`HTML preview: ${html.substring(0, 500)}...`);
+                }
+              } else {
+                console.error(`Error fetching ${link}: Status ${response ? response.status() : 'unknown'}`);
+              }
             }
           } catch (error) {
             console.error(`Error fetching ${link}: ${error.message}`);
+            console.error(`Stack trace: ${error.stack}`);
+            statusReport.errors.push(`${date}: ${error.message}`);
           }
         }
         // Save the raw articles
@@ -268,15 +475,48 @@ async function scrapeHansard(startDate, endDate) {
         console.log(`No links found for ${date}`);
       }
 
-      await createSummaries(articles, date);
+      try {
+        await createSummaries(articles, date);
+        if (articles.length > 0) {
+          statusReport.articlesProcessed += articles.length;
+          if (dateSuccess) {
+            statusReport.successfulDates.push(date);
+          }
+        } else {
+          statusReport.failedDates.push(date);
+        }
+      } catch (error) {
+        console.error(`Error processing articles for ${date}:`, error.message);
+        statusReport.errors.push(`${date} processing: ${error.message}`);
+        statusReport.failedDates.push(date);
+      }
     }
 
     // Update index of available files by reading the directory
     updateNewsIndex();
 
+    // Get total files count for status report
+    const newsDir = path.join(__dirname, 'public', 'news');
+    if (fs.existsSync(newsDir)) {
+      const files = fs.readdirSync(newsDir)
+        .filter(file => file.endsWith('.json') && file !== 'index.json');
+      statusReport.totalFiles = files.length;
+    }
+
   } finally {
     await browser.close();
   }
+
+  // Determine overall status and send webhook
+  let overallStatus = 'success';
+  if (statusReport.failedDates.length > 0 && statusReport.successfulDates.length === 0) {
+    overallStatus = 'failed';
+  } else if (statusReport.failedDates.length > 0) {
+    overallStatus = 'partial';
+  }
+
+  // Send Discord webhook with status report
+  await sendDiscordWebhook(overallStatus, statusReport);
 }
 
 // CLI arguments
