@@ -42,7 +42,7 @@ export function About() {
                   </div>
                   <p className="text-sm text-gray-400">
                     We automatically collect official Hansard transcripts from Parliament's website 
-                    using Cloudflare Workers and Playwright.
+                    using Docker and Playwright.
                   </p>
                 </div>
                 
@@ -107,7 +107,7 @@ export function About() {
                   <li><strong className="text-gray-300">UI Components:</strong> Shadcn/ui</li>
                   <li><strong className="text-gray-300">Scraping:</strong> Playwright, Cheerio</li>
                   <li><strong className="text-gray-300">AI Processing:</strong> Google Gemini Pro</li>
-                  <li><strong className="text-gray-300">Infrastructure:</strong> Cloudflare Workers, Pages</li>
+                  <li><strong className="text-gray-300">Infrastructure:</strong> Docker, Cloudflare Pages</li>
                   <li><strong className="text-gray-300">Deployment:</strong> Automated via GitHub Actions</li>
                 </ul>
               </div>
