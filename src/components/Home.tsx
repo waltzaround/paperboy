@@ -94,7 +94,7 @@ function CountdownPill() {
 
   return (
     <div className="px-4 py-2 rounded-full border border-white/20 mt-4 text-sm">
-      Parliament meets in: <span className="font-semibold italic text-white">{timeLeft}</span>
+      Parliament usually meets in: <span className="font-semibold italic text-white">{timeLeft}</span>
     </div>
   );
 }
