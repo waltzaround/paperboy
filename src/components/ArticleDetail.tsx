@@ -4,7 +4,7 @@ import { ArrowLeft, Calendar, Quote, User, ExternalLink, Share2 } from "lucide-r
 import { Button } from "@/components/ui/button";
 import { formatTextWithBold, splitIntoParagraphs } from "@/lib/utils";
 import { updatePageSEO, addStructuredData, generateArticleSEO, createArticleStructuredData } from "@/lib/seo";
-import { Header } from "./header";
+
 
 interface KeyExchange {
   speaker: string;
@@ -172,7 +172,7 @@ export function ArticleDetail() {
   }
 
   return (<>
-    <Header/>
+
     <div className="border-t"></div>
     <div className="mx-auto max-w-[800px]  border-x">
       <div className="border-b flex justify-between">

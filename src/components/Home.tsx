@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { formatTextWithBold } from "@/lib/utils";
 import { updatePageSEO, DEFAULT_SEO } from "@/lib/seo";
-import { Header } from "./header";
+
 
 
 function CountdownPill() {
@@ -232,7 +232,7 @@ export function Home() {
 
   return (
     <>
-      <Header />
+   
 
       <div className="relative w-full h-[400px] overflow-hidden border-y mb-6">
       

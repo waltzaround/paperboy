@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.tsx'
 import { ArticleDetail } from './components/ArticleDetail.tsx'
 import { About } from './components/About.tsx'
+import { Header } from './components/header.tsx'
 
 // Force dark mode regardless of user's system preference
 document.documentElement.classList.add('dark')
@@ -27,9 +28,14 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
+    path: '/patches',
+    element: <div />,
+  },
+  {
     path: '/about',
     element: <About />,
   },
+  
   {
     path: '/:date',
     element: <ArticleDetail />,
@@ -38,6 +44,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+        <Header />
     <RouterProvider router={router} />
   </StrictMode>,
 )

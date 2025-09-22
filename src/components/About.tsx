@@ -1,12 +1,12 @@
 
 import { Github, Calendar, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Header } from "./header";
+
 import CurvedLoop from './Curvedloop';
 export function About() {
   return (
     <div className="min-h-screen bg-black text-white">
-        <Header />
+    
         <CurvedLoop marqueeText="About Paperboy" speed={1} curveAmount={300} direction="left" interactive={false} className="max-h-[30vh]" />
       <div className="max-w-4xl mx-auto px-4 py-8">
        
