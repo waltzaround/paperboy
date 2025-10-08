@@ -449,7 +449,7 @@ async function scrapeHansard(startDate, endDate) {
   const page = await context.newPage();
 
   // Fetch main page with date range filter to extract date links
-  const mainUrl = `https://www.parliament.nz/en/pb/hansard-debates/rhr/?criteria.Timeframe=range&criteria.DateFrom=${startDate}&criteria.DateTo=${endDate}`;
+  const mainUrl = `https://www3.parliament.nz/en/pb/hansard-debates/rhr/?criteria.Timeframe=range&criteria.DateFrom=${startDate}&criteria.DateTo=${endDate}`;
   console.log("Checking ", mainUrl);
   await page.goto(mainUrl, { waitUntil: 'networkidle', timeout: 30000 });
   const mainHtml = await page.content();

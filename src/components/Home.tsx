@@ -285,15 +285,15 @@ export function Home() {
             
             return (
               <div key={monthId} id={monthId} className="scroll-mt-8">
-                <h2 className="text-2xl mb-4   text-white   p-6 border rounded-lg">
+                <h2 className="text-2xl   text-white   p-6 border-x border-t  rounded-t-lg border-b">
                   {monthYear}
                 </h2>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col">
                   {monthArticles.map((article, index) => (
                     <Link
                       key={`${monthId}-${index}`}
                       to={`/${article.publicationDate}`}
-                      className="block group hover:bg-gray-900/50 p-6 transition-colors border rounded-lg"
+                      className="block group hover:bg-gray-900/50 p-6 transition-colors border-x last:rounded-b-lg border-b"
                     >
                       <article className="flex flex-col gap-2">
                         <aside className="text-xs text-gray-400">
