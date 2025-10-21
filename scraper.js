@@ -676,44 +676,58 @@ async function scrapeHansard(startDate, endDate) {
       statusReport.totalFiles = files.length;
     }
 
-    // Push new files to GitHub if any articles were processed
+    // Push new files to GitHub if any articles were processed (only when running remotely)
     if (statusReport.articlesProcessed > 0) {
-      console.log('Pushing new articles to GitHub...');
+      // Check if we're running in a remote environment (not on local laptop)
+      const isRemoteEnvironment = process.env.CI || 
+                                 process.env.GITHUB_ACTIONS || 
+                                 process.env.VERCEL || 
+                                 process.env.NETLIFY || 
+                                 process.env.RAILWAY || 
+                                 process.env.RENDER ||
+                                 process.env.NODE_ENV === 'production';
       
-      // Collect all files to push
-      const filesToPush = [];
-      
-      // Add the index file
-      const indexPath = path.join(newsDir, 'index.json');
-      if (fs.existsSync(indexPath)) {
-        filesToPush.push(indexPath);
-      }
-      
-      // Add processed article files for successful dates
-      for (const date of statusReport.successfulDates) {
-        const formattedDate = formatDate(date);
-        const processedPath = path.join(newsDir, `${formattedDate}.json`);
-        const rawPath = path.join(newsDir, 'raw', `${formattedDate}.json`);
+      if (isRemoteEnvironment) {
+        console.log('Running in remote environment - pushing new articles to GitHub...');
         
-        if (fs.existsSync(processedPath)) {
-          filesToPush.push(processedPath);
-        }
-        if (fs.existsSync(rawPath)) {
-          filesToPush.push(rawPath);
-        }
-      }
-      
-      if (filesToPush.length > 0) {
-        const commitMessage = `Add Hansard articles for ${statusReport.successfulDates.join(', ')} - ${statusReport.articlesProcessed} articles processed`;
-        const githubSuccess = await pushToGitHub(filesToPush, commitMessage);
+        // Collect all files to push
+        const filesToPush = [];
         
-        if (githubSuccess) {
-          statusReport.githubPushed = true;
-          console.log('Successfully pushed articles to GitHub');
-        } else {
-          statusReport.githubPushed = false;
-          statusReport.errors.push('Failed to push to GitHub');
+        // Add the index file
+        const indexPath = path.join(newsDir, 'index.json');
+        if (fs.existsSync(indexPath)) {
+          filesToPush.push(indexPath);
         }
+        
+        // Add processed article files for successful dates
+        for (const date of statusReport.successfulDates) {
+          const formattedDate = formatDate(date);
+          const processedPath = path.join(newsDir, `${formattedDate}.json`);
+          const rawPath = path.join(newsDir, 'raw', `${formattedDate}.json`);
+          
+          if (fs.existsSync(processedPath)) {
+            filesToPush.push(processedPath);
+          }
+          if (fs.existsSync(rawPath)) {
+            filesToPush.push(rawPath);
+          }
+        }
+        
+        if (filesToPush.length > 0) {
+          const commitMessage = `Add Hansard articles for ${statusReport.successfulDates.join(', ')} - ${statusReport.articlesProcessed} articles processed`;
+          const githubSuccess = await pushToGitHub(filesToPush, commitMessage);
+          
+          if (githubSuccess) {
+            statusReport.githubPushed = true;
+            console.log('Successfully pushed articles to GitHub');
+          } else {
+            statusReport.githubPushed = false;
+            statusReport.errors.push('Failed to push to GitHub');
+          }
+        }
+      } else {
+        console.log('Running locally - skipping GitHub push');
+        statusReport.githubPushed = false;
       }
     }
 
