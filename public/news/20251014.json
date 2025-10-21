@@ -1,0 +1,72 @@
+{
+  "headline": "Government Pushes Controversial Changes to Marine and Coastal Area Act Amid Fierce Opposition",
+  "publicationDate": "2025-10-14",
+  "summary": "Parliament was dominated by a contentious debate as the Government advanced its bill to tighten the legal test for recognizing Māori customary rights over the foreshore and seabed, a move opponents labelled a confiscation. The day also featured sharp economic clashes during Question Time and a stern ruling from the Speaker signalling a crackdown on parliamentary conduct and 'disrespect for process'.",
+  "topicSummaries": [
+    {
+      "topic": "Marine and Coastal Area Bill Advances, Tightening Test for Customary Title",
+      "whyItMatters": "This legislation makes it harder for Māori to gain legal recognition of customary rights over the foreshore and seabed, and retrospectively nullifies some recent court victories.",
+      "content": "The Government used its majority to pass amendments to the Marine and Coastal Area (Takutai Moana) (Customary Marine Title) Amendment Bill during a heated committee stage debate. Minister for Treaty of Waitangi Negotiations, Paul Goldsmith, argued the changes were necessary to restore Parliament's original 2011 intent of a \"high threshold\" for proving customary title, which he claimed recent court decisions had diluted. The amendments focus on requiring evidence of \"physical use and occupation\" and place a greater burden of proof on applicants. Opposition parties, including Labour, the Green Party, and Te Pāti Māori, vehemently opposed the bill, describing it as \"raupatu\" (confiscation), a breach of Te Tiriti o Waitangi, and an unjust retrospective action that strips away rights already won in court.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Dr Duncan Webb (Labour)",
+          "quote": "Why is it that the Minister sees the property rights of hapū and iwi in respect of coastal and marine areas in some way as less than other property rights that people who are applying for a resource consent ought to have, such that they should actually be extinguished by this legislation...?"
+        },
+        {
+          "speaker": "Hon Paul Goldsmith (National)",
+          "quote": "I explained, and it has been very well traversed in this House, that the bill was seeking to balance two things: on the one hand, the ability to assert customary marine rights... and to balance that with the natural expectations of all New Zealanders living in a modern democracy to have an equal say in what goes on in their community."
+        }
+      ],
+      "tags": [
+        "takutai-moana",
+        "treaty-of-waitangi",
+        "customary-rights",
+        "legislation"
+      ]
+    },
+    {
+      "topic": "PM and Opposition Leader Clash Over Economy, Infrastructure, and Emigration",
+      "whyItMatters": "This exchange highlights the starkly different economic narratives of the Government and Opposition, focusing on who is to blame for the current cost of living pressures and economic downturn.",
+      "content": "During Question Time, Leader of the Opposition Chris Hipkins challenged Prime Minister Christopher Luxon on the government's economic performance, citing a shrinking economy, rising unemployment, and a record number of New Zealanders leaving the country. The Prime Minister defended his government's actions, attributing the economic challenges to a \"poor inheritance\" from the previous Labour government, including high spending that drove up inflation and interest rates. The debate also covered the government's decision to cut nearly $3 billion in infrastructure investment, which Mr. Luxon defended as part of getting spending under control to lower interest rates, while Mr. Hipkins questioned why funds were instead directed to \"tax cuts for landlords and tobacco companies.\"",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon Chris Hipkins (Labour)",
+          "quote": "Which thing is he most proud of: a shrinking economy, rising unemployment, more kids living in poverty, more homelessness, or record numbers of New Zealanders giving up and leaving the country?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (National)",
+          "quote": "Well, on the last point, I'd just say to the member: it's rather ironic that he talks about the number of New Zealanders leaving New Zealand, which is at a high, and it is a function of the economic conditions that he left with his previous Government."
+        }
+      ],
+      "tags": [
+        "economy",
+        "question-time",
+        "cost-of-living",
+        "infrastructure"
+      ]
+    },
+    {
+      "topic": "Speaker Cracks Down on Parliamentary Conduct, Citing 'Disrespect for Process'",
+      "whyItMatters": "The Speaker's ruling signals a stricter enforcement of rules in the House, potentially leading to less tolerance for disruptions and more disciplined debates for all MPs.",
+      "content": "The Speaker delivered a significant ruling at the start of the session, admonishing Te Pāti Māori for what he termed a \"disrespect for process\" during a recent maiden speech. The issue arose after MP Oriini Kaipara's speech, along with a subsequent waiata and haka, significantly exceeded the 15-minute timeframe agreed to by Parliament's Business Committee. The Speaker described the act of ignoring the agreed time as \"contemptuous\" and warned that future requests from Te Pāti Māori would be \"clouded by the disruption\". He announced his intention to more critically apply the rules to ensure respect and dignity are upheld, including reverting to stricter rules for supplementary questions and engaging the Business Committee on changes to dress standards and leave provisions.",
+      "tags": [
+        "parliament",
+        "speaker",
+        "standing-orders",
+        "conduct"
+      ]
+    },
+    {
+      "topic": "Broadcasting Advertising Repeal Bill Passes Final Reading",
+      "whyItMatters": "The passage of this bill removes certain advertising restrictions, changing the commercial landscape for New Zealand's broadcasters.",
+      "content": "The Broadcasting (Repeal of Advertising Restrictions) Amendment Bill passed its third and final reading, concluding its journey through Parliament. The vote was treated as a conscience issue, allowing Members of Parliament to vote individually rather than along party lines. Following a personal vote requested by members, the bill was passed with 93 Ayes to 29 Noes and will now proceed to Royal assent to become law.",
+      "tags": [
+        "legislation",
+        "broadcasting",
+        "conscience-vote",
+        "third-reading"
+      ]
+    }
+  ],
+  "conclusion": "The day was defined by the Government's determined legislative push on customary marine rights, facing a unified and fierce opposition that frames an ongoing constitutional and political battle."
+}
