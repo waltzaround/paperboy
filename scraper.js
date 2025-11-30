@@ -438,15 +438,90 @@ async function scrapeHansard(startDate, endDate) {
     totalFiles: 0
   };
 
-  // Launch browser with user-agent spoofing
+  // Launch browser with enhanced anti-detection
   const browser = await chromium.launch({
     headless: true, // Set to false for debugging
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-blink-features=AutomationControlled',
+      '--disable-features=VizDisplayCompositor',
+      '--disable-web-security',
+      '--disable-features=site-per-process',
+      '--disable-background-networking',
+      '--disable-background-timer-throttling',
+      '--disable-renderer-backgrounding',
+      '--disable-backgrounding-occluded-windows',
+      '--disable-client-side-phishing-detection',
+      '--disable-default-apps',
+      '--disable-dev-shm-usage',
+      '--disable-extensions',
+      '--disable-features=TranslateUI',
+      '--disable-hang-monitor',
+      '--disable-ipc-flooding-protection',
+      '--disable-popup-blocking',
+      '--disable-prompt-on-repost',
+      '--disable-sync',
+      '--metrics-recording-only',
+      '--no-first-run',
+      '--safebrowsing-disable-auto-update',
+      '--enable-automation=false',
+      '--password-store=basic',
+      '--use-mock-keychain'
+    ]
   });
+  
   const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    viewport: { width: 1366, height: 768 },
+    locale: 'en-NZ',
+    timezoneId: 'Pacific/Auckland',
+    extraHTTPHeaders: {
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+      'Accept-Language': 'en-NZ,en;q=0.9,en-US;q=0.8',
+      'Accept-Encoding': 'gzip, deflate, br',
+      'Cache-Control': 'no-cache',
+      'Pragma': 'no-cache',
+      'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+      'Sec-Ch-Ua-Mobile': '?0',
+      'Sec-Ch-Ua-Platform': '"macOS"',
+      'Sec-Fetch-Dest': 'document',
+      'Sec-Fetch-Mode': 'navigate',
+      'Sec-Fetch-Site': 'none',
+      'Sec-Fetch-User': '?1',
+      'Upgrade-Insecure-Requests': '1'
+    }
   });
+  
   const page = await context.newPage();
+  
+  // Remove automation indicators
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', {
+      get: () => undefined,
+    });
+    
+    // Remove chrome automation indicators
+    delete window.chrome?.runtime?.onConnect;
+    delete window.chrome?.runtime?.onMessage;
+    
+    // Mock plugins and languages
+    Object.defineProperty(navigator, 'plugins', {
+      get: () => [1, 2, 3, 4, 5],
+    });
+    
+    Object.defineProperty(navigator, 'languages', {
+      get: () => ['en-NZ', 'en', 'en-US'],
+    });
+    
+    // Mock permissions
+    const originalQuery = window.navigator.permissions.query;
+    window.navigator.permissions.query = (parameters) => (
+      parameters.name === 'notifications' ?
+        Promise.resolve({ state: Cypress ? 'denied' : 'granted' }) :
+        originalQuery(parameters)
+    );
+  });
 
   // Fetch main page with date range filter to extract date links
   const mainUrl = `https://www3.parliament.nz/en/pb/hansard-debates/rhr/?criteria.Timeframe=range&criteria.DateFrom=${startDate}&criteria.DateTo=${endDate}`;
