@@ -1,0 +1,134 @@
+{
+  "headline": "Education Bill Passes Final Reading, Removes Treaty of Waitangi Obligations from School Boards",
+  "publicationDate": "2025-11-11",
+  "summary": "Parliament was dominated by the final passage of a controversial education bill that removes Treaty of Waitangi obligations for school boards, sparking fierce opposition. The day also featured intense clashes over the economy, with the government defending its record against criticism from both the opposition and its own coalition partner, while major legislation on congestion charging and a ban on greyhound racing also advanced.",
+  "topicSummaries": [
+    {
+      "topic": "Controversial Education Bill Passes, Removing Te Tiriti Obligations from School Boards",
+      "whyItMatters": "This law changes the core legal duties of school boards, focusing them on academic achievement while sparking widespread criticism over the removal of Treaty of Waitangi principles.",
+      "content": "The Education and Training Amendment Bill (No 2) passed its third reading, making educational achievement the \"paramount objective\" for school boards. A late amendment, introduced without a select committee process, removes the requirement for boards to give effect to Te Tiriti o Waitangi. The government argued this clarifies that the Crown, not volunteer parents on boards, holds Treaty obligations. Opposition parties vehemently opposed the changes, with Labour calling the bill a \"travesty,\" Te Pāti Māori labelling it a \"racist, dogmatic attack,\" and the Greens describing it as \"despicable.\" Critics, including 29 kura and numerous education unions, argued the move was undemocratic and undermined New Zealand's founding document.",
+      "keyExchanges": [
+        {
+          "speaker": "Debbie Ngarewa-Packer (Co-Leader—Te Pāti Māori)",
+          "quote": "Does he stand by the answer that the Minister of Education gave last week to our question on removing Te Tiriti o Waitangi obligations from school boards that \"Elected parents to a school board should not be delegated what is a core Crown responsibility.\"?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+          "quote": "Yes, I do. I don't believe it's the board's responsibility to discharge a Crown responsibility around Treaty obligations. I believe it is the board's responsibility—their No. 1 priority—to make sure that they get kids to school, that they teach them the basics brilliantly, and that they focus on academic attendance and achievement."
+        }
+      ],
+      "tags": [
+        "education-reform",
+        "te-tiriti-o-waitangi",
+        "school-boards",
+        "legislation"
+      ]
+    },
+    {
+      "topic": "Coalition Under Fire Over Economic Performance and Conflicting Statements",
+      "whyItMatters": "The debate highlights deep divisions on whether the government's economic plan is working, amid high unemployment and criticism from within its own ranks.",
+      "content": "The government faced a barrage of questions over its economic management, fueled by comments from coalition partner and Foreign Minister Winston Peters, who reportedly described the government's approach as a \"failed economic strategy.\" Prime Minister Christopher Luxon downplayed the remarks and blamed the previous Labour government for the current recession and high unemployment, which has reached its highest level since 1994. Finance Minister Nicola Willis defended her statements about seeing \"green shoots of recovery,\" arguing that inflation was back in target and interest rates were reducing, while clashing with the Opposition over its alternative tax policies.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Dr Deborah Russell (Labour)",
+          "quote": "Who should Kiwis believe: the Minister of Finance last week that \"A hard-won economic recovery is now under way.\", or Winston Peters this morning, that her Government \"has failed to run the economy properly\"?"
+        },
+        {
+          "speaker": "Hon Nicola Willis (Minister of Finance)",
+          "quote": "I think New Zealanders should believe me, and they should also believe Winston Peters, that we want to turn the economy recovery around faster. I'll tell you, if we're talking about the question of who should be believed, believe you this: your capital gains tax will hit every business and KiwiSaver fund in the country."
+        }
+      ],
+      "tags": [
+        "economy",
+        "cost-of-living",
+        "unemployment",
+        "coalition-government"
+      ]
+    },
+    {
+      "topic": "Bill to Ban Greyhound Racing Passes First Reading with Broad Support",
+      "whyItMatters": "This legislation begins the formal process of shutting down the commercial greyhound racing industry by August 2026, citing ongoing animal welfare concerns.",
+      "content": "The Racing Industry (Closure of Greyhound Racing Industry) Amendment Bill passed its first reading, setting a path to end commercial greyhound racing. Minister for Racing Winston Peters said that despite improvements, the rate of serious injuries to dogs remained too high for the industry to retain its \"social licence.\" The bill proposes a three-stage closure managed by a transition agency, focusing on the welfare and rehoming of the dogs. The bill received broad support from National, Labour, and the Greens. The ACT party gave \"cautious support,\" with MP Cameron Luxton raising concerns about the bill extinguishing property rights and impacting the livelihoods of those in the industry.",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon Winston Peters (Minister for Racing)",
+          "quote": "However, it was considered that the rate of dogs being seriously injured remained too high, and the improvements made were not significant enough for the industry to retain its social licence."
+        },
+        {
+          "speaker": "Cameron Luxton (ACT)",
+          "quote": "To speak frankly, this bill is taking away people's property rights. For the first time in our history, the State is stepping in to takeover and shut down an entire sport."
+        }
+      ],
+      "tags": [
+        "animal-welfare",
+        "greyhound-racing",
+        "legislation",
+        "racing-industry"
+      ]
+    },
+    {
+      "topic": "Congestion Charging Bill Passes Final Hurdle, Paving Way for Time-of-Use Road Pricing",
+      "whyItMatters": "This new law allows councils to introduce charges for driving in congested areas at peak times, aiming to reduce traffic and fund public transport.",
+      "content": "The Land Transport Management (Time of Use Charging) Amendment Bill passed its third and final reading with cross-party support. Transport Minister Chris Bishop described the bill as a \"significant milestone\" to cut congestion and boost productivity, establishing a framework for local authorities to design and implement charging schemes. Net revenue from any scheme will be reinvested into local public transport. While supporting the bill, Labour and the Greens stressed the importance of ensuring fairness for low-income households and the necessity of investing in viable public transport alternatives before charges are introduced.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Chris Bishop (Minister of Transport)",
+          "quote": "This bill will cut congestion, boost productivity, and help futureproof our transport system. Today, we take a decisive step forward in tackling congestion and modernising how we manage road use in New Zealand."
+        },
+        {
+          "speaker": "Hon Phil Twyford (Labour)",
+          "quote": "If you want people to change their behaviour... you have to give them proper alternatives. You've got to allow people to use other ways to get where they need to go, so we need more investment in the ferries... buses... and rail."
+        }
+      ],
+      "tags": [
+        "transport",
+        "congestion-charging",
+        "infrastructure",
+        "auckland"
+      ]
+    },
+    {
+      "topic": "Government Confirms It Is Considering 'Move-On' Orders for Homeless in CBDs",
+      "whyItMatters": "The Prime Minister confirmed the government is exploring new powers to address homelessness and perceived safety issues in city centres, raising concerns about the displacement of vulnerable people.",
+      "content": "In response to questions from the Green and Labour parties, Prime Minister Christopher Luxon confirmed the government is considering introducing \"move-on orders\" for homeless people in central business districts like Auckland's. The Prime Minister framed the potential policy as a response to public safety concerns and intimidation, particularly with the cruise ship season and major events approaching. He stated that any such orders would need to be coupled with support services to ensure people have somewhere to go, to avoid simply shifting the problem to other parts of the city. The discussion followed criticism from the Greens that the government's policies could increase homelessness.",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon Chris Hipkins (Labour)",
+          "quote": "Have Ministers received any advice on potential law changes to move-on homeless people from central business districts, and, if Ministers have, why did the Prime Minister tell the House last week that they hadn't?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+          "quote": "We are considering move-on orders, but we need to make sure the support is in place so that those folk, when they are moved-on, actually have somewhere to go and we don't move the problem around the city."
+        }
+      ],
+      "tags": [
+        "homelessness",
+        "housing",
+        "auckland-cbd",
+        "social-policy"
+      ]
+    },
+    {
+      "topic": "PM Rules Out Kiwibank Sale This Term But Flags 'Asset Recycling' Debate",
+      "whyItMatters": "The government is navigating a fine line between its no-asset-sales promise and its desire to free up capital, creating political uncertainty over the future of state-owned assets like Kiwibank.",
+      "content": "Prime Minister Christopher Luxon guaranteed there would be no asset sales during this parliamentary term but simultaneously called for a \"serious conversation\" about \"asset recycling.\" The comments came during a heated exchange over the future of the 100% state-owned Kiwibank, which is currently seeking to raise capital. The Opposition accused the government of creating a path to dilute public ownership, which the Prime Minister denied, drawing a distinction between a capital raise and an asset sale. Mr. Luxon pointed to Singapore as an example of an economy that successfully redeploys government capital for greater public benefit.",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon Chris Hipkins (Labour)",
+          "quote": "Will he guarantee there'll be no sale or reduction of the Government's current 100 percent ownership of Kiwibank before the election; if not, why not?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (Prime Minister)",
+          "quote": "I've been very clear: we won't have asset sales under this term. But, as I said yesterday, we should be able to have a more serious conversation, rather than a political one, about what is the optimal use of capital."
+        }
+      ],
+      "tags": [
+        "kiwibank",
+        "asset-sales",
+        "state-owned-assets",
+        "economy"
+      ]
+    }
+  ],
+  "conclusion": "The government successfully advanced its legislative agenda on education and transport, while facing intense political pressure over its economic management and the removal of Treaty principles from law."
+}
