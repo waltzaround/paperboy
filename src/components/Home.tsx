@@ -234,21 +234,21 @@ export function Home() {
     <>
    
 
-      <div className="relative w-full h-[400px] overflow-hidden border-y mb-6">
+      <div className="relative w-full h-[400px] overflow-hidden border-y ">
       
         <div className="absolute inset-0 flex flex-col justify-center items-center z-10 pointer-events-none">
           <h1 className="pb-2 font-semibold text-4xl text-white drop-shadow-lg">Paperboy</h1>
-          <p className="text-xl pt-0 text-white/90 drop-shadow-md text-center max-w-xl">
+          <p className="text-xl pt-0 text-white/60 drop-shadow-md text-center max-w-xl">
             The latest political news from New Zealand, freshly squeezed from parliament.
           </p>
           <CountdownPill />
         </div>
       </div>
 
-      <section className="grid grid-cols-[264px_1fr] gap-4 max-w-[1024px] mx-auto max-xl:grid-cols-1 max-xl:mx-4">
+      <section className="grid grid-cols-[264px_1fr]  max-w-[1024px] mx-auto max-xl:grid-cols-1 max-xl:mx-4 border-x">
         <div>
-          <div className=" p-6 rounded-lg h-fit sticky top-4 max-xl:hidden">
-            <h3 className="font-semibold text-lg mb-4">Browse by Month</h3>
+          <div className=" min-h-screen sticky top-0 max-xl:hidden border-r">
+            <h3 className="font-semibold text-lg p-6 border-b">Browse by Month</h3>
             <nav className="flex flex-col gap-2">
               {months.map(({ monthYear, monthId }) => {
                 const hasArticles = groupedArticles[monthId] && groupedArticles[monthId].length > 0;
@@ -256,7 +256,7 @@ export function Home() {
                   <button
                     key={monthId}
                     onClick={() => scrollToMonth(monthId)}
-                    className={`text-left px-3 py-2 rounded transition-colors ${
+                    className={`text-left p-6 py-2 first:pt-6 rounded transition-colors ${
                       hasArticles 
                         ? 'hover:bg-gray-800 text-gray-300 hover:text-white' 
                         : 'text-gray-600 cursor-not-allowed'
@@ -275,7 +275,7 @@ export function Home() {
             </nav>
           </div>
         </div>
-        <div className=" flex flex-col gap-8">
+        <div className=" flex flex-col ">
           {months.map(({ monthYear, monthId }) => {
             const monthArticles = groupedArticles[monthId];
             
@@ -285,7 +285,7 @@ export function Home() {
             
             return (
               <div key={monthId} id={monthId} className="scroll-mt-8">
-                <h2 className="text-2xl   text-white   p-6 border-x border-t  rounded-t-lg border-b">
+                <h2 className="text-xl font-semibold   text-white   p-6  border-b sticky top-0 bg-[#0a0a0a] z-20">
                   {monthYear}
                 </h2>
                 <div className="flex flex-col">
@@ -293,7 +293,7 @@ export function Home() {
                     <Link
                       key={`${monthId}-${index}`}
                       to={`/${article.publicationDate}`}
-                      className="block group hover:bg-gray-900/50 p-6 transition-colors border-x last:rounded-b-lg border-b"
+                      className="block group hover:bg-gray-900/50 p-6 transition-colors border-b"
                     >
                       <article className="flex flex-col gap-2">
                         <aside className="text-xs text-gray-400">
