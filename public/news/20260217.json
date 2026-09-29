@@ -1,0 +1,166 @@
+{
+  "headline": "Employment Relations Amendment Bill Passes as MPs Clash Over Worker Protections",
+  "publicationDate": "2026-02-17",
+  "summary": "Parliament passed the Government’s Employment Relations Amendment Bill after a sharply divided debate over contractor status, dismissal protections and collective bargaining. MPs also advanced an urgent, retrospective bill changing how backdated ACC payments affect welfare entitlements, while critics questioned the short scrutiny period and potential impact on injured claimants. Disputes over energy costs, climate resilience and public-service reforms added to a tense sitting; an Anzac Day bill expanding recognition of service personnel passed with cross-party support.",
+  "topicSummaries": [
+    {
+      "topic": "Employment Relations Amendment Bill Passes 68-54",
+      "whyItMatters": "The changes could affect how workers are classified and what protections they can access, including remedies for dismissal and collective employment terms.",
+      "content": "The House passed the bill at its third reading, with National, ACT and New Zealand First supporting it and Labour, the Greens and Te Pāti Māori opposed. Workplace Relations Minister Brooke van Velden said a new gateway test would give businesses and contractors greater certainty, while the bill also limits some personal-grievance remedies, sets a $200,000 earnings threshold for unjustified-dismissal claims and removes the 30-day rule requiring new employees to start on collective-agreement terms. Opposition MPs argued the measures could weaken protections and enable workers to be classified as contractors; New Zealand First backed the bill while saying it would monitor concerns about the changes’ reach.",
+      "keyExchanges": [
+        {
+          "speaker": "Brooke van Velden (ACT)",
+          "quote": "This bill provides greater certainty for contracting parties."
+        },
+        {
+          "speaker": "Chris Hipkins (Labour)",
+          "quote": "This bill will drive New Zealand workers to Australia."
+        }
+      ],
+      "tags": [
+        "employment law",
+        "worker protections",
+        "contractors",
+        "personal grievances"
+      ]
+    },
+    {
+      "topic": "Food Prices and Unemployment Put Cost-of-Living Relief Under Scrutiny",
+      "whyItMatters": "Food costs, household income and access to work directly affect families’ ability to meet everyday expenses.",
+      "content": "Labour’s Barbara Edmonds challenged Finance Minister Nicola Willis over food prices, citing a 4.6 percent annual rise and higher costs for staples, while Willis said food-price inflation was lower than in 2023 and pointed to tax changes that she said had given about 1.9 million households an average of $60 more per fortnight. Labour’s Ginny Andersen also pressed Willis over unemployment and the difficulty of finding work. Willis said employment was a lagging indicator, cited 15,000 more people employed in the latest quarterly figures, and argued that economic conditions were improving; she also defended the Government’s spending and investment policies as support for future job growth.",
+      "keyExchanges": [
+        {
+          "speaker": "Barbara Edmonds (Labour)",
+          "quote": "Does that mean food prices are cheaper or more expensive?"
+        },
+        {
+          "speaker": "Nicola Willis (National)",
+          "quote": "What it means is that food price inflation has come under a lot more control on this Government’s watch than under the last."
+        }
+      ],
+      "tags": [
+        "cost of living",
+        "food prices",
+        "unemployment",
+        "tax relief"
+      ]
+    },
+    {
+      "topic": "ACC Welfare Bill Passes First Reading With One-Week Scrutiny Period",
+      "whyItMatters": "The proposal could affect whether injured people who received welfare support while awaiting ACC decisions must repay some supplementary assistance after receiving backdated compensation.",
+      "content": "The Social Security (Accident Compensation and Calculation of Weekly Income) Amendment Bill passed its first reading by 102 votes to 20 and was referred to the Social Services and Community Committee, with a report due by 26 February. Social Development Minister Louise Upston said it would align legislation with longstanding practice for allocating income to the period it relates to and reassessing supplementary assistance when a backdated ACC payment reduces a main benefit to zero. The bill has retrospective effect, with a savings provision for previous or ongoing litigation. Labour supported referral and the bill’s first reading but raised concerns about possible debts for vulnerable claimants; the Greens and Te Pāti Māori opposed it, and Green MPs said a one-week submission period would not allow adequate scrutiny.",
+      "keyExchanges": [
+        {
+          "speaker": "Louise Upston (National)",
+          "quote": "To be clear: the bill confirms longstanding policy intent and operational practice; it does not create new policy or change MSD’s treatment of clients in any way."
+        },
+        {
+          "speaker": "Ricardo Menéndez March (Green)",
+          "quote": "The fact is one week does not adequately allow us to unpack the reality."
+        }
+      ],
+      "tags": [
+        "ACC",
+        "welfare",
+        "backdated payments",
+        "retrospective legislation"
+      ]
+    },
+    {
+      "topic": "Government Defends LNG Plan Amid Questions Over Power Bills",
+      "whyItMatters": "The proposed gas import facility and levy could affect electricity costs for households and businesses, while the choice of backup generation will shape energy security.",
+      "content": "Opposition MPs questioned whether the Government’s planned LNG import facility would lower power bills compared with investment in wind, solar, storage and demand management. Acting Energy Minister Simeon Brown said MBIE had assessed 11 options and concluded that a renewables-and-demand-side approach would not address the dry-year problem quickly enough, but acknowledged there had been no direct comparison with the alternatives raised by Labour. Prime Minister Christopher Luxon said LNG would provide backup for a renewable-heavy system and forecast about $50 off power bills and 2,000 jobs; Labour and the Greens disputed the basis for those claims and raised the facility’s cost and proposed levy.",
+      "keyExchanges": [
+        {
+          "speaker": "Megan Woods (Labour)",
+          "quote": "Why did the concept consulting modelling released yesterday only compare LNG and no-LNG options when MBIE’s own analysis shows the illustrative ranking option is likely to have the greatest benefit in terms of downward price pressure?"
+        },
+        {
+          "speaker": "Simeon Brown (National)",
+          "quote": "A direct comparison was therefore not made with the options suggested by the member."
+        }
+      ],
+      "tags": [
+        "LNG",
+        "electricity prices",
+        "energy security",
+        "renewables"
+      ]
+    },
+    {
+      "topic": "Climate Adaptation and Flood Protection Draw Political Dispute",
+      "whyItMatters": "Decisions about emissions, flood resilience and support for communities affect preparation for storms and the protection of homes and infrastructure.",
+      "content": "Green co-leader Chlöe Swarbrick questioned the Prime Minister about cross-party work on climate adaptation and funding for community-led resilience after severe weather. She said Cabinet had decided to delay work on climate adaptation cost-sharing until after the election; Luxon said the work had not stopped and pointed to $200 million from the Regional Infrastructure Fund for flood resilience, as well as more resilient road rebuilding. The exchange highlighted a disagreement over whether current investment and planning are sufficient to help communities adapt to climate-related risks.",
+      "keyExchanges": [
+        {
+          "speaker": "Chlöe Swarbrick (Green)",
+          "quote": "Why is the Government prepared to subsidise fossil fuel production and infrastructure, but not prepared to fund community-led resilience measures like the South Dunedin Future and Tairāwhiti transition programme which would protect homes and communities?"
+        },
+        {
+          "speaker": "Christopher Luxon (National)",
+          "quote": "Well, it’s a Government that’s very proud of $200 million of investment from the Regional Infrastructure Fund to support more flood resilience."
+        }
+      ],
+      "tags": [
+        "climate adaptation",
+        "flood resilience",
+        "extreme weather",
+        "community funding"
+      ]
+    },
+    {
+      "topic": "Public Service Bill Advances Amid Dispute Over Diversity and Long-Term Planning",
+      "whyItMatters": "Changes to public-service oversight, workforce policy and long-term reporting could influence how government agencies plan, advise ministers and reflect the communities they serve.",
+      "content": "The House agreed to Part 1 of the Public Service Amendment Bill by 68 votes to 54, while the wider bill remained under committee consideration. The Government said the changes would clarify chief executives’ responsibilities, strengthen oversight and reduce duplication by replacing agency-level long-term insights briefings with a single briefing coordinated by the Department of the Prime Minister and Cabinet. Labour and Green MPs raised concerns that reducing the briefings and removing pay equity and diversity from a list of workforce-policy matters could weaken long-term scrutiny and representation. Minister James Meager said political neutrality and existing good-employer obligations would remain, and that the coordinated briefing would focus resources and avoid overlap.",
+      "keyExchanges": [
+        {
+          "speaker": "Camilla Belich (Labour)",
+          "quote": "I think submitters—and I agree with them—are right to think that we are losing some long-term strategic focus by the loss of these long-term insights briefings."
+        },
+        {
+          "speaker": "James Meager (National)",
+          "quote": "I guess the idea behind this is to try and reduce as much as possible the duplication and the repeated resource and try and sharpen the focus on those long-term insights briefings to fit with the priorities of the Government of the day"
+        }
+      ],
+      "tags": [
+        "Public Service",
+        "long-term planning",
+        "diversity",
+        "pay equity"
+      ]
+    },
+    {
+      "topic": "Two-Year Rock-Pool Harvesting Ban Set for Hibiscus Coast",
+      "whyItMatters": "The temporary closure restricts collection of marine life and seaweed in the affected coastal area to protect rock pools from over-collection.",
+      "content": "Oceans and Fisheries Minister Shane Jones announced a two-year ban on taking invertebrates and seaweed from parts of the East Coast around Auckland’s Hibiscus Coast, beginning 12 March 2026 and enforceable by fisheries officers. He said local MPs and Ngāti Manuhiri had advocated for the measure and that aquaculture would continue. Jones also described concerns about organised groups visiting the coast and linked the issue to changing demographics and local customs, making the announcement a politically sensitive exchange as well as a conservation measure.",
+      "tags": [
+        "Hibiscus Coast",
+        "rock pools",
+        "fisheries",
+        "conservation"
+      ]
+    },
+    {
+      "topic": "Anzac Day Amendment Expands Recognition of Veterans",
+      "whyItMatters": "The change broadens who can be recognised at Anzac commemorations, including people who served in more recent conflicts and some who served alongside the Defence Force.",
+      "content": "The House passed the Anzac Day Amendment Bill at its third reading after members from Labour and National spoke in support. The amendment broadens recognition beyond a list of specified conflicts to include service in war or warlike conflicts, some people deployed alongside the New Zealand Defence Force, and deaths occurring during military training or other service operations. MPs said the change would address an anomaly that had left some people who served in modern conflicts without the same recognition at Anzac commemorations.",
+      "keyExchanges": [
+        {
+          "speaker": "Kieran McAnulty (Labour)",
+          "quote": "No one should be overlooked for their service to this country just because they happened to serve in one particular conflict over another."
+        },
+        {
+          "speaker": "Tim van de Molen (National)",
+          "quote": "we definitely wanted them to be included."
+        }
+      ],
+      "tags": [
+        "Anzac Day",
+        "veterans",
+        "New Zealand Defence Force",
+        "recognition"
+      ]
+    }
+  ],
+  "conclusion": "The Government secured passage of its employment reforms and advanced an urgent welfare bill, but questions remain over the effects of those changes on workers, injured claimants and the communities relying on public services."
+}

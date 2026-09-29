@@ -1,0 +1,176 @@
+{
+  "headline": "NZ Parliament Advances Alcohol Sales Bill as Grocery Prices and LNG Power Costs Face Scrutiny",
+  "publicationDate": "2026-02-18",
+  "summary": "Parliament’s debate was dominated by pressure over household costs, with the Opposition challenging the Government on grocery prices, jobs and a proposed LNG terminal levy, while ministers defended their economic and energy policies. MPs also advanced a bill easing alcohol-sale rules on four public holidays and a housing bill with cross-party backing, amid sharp exchanges over Māori representation and climate policy.",
+  "topicSummaries": [
+    {
+      "topic": "Grocery Prices and Jobs Take Centre Stage in Cost-of-Living Clash",
+      "whyItMatters": "Food prices, employment and interest rates affect household budgets and financial security across New Zealand.",
+      "content": "Labour leader Chris Hipkins pressed Prime Minister Christopher Luxon on whether families now pay more for groceries and whether unemployment has risen since Luxon took office. Luxon cited lower annual inflation and food-inflation rates than under the previous government, but did not give a direct comparison of grocery bills; the Speaker acknowledged the question had received a highly political answer. Finance Minister Nicola Willis pointed to a 0.5 percent rise in employment in the December quarter, while Labour’s Barbara Edmonds challenged the Government’s record, citing youth unemployment and fewer jobs since it took office. Willis said quarterly employment had increased by 15,000, while arguing that the Government’s fiscal approach was helping contain inflation.",
+      "keyExchanges": [
+        {
+          "speaker": "Chris Hipkins (Labour)",
+          "quote": "So is the Prime Minister confirming that it’s more expensive for a family to go to the supermarket now than it was when he became the Prime Minister?"
+        },
+        {
+          "speaker": "Christopher Luxon (National)",
+          "quote": "Food inflation, as the member knows, is running at about 4.6 percent; total inflation’s running at 3.1 percent."
+        }
+      ],
+      "tags": [
+        "cost of living",
+        "grocery prices",
+        "employment",
+        "inflation"
+      ]
+    },
+    {
+      "topic": "LNG Terminal Levy Costs Remain Unclear as Government Promises $50 Annual Savings",
+      "whyItMatters": "The proposed levy could affect power bills, while the terminal’s final costs and funding arrangements have not yet been settled.",
+      "content": "Green MP Scott Willis and Labour’s Megan Woods questioned the Government’s plan to fund a liquefied natural gas import terminal through a levy, raising concerns about household costs, fossil-fuel subsidies and the possibility of cost overruns. Acting Energy Minister Simeon Brown said official advice indicated households would be about $50 a year better off because the terminal would address the dry-year electricity supply problem. He said the levy would cover the terminal’s capital and operating costs, but acknowledged that its details remained subject to procurement and commercial negotiations, expected to conclude later in the year. The exchange left questions about who would bear any unexpected cost increases unanswered in specific terms.",
+      "keyExchanges": [
+        {
+          "speaker": "Megan Woods (Labour)",
+          "quote": "Is there potential for the gas tax to be even higher for households if the fiscal risk to the Crown, identified in his Cabinet paper, of delayed levy recovery or cost escalation occurs?"
+        },
+        {
+          "speaker": "Simeon Brown (National)",
+          "quote": "As I’ve said in previous answers, this is subject to commercial negotiations. We’re going through a process."
+        }
+      ],
+      "tags": [
+        "electricity prices",
+        "LNG terminal",
+        "energy levy",
+        "dry-year supply"
+      ]
+    },
+    {
+      "topic": "Alcohol Sales Bill Passes Second Reading by 67 Votes to 54",
+      "whyItMatters": "The bill would change when licensed bars, restaurants and clubs can serve alcohol on four public holidays, affecting customers, hospitality businesses and alcohol-harm safeguards.",
+      "content": "Kieran McAnulty’s bill passed its second reading, 67 votes to 54, after the Justice Committee narrowed its original scope. It would allow on-licensed venues to serve alcohol under normal conditions on Good Friday, Easter Sunday, Christmas Day and the morning of Anzac Day, removing the requirement to match alcohol service with a substantial meal. RSAs serving the general public on Anzac morning would need a duty manager, while existing off-licence restrictions would largely remain; ACT indicated it would seek amendments to broaden the bill at the next stage. Supporters cited simpler rules for hospitality venues, tourism and RSA events. Opponents raised concerns about alcohol harm, workers’ rights and the significance of the holidays.",
+      "keyExchanges": [
+        {
+          "speaker": "Kieran McAnulty (Labour)",
+          "quote": "Now, it is straightforward: on-licensed premises—bars and clubs—will be able to operate under normal conditions on Good Friday, Easter Sunday, Christmas Day, and the morning of Anzac Day."
+        },
+        {
+          "speaker": "Kahurangi Carter (Green)",
+          "quote": "The Greens have long fought for workers’ rights. This bill would increase trading days, meaning workers have fewer public holidays, which means less time off with whānau, especially for low-wage workers in our hospitality and retail sectors."
+        }
+      ],
+      "tags": [
+        "alcohol sales",
+        "public holidays",
+        "hospitality",
+        "Anzac Day"
+      ]
+    },
+    {
+      "topic": "Māori Seats Debate Sparks Clash Over Representation and Referendum Proposal",
+      "whyItMatters": "The future of dedicated Māori representation is a constitutional question with implications for political representation and the Crown–Māori relationship.",
+      "content": "Green MP Hūhana Lyndon called for Māori seats to be entrenched, arguing they provide representation accountable to Māori and should not be vulnerable to a simple parliamentary majority. Foreign Minister Winston Peters argued that the seats’ original rationale had changed under MMP and proposed a binding referendum at the November general election on whether they should remain. Te Pāti Māori co-leader Rawiri Waititi rejected a referendum, saying the seats are increasingly important. The debate followed an exchange in which Peters questioned Green MP Teanau Tuiono’s role in asking a question, referring to his origins in Rarotonga; Speaker Gerry Brownlee ruled the question unacceptable after Chris Hipkins called the remark racist.",
+      "keyExchanges": [
+        {
+          "speaker": "Hūhana Lyndon (Green)",
+          "quote": "Dedicated Māori seats are important, and we need to entrench them."
+        },
+        {
+          "speaker": "Winston Peters (New Zealand First)",
+          "quote": "New Zealand First believes the decision should be put to a binding referendum where the people decide, not temporarily empowered politicians"
+        }
+      ],
+      "tags": [
+        "Māori seats",
+        "Te Tiriti o Waitangi",
+        "referendum",
+        "representation"
+      ]
+    },
+    {
+      "topic": "Housing Trust Bill Opens Path to Expand Affordable Homes Across the South Island",
+      "whyItMatters": "The change could let an established community housing provider respond to housing needs beyond Christchurch and Banks Peninsula.",
+      "content": "MP Megan Woods’ Ōtautahi Community Housing Trust (Trust Variation) Bill passed its first reading and was referred to the Social Services and Community Committee. It would remove a geographic restriction in the trust’s founding deed, allowing trustees to provide social and affordable housing in other areas while retaining Christchurch and Banks Peninsula as its core focus. MPs from across the parties supported the measure, citing regional housing demand and the trust’s existing experience. National’s Tim Costley raised questions for the committee about whether the trust’s assets would be returned to the communities where they are located if it were wound up; Woods said that was the intention of the bill’s provisions.",
+      "keyExchanges": [
+        {
+          "speaker": "Megan Woods (Labour)",
+          "quote": "Housing need does not stop at a boundary line on a map, and neither should good, proven solutions."
+        },
+        {
+          "speaker": "Nicola Grigg (National)",
+          "quote": "It doesn’t require the trust to expand, it doesn’t mandate projects in any particular district, it doesn’t redirect funding away from Christchurch, and it doesn’t dilute the trust’s core mission."
+        }
+      ],
+      "tags": [
+        "affordable housing",
+        "community housing",
+        "Canterbury",
+        "South Island"
+      ]
+    },
+    {
+      "topic": "Government Announces Independent Inquiry into Bay of Plenty Landslides",
+      "whyItMatters": "The inquiry is intended to establish what happened in a disaster that killed eight people and identify ways to reduce future risks.",
+      "content": "National MP Tom Rutherford said the Government would establish an independent inquiry into severe weather and landslides in the Bay of Plenty on 22 January, which he said killed eight people. He said the inquiry would engage with families and examine what warnings were in place and whether more could have been done. In the wider debate, Labour’s Deborah Russell linked recent fatal storms and flooding to climate change and called for greater investment in resilience. The Acting Climate Change Minister Scott Simpson said the Government remained committed to its domestic and international climate commitments, but did not have information at hand about whether he had raised concerns over a reported $100 million annual reduction in Pacific climate aid.",
+      "keyExchanges": [
+        {
+          "speaker": "Tom Rutherford (National)",
+          "quote": "Those questions deserve proper answers. The Government is establishing an independent inquiry to examine exactly that."
+        },
+        {
+          "speaker": "Deborah Russell (Labour)",
+          "quote": "This is no longer just storms; this is climate change."
+        }
+      ],
+      "tags": [
+        "Bay of Plenty",
+        "landslides",
+        "climate resilience",
+        "independent inquiry"
+      ]
+    },
+    {
+      "topic": "Infrastructure Debate Puts Project Scrutiny and Funding Priorities in Focus",
+      "whyItMatters": "How major transport projects are assessed and funded can affect public spending, transport costs and investment in other services.",
+      "content": "Labour’s Kieran McAnulty asked Infrastructure Minister Chris Bishop to require independent assessment of government infrastructure projects, particularly those led by NZTA. Bishop said he supported stronger assurance in principle but argued the Infrastructure Commission lacked the capacity to review every project; he said the Government was considering closer work between the commission and Treasury and would respond to the National Infrastructure Plan in June. Bishop acknowledged that transport spending demands exceeded available revenue and said the country needed to prioritise. Labour separately argued that projected road costs could leave households facing higher transport taxes or debt, while the Government disputed Labour’s record on infrastructure spending.",
+      "keyExchanges": [
+        {
+          "speaker": "Kieran McAnulty (Labour)",
+          "quote": "Does he stand by his statement that “Where we can build durable consensus, we should.”, and, if so, will he support Labour’s call to require all Government infrastructure projects to go through independent assurance by the Infrastructure Commission’s Infrastructure Priorities Programme?"
+        },
+        {
+          "speaker": "Chris Bishop (National)",
+          "quote": "As a general proposition, I am in favour of greater assurance. The Infrastructure Commission is not equipped to do all infrastructure projects that go through the Crown books right now."
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "transport funding",
+        "NZTA",
+        "project assurance"
+      ]
+    },
+    {
+      "topic": "Jury Excusal Age Raised from 65 to 72 in Bill’s Third Reading",
+      "whyItMatters": "The change broadens the pool of people who may be summoned for jury service while retaining other grounds for excusal.",
+      "content": "The House passed the Juries (Age of Excusal) Amendment Bill at its third reading, raising from 65 to 72 the age at which people may automatically seek excusal from jury duty. The bill does not require anyone to serve if they have other valid grounds, including health, caring or employment circumstances. Supporters said the change reflects longer, healthier lives and could ease difficulties assembling juries; Labour MP Vanushi Walters noted it also places a new obligation on people aged 65 to 71 and may add to their administrative burden. Green MP Lawrence Xu-Nan said broader barriers to jury participation, including the cost of taking time off work, would still require attention.",
+      "keyExchanges": [
+        {
+          "speaker": "Carl Bates (National)",
+          "quote": "This bill rests on a simple proposition that civic duty does not expire at 65."
+        },
+        {
+          "speaker": "Vanushi Walters (Labour)",
+          "quote": "What it does do is impose a new duty on our older New Zealanders, and so I do think we need to recognise that that is indeed what this bill does"
+        }
+      ],
+      "tags": [
+        "jury service",
+        "courts",
+        "older people",
+        "civic duty"
+      ]
+    }
+  ],
+  "conclusion": "Parliament advanced several practical measures, but the day’s unresolved tensions over household costs, energy policy, alcohol safeguards and Māori representation underscored how sharply divided the political debate remains."
+}
