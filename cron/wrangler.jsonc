@@ -1,0 +1,30 @@
+{
+  "name": "paperboy-cron",
+  "main": "src/index.js",
+  "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "triggers": {
+    // 20:00 UTC = 8–9am NZ. Most mornings this is a single KV read that exits:
+    // the scrape only runs when the official calendar says the House sat in
+    // the last few days. The calendar itself is refreshed about weekly.
+    "crons": ["0 20 * * *"]
+  },
+  "browser": {
+    "binding": "BROWSER"
+  },
+  "kv_namespaces": [
+    {
+      // Cached official sitting calendar
+      "binding": "CACHE",
+      "id": "38c9ddcd83b84daeaa34243e1f4a1fed"
+    }
+  ],
+  "vars": {
+    "GITHUB_REPO": "waltzaround/paperboy"
+  },
+  // Secrets (wrangler secret put <NAME> --config cron/wrangler.jsonc):
+  //   OPENAI_API_KEY, GITHUB_TOKEN, DISCORD_ENDPOINT, RUN_SECRET
+  "observability": {
+    "enabled": true
+  }
+}

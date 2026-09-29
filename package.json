@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build && node generate-sitemap.js",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch": "node scraper.js",
+    "cron:deploy": "wrangler deploy --config cron/wrangler.jsonc",
+    "cron:logs": "wrangler tail paperboy-cron",
     "prepare-news": "node prepare-news.js",
     "generate-sitemap": "node generate-sitemap.js"
   },
@@ -38,6 +39,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@cloudflare/puppeteer": "^1.4.0",
     "@cloudflare/vite-plugin": "^1.12.1",
     "@eslint/js": "^9.21.0",
     "@types/node": "^22.13.10",
@@ -54,4 +56,3 @@
     "wrangler": "^4.33.1"
   }
 }
-

@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 .env
 *.tar.gz
+# Wrangler local state
+.wrangler

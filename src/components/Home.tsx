@@ -5,96 +5,63 @@ import { updatePageSEO, DEFAULT_SEO } from "@/lib/seo";
 
 
 
+interface Sitting {
+  date: string;
+  start: string; // UTC ISO
+  end: string; // UTC ISO
+  title: string;
+}
+
+function formatTimeLeft(difference: number) {
+  const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+  if (days > 0) return `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  if (hours > 0) return `${hours}h ${minutes}m ${seconds}s`;
+  return `${minutes}m ${seconds}s`;
+}
+
+// Counts down to the next sitting in Parliament's official sitting calendar,
+// which the cron Worker publishes to /sitting-calendar.json
 function CountdownPill() {
-  const [timeLeft, setTimeLeft] = useState("");
-  const [nextMeeting, setNextMeeting] = useState<Date | null>(null);
+  const [sittings, setSittings] = useState<Sitting[] | null>(null);
+  const [now, setNow] = useState(() => Date.now());
 
   useEffect(() => {
-    // Parliament meeting schedule:
-    // Tuesday: 2pm to 6pm, 6pm to 7:30pm, 7:30pm to 10pm
-    // Wednesday: 2pm to 6pm, 6pm to 7:30pm, 7:30pm to 10pm  
-    // Thursday: 2pm to 6pm, none, none
-
-    // Calculate next parliament meeting based on weekly schedule
-    const now = new Date();
-    const currentDay = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
-    const currentHour = now.getHours();
-    
-    // Find next meeting time
-    let nextMeetingDate: Date | null = null;
-    
-    // Check if today is a meeting day and if there's still time
-    if (currentDay === 2) { // Tuesday
-      if (currentHour < 14) { // Before 2pm
-        nextMeetingDate = new Date(now);
-        nextMeetingDate.setHours(14, 0, 0, 0);
-      }
-    } else if (currentDay === 3) { // Wednesday  
-      if (currentHour < 14) { // Before 2pm
-        nextMeetingDate = new Date(now);
-        nextMeetingDate.setHours(14, 0, 0, 0);
-      }
-    } else if (currentDay === 4) { // Thursday
-      if (currentHour < 14) { // Before 2pm
-        nextMeetingDate = new Date(now);
-        nextMeetingDate.setHours(14, 0, 0, 0);
-      }
-    }
-    
-    // If no meeting today, find next Tuesday
-    if (!nextMeetingDate) {
-      const daysUntilTuesday = (2 - currentDay + 7) % 7;
-      const nextTuesday = new Date(now);
-      nextTuesday.setDate(now.getDate() + (daysUntilTuesday === 0 ? 7 : daysUntilTuesday));
-      nextTuesday.setHours(14, 0, 0, 0);
-      nextMeetingDate = nextTuesday;
-    }
-    
-    setNextMeeting(nextMeetingDate);
+    fetch('/sitting-calendar.json')
+      .then(response => response.ok ? response.json() : Promise.reject(response.status))
+      .then(data => setSittings(data.sittings))
+      .catch(error => console.error('Error loading sitting calendar:', error));
   }, []);
 
   useEffect(() => {
-    if (!nextMeeting) return;
-
-    const updateCountdown = () => {
-      const now = new Date();
-      const difference = nextMeeting.getTime() - now.getTime();
-
-      if (difference > 0) {
-        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-
-        if (days > 0) {
-          setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
-        } else if (hours > 0) {
-          setTimeLeft(`${hours}h ${minutes}m ${seconds}s`);
-        } else {
-          setTimeLeft(`${minutes}m ${seconds}s`);
-        }
-      } else {
-        setTimeLeft("Parliament is meeting now!");
-      }
-    };
-
-    updateCountdown();
-    const interval = setInterval(updateCountdown, 1000);
-
+    const interval = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(interval);
-  }, [nextMeeting]);
+  }, []);
 
-  if (!nextMeeting) {
-    return (
-      <div className="px-4 py-2 rounded-full border border-white/20 mt-4 text-sm">
-        No upcoming parliament meetings scheduled
-      </div>
+  if (!sittings) return null;
+
+  const current = sittings.find(s => Date.parse(s.start) <= now && now < Date.parse(s.end));
+  const next = sittings.find(s => Date.parse(s.start) > now);
+
+  let message;
+  if (current) {
+    message = "Parliament is sitting now";
+  } else if (next) {
+    message = (
+      <>
+        Parliament next sits in: <span className="font-semibold italic text-white">{formatTimeLeft(Date.parse(next.start) - now)}</span>
+      </>
     );
+  } else {
+    message = "No upcoming sittings scheduled";
   }
 
   return (
     <div className="px-4 py-2 rounded-full border border-white/20 mt-4 text-sm">
-      Parliament usually meets in: <span className="font-semibold italic text-white">{timeLeft}</span>
+      {message}
     </div>
   );
 }
