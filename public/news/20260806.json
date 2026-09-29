@@ -1,0 +1,218 @@
+{
+  "headline": "New Zealand Parliament Passes Crimes Amendment Bill Amid Debate Over Retail Crime Powers",
+  "publicationDate": "2026-08-06",
+  "summary": "Parliament passed the Crimes Amendment Bill after a sharp debate over tougher penalties and expanded powers for retailers to detain suspected shoplifters. Question Time also focused on rising unemployment, housing terminations affecting families, workplace safety and proposed limits on income support for some young people. MPs continued committee scrutiny of youth justice and climate-related legislation before the House adjourned until 18 August.",
+  "topicSummaries": [
+    {
+      "topic": "Crimes Amendment Bill Passes Third Reading",
+      "whyItMatters": "The law expands the circumstances in which retailers can detain suspected thieves and introduces instant fines, affecting how shoplifting and other offences are handled.",
+      "content": "The House passed the Crimes Amendment Bill at its final reading, advancing changes that include expanded citizen’s arrest powers for businesses, an infringement regime for shoplifting, new offences concerning trafficking and assaults on first responders, and a specific offence related to fatal strikes to the head or neck. Government speakers said the measures would strengthen public safety and protect retailers. Labour, the Greens and Te Pāti Māori opposed the bill, arguing that some provisions could increase confrontations, complicate prosecutions and penalise people facing poverty. New Zealand First supported the bill but said it did not go far enough because it lacked the party’s preferred minimum sentences for some offences.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Paul Goldsmith (National)",
+          "quote": "That’s why, very shortly, businesses will be able to detain and arrest those stealing from them, and shoplifters will be faced with instant fines."
+        },
+        {
+          "speaker": "Hon Dr Duncan Webb (Labour)",
+          "quote": "In terms of giving expanded powers of citizen’s arrest to use force, including on children, and then having a framework where you’ve got to call the police and do what the police tell you, is absolutely unworkable and quite dangerous."
+        }
+      ],
+      "tags": [
+        "Crimes Amendment Bill",
+        "retail crime",
+        "citizen’s arrest",
+        "sentencing"
+      ]
+    },
+    {
+      "topic": "Unemployment Reaches 171,000, Up From 119,000 in 2023",
+      "whyItMatters": "The increase means more people are looking for work, while differences in employment across communities and regions remain a focus of political debate.",
+      "content": "Labour’s Carmel Sepuloni asked the Government to account for unemployment in the June 2026 quarter compared with September 2023. Social Development and Employment Minister Louise Upston said the number had risen from 119,000 to 171,000, while noting that employment increased by 33,000 over the year to June and that employment growth had risen for a third consecutive quarter. Sepuloni raised alleged increases among women, Māori, Pasifika people and Aucklanders; Upston did not confirm those figures, but said Māori and Pasifika were disproportionately affected and pointed to recent falls in their unemployment rates.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Carmel Sepuloni (Labour)",
+          "quote": "Does she think that the more than 22,000 women, 10,000 Māori, 8,000 Pasifika, and 26,000 Aucklanders unemployed over the last three years deserve a real plan to get them back into work, rather than a Government whose only response seems to be that they simply should not take it personally?"
+        },
+        {
+          "speaker": "Hon Louise Upston (National)",
+          "quote": "Well, this side of the House does have a strong plan for economic growth: fast-track consenting, infrastructure projects like the CRL, more development, Investment Boost—which actually grows business opportunities"
+        }
+      ],
+      "tags": [
+        "unemployment",
+        "jobs",
+        "employment statistics",
+        "regional economy"
+      ]
+    },
+    {
+      "topic": "Housing Debate Centres on 258 Children in Terminated Tenancies",
+      "whyItMatters": "The exchange raised concerns about the housing stability of families with children and the effects of changes to Kāinga Ora tenancy policy.",
+      "content": "Green MP Tamatha Paul said 258 children had been evicted among 324 tenancies terminated between July 2024 and June 2025 after the Sustaining Tenancies framework was removed. Associate Housing Minister Tama Potaka did not accept that the terminations were necessarily caused by the policy change, saying more than half of terminated tenancies involved non-occupancy. He said Kāinga Ora would take care to connect families with children to community housing providers and other support.",
+      "keyExchanges": [
+        {
+          "speaker": "Tamatha Paul (Green)",
+          "quote": "Is he comfortable that 33 percent of the 324 tenancies terminated between July 2024 and June 2025, following the removal of the Sustaining Tenancies framework, had children in the home, meaning 258 children were evicted?"
+        },
+        {
+          "speaker": "Hon Tama Potaka (National)",
+          "quote": "On behalf of the Minister of Housing, I am aware that a number of tenancies have been terminated, but not necessarily as a direct consequence of a change in framework."
+        }
+      ],
+      "tags": [
+        "housing",
+        "Kāinga Ora",
+        "tenancies",
+        "children"
+      ]
+    },
+    {
+      "topic": "Government Defends Income Support Rules for Some 18- and 19-Year-Olds",
+      "whyItMatters": "The policy could affect young people with health conditions, injuries or disabilities and the households expected to support them.",
+      "content": "Green MP Ricardo Menéndez March challenged the Government’s position that parents should support 18- and 19-year-olds receiving jobseeker support for a health condition, injury or disability. Minister Louise Upston said the Government expects young people not in work, education or training to be supported by their parents, while pointing to a parental income test and other assistance such as hardship grants. Menéndez March questioned whether families facing high living costs could manage and raised the potential effects on young people with serious health or mental health conditions.",
+      "keyExchanges": [
+        {
+          "speaker": "Ricardo Menéndez March (Green)",
+          "quote": "Would she support amendments to exclude jobseeker recipients who are sick, injured, or disabled, including those battling with cancer or ill mental health, from the cuts to benefits for 18- and 19-year-olds, and, if not, what message does she send to parents who may struggle with the cost of living as a result of those cuts?"
+        },
+        {
+          "speaker": "Hon Louise Upston (National)",
+          "quote": "If their parents are on the low income, there is a parental income test that is available so that they could get support."
+        }
+      ],
+      "tags": [
+        "income support",
+        "young people",
+        "disability",
+        "cost of living"
+      ]
+    },
+    {
+      "topic": "WorkSafe Capacity Questioned After Fatal Ōtāhuhu Workplace Accident",
+      "whyItMatters": "Workplace investigations and prevention measures affect the safety of workers, particularly in industries where machinery can cause serious injury or death.",
+      "content": "Te Pāti Māori’s Oriini Kaipara questioned whether the Government’s health and safety reforms and WorkSafe’s capacity would protect workers following a fatal accident at an Ōtāhuhu meat-processing plant. She cited a reported fall in WorkSafe headcount and asked about an $8.561 million reduction in funding for plant and structures regulatory reform. Workplace Relations and Safety Minister Brooke van Velden expressed condolences, said the reforms would focus on risks likely to cause death or serious harm, and said the headcount fall reflected back-office reductions while inspector numbers were at a record level. She also said she had directed new training for inspectors in processing and manufacturing.",
+      "keyExchanges": [
+        {
+          "speaker": "Oriini Kaipara (Te Pāti Māori)",
+          "quote": "What assurance can she give workers that WorkSafe has sufficient capacity to investigate workplace deaths and prevent further harm, given that WorkSafe has undergone repeated restructures and its headcount fell from 603 to 562 in the most recently reported year?"
+        },
+        {
+          "speaker": "Hon Brooke van Velden (ACT)",
+          "quote": "The assurance that I can give all members of the public is that while the headcount at WorkSafe has fallen, that is because of a lot of back-office clean out. We have, under this Government, the highest number of inspectors at WorkSafe than ever before."
+        }
+      ],
+      "tags": [
+        "workplace safety",
+        "WorkSafe",
+        "workplace fatality",
+        "health and safety"
+      ]
+    },
+    {
+      "topic": "Youth Justice Bill Debate Continues Over Military-Style Academy Orders",
+      "whyItMatters": "The proposed system would allow longer and more intensive court responses for some young offenders, with consequences for young people, their whānau and youth justice services.",
+      "content": "The House continued committee consideration of the Oranga Tamariki (Responding to Serious Youth Offending) Amendment Bill, but did not complete its work on the bill. Children’s Minister Karen Chhour said it would establish a young serious offender declaration, expand Youth Court and police powers, and allow military-style academy orders lasting three to 12 months, followed by supervision. Labour and Green MPs questioned the label’s potential stigma, the use of family group conference admissions, the criteria for declarations and whether less restrictive interventions would be considered. Chhour said the declaration was an administrative label, existing Oranga Tamariki principles would apply, and the bill was aimed at serious and persistent offending.",
+      "keyExchanges": [
+        {
+          "speaker": "Willow-Jean Prime (Labour)",
+          "quote": "The reason for this proposed amendment is because we heard through the select committee process that there is no need for a label."
+        },
+        {
+          "speaker": "Hon Karen Chhour (National)",
+          "quote": "The “young serious offender” declaration is purely an administrative label, which will only be used by the Police, and the Youth Court and will not be publicly available."
+        }
+      ],
+      "tags": [
+        "youth justice",
+        "Oranga Tamariki",
+        "military-style academy",
+        "family group conferences"
+      ]
+    },
+    {
+      "topic": "$5.5 Million CT Scanner Announced for Kaitāia Hospital",
+      "whyItMatters": "The planned service is expected to reduce long journeys for diagnostic scans and bring care closer to patients in the Far North.",
+      "content": "Health Minister Simeon Brown announced a $5.5 million investment for a CT scanner at Kaitāia Hospital, which he said is expected to serve about 7,000 patients a year. He said patients currently travelling to Whangārei can face round trips of more than 250 kilometres, and that the new service would support diagnosis of conditions including cancer, stroke, injuries and respiratory illness. Brown also said additional imaging, nursing and support staff would be recruited as the service is established.",
+      "keyExchanges": [
+        {
+          "speaker": "Grant McCallum (National)",
+          "quote": "How will this investment make a difference for patients and families in the Mid North and Far North?"
+        },
+        {
+          "speaker": "Hon Simeon Brown (National)",
+          "quote": "Bringing CT scanning to Kaitāia means thousands of patients each year will be able to access vital diagnostic services closer to home."
+        }
+      ],
+      "tags": [
+        "healthcare",
+        "Kaitāia Hospital",
+        "CT scanner",
+        "Northland"
+      ]
+    },
+    {
+      "topic": "Climate Tort Liability Bill Advances Without Amendment",
+      "whyItMatters": "The bill concerns whether climate-related tort claims can proceed in court, raising questions about access to justice and the timing of a significant legal change.",
+      "content": "During committee consideration of the Climate Change Response (Tort Liability) Amendment Bill, Labour’s Camilla Belich and Green MP Francisco Hernandez called for its commencement to be delayed, arguing that the courts should have time to consider outstanding matters and voters should have a chance to assess the issue before the election. Minister James Meager opposed the delay, saying the bill should take effect the day after Royal assent and disputing that a caretaker convention applied before the regulated period. Amendments proposing delays and changes to the bill’s title were rejected, and the committee reported the bill without amendment; its final passage was not recorded in this sitting.",
+      "keyExchanges": [
+        {
+          "speaker": "Francisco Hernandez (Green)",
+          "quote": "If that is so, if the question of climate policy rightly belongs on the campaign trail, then they should live by their statements and actually delay this bill so that the people of New Zealand can actually have their say in it during the general election."
+        },
+        {
+          "speaker": "Hon James Meager (National)",
+          "quote": "We want the bill, the Act, to come into force on the day after Royal assent."
+        }
+      ],
+      "tags": [
+        "climate change",
+        "tort liability",
+        "access to justice",
+        "legislation"
+      ]
+    },
+    {
+      "topic": "Justice Minister Defends Review of Treaty Clauses",
+      "whyItMatters": "The review has implications for how Treaty references are expressed in legislation and for the relationship between Māori and the Crown.",
+      "content": "Labour’s Willie Jackson challenged Justice Minister Paul Goldsmith over the Government’s review of Treaty clauses, citing concerns attributed to the Waitangi Tribunal and other bodies about risks to Māori interests and the Māori-Crown relationship. Goldsmith said the aim was greater consistency and clarity in how legislation refers to the Treaty, rejected the claim that the review would lead to poorer outcomes for Māori, and said the Government did not agree with the Tribunal’s assessment. He also said ministers had not ignored the iwi leaders’ forum, although he had not attended a recent meeting.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Willie Jackson (Labour)",
+          "quote": "What are the apparent benefits to the review of Treaty clauses, when his own officials, along with the Waitangi Tribunal, have said that there are none, and that it will only result in posing a significant risk to the Māori - Crown relationship?"
+        },
+        {
+          "speaker": "Hon Paul Goldsmith (National)",
+          "quote": "The benefits that we anticipate are providing greater consistency and clarity when we’re referring to the Treaty."
+        }
+      ],
+      "tags": [
+        "Treaty of Waitangi",
+        "Māori-Crown relations",
+        "Justice",
+        "legislation"
+      ]
+    },
+    {
+      "topic": "Small-Business Costs and Hospitality Liquidations Raised in Question Time",
+      "whyItMatters": "Small-business closures can affect local jobs and services, while payment delays and operating costs put pressure on businesses’ cash flow.",
+      "content": "Labour MP Dan Rosewarne asked Small Business and Manufacturing Minister Cameron Brewer about cost pressures, citing an almost 50 percent rise in hospitality liquidations and the highest rate in 11 years. Brewer pointed to the Government’s Investment Boost tax measure and other policies, including e-invoicing, saying 96 percent of government suppliers were being paid within 10 working days. Asked whether large businesses should pay small-business invoices within 15 days, he declined to give a direct view and said the Government was focused on reducing costs and regulation.",
+      "keyExchanges": [
+        {
+          "speaker": "Dan Rosewarne (Labour)",
+          "quote": "What “conditions for economic growth” did he create for hospitality businesses that face an almost 50 percent rise in liquidations—the highest rate in 11 years?"
+        },
+        {
+          "speaker": "Hon Cameron Brewer (National)",
+          "quote": "One good policy that is widely acclaimed—from our hospitality businesses right through to our manufacturers—is the policy that was announced in Budget 2025 to much acclaim and has been put into heavy practice, called Investment Boost."
+        }
+      ],
+      "tags": [
+        "small business",
+        "hospitality",
+        "liquidations",
+        "e-invoicing"
+      ]
+    }
+  ],
+  "conclusion": "The Government secured passage of its crime legislation, while disputes over economic hardship, public safety and the limits of state intervention remained unresolved in the House."
+}
