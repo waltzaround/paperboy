@@ -1,0 +1,238 @@
+{
+  "headline": "Parliament Advances Credit Law Changes Amid Bank Refund Dispute",
+  "publicationDate": "2026-05-14",
+  "summary": "Parliament advanced changes to consumer credit rules despite sharp opposition claims that retrospective provisions could limit borrowers’ claims against lenders. MPs also debated household energy costs, Māori employment and immigration, while two bills aimed at speeding approvals for agricultural products passed their first readings. A separate third-reading debate over changes to the Public Service was interrupted and will resume next sitting day.",
+  "topicSummaries": [
+    {
+      "topic": "Credit Law Changes Pass Second Reading Amid Bank Refund Row",
+      "whyItMatters": "The bill changes how lenders may be held responsible for past disclosure failures, potentially affecting borrowers seeking refunds and the protections that apply to future credit contracts.",
+      "content": "The Credit Contracts and Consumer Finance Amendment Bill passed its second reading by 68 votes to 54. Commerce and Consumer Affairs Minister Cameron Brewer said the bill would reduce compliance burdens, move oversight from the Commerce Commission to the Financial Markets Authority and let courts grant relief to lenders for some disclosure breaches between 2015 and 2019. The select committee recommended that two active class actions against ANZ and ASB proceed under the law in force when they were filed, a position the Government accepted. Labour and Green MPs argued that the retrospective changes could weaken consumer rights and benefit banks; ACT and New Zealand First supported the bill as a more proportionate approach to credit regulation. Further consideration is still required before the bill can become law.",
+      "keyExchanges": [
+        {
+          "speaker": "Cameron Brewer (National)",
+          "quote": "Ultimately, the intent is to ensure that courts have the discretion to reach fair and equitable outcomes."
+        },
+        {
+          "speaker": "Arena Williams (Labour)",
+          "quote": "This is a bill that undermines that."
+        }
+      ],
+      "tags": [
+        "consumer-credit",
+        "banks",
+        "borrowers",
+        "retrospective-law"
+      ]
+    },
+    {
+      "topic": "900 Power-Bill Advance Applications Declined in the Last Quarter",
+      "whyItMatters": "The figures show that some households seeking help with electricity costs were turned down as winter bills approach.",
+      "content": "Social Development Minister Louise Upston told Parliament that about 900 applications for advances to cover energy costs were declined in the last quarter, while more than 6,700 were granted, totalling nearly $4 million. She said there had been no policy change and that Ministry of Social Development staff assess applications individually, noting that an advance reduces the money available to beneficiaries in later weeks. Green MP Ricardo Menéndez March questioned whether the support was adequate amid rising electricity prices and asked the Minister to ensure people in poverty did not go without power. Upston pointed to the winter energy payment, received by more than one million people, and encouraged people to contact the Ministry about other assistance.",
+      "keyExchanges": [
+        {
+          "speaker": "Ricardo Menéndez March (Green)",
+          "quote": "Will she direct Work and Income to use their discretion to ensure that nobody living in poverty goes without power this winter?"
+        },
+        {
+          "speaker": "Louise Upston (National)",
+          "quote": "As I said, I would encourage anyone who is facing costs that they’re unable to deal with to approach MSD and see if they are eligible for additional assistance and support."
+        }
+      ],
+      "tags": [
+        "power-bills",
+        "winter-energy-payment",
+        "Work-and-Income"
+      ]
+    },
+    {
+      "topic": "Government Cites $1,000 Solar Installation Savings, but Offers No Uptake Forecast",
+      "whyItMatters": "Changes to solar installation rules could reduce upfront costs for households and affect how much power they can sell back to the grid.",
+      "content": "Energy Minister Simeon Brown defended the Government’s solar measures after Labour’s Megan Woods questioned whether they would make a meaningful difference to household power bills. Brown said removing building-consent requirements for most home installations could save about $1,000, while other changes would allow larger systems and improve payments for electricity exported to the grid at peak times. He also said the Government was reviewing installation rules, but when asked how many additional households would install solar as a result, he answered “Many” and provided no forecast. Woods cited Ministry of Business, Innovation and Employment advice that the regulatory changes would produce only small bill reductions.",
+      "keyExchanges": [
+        {
+          "speaker": "Megan Woods (Labour)",
+          "quote": "How many additional households does he expect to install rooftop solar, as a direct result of the Government’s solar regulatory review, over the next 12 months?"
+        },
+        {
+          "speaker": "Simeon Brown (National)",
+          "quote": "Many."
+        }
+      ],
+      "tags": [
+        "rooftop-solar",
+        "energy-costs",
+        "households",
+        "power-bills"
+      ]
+    },
+    {
+      "topic": "Two Agricultural Approval Bills Pass First Readings",
+      "whyItMatters": "The proposed changes could speed access to agricultural and veterinary products, while the scrutiny process will assess possible risks to human health, animals, trade and the environment.",
+      "content": "The Hazardous Substances and New Organisms Amendment Bill passed its first reading 102-20, and the Agricultural Compounds and Veterinary Medicines Amendment Bill passed 118-4. Both were referred to the Primary Production Committee, with reports due by 17 September 2026. Ministers said the bills would streamline risk-based approvals, reduce duplicated assessments and make greater use of assessments from trusted overseas regulators; Andrew Hoggard said some products already approved overseas had taken more than five years to reach New Zealand. Labour and the Greens supported the agricultural compounds bill to select committee, while raising concerns about limited consultation and the need to retain environmental, animal-welfare and public-health safeguards. The Green Party opposed the HSNO bill at first reading, citing uncertainty around new-organism provisions and the risk of weakening safeguards; Labour supported it while calling for close scrutiny.",
+      "keyExchanges": [
+        {
+          "speaker": "Andrew Hoggard (National)",
+          "quote": "We’ve heard from many companies that it’s taken upwards of five years, when they’ve already been approved overseas, to be able to get these products into New Zealand."
+        },
+        {
+          "speaker": "Steve Abel (Green)",
+          "quote": "But the idea that in some part of this law, particularly the amendment to section 26, we can be certain that the EPA, the Environmental Protection Authority, is the right authority to make determinations on whether or not an organism is a new organism—this does have the red flag of being a potential deregulation of GMO by stealth."
+        }
+      ],
+      "tags": [
+        "agriculture",
+        "regulation",
+        "environmental-safeguards",
+        "select-committee"
+      ]
+    },
+    {
+      "topic": "Māori Employment Debate Pits Unemployment Concerns Against Jobseeker Exits",
+      "whyItMatters": "Employment outcomes affect household incomes and communities, while the debate raised questions about the Government’s support for Māori training and jobs.",
+      "content": "Labour’s Willie Jackson challenged Māori Development Minister Tama Potaka over rising Māori unemployment and cuts to programmes, including trades training. Potaka said employment services and operational labour-market targets sit with other agencies, while Te Puni Kōkiri monitors outcomes and advocates across government. He cited nearly 7,000 Māori moving from Jobseeker Support into work in the quarter ending March 2026 and pointed to Māori-led housing, fast-track projects and events as employment opportunities. Jackson disputed the Government’s record and sought a specific initiative that had reduced unemployment; the exchange became contentious, with the Speaker ruling some questions out of order.",
+      "keyExchanges": [
+        {
+          "speaker": "Willie Jackson (Labour)",
+          "quote": "Can the Minister point to a single credible Māori employment initiative of his own that has actually shifted the dial on Māori unemployment?"
+        },
+        {
+          "speaker": "Tama Potaka (National)",
+          "quote": "One of the data points and data references that I can refer to today is that Māori exits from jobseeker and into work have actually increased by nearly 7,000 in the quarter ending March 2026."
+        }
+      ],
+      "tags": [
+        "Māori-employment",
+        "unemployment",
+        "trades-training",
+        "Jobseeker"
+      ]
+    },
+    {
+      "topic": "Immigration Debate Highlights Tension Between Skills Needs and Jobs for New Zealanders",
+      "whyItMatters": "Immigration settings affect employers’ access to workers and the opportunities available to people seeking work in New Zealand.",
+      "content": "Labour pressed Immigration Minister Erica Stanford on the Prime Minister’s comments about prioritising social stability over business interests, and on immigration arrangements linked to the India free-trade agreement. Stanford said the Government was aiming for a targeted balance between protecting local job opportunities and attracting skills needed by employers, and argued that migration would be necessary to support population growth. Winston Peters questioned visa settings for occupations including yoga instructors and raised youth unemployment; Stanford said most places were for high-skilled roles and that student numbers are managed through other criteria. She later corrected two answers: the 2021 resident visa scheme granted residence to nearly 213,000 people, not 230,000, and temporary work visas under the India agreement require a genuine job offer but are not labour-market tested.",
+      "keyExchanges": [
+        {
+          "speaker": "Phil Twyford (Labour)",
+          "quote": "Why does the Government continue to put out mixed messages on immigration, and why are they joining New Zealand First in a culture war that no one asked for?"
+        },
+        {
+          "speaker": "Erica Stanford (National)",
+          "quote": "The Prime Minister was talking about having a well-balanced and smart immigration system that works for New Zealanders and, as I mentioned before, getting that balance right between making sure we’re putting Kiwis first for jobs—which is why we have insisted on maintaining the maximum continuous-stay rule of three years, so that when low-skilled workers are required to leave, they do leave to free up jobs for New Zealanders—while also making sure that businesses have access to the skills that they need."
+        }
+      ],
+      "tags": [
+        "immigration",
+        "employment",
+        "India-trade-agreement",
+        "skills"
+      ]
+    },
+    {
+      "topic": "Budget 2026 to Fund Specialist Palliative Care for Seriously Ill Children",
+      "whyItMatters": "The planned service is intended to give children with life-limiting illnesses and their families access to specialist care closer to home.",
+      "content": "Health Minister Simeon Brown announced that Budget 2026 would establish a nationally consistent specialist paediatric palliative care service, with dedicated teams in the North and South Islands. The teams are to include specialist doctors, nurses, social workers and clinical psychologists, and will also support and train local health providers. The announcement included national service coordination and one registrar training position each year. Brown said the service is intended to help more children receive care at home and reduce the strain on families; the transcript did not specify the total funding.",
+      "keyExchanges": [
+        {
+          "speaker": "Hamish Campbell (National)",
+          "quote": "What will the new specialist paediatric palliative care service provide?"
+        },
+        {
+          "speaker": "Simeon Brown (National)",
+          "quote": "The new service will include specialist paediatric palliative care physicians, clinical nurse specialists, nurse practitioners, social workers, and clinical psychologists working together to support children and their families."
+        }
+      ],
+      "tags": [
+        "health",
+        "palliative-care",
+        "children",
+        "Budget-2026"
+      ]
+    },
+    {
+      "topic": "$1 Million to Train Rural GPs in Planned Care",
+      "whyItMatters": "Training rural doctors to deliver more planned care locally could reduce travel and waiting for patients who live far from hospitals.",
+      "content": "Associate Health Minister Matt Doocey announced $1 million to train rural general practitioners to provide selected planned-care services in their communities. The funding will cover training costs and cover for GPs while they train. Doocey said skills could include assessing and treating heavy or unusual bleeding and removing and examining skin lesions. He also cited expanded after-hours care in 70 rural and remote locations, rural training hubs and work on a proposed third medical school as other measures intended to improve rural access.",
+      "keyExchanges": [
+        {
+          "speaker": "Vanessa Weenink (National)",
+          "quote": "What types of planned care will rural GPs be trained to deliver?"
+        },
+        {
+          "speaker": "Matt Doocey (National)",
+          "quote": "Training will focus on practical skills, such as assessing and treating heavy or unusual bleeding and removing and examining skin legions, along with other planned-care priorities."
+        }
+      ],
+      "tags": [
+        "rural-health",
+        "GPs",
+        "planned-care",
+        "health-access"
+      ]
+    },
+    {
+      "topic": "Students Excluded From $50-a-Week Relief Payment",
+      "whyItMatters": "The decision affects students facing transport and living costs, including those required to complete unpaid placements as part of their studies.",
+      "content": "Green MP Francisco Hernandez questioned Finance Minister Nicola Willis about excluding students from a $50-a-week payment introduced during a fossil-fuel crisis. Willis said the payment was aimed at working families with children and that students could access interest-free loans for living costs and income-based student allowances. Hernandez cited reports of nursing students using buy-now-pay-later schemes to fund fuel for placements and raised concerns about youth not in employment, education or training and the future of Fees Free. Willis said she would seek to verify anecdotal reports and defended the Government’s approach to apprenticeship funding and tertiary spending.",
+      "keyExchanges": [
+        {
+          "speaker": "Francisco Hernandez (Green)",
+          "quote": "Why did she not include students in the $50-a-week support payment during this fossil fuel crisis?"
+        },
+        {
+          "speaker": "Nicola Willis (National)",
+          "quote": "Because that payment is targeted at working families with children."
+        }
+      ],
+      "tags": [
+        "students",
+        "cost-of-living",
+        "tertiary-education",
+        "financial-support"
+      ]
+    },
+    {
+      "topic": "Public Service Bill Debate Remains Unfinished Amid Politicisation Concerns",
+      "whyItMatters": "The proposed changes affect how public agencies are managed and how Parliament and the public access long-term advice about government policy.",
+      "content": "The Public Service Amendment Bill reached its third-reading debate, but proceedings were interrupted before a vote and are due to resume at the next sitting. The Government said the bill would sharpen performance expectations, require contestable processes for chief executive reappointments and consolidate agencies’ long-term insights briefings into one prepared by the Department of the Prime Minister and Cabinet. It also removes specific statutory references to pay equity and diversity and inclusion. Labour and Green MPs warned that reducing agency briefings and removing those provisions could weaken scrutiny, equity efforts and political neutrality; ACT backed the changes as a focus on merit and service delivery.",
+      "keyExchanges": [
+        {
+          "speaker": "James Meager (National)",
+          "quote": "This bill provides a targeted, practical set of amendments to restore purpose, discipline, and professionalism to the Public Service while preserving its constitutional role as a politically neutral institution."
+        },
+        {
+          "speaker": "Camilla Belich (Labour)",
+          "quote": "This is a clear loss in long-term thinking in New Zealand and a clear loss for scrutiny of this Parliament."
+        }
+      ],
+      "tags": [
+        "Public-Service",
+        "political-neutrality",
+        "equity",
+        "parliamentary-scrutiny"
+      ]
+    },
+    {
+      "topic": "Proposed Fair Trading Fines Could Rise to at Least $5 Million",
+      "whyItMatters": "Higher potential penalties are intended to deter unfair conduct and protect consumers in both traditional and online marketplaces.",
+      "content": "Commerce and Consumer Affairs Minister Cameron Brewer said the Government had announced legislation to increase penalties for breaches of the Fair Trading Act. The proposed maximum would be the highest of three times the value gained from the offending conduct, the total value of the transactions involved, or a flat $5 million, compared with a current top penalty of $600,000. Brewer said judges would retain discretion and could consider the seriousness of the conduct, prior breaches and the size of the business or individual involved. The legislation had been announced but was not debated or voted on during the sitting.",
+      "keyExchanges": [
+        {
+          "speaker": "Ryan Hamilton (National)",
+          "quote": "What changes have been proposed to strengthen these penalties under the Fair Trading Act, and how do these compare to the current penalty structure?"
+        },
+        {
+          "speaker": "Cameron Brewer (National)",
+          "quote": "The maximum fine will now be the highest of three times the value gained from the offending conduct, the total value of the transactions involved, or a flat $5 million."
+        }
+      ],
+      "tags": [
+        "Fair-Trading-Act",
+        "consumer-protection",
+        "penalties",
+        "business"
+      ]
+    }
+  ],
+  "conclusion": "The sitting produced concrete advances on agricultural regulation and consumer-credit reform, but the most divisive questions—who bears the risk of lending changes and how far government can reshape public institutions—remain unresolved."
+}
