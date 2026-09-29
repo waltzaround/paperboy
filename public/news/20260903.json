@@ -1,0 +1,176 @@
+{
+  "headline": "New Zealand Parliament Passes 2026 Budget Amid Cost-of-Living and Public Services Dispute",
+  "publicationDate": "2026-09-03",
+  "summary": "Parliament approved the 2026/27 Budget and a further $29 billion in interim spending authority, with the Government highlighting investment in health, education, infrastructure and a forecast return to surplus. Opposition MPs argued that the Budget would not ease pressure on households and challenged the Government’s record on nursing, housing and support for young people. The sitting also featured a rates-cap dispute, a review of wrongful benefit suspensions and a Government consultation on rules for home-kill and hunted meat.",
+  "topicSummaries": [
+    {
+      "topic": "2026/27 Budget and $29B Interim Spending Authority Approved",
+      "whyItMatters": "The Budget sets government spending priorities for the coming year, including funding for health services, schools, infrastructure and other public services.",
+      "content": "Parliament passed the Appropriation (2026/27 Estimates) Bill, putting the Budget into law, and approved the Imprest Supply (Second for 2026/27) Bill, which authorises up to $29 billion in additional operating and capital expenditure before further parliamentary approval. Finance Minister Simon Watts said the Budget included $5.5 billion in additional health operating funding, $1.6 billion for schools and early childhood education, and investment in transport, housing and public safety; he also cited a forecast return to surplus in 2028-29. Labour and Green MPs argued that fiscal restraint and other Budget choices left families facing high costs and reduced support, while National, ACT and New Zealand First members defended the spending as targeted and fiscally responsible. Both bills passed on party votes.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Simon Watts (National)",
+          "quote": "Budget 2026 is a responsible Budget that boosts funding for essential services and invests in the infrastructure New Zealanders need for the future without breaking the bank."
+        },
+        {
+          "speaker": "Hon Dr Megan Woods (Labour)",
+          "quote": "Well, this is the Budget that is breaking New Zealand families up and down the country."
+        }
+      ],
+      "tags": [
+        "Budget 2026",
+        "government spending",
+        "public services",
+        "parliament"
+      ]
+    },
+    {
+      "topic": "Budget Housing Changes Draw Criticism Over Rent and Support",
+      "whyItMatters": "Changes affecting public-housing rents and assistance could increase costs for households already struggling to meet basic expenses.",
+      "content": "During the Budget debate, Green MP Tamatha Paul said the income-related rent subsidy change would raise the share of income paid by Kāinga Ora tenants from 25 percent to 30 percent, amounting to an average rent increase of $31 a week. She also criticised limits on temporary additional support and questioned whether households could realistically move into affordable private rentals, arguing that the changes risked increasing hardship and homelessness. Government speakers defended the Budget more broadly as investing in social housing and essential services, but the transcript contains no direct ministerial response to Paul’s specific figures. Earlier in the sitting, Parliament referred a Christchurch Methodist Mission petition seeking more social and affordable housing for older people to the Petitions Committee.",
+      "keyExchanges": [
+        {
+          "speaker": "Tamatha Paul (Green)",
+          "quote": "The changes that are being made in this Budget to adjust the amount of money that people get as a part of the income-related rent subsidy—which is being increased from 25 percent to 30 percent and which, in real terms, looks like an increase, on average, of rent going up $31 per week for those households when they already don’t have the money to pay for their existing costs—are unconscionable in a cost of living crisis."
+        },
+        {
+          "speaker": "Hon Simon Watts (National)",
+          "quote": "Budget 2026 provides an additional $5.5 billion to help the public health system meet front-line demand and deliver more services"
+        }
+      ],
+      "tags": [
+        "public housing",
+        "rents",
+        "cost of living",
+        "housing support"
+      ]
+    },
+    {
+      "topic": "Rates Cap Debate Pits Promised Savings Against Higher Service Fees",
+      "whyItMatters": "A cap on council rates could limit household bills, but any offsetting increases in user charges could reduce or erase those savings.",
+      "content": "Green MP Mike Davidson questioned whether the Government’s proposed rates cap would deliver meaningful net savings, citing advice that councils might raise fees for services such as pools, libraries, public transport and parking. Local Government Minister Simon Watts argued that limiting annual rates increases to 4 percent would generate substantial cumulative savings, particularly compared with recent double-digit increases, and said councils should prioritise spending. Davidson also challenged the Minister’s use of figures that he said included water investment exempt from the cap. Watts rejected that criticism and defended the policy as protection for ratepayers; he answered “No” when asked whether the biggest benefits would go to owners of higher-value homes and holiday properties.",
+      "keyExchanges": [
+        {
+          "speaker": "Mike Davidson (Green)",
+          "quote": "Does he think a young family saving $34 a year under the rates cap would be better or worse off once higher fees for pools, libraries, public transport, and car-parking are included, given his view in a Cabinet paper that a rates cap will “incentivise greater use of user charges”?"
+        },
+        {
+          "speaker": "Hon Simon Watts (National)",
+          "quote": "Putting a limit on their increase of expenditure is a sensible and pragmatic thing to do to protect Kiwi households."
+        }
+      ],
+      "tags": [
+        "rates cap",
+        "local government",
+        "council fees",
+        "household costs"
+      ]
+    },
+    {
+      "topic": "Nursing Numbers Disputed as Health Staffing Concerns Are Raised",
+      "whyItMatters": "Nursing vacancies and staffing levels affect access to hospital care, waiting times and pressure on frontline health workers.",
+      "content": "Labour MPs cited reports of staffing pressures at hospitals and questioned why the Government would not guarantee jobs to New Zealand-trained nursing graduates. Associate Health Minister Matt Doocey, answering for the Health Minister, said Health New Zealand had added more than 2,100 nurses on a net basis since 2023 and was actively recruiting for 2,378 full-time-equivalent nursing roles, including 475 nurses who had accepted offers. In the later Budget debate, Labour’s Megan Woods and Kieran McAnulty argued that the net increase from March 2024 to March 2026 was only 54 full-time equivalents. National MP Ryan Hamilton disputed that comparison, saying the figure rose by 1,640 from the last pre-election quarterly snapshot in September 2023 to March 2026. The debate left members disputing the periods and measures used to describe staffing changes.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Dr Ayesha Verrall (Labour)",
+          "quote": "Why, when hospitals across New Zealand are in urgent need of more nurses, will he not commit to offering every New Zealand-trained nurse a job?"
+        },
+        {
+          "speaker": "Hon Matt Doocey (National)",
+          "quote": "The figures I’ve said today, of offering to 1,800 graduate nurses, is the biggest offer in this country out of any year for the last seven years."
+        }
+      ],
+      "tags": [
+        "nursing",
+        "healthcare",
+        "staffing",
+        "hospital services"
+      ]
+    },
+    {
+      "topic": "Youth Benefit Rules and Falling Work-Based Learning Numbers Challenged",
+      "whyItMatters": "Access to income support, employment programmes and apprenticeships can shape whether young people can meet immediate needs and gain a route into work.",
+      "content": "Labour’s Carmel Sepuloni challenged Social Development Minister Louise Upston over restrictions on Jobseeker Support for 18- and 19-year-olds, noting that 36,000 people aged 15 to 19 were not in work, education or training. Upston said young people should be in employment, education or training, or supported by their families, and pointed to job coaching, Youth Guarantee places and a $1,000 payment for some who remain in work for 12 months. In a separate exchange, Tertiary Education Minister Penny Simmonds said work-based learners fell from 138,730 in 2023 to 108,315 in 2025, attributing the decline to economic pressures and lower business confidence. Labour questioned whether the decline reflected Government decisions; Simmonds cited improved qualification completion and retention rates.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Carmel Sepuloni (Labour)",
+          "quote": "Why, when 36,000 fifteen- to nineteen-year-olds are not in work, education, or training, did she cut the access to jobseeker payments of 18- and 19-year-olds?"
+        },
+        {
+          "speaker": "Hon Louise Upston (National)",
+          "quote": "Because our Government is clear: we want 18- and 19-year-olds in education, training, or employment, and if they’re not, we expect that their families do support them."
+        }
+      ],
+      "tags": [
+        "youth employment",
+        "welfare",
+        "apprenticeships",
+        "training"
+      ]
+    },
+    {
+      "topic": "Wrongful Benefit Suspension Review to Report on 10 September",
+      "whyItMatters": "People whose benefits were wrongly suspended may have faced immediate hardship, and the review will inform whether further remedies are considered.",
+      "content": "Green MP Ricardo Menéndez March asked Social Development Minister Louise Upston about a review into wrongful benefit suspensions, including whether it would consider compensation. Upston said the review would examine the winter energy payment issue, processing delays, mandatory reviews, who was affected and possible steps to prevent a recurrence; she said she would wait for its findings, due on 10 September. She acknowledged that incorrect suspensions would have affected people and said payments had been reinstated and backdated. Menéndez March argued that repayment might not address other harm, including debt or health effects, but the Minister did not commit to considering compensation before the review reported.",
+      "keyExchanges": [
+        {
+          "speaker": "Ricardo Menéndez March (Green)",
+          "quote": "What is the point of an apology if she’s not even willing to consider the option of compensation for harm that may have occurred and which is not redressed through back payments, as that cannot make up for potential debt or harm or worsening health outcomes that people may have experienced due to missed payments?"
+        },
+        {
+          "speaker": "Hon Louise Upston (National)",
+          "quote": "As I said, the review will cover many components, including who has been affected, and that’s why I’m waiting for that review."
+        }
+      ],
+      "tags": [
+        "benefits",
+        "payment suspensions",
+        "MSD review",
+        "compensation"
+      ]
+    },
+    {
+      "topic": "Government Defends Pause to Waikato River Plan Amid Iwi Treaty Concerns",
+      "whyItMatters": "The timing of environmental planning changes affects river protections and the Government’s relationship with iwi whose Treaty settlements are relevant to the plan.",
+      "content": "Labour MP Willie Jackson questioned the Government’s decision to pause Plan Change 1, which the Environment Court had ruled should remain central to protecting the Waikato and Waipā rivers. He said five iwi had warned that the delay would breach commitments. Justice Minister Paul Goldsmith, answering for the Minister responsible for RMA reform, said the pause was intended to avoid farmers and growers incurring costs under a framework that would soon be replaced by the new planning system. He said the Government had met with iwi and remained committed to Treaty settlements, while arguing that those settlements did not prevent changes to the planning system. The transcript records no resolution of the disagreement.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Willie Jackson (Labour)",
+          "quote": "How is overriding the Environment Court, which ruled earlier this year that plan change 1 (PC 1) must remain central to protecting the Waikato and Waipā rivers, acting in good faith with iwi?"
+        },
+        {
+          "speaker": "Hon Paul Goldsmith (National)",
+          "quote": "The Government’s decision to pause PC1 is a practical measure to support the transition to the new planning system."
+        }
+      ],
+      "tags": [
+        "Waikato River",
+        "Treaty settlements",
+        "RMA reform",
+        "iwi"
+      ]
+    },
+    {
+      "topic": "Consultation Opens on 28-Day Rule for Home-Kill and Hunted Meat",
+      "whyItMatters": "Changing the rules could affect access to locally sourced meat and make it easier for farmers and hunters to donate meat to community groups and food banks.",
+      "content": "Food Safety Minister Andrew Hoggard announced consultation on rules governing home-kill and hunted meat, including the requirement that a person care for an animal for 28 days before a listed provider can process it. He said the rules had not been reviewed for 20 years and questioned whether the waiting period was needed for food safety. Hoggard said the review would also consider uncertainty around donations to sports clubs, community organisations and food banks, and argued that direct local supply could make meat more affordable. No change has been decided; the Government is seeking feedback through the consultation.",
+      "keyExchanges": [
+        {
+          "speaker": "Cameron Luxton (ACT)",
+          "quote": "Why does the Minister believe the 28-day rule needs looking at?"
+        },
+        {
+          "speaker": "Hon Andrew Hoggard (National)",
+          "quote": "This consultation will be about testing whether there genuinely is a food safety need for this rule or whether it’s just an example of a silly rule that’s just standing in the way of unlocking New Zealand’s potential."
+        }
+      ],
+      "tags": [
+        "food safety",
+        "home-kill",
+        "food prices",
+        "consultation"
+      ]
+    }
+  ],
+  "conclusion": "The Budget and interim spending bills passed, but the House adjourned with sharp disagreement over whether the Government’s fiscal and policy choices will ease household pressures or deepen them."
+}
