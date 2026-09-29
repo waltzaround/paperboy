@@ -1,0 +1,218 @@
+{
+  "headline": "Luxon and Hipkins Clash Over Cost of Living as Parliament Advances Safety and Justice Bills",
+  "publicationDate": "2026-07-22",
+  "summary": "The cost of living and inflation dominated question time, with Prime Minister Christopher Luxon and Labour leader Chris Hipkins disputing whether the Government had delivered on promises to lower household costs as annual inflation reached 4.1 percent. MPs also argued over resource-management reforms and a student-data breach, while the House advanced several bills on boating safety, criminal records and protection from harmful practices. An extended sitting continued into Thursday, when the Arms Bill made progress in committee amid a dispute over police involvement and proposed firearms restrictions.",
+  "topicSummaries": [
+    {
+      "topic": "Luxon and Hipkins Clash as Inflation Reaches 4.1 Percent",
+      "whyItMatters": "Inflation affects the prices households pay for essentials and can influence interest rates, including mortgage costs.",
+      "content": "Labour leader Chris Hipkins challenged Prime Minister Christopher Luxon over National’s past promises to reduce the cost of living and grocery prices. Luxon argued that falling prices could lead to deflation and weaker economic activity, and pointed to food inflation of 2.8 percent compared with 12.3 percent under the previous Labour Government. Finance Minister Nicola Willis said the Reserve Bank had lifted the official cash rate by 0.25 percentage points to 2.5 percent, citing annual inflation of 4.1 percent, partly driven by higher fuel prices linked to conflict in the Middle East. She said the Government was limiting discretionary spending to avoid adding to inflationary pressure.",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon Chris Hipkins (Labour)",
+          "quote": "Why has his Government repeatedly promised falling food prices over the past three years, something they failed to deliver?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (National)",
+          "quote": "Because we are focussed on lowering the cost of living for New Zealanders."
+        }
+      ],
+      "tags": [
+        "cost of living",
+        "inflation",
+        "food prices",
+        "interest rates"
+      ]
+    },
+    {
+      "topic": "RMA Reforms Draw Dispute Over Iwi Agreements and Council Costs",
+      "whyItMatters": "Changes to planning rules could affect housing, infrastructure, farming, environmental protections and the costs councils may pass on to ratepayers.",
+      "content": "The Government defended its Natural Environment Bill and Planning Bill, which are intended to replace the Resource Management Act with a system it says will make development and infrastructure easier while retaining environmental limits. Reform Minister Chris Bishop said the changes would enable more development and make councils bear some costs when restrictions affect private land. Labour’s Rachel Brooking questioned whether regulatory relief could cost councils as much as $1.99 billion in some scenarios; Bishop said the estimate ranged from $7 million to $1.99 billion and described the upper figure as unlikely. Green and Māori Party MPs also challenged the proposed removal of mana whakahono ā rohe agreements, warning it could weaken iwi participation and Treaty relationships. Bishop said iwi could negotiate new participation agreements under the replacement legislation. The bills had been reported back by a select committee but had not completed their passage through Parliament.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Rachel Brooking (Labour)",
+          "quote": "Can councils afford the regulatory relief provisions in these bills, without passing on the costs to households by increasing rates?"
+        },
+        {
+          "speaker": "Hon Chris Bishop (National)",
+          "quote": "There’s a range of estimated costs, as I think the member knows, to implement the regulatory relief provisions."
+        }
+      ],
+      "tags": [
+        "RMA reform",
+        "iwi participation",
+        "councils",
+        "ratepayers"
+      ]
+    },
+    {
+      "topic": "Ministry Investigates Student Data Access Affecting 276 Students",
+      "whyItMatters": "The incident involved access to real student records and raised questions about safeguards in an education data system.",
+      "content": "Labour’s Ginny Andersen questioned Education Minister Erica Stanford about a data breach involving the Student Monitoring, Assessment and Reporting Tool. Stanford said the Ministry of Education notified the Privacy Commissioner after verifying the issue and that two teachers had access to information relating to 276 students during incidents between 5 and 13 July. She said access was shut down and the ministry followed privacy guidance, but could not explain how trial logins accessed live student records or say whether the system’s final security accreditation was completed before live data was loaded. Andersen also asked about Treasury and ministry warnings raised before implementation; Stanford said officials had told her the system was robust and they were confident it could go live.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Ginny Andersen (Labour)",
+          "quote": "How were trial logins able to access 276 real student records?"
+        },
+        {
+          "speaker": "Hon Erica Stanford (National)",
+          "quote": "I don’t have the technical knowledge of the back-end of the system to be able to answer that question."
+        }
+      ],
+      "tags": [
+        "student privacy",
+        "data breach",
+        "education",
+        "cybersecurity"
+      ]
+    },
+    {
+      "topic": "Construction Workforce Debate Highlights Job and Apprenticeship Pressures",
+      "whyItMatters": "Construction employment and training affect job opportunities and the supply of workers needed to build homes and infrastructure.",
+      "content": "Labour’s Arena Williams cited figures showing 75,000 construction workers had left the sector in the year to May 2026 and questioned the Government’s response to falling apprenticeship numbers. Acting Building and Construction Minister James Meager said construction employment had increased by 0.7 percent over the past 12 months and consents were up 18.5 percent for the year to May. He pointed to consenting reforms, fast-tracked housing projects and Budget 2026 funding for trades academies and Youth Guarantee places. The exchange reflected disagreement over whether government measures were reversing workforce losses and supporting people to remain in the industry.",
+      "keyExchanges": [
+        {
+          "speaker": "Arena Williams (Labour)",
+          "quote": "Have any of his regulatory changes kept even one of the 75,000 workers who left construction in the year to May 2026 in their jobs?"
+        },
+        {
+          "speaker": "Hon James Meager (National)",
+          "quote": "The regulatory changes by this Government have seen an increase in the number of employees in the construction centre by 0.7 percent over the last 12 months, so I think that demonstrates good progress."
+        }
+      ],
+      "tags": [
+        "construction",
+        "employment",
+        "apprenticeships",
+        "housing"
+      ]
+    },
+    {
+      "topic": "LNG Terminal Safety Assessments and Community Consultation Remain Open",
+      "whyItMatters": "The proposed terminal could affect nearby residents and businesses, while its safety arrangements and engagement with the community are still being developed.",
+      "content": "Green MP Scott Willis asked whether local safety risks had been assessed as part of procurement for a proposed liquefied natural gas terminal in Taranaki and whether those assessments would be released. Energy Minister Simeon Brown said an initial safety evaluation had been completed by two proponents, while detailed assessments would form part of an operator’s safety case, which WorkSafe must accept before the facility can operate. Brown said he expected a preferred provider to engage directly with the community, but did not commit to releasing the procurement-stage assessments or specify when emergency services would be consulted. He argued the terminal could support energy security and help contain power costs.",
+      "keyExchanges": [
+        {
+          "speaker": "Scott Willis (Green)",
+          "quote": "Will the risk assessments undertaken during procurement be released to the Taranaki community and other port users, given the proposed terminal’s proximity to homes, schools, and businesses?"
+        },
+        {
+          "speaker": "Hon Simeon Brown (National)",
+          "quote": "There is a procurement process under way. No doubt, as part of that, once a preferred provider has been selected, there will be an opportunity for them to engage directly with the local community."
+        }
+      ],
+      "tags": [
+        "LNG",
+        "Taranaki",
+        "energy safety",
+        "community consultation"
+      ]
+    },
+    {
+      "topic": "Life-Jacket Bill Advances With Rules for All Ages on Small Craft",
+      "whyItMatters": "The proposed national requirement is intended to reduce preventable drownings among people using recreational boats.",
+      "content": "The House passed the Life Jackets for Children and Young Persons Bill at its second reading, adopting a select committee recommendation to extend the requirement to people of all ages on recreational craft under six metres while underway. The bill is to be renamed the Maritime Transport (Lifejackets on Recreational Craft) Amendment Bill. National’s Shane Reti said the change could prevent about 10 deaths a year; MPs cited evidence that many drowning victims were not wearing life jackets, despite devices being carried on their boats. Labour, the Greens, ACT and New Zealand First supported the bill, while members raised the need for public education and practical guidance on when the requirement applies. The bill had not yet completed its remaining parliamentary stages.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Dr Shane Reti (National)",
+          "quote": "The select committee heard that recreational craft fatalities on vessels under 6 metres without life jackets accounted for 50 percent of all drownings last year."
+        },
+        {
+          "speaker": "Simon Court (ACT)",
+          "quote": "ACT supports the bill as reported back to the House, but we’d also like to see further changes to make it very clear that there must be a reasonable level of responsibility applied to the skipper, so that they can use their judgment at times when that’s appropriate."
+        }
+      ],
+      "tags": [
+        "life jackets",
+        "boating safety",
+        "drowning prevention",
+        "maritime"
+      ]
+    },
+    {
+      "topic": "Victim-Remains Bill Sent to Committee Despite Detention Concerns",
+      "whyItMatters": "The proposal could affect parole decisions while seeking to give families answers about the location of homicide victims’ remains.",
+      "content": "The Concealment of Location of Victim Remains Bill passed its first reading and was referred to the Justice Committee. It would make failure to disclose a victim’s remains an aggravating factor at sentencing and create a presumption against parole unless an offender had cooperated in identifying the location. Labour, National, ACT and New Zealand First supported further consideration, with MPs acknowledging the distress families can face when remains are not recovered. The Greens opposed the bill, citing a lack of evidence that similar laws overseas increase disclosure and the Attorney-General’s view that the proposal appeared inconsistent with protection from arbitrary detention. Te Pāti Māori also recorded an intention to vote against it.",
+      "keyExchanges": [
+        {
+          "speaker": "Scott Willis (Green)",
+          "quote": "We don’t see any evidence that these reforms have achieved their aims."
+        },
+        {
+          "speaker": "Tom Rutherford (National)",
+          "quote": "This bill has never been about harming people who are already in prison; it’s solely about putting victims at the heart of our justice system."
+        }
+      ],
+      "tags": [
+        "parole",
+        "victims’ families",
+        "justice",
+        "members’ bill"
+      ]
+    },
+    {
+      "topic": "Clean-Slate Bill Advances Amid Debate Over Rehabilitation and Victims’ Rights",
+      "whyItMatters": "The proposal could give some people with old convictions a greater chance of securing work and reintegrating into society.",
+      "content": "Labour MP Tangi Utikere’s Criminal Records (Clean Slate) (Additional Eligibility) Amendment Bill passed its first reading and was referred to the Justice Committee. It would extend clean-slate eligibility to people with specified category 2 offences who received a custodial sentence of less than 12 months and then completed 10 years of lawful behaviour, as well as some people with indefinite driving disqualifications. Labour, the Greens, ACT and New Zealand First supported sending it for scrutiny. National opposed the bill, arguing that the existing limits should remain and that victims’ interests and the consequences of offending must be considered. MPs from supporting parties also called for the committee to examine safeguards, including access to criminal records where needed for public safety.",
+      "keyExchanges": [
+        {
+          "speaker": "Tangi Utikere (Labour)",
+          "quote": "It simply recognises that there comes a point when someone’s history should not be a permanent barrier to their future."
+        },
+        {
+          "speaker": "Tim Costley (National)",
+          "quote": "The National Party position is that we think the line was drawn in the right place in the original bill with non-custodial sentences."
+        }
+      ],
+      "tags": [
+        "clean slate",
+        "rehabilitation",
+        "employment",
+        "criminal records"
+      ]
+    },
+    {
+      "topic": "Cross-Party Support Sends Virginity-Testing Ban to Select Committee",
+      "whyItMatters": "The bill aims to protect women and girls from invasive procedures that MPs said lack a scientific basis and can cause harm.",
+      "content": "Labour MP Priyanca Radhakrishnan’s Crimes (Virginity Testing Practices) Amendment Bill passed its first reading and was referred to the Governance and Administration Committee, with speakers across parties supporting further consideration. The bill would criminalise virginity testing and hymenoplasty, including taking a person under 18 overseas for the procedures, and would make consent unavailable as a defence. Radhakrishnan said the practices were reported to occur in New Zealand and called for education and appropriate professional guidance alongside legislation. New Zealand First’s Casey Costello supported referral but said the committee should consider how the bill would protect an adult woman’s ability to seek medical consultation and make choices about her own body.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Priyanca Radhakrishnan (Labour)",
+          "quote": "Virginity is a social construct, a term to describe someone who hasn’t had sexual contact. It has absolutely no scientific, biological, or medical validity."
+        },
+        {
+          "speaker": "Hon Casey Costello (New Zealand First)",
+          "quote": "I think we also have to be cognisant of an adult woman being able to make decisions that she wishes to make for her body"
+        }
+      ],
+      "tags": [
+        "women’s rights",
+        "bodily autonomy",
+        "health",
+        "members’ bill"
+      ]
+    },
+    {
+      "topic": "Arms Bill Committee Debate Centres on Police Role and Firearm Controls",
+      "whyItMatters": "The proposed rewrite would change how firearms are regulated, with direct implications for public safety and licensed owners.",
+      "content": "During the extended sitting on Thursday, MPs considered the Arms Bill, a proposed replacement for the Arms Act 1983, and agreed to government amendments to its first two parts. Associate Justice Minister Nicole McKee said the changes would establish an independent regulator, strengthen enforcement and simplify rules for licensed owners; she also said more than 8,000 people had made submissions. Labour MPs challenged the decision to remove police from day-to-day firearms regulation and questioned the treatment of push-button firearms. McKee said police would share information with the regulator and argued that new restrictions should be based on evidence. Labour amendments seeking a police role and new restrictions on certain firearms were defeated, and the House reported progress without completing the bill’s committee stage.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Ginny Andersen (Labour)",
+          "quote": "If public safety is running right through the purposes of this bill and the principles of this bill, I’m really interested to hear from the Minister why police can’t make decisions within the new regulator"
+        },
+        {
+          "speaker": "Hon Nicole McKee (ACT)",
+          "quote": "These two organisations will work very, very closely together. They will also have the information-sharing agreement set up"
+        }
+      ],
+      "tags": [
+        "Arms Bill",
+        "firearms regulation",
+        "police",
+        "public safety"
+      ]
+    }
+  ],
+  "conclusion": "The sitting advanced several safety and justice proposals, but the central political divide remained over whether the Government’s economic and regulatory agenda is delivering practical gains for households while adequately protecting communities and affected groups."
+}

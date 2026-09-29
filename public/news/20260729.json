@@ -1,0 +1,193 @@
+{
+  "headline": "NZ Parliament Passes Employment Leave and Arms Bills as Cost-of-Living Pressure Dominates Debate",
+  "publicationDate": "2026-07-29",
+  "summary": "Cost-of-living pressures, public services and proposed changes to workers’ leave entitlements featured prominently in a tense sitting of Parliament. MPs passed the Employment Leave Bill and Arms Bill, while opposition parties challenged the Government over the effects of both measures and the planned regulation of firearms. The House also advanced changes to crime laws and began debating a bill on serious youth offending.",
+  "topicSummaries": [
+    {
+      "topic": "Cost-of-Living Debate Pits Inflation Falls Against Household Hardship",
+      "whyItMatters": "Food, housing and other household costs affect family budgets, while the debate highlighted disagreement over whether slower inflation is translating into improved living standards.",
+      "content": "Labour Deputy Leader Carmel Sepuloni challenged Prime Minister Christopher Luxon over grocery price rises, hardship withdrawals from KiwiSaver and reports that some households are borrowing to cover basic costs. Luxon pointed to annual inflation falling from 7.3 percent to 4.1 percent and food inflation from 12.3 percent to 2.8 percent, while acknowledging there was more work to do. He also argued Labour should support Government proposals including a council rates cap, energy measures and longer prescription periods. The exchange underscored the difference between the rate at which prices are rising and the high prices households already face.",
+      "keyExchanges": [
+        {
+          "speaker": "Carmel Sepuloni (Labour)",
+          "quote": "Has he succeeded in bringing down the cost of living when in just two years the cost of white bread is up 68 percent, butter 41 percent, cheese 30 percent, mince 28 percent, and milk 26 percent?"
+        },
+        {
+          "speaker": "Christopher Luxon (National, Prime Minister)",
+          "quote": "To give you some sense of context, we are now at 2.8 percent—2.8 percent is lower than 12.3 percent. That’s a good thing."
+        }
+      ],
+      "tags": [
+        "cost of living",
+        "food prices",
+        "inflation",
+        "household hardship"
+      ]
+    },
+    {
+      "topic": "Employment Leave Bill Passes Amid Dispute Over Part-Time Workers’ Entitlements",
+      "whyItMatters": "The new rules will change how annual and sick leave accrue and are paid, with the debate focused on possible effects on workers with variable or part-time hours.",
+      "content": "The House passed the Employment Leave Bill at its third reading, replacing the Holidays Act 2003 with an hours-based leave system. Workplace Relations and Safety Minister Brooke van Velden said the changes would simplify calculations, make some leave available from the first day of employment and provide a 24-month transition period, with more time for parts of the education sector. Labour and Green MPs argued that treating additional or casual hours differently could reduce leave and income for some workers and encourage insecure employment; Te Pāti Māori also opposed the bill, saying administrative simplicity should not come at the expense of workers’ wellbeing. The Government parties supported the bill, while Labour, the Greens and Te Pāti Māori opposed it.",
+      "keyExchanges": [
+        {
+          "speaker": "Brooke van Velden (ACT, Minister for Workplace Relations and Safety)",
+          "quote": "This bill delivers a simpler, fairer, and more workable system."
+        },
+        {
+          "speaker": "Phil Twyford (Labour)",
+          "quote": "At the heart of this bill is the definition of so-called “standard hours” and “non-standard hours”."
+        }
+      ],
+      "tags": [
+        "Employment Leave Bill",
+        "annual leave",
+        "sick leave",
+        "part-time work"
+      ]
+    },
+    {
+      "topic": "Arms Bill Passes Despite Opposition Over Firearms Regulator",
+      "whyItMatters": "The law changes how firearms are licensed and regulated, with consequences for public safety, police information-sharing and licensed gun owners.",
+      "content": "The Arms Bill passed its third reading, repealing and replacing the Arms Act 1983. Associate Justice Minister Nicole McKee said it would modernise the law, make compliance easier for licensed firearm owners and automatically disqualify gang members from holding a firearms licence; provisions are scheduled to take effect in stages. Labour, Green and Te Pāti Māori MPs opposed the bill, principally objecting to moving firearms regulation from Police to a separate Firearms Safety Authority and raising concerns about intelligence-sharing and public safety. Government speakers said the bill balanced lawful firearm use with stronger controls on criminal access.",
+      "keyExchanges": [
+        {
+          "speaker": "Nicole McKee (ACT, Associate Minister of Justice)",
+          "quote": "We’re keeping firearms out of the hands of criminals while making compliance easier for LFOs."
+        },
+        {
+          "speaker": "Duncan Webb (Labour)",
+          "quote": "The problem is that this bill is built on a poor foundation."
+        }
+      ],
+      "tags": [
+        "Arms Bill",
+        "firearms regulation",
+        "Police",
+        "public safety"
+      ]
+    },
+    {
+      "topic": "Waitākere Hospital Ward to Open With 11 of 30 Planned Beds",
+      "whyItMatters": "The number of staffed hospital beds affects how quickly patients can leave emergency departments and receive care on a ward.",
+      "content": "Health Minister Simeon Brown confirmed that the new medical ward at Waitākere Hospital will open with 11 additional staffed beds, with the remaining beds planned to come online later. Labour MP Phil Twyford pressed the Government to open all 30 beds, citing reports of patients waiting in corridors and ward patients remaining in the emergency department. Brown said the phased opening was set out in the 2021 business case approved by the previous Government, that recruitment was under way and that the new ward was expected by the end of the year.",
+      "keyExchanges": [
+        {
+          "speaker": "Phil Twyford (Labour)",
+          "quote": "Will he commit to opening the other 19 beds now, given that Waitākere Hospital is in crisis, with patients left for long periods in corridors because of a lack of beds?"
+        },
+        {
+          "speaker": "Simeon Brown (National, Minister of Health)",
+          "quote": "Yes, there’s more work to do, and those beds will open over time."
+        }
+      ],
+      "tags": [
+        "Waitākere Hospital",
+        "hospital beds",
+        "healthcare",
+        "staffing"
+      ]
+    },
+    {
+      "topic": "Government to Review Temporary Fuel Support as Prices Turn Volatile",
+      "whyItMatters": "The Cabinet’s decision will affect whether temporary measures continue as global oil price changes begin to flow through to New Zealand petrol prices.",
+      "content": "Finance Minister Nicola Willis said the latest official data put the national average price of 91-octane petrol at $2.96 a litre, below $3 for a fourth consecutive week, while a provisional daily price had risen to $3.05. She said recent increases in crude and refined petrol prices had not yet fully reached New Zealand pumps and that Cabinet would consider domestic and international data the following week before deciding the future of temporary fuel support. Willis cited volatility linked to developments in the Middle East and shipping disruptions.",
+      "keyExchanges": [
+        {
+          "speaker": "Dan Bidois (National)",
+          "quote": "Why has the Government not automatically ended the temporary fuel support measures?"
+        },
+        {
+          "speaker": "Nicola Willis (National, Minister of Finance)",
+          "quote": "Cabinet will, therefore, next week, consider both the latest domestic data and the international outlook before making a final decision on the future for temporary supports in relation to the fuel price."
+        }
+      ],
+      "tags": [
+        "fuel prices",
+        "petrol",
+        "fuel support",
+        "cost of living"
+      ]
+    },
+    {
+      "topic": "Youth Benefit Rules Draw Questions Over Support for Ill 18- and 19-Year-Olds",
+      "whyItMatters": "Changes affecting young people who cannot work full time could influence their access to income support while they manage illness or disability.",
+      "content": "Green MP Ricardo Menéndez March asked how many 18- and 19-year-olds receive Jobseeker Support for a health condition, injury or disability. Social Development and Employment Minister Louise Upston said 2,733 young people in that age group were receiving the support at the end of June, and 69 percent had a psychological or psychiatric condition. Menéndez March questioned the expectation that some would move into education or training, while Upston said the Government expected family support in the first instance and wanted young people to prepare for work, training or education when able. Green co-leader Chlöe Swarbrick later asked the Prime Minister about young people with cancer or severe mental ill-health; Luxon reiterated the Government’s position that family should be responsible for 18- and 19-year-olds in the circumstances discussed.",
+      "keyExchanges": [
+        {
+          "speaker": "Ricardo Menéndez March (Green)",
+          "quote": "Does she expect that stripping people of their income support would likely improve or worsen someone’s mental health?"
+        },
+        {
+          "speaker": "Louise Upston (National, Minister for Social Development and Employment)",
+          "quote": "Well, we’ve been very clear about our expectations that we want to see 18- or 19-year-olds in education, training, or preparing for work and that in the first instance, support should come from their families."
+        }
+      ],
+      "tags": [
+        "youth benefits",
+        "disability support",
+        "mental health",
+        "income support"
+      ]
+    },
+    {
+      "topic": "Crimes Amendment Bill Advances With Tougher Theft Measures and New Infringement",
+      "whyItMatters": "The proposed measures could change penalties for theft and how alleged shoplifting is handled, while MPs raised questions about fairness, police systems and prison numbers.",
+      "content": "During committee consideration of the Crimes Amendment Bill, the Government’s amendments and the bill’s main parts were agreed to, and the bill was later reported with amendment; it was not given its final reading in this sitting. The measures discussed include stronger penalties for some theft, a new infringement offence for shoplifting and expanded provisions for offences against first responders. Labour MP Camilla Belich cited Ministry of Justice analysis projecting about 250 additional prisoners a year and a disproportionate increase in the women’s prison population; Minister Karen Chhour said the Government accepted the estimated increase as a consequence of tougher penalties. MPs also questioned whether the infringement offence required dishonest intent, how mistaken identity and ability to pay would be addressed, and whether Police systems would be ready. Chhour said the offence would not require a mental element, that Police would retain discretion, and that system upgrades were under way.",
+      "keyExchanges": [
+        {
+          "speaker": "Camilla Belich (Labour)",
+          "quote": "That is going to lead to a significant increase in the women’s prison population."
+        },
+        {
+          "speaker": "Karen Chhour (National, Minister for the Prevention of Family and Sexual Violence)",
+          "quote": "Approximately 250 additional prisoners per year resulting from this bill is what’s estimated."
+        }
+      ],
+      "tags": [
+        "Crimes Amendment Bill",
+        "shoplifting",
+        "sentencing",
+        "infringement offences"
+      ]
+    },
+    {
+      "topic": "10,000 Front-Line Workers Trained to Respond to Family and Sexual Violence",
+      "whyItMatters": "The training milestone is intended to improve how people seeking help are treated by government agencies and other services.",
+      "content": "Minister for the Prevention of Family and Sexual Violence Karen Chhour said the second Te Aorerekura Action Plan had reached its target of training 10,000 front-line workers almost six months ahead of schedule. She said participants mainly came from Police, Oranga Tamariki, Corrections, the Ministry of Justice and ACC. Chhour said the next step was to implement published workforce capability frameworks designed to support early identification, safer responses and professional development, and said the frameworks could also be used by non-government organisations.",
+      "keyExchanges": [
+        {
+          "speaker": "Todd Stephenson (ACT)",
+          "quote": "Why is it important that statutory workers are trained in responding to family violence and sexual violence?"
+        },
+        {
+          "speaker": "Karen Chhour (National, Minister for the Prevention of Family and Sexual Violence)",
+          "quote": "Victims of violence need to know that they can get the right help, when and where they need it."
+        }
+      ],
+      "tags": [
+        "family violence",
+        "sexual violence",
+        "front-line training",
+        "Te Aorerekura"
+      ]
+    },
+    {
+      "topic": "Serious Youth Offending Bill Begins Second-Reading Debate",
+      "whyItMatters": "The proposal would create new court responses for some young people who offend persistently, including residential programmes combining education and rehabilitation.",
+      "content": "Children’s Minister Karen Chhour opened the second-reading debate on the Oranga Tamariki (Responding to Serious Youth Offending) Amendment Bill, which was interrupted and will resume at a later sitting. The bill would establish young serious offender declarations and military-style academy orders, with residential support involving education, rehabilitation and cultural components. Chhour said the select committee had recommended safeguards, including family group conferences, limits on considering offending committed before age 14, independent health assessments after use of force, recording of incidents and expanded Ombudsman oversight. She said the Government reported a 25 percent reduction in children and young people with serious and persistent offending behaviour since June 2023.",
+      "keyExchanges": [
+        {
+          "speaker": "Karen Chhour (National, Minister for Children)",
+          "quote": "This legislation will provide a faster, stronger, and more targeted response to this group through the establishment of a young serious offender (YSO) declaration and a military-style academy order."
+        }
+      ],
+      "tags": [
+        "youth justice",
+        "serious offending",
+        "Oranga Tamariki",
+        "rehabilitation"
+      ]
+    }
+  ],
+  "conclusion": "The Government secured passage of two major bills, but disputes over household pressure, worker protections, public safety and the reach of state powers remain unresolved."
+}

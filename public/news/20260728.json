@@ -1,0 +1,155 @@
+{
+  "headline": "Employment Leave Bill Advances Despite Warnings Over Workers’ Entitlements",
+  "publicationDate": "2026-07-28",
+  "summary": "Parliament advanced the Employment Leave Bill through its committee stage after a prolonged dispute over whether its hours-based system and cash payments could leave some workers with less time off. MPs also passed infrastructure funding reforms at their final reading, while Question Time exposed divisions over grocery prices, health staffing, disability costs and the energy demands of proposed AI data centres. The sitting continued into the following morning for further committee business and a special debate on public petitions.",
+  "topicSummaries": [
+    {
+      "topic": "Employment Leave Bill Advances Amid Dispute Over Time Off and Cash Payments",
+      "whyItMatters": "The bill would change how annual, sick, bereavement and family violence leave is calculated, affecting workers’ ability to take paid time away from work.",
+      "content": "The House’s committee stage approved all parts of the Employment Leave Bill and it was reported back without amendment, after opposition amendments were rejected. Workplace Relations and Safety Minister Brooke van Velden defended a system that accrues leave on standard hours and pays a 12.5 percent leave compensation payment on additional or casual hours, arguing it would simplify a complex law. Labour and Green MPs warned that workers with low guaranteed hours but regular extra shifts could have less leave available and questioned whether the payment would provide adequate time for rest. The committee debate also raised concerns about cashing up leave, sick leave during annual leave, historical underpayment remediation and the resources needed to enforce the new rules; the bill’s final passage was not recorded in these proceedings.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Jan Tinetti (Labour)",
+          "quote": "We believe that it should apply to all hours in this bill"
+        },
+        {
+          "speaker": "Hon Brooke van Velden (National)",
+          "quote": "For every hour worked, employees will either receive the LCP or they will accrue the paid time off."
+        }
+      ],
+      "tags": [
+        "employment leave",
+        "annual leave",
+        "workers",
+        "labour law"
+      ]
+    },
+    {
+      "topic": "Infrastructure Funding Bill Passes Final Reading",
+      "whyItMatters": "The reforms create more ways to fund housing, transport and water infrastructure, while raising questions about how costs may ultimately fall on households and ratepayers.",
+      "content": "The Infrastructure Funding and Financing Amendment Bill passed its third reading with cross-party support. Housing Minister Chris Bishop said the changes would streamline approvals, widen eligibility to projects delivered by NZTA, KiwiRail and water organisations, and allow beneficiaries of infrastructure to contribute through levies. Labour supported the measure as an additional tool but warned that levies could shift costs to households and that rates caps and local-government reforms might constrain its effectiveness. Green and New Zealand First MPs also backed the bill while cautioning that user-pays funding does not remove the underlying cost of projects. The bill was read a third time.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Chris Bishop (National)",
+          "quote": "It means that those who benefit from that public investment can help cover some of the costs of that public investment."
+        },
+        {
+          "speaker": "Hon Kieran McAnulty (Labour)",
+          "quote": "If this ends up, this bill included, in simply increasing the cost on ratepayers, then we’re back where we started."
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "housing",
+        "levies",
+        "local government"
+      ]
+    },
+    {
+      "topic": "Luxon and Hipkins Clash Over Whether Lower Prices Mean Falling Prices",
+      "whyItMatters": "The disagreement highlights competing claims about the cost of living and what the Government’s promise to lower costs means for household budgets.",
+      "content": "Opposition Leader Chris Hipkins pressed Prime Minister Christopher Luxon on whether the Government’s promise to lower the cost of living meant that prices would actually fall. Luxon distinguished lower inflation from deflation, arguing that sustained falling prices could reduce spending and employment, and defended a 1 to 3 percent inflation target. Hipkins challenged that explanation with examples such as cheaper butter, while Luxon pointed to the previous Government’s inflation record. The exchange became heated, with the Speaker repeatedly directing ministers and MPs to answer questions without attacking the Opposition.",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon Chris Hipkins (Labour)",
+          "quote": "How does a Kiwi family paying less for a block of butter shrink the economy?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (National)",
+          "quote": "I’m talking about deflation. That’s what the member, in the way he phrased his questions last week, was talking about."
+        }
+      ],
+      "tags": [
+        "cost of living",
+        "inflation",
+        "prices",
+        "Question Time"
+      ]
+    },
+    {
+      "topic": "Grocery Commissioner’s Abolition Draws Questions as Competition Analysis Remains Unreleased",
+      "whyItMatters": "The dispute concerns how grocery competition is monitored and whether Parliament and consumers can assess the Government’s policy decisions using information that has not yet been published.",
+      "content": "Labour’s Arena Williams questioned why the Government chose to abolish the statutory Grocery Commissioner before publicly releasing its analysis of grocery competition. Commerce and Consumer Affairs Minister Cameron Brewer said the role’s powers and functions would continue within the Commerce Commission as part of wider governance reforms, and later said the Government did not need a further report to decide on those changes. He said separate grocery competition reforms were still being considered and that no decisions had been made. Williams cited increases in specific grocery items, while Brewer countered with Statistics New Zealand’s reported annual grocery inflation rate of 2.8 percent for the year to June, comparing it with 12.5 percent under the previous Government.",
+      "keyExchanges": [
+        {
+          "speaker": "Arena Williams (Labour)",
+          "quote": "Why did the Government decide to abolish the Grocery Commissioner before publicly releasing its analysis on grocery competition?"
+        },
+        {
+          "speaker": "Hon Cameron Brewer (National)",
+          "quote": "We did not need a further report to know that there were steps that we, as a Government, could take to improve the commission’s governance and regulatory framework."
+        }
+      ],
+      "tags": [
+        "groceries",
+        "competition",
+        "Commerce Commission",
+        "consumer affairs"
+      ]
+    },
+    {
+      "topic": "Nursing Vacancy Debate Turns on Statistics and Recruitment Delays",
+      "whyItMatters": "Nursing vacancies and recruitment times affect the capacity of the public health system to provide care and maintain frontline staffing.",
+      "content": "Labour health spokesperson Ayesha Verrall asked for nursing vacancy figures from July 2024 to December 2025 and challenged Health Minister Simeon Brown after he referred instead to a decline measured from 2023. Brown said vacancies had fallen 45 percent between 2023 and 2025, that more than 2,100 nurses had joined the system since the Government took office, and that 1,422 nursing full-time-equivalent positions were being advertised. Verrall argued that nurses faced long delays obtaining approval to recruit to funded roles and questioned whether vacancies had increased or remained high in some areas. The Speaker said the issue of the answer’s time period would be considered further outside the sitting.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Dr Ayesha Verrall (Labour)",
+          "quote": "Why, after substantial progress in reducing vacancies in 2023 and early 2024, did progress stall when the Government started its turn-around plan?"
+        },
+        {
+          "speaker": "Hon Simeon Brown (National)",
+          "quote": "There will always be variation between month and month, but ultimately, as I said in my primary answer, Health New Zealand is actively recruiting for 1,422 FTEs"
+        }
+      ],
+      "tags": [
+        "nursing",
+        "Health New Zealand",
+        "staffing",
+        "health services"
+      ]
+    },
+    {
+      "topic": "Disabled People’s Food, Housing and Transport Costs Put to Minister",
+      "whyItMatters": "Access to affordable food, transport and suitable housing can determine whether disabled people can work, attend appointments and participate in everyday life.",
+      "content": "Labour’s Priyanca Radhakrishnan challenged Disability Issues Minister Louise Upston over the effects of Government decisions on disabled people’s living costs and services. Radhakrishnan cited figures she attributed to disabled households, including food insecurity and rises in the prices of staples, and raised concerns about changes to accessible-housing targets and the Total Mobility transport scheme. Upston acknowledged that many people were under pressure and said some disabled people were worse off than the general population, while defending the Government’s focus on employment and describing the changes to Total Mobility as necessary to keep the scheme sustainable. The exchange left competing claims about affordability and service access unresolved.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Priyanca Radhakrishnan (Labour)",
+          "quote": "What does she say to the 82 percent of disabled households that have experienced food insecurity in the last year, and who are struggling even more now that white bread costs 67 percent more, mince is up 28 percent, and milk is up 26 percent under her Government’s watch?"
+        },
+        {
+          "speaker": "Hon Louise Upston (National)",
+          "quote": "Well, the unfortunate reality is that in many areas, disabled people are worse off than the general population"
+        }
+      ],
+      "tags": [
+        "disability",
+        "food insecurity",
+        "Total Mobility",
+        "accessible housing"
+      ]
+    },
+    {
+      "topic": "Government Rejects Moratorium on New AI Data Centres",
+      "whyItMatters": "The decisions could affect future electricity demand, environmental rules and the potential effect of large data-centre projects on power bills.",
+      "content": "Green co-leader Chlöe Swarbrick asked whether new AI data centres should be consented before environmental, energy and water rules are in place, and called for a 12-month moratorium. Luxon rejected a pause, saying it could deter investment, while supporting what he described as sensible rules. He said data centres currently used about 0.6 percent of New Zealand’s electricity and argued that the country’s renewable energy, climate and political stability could attract investment. Swarbrick questioned whether more data centres could raise household power bills and contrasted the Government’s support for renewables with its plans to address dry-year electricity risks through measures including an LNG import facility and strategic fuel reserves.",
+      "keyExchanges": [
+        {
+          "speaker": "Chlöe Swarbrick (Green)",
+          "quote": "Does the Prime Minister understand that, if his Government plans to allow the consenting of more AI data centres before these common-sense environmental and energy and water regulations are in place, those new regulations will not apply to those already consented AI data centres?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (National)",
+          "quote": "There’s no need for a moratorium. There is absolutely no need for a moratorium."
+        }
+      ],
+      "tags": [
+        "AI data centres",
+        "electricity",
+        "investment",
+        "energy policy"
+      ]
+    }
+  ],
+  "conclusion": "Parliament advanced infrastructure and leave-law changes, but the day’s sharpest unresolved question was whether reforms presented as simpler or more sustainable will protect household budgets and workers’ access to essential services."
+}
