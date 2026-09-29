@@ -1,0 +1,239 @@
+{
+  "headline": "NZ Parliament Clashes Over Living Costs and Worker Rights as Ngāti Hāua Settlement Passes",
+  "publicationDate": "2026-01-29",
+  "summary": "Cost-of-living pressures, youth unemployment and worker protections dominated debate as MPs challenged the Government over rising food prices, Auckland homelessness and employment law changes. Parliament passed the Ngāti Hāua Claims Settlement Bill, while debate on the Employment Relations Amendment Bill continued without a vote. Ministers also confirmed emergency payments for storm-hit regions and outlined expanded health services and a trade deal with India.",
+  "topicSummaries": [
+    {
+      "topic": "Food Costs and Wages Fuel Cost-of-Living Clash",
+      "whyItMatters": "The gap between rising household expenses and earnings affects families’ ability to afford essentials such as food, housing and healthcare.",
+      "content": "Labour’s Ginny Andersen challenged the Government’s claim that cost-of-living relief was arriving, citing a 4 percent rise in food costs over the past year against a 1.5 percent minimum-wage increase and a reported 58.3 percent rise in white-bread prices. Associate Finance Minister David Seymour acknowledged food prices had continued to rise, but argued inflation had fallen overall and that overseas-driven price increases were outside the Government’s control. The exchange reflected a wider divide over whether households are feeling the effects of lower inflation and mortgage rates.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Ginny Andersen (Labour)",
+          "quote": "Why did she claim in July 2024 that “cost of living relief is on its way”, when, in the past year, food costs have risen 4 percent while minimum wage has risen just 1.5 percent?"
+        },
+        {
+          "speaker": "Hon David Seymour (ACT)",
+          "quote": "In relation to the question about food prices, it’s certainly true that food prices have continued to rise."
+        }
+      ],
+      "tags": [
+        "cost of living",
+        "food prices",
+        "wages",
+        "inflation"
+      ]
+    },
+    {
+      "topic": "Employment Bill Advances Amid Dispute Over Worker Protections",
+      "whyItMatters": "The proposed changes could affect how workers are classified, the terms new employees receive and access to remedies for unjustified dismissal.",
+      "content": "Workplace Relations Minister Brooke van Velden moved the Employment Relations Amendment Bill to its second-reading debate, presenting it as a way to give businesses greater certainty and flexibility. The bill would introduce a gateway test for contractor status, set a $200,000 income threshold for unjustified-dismissal claims, change personal-grievance remedies and remove the 30-day rule under which new employees can receive collective-agreement terms. Labour, the Greens and Te Pāti Māori argued the changes would weaken worker protections, particularly for gig workers; New Zealand First said it would support the bill while seeking further changes and considering concerns raised by unions. Debate was interrupted and set to resume at the next sitting; the bill was not passed.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Brooke van Velden (ACT)",
+          "quote": "This bill is about restoring confidence and balance to the employment system."
+        },
+        {
+          "speaker": "Hon Phil Twyford (Labour)",
+          "quote": "The only certainty—the Minister talked about certainty in her speech—that this bill delivers is that it gives employers the certainty that they can ride roughshod over the rights of employees and they will not be held to account for it."
+        }
+      ],
+      "tags": [
+        "employment law",
+        "worker rights",
+        "gig economy",
+        "personal grievances"
+      ]
+    },
+    {
+      "topic": "Auckland Homelessness Debate Puts CBD Plans Under Scrutiny",
+      "whyItMatters": "The availability of housing and support affects people experiencing homelessness as well as the safety and operation of the city centre.",
+      "content": "Labour’s Carmel Sepuloni cited National Homelessness Data Project figures indicating Auckland’s homeless population had more than doubled in a year to over 940, and questioned where people would go if moved out of the central city. Auckland Minister Simeon Brown said providers had leased 143 rentals for the Housing First programme, with 117 tenanted, and that 73 tenancies had also begun under existing contracts. He defended the Government’s focus on CBD safety while saying it was providing housing and support; he did not directly address how the cited total compared with the number of planned places.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Carmel Sepuloni (Labour)",
+          "quote": "If there are 940 homeless people in Auckland and he is only planning to build 207 additional Housing First places, where does he expect them to go when he kicks them out of the CBD?"
+        },
+        {
+          "speaker": "Hon Simeon Brown (National)",
+          "quote": "We are focused on providing support. The reality is that we are contracting with Housing First providers; we’re also ensuring that they are being held accountable for their existing contracts, to make sure that they are filling the places they already have, to ensure that they have Housing First places."
+        }
+      ],
+      "tags": [
+        "Auckland",
+        "homelessness",
+        "Housing First",
+        "CBD"
+      ]
+    },
+    {
+      "topic": "Number of Young People Not in Work or Education Rises to 90,000",
+      "whyItMatters": "Young people outside employment, education or training may face reduced income and fewer pathways into work and skills development.",
+      "content": "Vocational Education Minister Penny Simmonds told the House that 90,000 people aged 15 to 24 were not in education, employment or training in the year to September 2025, up from 74,300 in September 2023. Labour’s Shanan Halbert pressed her on the increase and on young people’s vocational opportunities. Simmonds said there were more learners in level 1 and 2 foundation programmes than in 2023, but also confirmed that fewer courses were being run as polytechnics pursued efficiencies.",
+      "keyExchanges": [
+        {
+          "speaker": "Shanan Halbert (Labour)",
+          "quote": "How many young people in New Zealand were not engaged in education, employment, or training for the September 2025 year compared to the September 2023 year?"
+        },
+        {
+          "speaker": "Hon Penny Simmonds (National)",
+          "quote": "At year end September 2025, there were 90,000 15- to 24-year-olds not engaged in employment, education, or training. That is an increase of 15,700 15- to 24-year-olds not in education, employment, or training in September 2025 compared to September 2023."
+        }
+      ],
+      "tags": [
+        "youth employment",
+        "NEET",
+        "vocational education",
+        "training"
+      ]
+    },
+    {
+      "topic": "Civil Defence Payments Confirmed for Three Storm-Affected Regions",
+      "whyItMatters": "Emergency payments and temporary accommodation can help people whose homes or ability to work have been affected by severe weather.",
+      "content": "Social Development Minister Louise Upston confirmed civil defence payments would be available in affected areas of Northland, the East Coast and Bay of Plenty following severe weather emergencies. She said accommodation, supplies, hardship grants and temporary housing remained part of the response, with about 100 to 150 people still needing accommodation at the time of the exchange. Green MP Ricardo Menéndez March questioned whether families would receive clear information and adequate financial support, and raised the payment’s value; Upston said eligibility was based on set criteria and individual circumstances. The Government also said $1 million was available to reimburse marae for their role in the response.",
+      "keyExchanges": [
+        {
+          "speaker": "Ricardo Menéndez March (Green)",
+          "quote": "Does she accept that the value of the civil defence payment has eroded by nearly 40 percent since it was last updated in 2013, and, if so, will she update the payment so that people can be adequately supported when they are affected by increasingly more common weather events?"
+        },
+        {
+          "speaker": "Hon Louise Upston (National)",
+          "quote": "A significant component of the civil defence payment is tagged to what the jobseeker benefit rate is, and that is, of course, increased every year."
+        }
+      ],
+      "tags": [
+        "severe weather",
+        "civil defence payments",
+        "emergency support",
+        "marae"
+      ]
+    },
+    {
+      "topic": "Ngāti Hāua Claims Settlement Bill Passes Third Reading",
+      "whyItMatters": "The settlement provides cultural and financial redress, recognises Crown breaches of Te Tiriti o Waitangi and formally pardons two ancestors convicted under martial law.",
+      "content": "Parliament passed the Ngāti Hāua Claims Settlement Bill after a cross-party third-reading debate attended by iwi members. The bill records a Crown apology for Treaty breaches, provides for the return of 64 culturally significant sites and includes financial and cultural redress. It also grants statutory pardons to Te Rangiātea and Mātene Ruta Te Whareaitu, who were tried under martial law in 1846. MPs across parties acknowledged that the settlement could not fully compensate for the harms described; Labour’s Ginny Andersen said its lasting significance would depend on how the Crown implemented its commitments.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Paul Goldsmith (National)",
+          "quote": "The bill enacts long-overdue statutory pardons for the Ngāti Hāua tūpuna Te Rangiātea and Mātene Ruta Te Whareaitu, who, in 1846, were tried and convicted under martial law and lost their lives as a result."
+        },
+        {
+          "speaker": "Hon Ginny Andersen (Labour)",
+          "quote": "The real measure of this settlement will be found in its implementation and whether the Crown honours both the letter and the spirit of what has been agreed to here today."
+        }
+      ],
+      "tags": [
+        "Ngāti Hāua",
+        "Treaty settlement",
+        "Crown apology",
+        "statutory pardons"
+      ]
+    },
+    {
+      "topic": "Auckland Housing Targets Remain Under Review",
+      "whyItMatters": "Housing capacity and zoning decisions can influence how many homes are built and the pressure on prices and rents.",
+      "content": "Green MP Tamatha Paul questioned the coalition’s consideration of changes to Auckland’s housing capacity targets, arguing that plentiful development capacity can increase competition among landowners and help moderate prices. Associate Housing Minister Tama Potaka said no decisions had been made and distinguished capacity for housing from the number of homes actually built. He said the Government remained committed to increasing supply, including enabling development around key City Rail Link stations, while favouring local decision-making.",
+      "keyExchanges": [
+        {
+          "speaker": "Tamatha Paul (Green)",
+          "quote": "Does he agree with the chief economist of Auckland Council that “An abundance of capacity also increases competition among landowners, which can help to moderate price pressures”; if so, why is he comfortable reducing that abundance of capacity?"
+        },
+        {
+          "speaker": "Hon Tama Potaka (National)",
+          "quote": "We are absolutely committed to boosting housing supply in Auckland."
+        }
+      ],
+      "tags": [
+        "Auckland housing",
+        "housing supply",
+        "zoning",
+        "affordability"
+      ]
+    },
+    {
+      "topic": "Counties Manukau Starts 24/7 Urgent-Care Service",
+      "whyItMatters": "Round-the-clock urgent care offers another option for families and may reduce pressure on hospital emergency departments.",
+      "content": "Health Minister Simeon Brown said the Counties Manukau after-hours service was now operating 24 hours a day, seven days a week, ending a gap in round-the-clock urgent care in that part of Auckland. He said 33 patients were seen during the first overnight shift and some might otherwise have attended Middlemore Hospital’s emergency department. From 1 March, East Care was also due to extend its closing time from 11 p.m. to 1 a.m. The Government said it aimed for 98 percent of New Zealanders to live within an hour’s drive of urgent care.",
+      "keyExchanges": [
+        {
+          "speaker": "Rima Nakhle (National)",
+          "quote": "What does this mean for patients in Counties Manukau and Middlemore Hospital’s emergency department?"
+        },
+        {
+          "speaker": "Hon Simeon Brown (National)",
+          "quote": "I’m pleased to confirm that, on the first overnight shift, I’m advised that 33 patients were seen at the new 24/7 service in Counties Manukau, patients that may have otherwise presented to the emergency department."
+        }
+      ],
+      "tags": [
+        "urgent care",
+        "Counties Manukau",
+        "Middlemore Hospital",
+        "health access"
+      ]
+    },
+    {
+      "topic": "Mental-Health Co-Response Teams Begin in Four Areas",
+      "whyItMatters": "Pairing mental-health professionals with police aims to connect people in crisis with appropriate support and reduce reliance on emergency departments or police facilities.",
+      "content": "Mental Health Minister Matt Doocey announced the first four co-response teams in Canterbury, Auckland City, Bay of Plenty and Counties Manukau, funded as part of a $28 million national rollout. The teams pair mental-health workers with police responding to 111 calls. Doocey cited an evaluation of a Wellington pilot that found reduced use of Mental Health Act powers, fewer people going to emergency departments or police stations, and more wraparound support. He also outlined a separate $61 million crisis-response boost, including 40 additional clinical workers and two 10-bed acute alternative facilities.",
+      "keyExchanges": [
+        {
+          "speaker": "Dr Vanessa Weenink (National)",
+          "quote": "What evidence is there that co-response teams lead to a better crisis response?"
+        },
+        {
+          "speaker": "Hon Matt Doocey (National)",
+          "quote": "An evaluation of the pilot in Wellington found there was a reduction in the use of powers under the Mental Health Act, fewer people needed to go to an emergency department or police station, and the level of wraparound support increased."
+        }
+      ],
+      "tags": [
+        "mental health",
+        "crisis response",
+        "co-response teams",
+        "police"
+      ]
+    },
+    {
+      "topic": "Ministers Defend Primary-Care Cybersecurity Arrangements After Data Breach",
+      "whyItMatters": "Patients rely on secure handling of medical information, including records held by private healthcare providers.",
+      "content": "Labour’s Ayesha Verrall questioned whether Health New Zealand had a dedicated information-security role for primary care following the ManageMyHealth data breach and asked whether a role established after a 2021 review had been disestablished. Health Minister Simeon Brown said a national chief information security officer had responsibility for engaging with and supporting primary care, while describing related guidance and incident-support work. He said a review would examine lessons from the breach and argued that earlier reductions in health data and digital spending had also affected investment. The exchange did not establish whether a single role remained dedicated to primary care.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Dr Ayesha Verrall (Labour)",
+          "quote": "Is it correct that the role Chief Information Security Officer - Primary Health Sector that existed in 2023, following the 2021 review, was disestablished due to funding cuts in Budget 2024?"
+        },
+        {
+          "speaker": "Hon Simeon Brown (National)",
+          "quote": "I’m advised there was a title of a role and that the position description and the roles and responsibilities exist within the function of primary care relationship manager, who exists within—"
+        }
+      ],
+      "tags": [
+        "patient data",
+        "cybersecurity",
+        "primary care",
+        "ManageMyHealth"
+      ]
+    },
+    {
+      "topic": "India Trade Deal Projected to Lift Exports by $1 Billion a Year",
+      "whyItMatters": "Lower tariffs could create new opportunities for New Zealand exporters and affect jobs in sectors selling goods and services overseas.",
+      "content": "Trade and Investment Minister Todd McClay outlined the comprehensive free-trade agreement with India, saying it would cut tariffs on 95 percent of New Zealand exports, with 57 percent tariff-free from the outset and 82 percent once fully implemented. He said early estimates projected an additional $1 billion in exports annually over 20 years and tens of thousands of jobs. McClay said the agreement allows 1,667 skilled workers to apply for temporary three-year permits to address listed skill shortages, while stressing that it does not create general migration rights or require New Zealand to invest public money in India. The agreement’s next steps were not set out in a vote during the sitting.",
+      "keyExchanges": [
+        {
+          "speaker": "Tim van de Molen (National)",
+          "quote": "Does the FTA with India give rights of migration or immigration to Indian nationals?"
+        },
+        {
+          "speaker": "Hon Todd McClay (National)",
+          "quote": "No, it categorically does not."
+        }
+      ],
+      "tags": [
+        "India",
+        "free-trade agreement",
+        "exports",
+        "jobs"
+      ]
+    }
+  ],
+  "conclusion": "The sitting produced a completed Ngāti Hāua settlement and new service announcements, but left unresolved disputes over household costs, housing and the balance between business flexibility and workers’ rights."
+}
