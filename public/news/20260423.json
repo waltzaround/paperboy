@@ -1,0 +1,216 @@
+{
+  "headline": "Parliament Debates Council Reforms Aimed at Easing Rates as Cost-of-Living Concerns Persist",
+  "publicationDate": "2026-04-23",
+  "summary": "Parliament advanced several bills, including reforms to anti-money-laundering rules, transport regulation and plumbing inspections, while the Government opened debate on changes intended to refocus councils and ease pressure on rates. Cost-of-living concerns featured in questions about the economy, student support and transport, and MPs clashed over Treaty principles and mining protections. The local-government debate was adjourned before a vote, while the other major bills discussed at second reading passed that stage.",
+  "topicSummaries": [
+    {
+      "topic": "Council Reform Bill Targets Rates and Core Services",
+      "whyItMatters": "The bill would change what councils are expected to prioritise and how their performance is reported, with the Government arguing this could help contain rates for households.",
+      "content": "Local Government Minister Simon Watts began the second-reading debate on the Local Government (System Improvements) Amendment Bill, saying council rates were a growing burden and councils should focus on core services such as water pipes, roads and rubbish collection. The bill would remove community wellbeing from local government’s purpose, introduce public performance measures and standardise council codes of conduct and standing orders. It would also remove the requirement to consider the relevance of tikanga Māori knowledge when appointing council-controlled organisation directors. The debate was interrupted and set down for the next sitting day, so the House did not complete the second reading or vote on the bill.",
+      "tags": [
+        "council-rates",
+        "local-government",
+        "core-services",
+        "tikanga-Māori"
+      ]
+    },
+    {
+      "topic": "Opposition Challenges Government on Economic Pressures",
+      "whyItMatters": "Unemployment, business failures and KiwiSaver hardship withdrawals are indicators of financial strain that can affect household security and confidence.",
+      "content": "Labour’s Barbara Edmonds questioned whether unemployment, business liquidations and hardship withdrawals had risen since the Finance Minister took office. Acting Finance Minister Chris Bishop acknowledged that KiwiSaver hardship withdrawals were higher, but attributed the pressure to the previous Government and defended the current Government’s fiscal approach. He did not give direct comparisons on the other indicators raised, and the Speaker intervened over the tone and relevance of parts of his answers.",
+      "keyExchanges": [
+        {
+          "speaker": "Barbara Edmonds (Labour)",
+          "quote": "Are KiwiSaver hardship withdrawals higher or lower since she took office?"
+        },
+        {
+          "speaker": "Chris Bishop (National, Acting Minister of Finance)",
+          "quote": "Well, they are higher, and people who are withdrawing money on a hardship basis from their KiwiSaver accounts should blame the previous Government for their reckless mismanagement—"
+        }
+      ],
+      "tags": [
+        "cost-of-living",
+        "KiwiSaver",
+        "economy"
+      ]
+    },
+    {
+      "topic": "Government Rejects New Fuel Support for Tertiary Sector",
+      "whyItMatters": "Fuel costs can add to travel and operating expenses for students, apprentices and tertiary institutions, particularly in regional areas.",
+      "content": "Labour’s Shanan Halbert pressed the Government on support for students and tertiary institutions facing fuel-price and cost-of-living pressures. Responding for the Tertiary Education Minister, Louise Upston said institutions were expected to support students through hardship funds and that the Government favoured temporary, targeted and time-limited assistance. She noted that 52,000 students received an increase in their student allowance on 1 April, but pointed to no new fuel-specific support for students or institutions.",
+      "keyExchanges": [
+        {
+          "speaker": "Shanan Halbert (Labour)",
+          "quote": "How does she expect students to succeed in their studies when they’re facing reduced opportunities and increased cost of living pressures with no extra support?"
+        },
+        {
+          "speaker": "Louise Upston (National, speaking for the Minister for Tertiary Education)",
+          "quote": "On behalf of the Minister, on 1 April, 52,000 students received an increase in their student allowance. But I accept that the cost of living and the fuel price increase is having an impact across the country."
+        }
+      ],
+      "tags": [
+        "students",
+        "fuel-prices",
+        "tertiary-education",
+        "cost-of-living"
+      ]
+    },
+    {
+      "topic": "Pharmacists Set to Treat More Common Conditions from June",
+      "whyItMatters": "The proposal could give families a quicker and lower-cost option for routine treatment when GP appointments are difficult to access.",
+      "content": "Health Minister Simeon Brown said Health New Zealand was proposing that participating community pharmacists provide funded medicines and consultations for common conditions, including pain and fever, scabies, head lice, conjunctivitis and uncomplicated urinary tract infections, as well as emergency contraception. The expanded service is expected to begin in June and is intended to reduce pressure on general practices and improve access, including in rural and high-needs communities. Brown said a $5 million-a-year fund had been established to support delivery nationwide.",
+      "keyExchanges": [
+        {
+          "speaker": "Sam Uffindell (National)",
+          "quote": "What impact will this announcement have on access to healthcare in rural and high - health needs communities?"
+        },
+        {
+          "speaker": "Simeon Brown (National, Minister of Health)",
+          "quote": "Allowing pharmacists to supply funded medications for these common conditions will help in those communities where it’s difficult to see a GP quickly and ensure people can receive treatment closer to their home."
+        }
+      ],
+      "tags": [
+        "pharmacists",
+        "primary-care",
+        "rural-health",
+        "healthcare-access"
+      ]
+    },
+    {
+      "topic": "Two Anti-Money-Laundering Bills Pass Second Reading",
+      "whyItMatters": "The changes affect how businesses check customers and how authorities supervise efforts to detect money laundering and terrorist financing.",
+      "content": "The House approved the second reading of two bills that would make the Department of Internal Affairs the single anti-money-laundering supervisor, establish an industry levy and allow more risk-based requirements. The separate amendment bill includes 25 targeted changes, such as proportionate checks for lower-risk trusts and removing duplicated reporting. Associate Justice Minister Nicole McKee said the reforms would reduce unnecessary compliance while strengthening detection of serious crime. Labour and Green MPs supported the bills but cautioned that secondary legislation, exemptions, enforcement resources and the treatment of low-risk transactions would need scrutiny. The bills passed without a recorded division.",
+      "keyExchanges": [
+        {
+          "speaker": "Nicole McKee (ACT, Associate Minister of Justice)",
+          "quote": "These bills refocus the system to be genuinely risk-based, cutting red tape for low-risk customers and businesses while strengthening our ability to detect, deter, and disrupt serious crime."
+        },
+        {
+          "speaker": "Duncan Webb (Labour)",
+          "quote": "What it needs to be is effective regulation, and I think we can all agree that that is entirely appropriate."
+        }
+      ],
+      "tags": [
+        "anti-money-laundering",
+        "financial-crime",
+        "business-compliance",
+        "DIA"
+      ]
+    },
+    {
+      "topic": "Plumbers’ Self-Certification Bill Passes Second Reading 102–21",
+      "whyItMatters": "The proposal could reduce inspection delays and building costs, but it also changes how plumbing work is checked and how risks are shared between tradespeople, councils and homeowners.",
+      "content": "The Building and Construction Sector (Self-certification by Plumbers and Drainlayers) Amendment Bill passed its second reading by 102 votes to 21. It would let eligible, endorsed plumbers and drainlayers opt to certify certain work themselves, with the Government arguing this could reduce delays and costs. Labour supported the bill at this stage but sought clearer insurance and consumer protections and raised concern about a possible expansion in scope; the Greens opposed it, citing risks from concealed faults and uncertainty about details left to regulations. Further changes are expected during the committee stage.",
+      "keyExchanges": [
+        {
+          "speaker": "Ricardo Menéndez March (Green)",
+          "quote": "However, in this bill, we’re concerned that the benefits of expanding self-certification outweighed the potential risks of error in plumbing or drainlaying, given most work is not visible after construction."
+        },
+        {
+          "speaker": "Melissa Lee (National)",
+          "quote": "It’s a common-sense change and it is something that the National Party committed on our manifesto back in the 2023 election, and we are delivering on that promise."
+        }
+      ],
+      "tags": [
+        "building-regulation",
+        "plumbers",
+        "housing-costs",
+        "consumer-protection"
+      ]
+    },
+    {
+      "topic": "Transport Bill Enables Voluntary Digital Driver Licences",
+      "whyItMatters": "The bill creates a basis for digital licences and electronic documents while also changing safety and enforcement powers across transport modes.",
+      "content": "The Regulatory Systems (Transport) Amendment Bill passed its second reading. It makes changes across land, rail, maritime and aviation rules, including a framework for digital driver licences, electronic transport documents and notices, and expanded powers to act on safety risks. Associate Transport Minister James Meager said digital licences would be voluntary and that physical licences would remain available. Labour and Green MPs supported the bill but raised concerns about digital inclusion, identity options and transport affordability; Labour also criticised the proposed tolling of the Woodend Bypass.",
+      "keyExchanges": [
+        {
+          "speaker": "James Meager (National, Associate Minister of Transport)",
+          "quote": "That is not the Government’s intention. It is our view that those licences, the physical licences, will remain in play and this is a voluntary step that people can take up if they wish to do so."
+        },
+        {
+          "speaker": "Celia Wade-Brown (Green)",
+          "quote": "It is very important that we are not making it compulsory, but I recognise that the introducer of this bill said they might forget their driver’s licence."
+        }
+      ],
+      "tags": [
+        "transport",
+        "digital-licences",
+        "road-safety",
+        "seafarers"
+      ]
+    },
+    {
+      "topic": "Treaty Principles Review Sparks Heated Exchange",
+      "whyItMatters": "Changes to Treaty references in legislation could affect legal certainty and the relationship between Māori and the Crown.",
+      "content": "Labour’s Willie Jackson questioned how a review of statutory references to Treaty principles would improve Māori-Crown relations, citing concerns about possible litigation, costs and effects on Māori interests. Māori Crown Relations Minister Tama Potaka said the review was part of coalition arrangements and that engagement with groups and iwi leaders was continuing. Jackson pressed him to identify Māori organisations that supported the review; Potaka referred to an iwi hui where the review was not raised, and the exchange escalated before the Speaker moved the House on to the next question.",
+      "keyExchanges": [
+        {
+          "speaker": "Willie Jackson (Labour)",
+          "quote": "Can the Minister name a single iwi or hapū or Māori organisation—just one—that told him that the review will improve Māori-Crown relationships?"
+        },
+        {
+          "speaker": "Tama Potaka (National, Minister for Māori Crown Relations: Te Arawhiti)",
+          "quote": "Yesterday, our coalition Government convened the accord hui with Ngāti Raukawa ki Wharepūhunga in Tokoroa. Not once did Kataraina Hodge and Maria Te Kanawa, the chair and the CEO of that outstanding iwi in the heart of Waikato-Tainui—Waikato, Maniapoto, Raukawa; go the Chiefs!—mention the review of the references to the principles of Waitangi."
+        }
+      ],
+      "tags": [
+        "Treaty-of-Waitangi",
+        "Māori-Crown-relations",
+        "Treaty-principles",
+        "Parliament"
+      ]
+    },
+    {
+      "topic": "Fire and Emergency Prioritised for Fuel, Detailed Plan Pending",
+      "whyItMatters": "Reliable fuel access is essential for firefighters to maintain emergency response services during a prolonged shortage.",
+      "content": "Internal Affairs Minister Brooke van Velden confirmed Fire and Emergency New Zealand is classified as a critical customer under the National Fuel Response Plan. Phase 2 has no fuel restrictions for the service, while current proposals for phases 3 and 4 would prioritise uninterrupted supply for critical and life-safety work. Asked about rural access and possible changes to frontline operations, van Velden said contingency planning was still under way and the full plan had not yet been finalised.",
+      "keyExchanges": [
+        {
+          "speaker": "Lemauga Lydia Sosene (Labour)",
+          "quote": "When can the public and firefighters expect to see the full details of how emergency services will operate in phases 2, 3, and 4?"
+        },
+        {
+          "speaker": "Brooke van Velden (ACT, Minister of Internal Affairs)",
+          "quote": "I haven’t yet seen that plan, and so the public will see that plan once I’ve also seen that plan."
+        }
+      ],
+      "tags": [
+        "fuel-response",
+        "Fire-and-Emergency",
+        "emergency-services"
+      ]
+    },
+    {
+      "topic": "Minister Defends Case-by-Case Approach to Mining",
+      "whyItMatters": "Decisions on mining can affect conservation values, local communities and businesses, as well as jobs and export earnings.",
+      "content": "Green MP Steve Abel challenged Resources Minister Shane Jones over mining in protected landscapes and concerns about the proposed Bendigo goldmine, including potential impacts on wildlife, water and local industries. Jones said applications would be considered under the law and on a case-by-case basis, while acknowledging there were places where mining would be inappropriate. He said whether such areas would be permanently off-limits was a matter for a future Government.",
+      "keyExchanges": [
+        {
+          "speaker": "Steve Abel (Green)",
+          "quote": "What is his response to the opposition of local community and of existing hospitality, tourism, viticultural, horticulture, and farming industries concerned about Bendigo’s noise, air pollution, water contamination, and the tailings dam containing 18 million cubic metres of toxic waste in perpetuity that is proposed?"
+        },
+        {
+          "speaker": "Shane Jones (New Zealand First, Minister for Resources)",
+          "quote": "There’s always a balance when we seek to extract jobs, wealth, and export earnings in particular areas that are mineral-rich. We can’t have generic denunciatory remarks wiping out all possibilities. It depends on the context."
+        }
+      ],
+      "tags": [
+        "mining",
+        "conservation",
+        "Bendigo",
+        "environment"
+      ]
+    },
+    {
+      "topic": "Two Hauraki Treaty Settlement Bills Advance",
+      "whyItMatters": "The bills progress settlements of historical claims for Ngāti Rāhiri Tumutumu and Ngāti Tara Tokanui, including cultural redress provisions.",
+      "content": "The House considered the Ngāti Rāhiri Tumutumu Claims Settlement Bill and Ngāti Tara Tokanui Claims Settlement Bill together in committee. The Ngāti Rāhiri Tumutumu bill was reported without amendment, while technical amendments to the Ngāti Tara Tokanui bill were agreed, including updates relating to property transfers, Crown-owned minerals and surveyed cultural redress properties. The committee’s report was adopted, advancing both bills to their next parliamentary steps.",
+      "tags": [
+        "Treaty-settlement",
+        "Ngāti-Rāhiri-Tumutumu",
+        "Ngāti-Tara-Tokanui"
+      ]
+    }
+  ],
+  "conclusion": "The day advanced several regulatory and settlement measures, but the unresolved debate over household costs, council priorities and the balance between flexibility and public safeguards remained central."
+}

@@ -1,0 +1,134 @@
+{
+  "headline": "Fuel Costs Drive Households Debate as Parliament Passes Easter and Anzac Day Liquor Law Change",
+  "publicationDate": "2026-04-01",
+  "summary": "Rising fuel prices and the cost of living dominated question time, with ministers confirming that supply remains adequate while opposition MPs pressed for more help for care workers, commuters and families. The House passed a change to alcohol rules for licensed bars and restaurants on several public holidays, while also advancing bills on copyright, military decorations and international money-transfer fees. Debate on the fuel response exposed continuing disagreement over how much support the Government should provide and how it should be targeted.",
+  "topicSummaries": [
+    {
+      "topic": "Fuel Price Surge Puts Household Support and Essential Services Under Scrutiny",
+      "whyItMatters": "Higher fuel costs can raise transport and food prices and make it harder for workers, families and essential services to get where they need to go.",
+      "content": "The Government said fuel remained available nationwide, with Finance Minister Nicola Willis reporting stocks equivalent to 58.7 days of petrol, 52.2 days of diesel and 46.2 days of jet fuel, including shipments in transit. Willis said petrol prices had risen 34 percent and diesel 86 percent since the Middle East conflict began, with possible flow-on effects for inflation, food costs and economic growth; updated Reserve Bank and Treasury forecasts are due in May. Prime Minister Christopher Luxon defended the Government’s $50-a-week increase for 143,000 working families as targeted, temporary support, while opposition MPs argued that some low-income households and care workers were missing out. The Government said it was gathering information on school transport and fuel planning for later phases of its response, and Finance Minister Nicola Willis said an announcement on support for care and support workers would follow the next day. Annual benefit and pension adjustments also took effect on 1 April, with the Government saying more than 1.5 million people would receive increased support.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Marama Davidson (Green)",
+          "quote": "Is he comfortable with reports of support workers reducing or refusing visits to remote clients because they can’t afford to fill up their cars?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (National)",
+          "quote": "As I’ve said, we are a Government that is freely admitting we will not be able to alleviate the pressure on everybody across the country."
+        }
+      ],
+      "tags": [
+        "fuel prices",
+        "cost of living",
+        "care workers",
+        "inflation"
+      ]
+    },
+    {
+      "topic": "FENZ Board Fee Increase Draws Fire as Urgent Debate Is Declined",
+      "whyItMatters": "The dispute raises questions about how emergency services are governed and whether frontline staff are receiving adequate pay and equipment.",
+      "content": "Labour leader Chris Hipkins challenged the Government over an almost 80 percent increase in fees for Fire and Emergency New Zealand board directors, arguing that frontline firefighters had received no pay rise and faced unsafe conditions and unreliable equipment. Luxon defended the board-fee framework as a way to attract capable people to oversee significant public spending. Earlier, the Speaker declined Lemauga Lydia Sosene’s request for an urgent debate, ruling that the fee decision resulted from a Cabinet framework set the previous year and did not warrant setting aside the House’s scheduled business.",
+      "keyExchanges": [
+        {
+          "speaker": "Rt Hon Chris Hipkins (Labour)",
+          "quote": "Why has the Government prioritised an almost 80 percent pay rise for the directors of Fire and Emergency New Zealand, while front-line firefighters are getting no pay rise and have to continue to work in unsafe conditions with equipment that keeps breaking down?"
+        },
+        {
+          "speaker": "Rt Hon Christopher Luxon (National)",
+          "quote": "our new Government framework on director fees is designed so that we can attract good talent to make very important decisions on governance."
+        }
+      ],
+      "tags": [
+        "Fire and Emergency NZ",
+        "board fees",
+        "firefighters",
+        "public services"
+      ]
+    },
+    {
+      "topic": "International Money-Transfer Fee Disclosure Bill Faces National Opposition",
+      "whyItMatters": "Clearer fees could help migrants, Pacific families and other customers understand how much money reaches relatives overseas before they send it.",
+      "content": "Labour MP Arena Williams introduced a bill to require upfront disclosure of the costs of international money transfers, including charges concealed in exchange-rate margins. Williams said the rules could help consumers compare providers and cited a constituent who discovered a reported $13,000 charge after transferring savings to a family member. Green, ACT and New Zealand First speakers supported sending the proposal through further scrutiny, with ACT calling for evidence from consumers and providers. National opposed the bill, arguing that other financial-services reforms and oversight were already under way. The debate was interrupted before the House voted on the bill, leaving its first-reading outcome unresolved.",
+      "keyExchanges": [
+        {
+          "speaker": "Arena Williams (Labour)",
+          "quote": "it is perfectly legal in New Zealand to say “zero fees” when all of the fees are hidden in the forex spread."
+        },
+        {
+          "speaker": "Cameron Brewer (National)",
+          "quote": "I don’t think anyone would disagree with more disclosure and more transparency around fees and costs pertaining to international money transfers."
+        }
+      ],
+      "tags": [
+        "remittances",
+        "money transfers",
+        "consumer protection",
+        "migrant communities"
+      ]
+    },
+    {
+      "topic": "Parliament Passes Holiday Alcohol Sales Change by 66 Votes to 56",
+      "whyItMatters": "The change removes a special meal-purchase requirement for alcohol served at licensed venues on certain public holidays, while leaving off-licence sales outside the bill.",
+      "content": "The House passed the Sale and Supply of Alcohol (Sales on Anzac Day Morning, Good Friday, Easter Sunday, and Christmas Day) Amendment Bill at its final reading, 66 votes to 56, after a conscience vote. The law change allows on-licensed bars, restaurants and clubs to serve alcohol on the specified days without requiring customers to buy a “substantial meal”; it also makes provision for RSAs to serve the public after Anzac services without a special licence. Sponsor Kieran McAnulty said the existing meal rule was unclear and that the bill did not extend sales to bottle stores or supermarkets. Supporters described the change as a limited update to rules for venues already able to open, while opponents raised concerns about alcohol-related harm, pressure on health services and the cultural or religious significance of the days.",
+      "keyExchanges": [
+        {
+          "speaker": "Hon Kieran McAnulty (Labour)",
+          "quote": "All this bill does is concentrate on the rules for those businesses that are already operating."
+        },
+        {
+          "speaker": "Dr David Wilson (NZ First)",
+          "quote": "A small degree of restriction for a few days to reinforce shared traditions and values is a very small price to pay."
+        }
+      ],
+      "tags": [
+        "alcohol law",
+        "public holidays",
+        "conscience vote",
+        "hospitality"
+      ]
+    },
+    {
+      "topic": "Parody and Satire Copyright Bill Advances 115–8",
+      "whyItMatters": "If enacted, the proposal would give creators and commentators more certainty when using copyrighted material for parody or satire.",
+      "content": "Green MP Kahurangi Carter’s bill to add a parody and satire exception to the Copyright Act 1994 passed its first reading by 115 votes to eight and was referred to the Social Services and Community Committee. Carter argued that uncertainty about copyright infringement can deter artists and online creators, and said the committee process could consider safeguards for Māori cultural works. National, Labour, ACT and Te Pāti Māori supported the bill’s progression, while New Zealand First opposed it, citing concerns including the treatment of creators’ moral rights and the lack of New Zealand court cases establishing a need for the change. The committee will consider the proposal and submissions before it returns to the House.",
+      "keyExchanges": [
+        {
+          "speaker": "Kahurangi Carter (Green)",
+          "quote": "At its core, this bill is about balance and fairness."
+        },
+        {
+          "speaker": "Jenny Marcroft (NZ First)",
+          "quote": "The question I have to ask, though, is: what is the problem that we’re trying to solve here?"
+        }
+      ],
+      "tags": [
+        "copyright",
+        "parody",
+        "satire",
+        "creative industries"
+      ]
+    },
+    {
+      "topic": "Military Decorations Bill Proposes $10,000 Maximum Fine for False Claims",
+      "whyItMatters": "The proposal aims to deter people from falsely claiming military honours and to update a law dating from 1918.",
+      "content": "National MP Tim van de Molen’s Military Decorations and Distinctive Badges (Modernisation) Amendment Bill passed its first reading and was referred to the Foreign Affairs, Defence and Trade Committee. It would replace the 1918 law’s outdated penalty with a maximum fine of $10,000 and update gendered wording. Labour, ACT and New Zealand First supported the bill’s progression, while Green MP Scott Willis questioned whether stronger penalties were proportionate, noting that the law had resulted in only one prosecution in more than a century. Members also raised the need for the committee to consider the proposed fine and existing rules, while the sponsor said family members could continue to wear relatives’ medals on the right-hand side.",
+      "keyExchanges": [
+        {
+          "speaker": "Scott Willis (Green)",
+          "quote": "The fact that there has been only a single prosecution under this law in over a century indicates that this is not a widespread or growing problem requiring legislative action."
+        },
+        {
+          "speaker": "Tim van de Molen (National)",
+          "quote": "It’s a maximum fine of $10,000, so there is discretion, but we don’t want to be coming back to the House every five years having to adjust that threshold to make it a reasonable deterrent again"
+        }
+      ],
+      "tags": [
+        "military honours",
+        "veterans",
+        "stolen valour",
+        "Anzac Day"
+      ]
+    }
+  ],
+  "conclusion": "The day’s clearest legislative outcome was the passage of the holiday alcohol-sales change, while the unresolved test for the Government remains whether its targeted fuel response will adequately reach households and essential workers facing higher costs."
+}
