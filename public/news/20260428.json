@@ -1,0 +1,207 @@
+{
+  "headline": "NZ Parliament Debates Cost-of-Living Support and India Trade Deal as Prison Bill Advances",
+  "publicationDate": "2026-04-28",
+  "summary": "Cost-of-living pressures, jobs and homelessness featured prominently in question time, alongside debate over worker-safety reforms and the Government’s new free-trade agreement with India. MPs also advanced reforms to Auckland transport governance and anti-money-laundering oversight, while a corrections bill passed its first reading. Several bills remained under committee consideration when the House adjourned after an extended sitting into Wednesday morning.",
+  "topicSummaries": [
+    {
+      "topic": "Cost-of-Living Support and Jobs Fuel Government-Opposition Clash",
+      "whyItMatters": "Disputes over household costs, fuel assistance and employment affect families’ budgets and prospects for work.",
+      "content": "Labour leader Chris Hipkins challenged Prime Minister Christopher Luxon over grocery prices and the Government’s response to the fuel crisis, arguing that support excluded most households and part-time working parents. Luxon cited lower inflation and food-inflation rates, stable rents and a $50 weekly payment benefiting 143,000 households, and said assistance should be targeted. In a separate exchange, Labour’s Ginny Andersen cited fewer jobs than two years earlier, including losses in Hawke’s Bay and manufacturing; Economic Growth Minister Nicola Willis said employment had risen by 15,000 in the latest quarter and pointed to Treasury forecasts for future growth, while acknowledging that young people can be particularly affected by higher unemployment.",
+      "keyExchanges": [
+        {
+          "speaker": "Chris Hipkins (Labour)",
+          "quote": "Why has his Government chosen not to provide any additional support during the fuel crisis to nine out of 10 New Zealand households?"
+        },
+        {
+          "speaker": "Christopher Luxon (National)",
+          "quote": "Well, we have provided $50 per week to working families, benefitting 143,000 households."
+        }
+      ],
+      "tags": [
+        "cost of living",
+        "fuel crisis",
+        "employment",
+        "inflation"
+      ]
+    },
+    {
+      "topic": "Homelessness Move-On Powers Face Questions Over Effectiveness",
+      "whyItMatters": "The debate concerns how rough sleeping is addressed and whether enforcement measures help people access stable housing or simply displace them.",
+      "content": "Labour’s Kieran McAnulty questioned Associate Housing Minister Tama Potaka about proposed move-on powers and criticism from homelessness organisations that such measures shift people rather than address the causes of homelessness. Potaka said the Government’s wider response included moving children and families out of emergency accommodation, Housing First places and support for community housing providers; he cited nearly 2,400 children moved from emergency housing into social housing. He said questions about move-on orders should be directed to the responsible minister and defended the Government’s broader approach. The exchange did not resolve the dispute over the powers’ likely effects.",
+      "keyExchanges": [
+        {
+          "speaker": "Kieran McAnulty (Labour)",
+          "quote": "Is the Salvation Army’s Lieutenant Colonel Ian Hutson wrong when he said, “Move-on powers don’t solve homelessness. They just shift it somewhere else.”?"
+        },
+        {
+          "speaker": "Tama Potaka (National)",
+          "quote": "Matters to do with the move-on orders should be directed to the Minister responsible for that"
+        }
+      ],
+      "tags": [
+        "homelessness",
+        "rough sleeping",
+        "housing",
+        "move-on powers"
+      ]
+    },
+    {
+      "topic": "Worker-Safety Reforms Challenged Over Their Effect on Harm",
+      "whyItMatters": "Workplace safety rules can affect the risk of serious injury and death for employees across the country.",
+      "content": "Green co-leader Marama Davidson challenged the Government’s proposed health-and-safety reforms, citing advice she said showed they would not save lives and noting claims that New Zealand workers are more likely to die from work-related injuries than Australian workers. Luxon said the reforms would shift attention from compliance paperwork to managing critical risks, but did not identify a specific intervention when asked. He expressed sympathy for families who lost loved ones in the Pike River disaster and said mining regulations had not changed. The debate highlighted disagreement over whether the reforms will improve safety in practice.",
+      "keyExchanges": [
+        {
+          "speaker": "Marama Davidson (Green)",
+          "quote": "Can he name one intervention in his Government’s health and safety reforms that will reduce harm or save lives?"
+        },
+        {
+          "speaker": "Christopher Luxon (National)",
+          "quote": "Well, again, the focus is on managing critical risks that actually cause serious harm and damage to workers."
+        }
+      ],
+      "tags": [
+        "workplace safety",
+        "health and safety",
+        "worker protection"
+      ]
+    },
+    {
+      "topic": "India Trade Deal Promises Tariff Cuts, but Investment Terms Are Disputed",
+      "whyItMatters": "The agreement could change export opportunities for New Zealand producers and influence expectations about investment between the two countries.",
+      "content": "Economic Growth Minister Nicola Willis said the free-trade agreement with India would eliminate or reduce tariffs on 95 percent of New Zealand exports, with access improvements for products including kiwifruit, apples, wine, sheep meat and wool. She described a reported US$20 billion investment pathway as an aspiration and said the agreement text was what mattered. Winston Peters questioned whether statements by Indian leaders and officials, including references to a rebalancing clause, meant the investment commitment was contractual. Willis maintained that the agreement would improve access for exporters; the House did not settle the disagreement over how the investment language should be understood.",
+      "keyExchanges": [
+        {
+          "speaker": "Winston Peters (New Zealand First)",
+          "quote": "Is the finance Minister telling the country that what Modi is saying, what Goyal is saying, what the Indian press are saying, and what the Indian officials are saying, in terms of their checking the investment pathway into the future, is not on a contractual basis; it’s purely aspirational?"
+        },
+        {
+          "speaker": "Nicola Willis (National)",
+          "quote": "What I’m simply saying is that the Indian side are using a different turn of phrase to describe that aspiration"
+        }
+      ],
+      "tags": [
+        "India trade deal",
+        "exports",
+        "tariffs",
+        "investment"
+      ]
+    },
+    {
+      "topic": "Granny-Flat Rules Eased to Support Smaller Homes",
+      "whyItMatters": "Simpler building rules could reduce costs and paperwork for households seeking more housing options on their property.",
+      "content": "Building and Construction Minister Chris Penk announced further changes to the granny-flat regime, including allowing off-site construction to begin before a council issues a project information memorandum and permitting additional building products. He said the Government had received 94,000 views of its guidance page and 52,000 downloads of supporting material. Penk said eligible projects could avoid building and resource consents, saving up to $5,650 in direct costs and up to 14 weeks of paperwork. The announcement was presented as a way to support extended families and provide housing options, including for rural workers.",
+      "keyExchanges": [
+        {
+          "speaker": "Dan Bidois (National)",
+          "quote": "Is the Government making any changes to the granny flat rules?"
+        },
+        {
+          "speaker": "Chris Penk (National)",
+          "quote": "These include specifically allowing for off-site construction to begin before a project information memorandum, or PIM, is issued by the local council."
+        }
+      ],
+      "tags": [
+        "granny flats",
+        "housing",
+        "building rules",
+        "consenting"
+      ]
+    },
+    {
+      "topic": "Auckland Transport Governance Bill Advances Amid Local-Control Debate",
+      "whyItMatters": "The proposed changes would reshape who makes decisions about Auckland’s roads and public transport, affecting local representation and long-term planning.",
+      "content": "The committee stage of the Local Government (Auckland Council) (Transport Governance) Amendment Bill concluded, and the bill was reported with amendments. The proposal creates an Auckland Regional Transport Committee, a 30-year transport plan and a public-transport council-controlled organisation, while assigning some transport responsibilities to local boards. Labour and Green MPs questioned how local decisions would be resourced, how local boards would influence public transport and how the plan would account for congestion and accessibility. ACT’s Cameron Luxton proposed removing provisions for Māori to contribute to the plan’s development; that amendment was rejected, while the Government’s amendments were agreed. Local Government Minister Simon Watts said existing council processes would support Māori engagement and that the final decisions would rest with the committee, jointly appointed by the mayor and Transport Minister.",
+      "keyExchanges": [
+        {
+          "speaker": "Cameron Luxton (ACT)",
+          "quote": "Because, at the end of the day, the design needs to be democratic, and co-design is but a species of co-governance, Minister."
+        },
+        {
+          "speaker": "Simon Watts (National)",
+          "quote": "The interpretation or implication that this is somewhat introducing terms such as “co-governance” and that are simply not the reality reflected in the requirements"
+        }
+      ],
+      "tags": [
+        "Auckland transport",
+        "local government",
+        "public transport",
+        "Māori consultation"
+      ]
+    },
+    {
+      "topic": "Anti-Money-Laundering Reforms Create One Supervisor and an Industry Levy",
+      "whyItMatters": "The proposed changes affect compliance obligations for businesses and how efforts to detect financial crime are funded.",
+      "content": "Two anti-money-laundering bills advanced through committee consideration and were reported with amendments or progress. The supervisor-and-levy bill would replace three supervisors with the Department of Internal Affairs from 1 July 2026 and establish an industry levy to fund parts of the system, including the Police Financial Intelligence Unit. Associate Justice Minister Nicole McKee said the changes aimed to reduce duplicated compliance while directing resources toward higher-risk activity; she cited an estimate that more than $1.6 billion is laundered annually through New Zealand’s financial system. MPs questioned how the new supervisor would retain specialist expertise, how levy costs would be allocated and what safeguards would accompany expanded information-gathering powers. The levy amounts and allocation details were still being developed.",
+      "keyExchanges": [
+        {
+          "speaker": "Arena Williams (Labour)",
+          "quote": "Is the supervisor that is best placed to continue their focus that New Zealand owes the rest of the world?"
+        },
+        {
+          "speaker": "Nicole McKee (New Zealand First)",
+          "quote": "some of those people are actually moving over into the Department of Internal Affairs’ (DIA’s) anti - money-laundering (AML) team, so we’re not losing that expertise."
+        }
+      ],
+      "tags": [
+        "money laundering",
+        "DIA",
+        "industry levy",
+        "financial crime"
+      ]
+    },
+    {
+      "topic": "Corrections Bill Passes First Reading With New Prisoner Safeguards",
+      "whyItMatters": "The bill would set new rules for managing high-risk prisoners while defining minimum standards for human contact and review rights.",
+      "content": "The Corrections (Management of Prisoners, and Prisoners’ Property) Amendment Bill passed its first reading by 117 votes to six and was referred to the Justice Committee, with a reporting deadline of 3 September 2026. It would establish a formal designation process for prisoners assessed as posing an extreme risk, allow more restrictive management, and provide for reviews and judicial review. The bill also sets a minimum of 10 hours of meaningful human contact over 14 days, with a target of 14 hours a week, and prohibits prolonged solitary confinement. Labour and the Greens supported further scrutiny, citing the Ombudsman’s concerns about conditions in the high-security unit and asking about safeguards and resourcing. Te Pāti Māori opposed the bill, arguing its powers could disproportionately affect Māori prisoners and their whānau.",
+      "keyExchanges": [
+        {
+          "speaker": "Dan Rosewarne (Labour)",
+          "quote": "We approach this bill with three clear tests in mind: is it workable, is it properly resourced, and are the safeguards strong enough?"
+        },
+        {
+          "speaker": "Hana-Rawhiti Maipi-Clarke (Te Pāti Māori)",
+          "quote": "Māori make up a disproportionate amount of prisoners in the current prison system."
+        }
+      ],
+      "tags": [
+        "Corrections",
+        "prisoner rights",
+        "solitary confinement",
+        "public safety"
+      ]
+    },
+    {
+      "topic": "Transport Bill Advances Digital Licence Framework and Safety Changes",
+      "whyItMatters": "The proposed changes could affect how drivers prove their identity, receive transport notices and are protected during road, rail and maritime incidents.",
+      "content": "The Regulatory Systems (Transport) Amendment Bill made progress in committee, with some parts agreed and the bill reported as unfinished. Its provisions include a framework for recognising digital driver licences while retaining physical licences, removing the requirement to display some vehicle notices on windscreens, and giving the transport agency a short-notice power to close or control State highways for public safety. The bill also updates rail investigation powers and maritime requirements, including protections for seafarers and higher penalties for some offences. MPs raised questions about privacy, digital access, road-closure notifications and the safeguards for entry onto private property; the Minister cited existing privacy protections and said warrants or owner consent would be required for entry to private premises under the rail provisions.",
+      "keyExchanges": [
+        {
+          "speaker": "Tangi Utikere (Labour)",
+          "quote": "What assurance can the public have that that optionality does actually exist?"
+        },
+        {
+          "speaker": "James Meager (National)",
+          "quote": "there’s nothing in the bill which removes the ability or the right to have a physical driver’s licence."
+        }
+      ],
+      "tags": [
+        "digital driver licence",
+        "transport safety",
+        "privacy",
+        "road closures"
+      ]
+    },
+    {
+      "topic": "Ngāti Hei Settlement Bill Completes Committee Stage",
+      "whyItMatters": "The settlement would provide cultural and commercial redress for Ngāti Hei and is part of the wider Hauraki claims settlement process.",
+      "content": "The Ngāti Hei Claims Settlement Bill completed its committee stage with ministerial amendments agreed to across its parts and schedules, and was reported back with amendment. Labour MP Arena Williams described the process as an occasion to recognise the iwi’s settlement in its own right, while Treaty Negotiations Minister Paul Goldsmith said the bill was expected to proceed to its final reading in the coming weeks. The bill’s committee-stage progress was largely unopposed, with no extended debate on its provisions.",
+      "tags": [
+        "Ngāti Hei",
+        "Treaty settlement",
+        "Hauraki",
+        "cultural redress"
+      ]
+    }
+  ],
+  "conclusion": "The sitting advanced major reforms, but disagreements over affordability, safeguards and who should hold decision-making power remained unresolved."
+}

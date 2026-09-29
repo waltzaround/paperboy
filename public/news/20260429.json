@@ -1,0 +1,229 @@
+{
+  "headline": "Cost-of-Living Concerns Dominate as Parliament Advances Overdose and Remittance Bills",
+  "publicationDate": "2026-04-29",
+  "summary": "Household costs and pressure on public services dominated question time and debate, with the Government and Opposition disputing responsibility for food, fuel, power and other bills. MPs also advanced bills on overdose assistance, boarding-house oversight, money-transfer fees and modern slavery, while a new India trade agreement and proposed reforms to vehicle inspections featured in government announcements. Several bills now move to select committees, where their scope, costs and safeguards will be examined.",
+  "topicSummaries": [
+    {
+      "topic": "Household Costs and Food Insecurity Fuel Political Clash",
+      "whyItMatters": "Rising food, fuel, power, housing and healthcare costs affect household budgets and access to basic needs.",
+      "content": "Opposition leader Chris Hipkins pressed Prime Minister Christopher Luxon for current household spending figures on groceries, power, insurance and fuel. Luxon cited annual food-price inflation of 3.4 percent, compared with 12.5 percent under the previous Government, and pointed to tax relief and other policies, but did not provide the requested household totals. Labour MPs described growing demand for food support and cited a New Zealand Food Network report saying 33 percent of people experienced some form of food insecurity in 2025. Finance Minister Nicola Willis acknowledged a cost-of-living crisis, attributing pressure in part to the Middle East conflict and diesel prices; the Government and Opposition offered sharply different accounts of its response.",
+      "keyExchanges": [
+        {
+          "speaker": "Chris Hipkins (Labour)",
+          "quote": "How much does the average New Zealand family spend in their weekly grocery shop right now, and is that more or less than when he became the Prime Minister?"
+        },
+        {
+          "speaker": "Christopher Luxon (National)",
+          "quote": "food inflation’s up 3.4 percent from memory; it was up 12.5 percent under his Government."
+        }
+      ],
+      "tags": [
+        "cost of living",
+        "food insecurity",
+        "fuel prices",
+        "household bills"
+      ]
+    },
+    {
+      "topic": "Overdose Assistance Bill Passes First Reading 66–57",
+      "whyItMatters": "The proposal would protect people from specified low-level drug charges when they seek emergency help during a suspected overdose or serious adverse reaction.",
+      "content": "Green MP Kahurangi Carter’s Drug Overdose (Assistance Protection) Legislation Bill passed its first reading by 66 votes to 57 and was referred to the Health Committee. It would amend drug, bail and parole laws to protect people who call for help, or are present, from prosecution for specified low-level offences; it would not protect serious crime or drug dealing. Carter argued that fear, stigma and other consequences can delay calls for emergency care, citing the death of 24-year-old Jacob Gunnell. Labour, the Greens, ACT and Te Pāti Māori supported the bill, while National and New Zealand First opposed it, raising questions about police discretion, complexity and whether education would be more effective.",
+      "keyExchanges": [
+        {
+          "speaker": "Kahurangi Carter (Green)",
+          "quote": "No one should be scared to call for help when they or someone they are with needs medical care."
+        },
+        {
+          "speaker": "Casey Costello (New Zealand First)",
+          "quote": "I don’t think this is about legislation; this is about an awareness."
+        }
+      ],
+      "tags": [
+        "overdose prevention",
+        "drug policy",
+        "emergency care",
+        "Health Committee"
+      ]
+    },
+    {
+      "topic": "Boarding-House Landlord Register Bill Advances to Committee",
+      "whyItMatters": "A register could help tenants and agencies identify who operates boarding houses and improve oversight of accommodation used by vulnerable people.",
+      "content": "Labour MP Jenny Salesa’s bill to require boarding-house landlords to register annually and disclose property and contact details passed its first reading and was referred to the Social Services and Community Committee. Salesa said there is no national register and cited unsafe conditions, including the 2023 Loafers Lodge fire, in which five people died and 20 were injured. National, ACT and New Zealand First supported further consideration but said the committee should assess whether registration would add unnecessary compliance costs or reduce the supply of accommodation. Submitters will be able to examine how the proposed register could work alongside existing safety and tenancy rules.",
+      "keyExchanges": [
+        {
+          "speaker": "Jenny Salesa (Labour)",
+          "quote": "There is no register of boarding houses. We don’t know how many there are across New Zealand. We don’t know who is compliant and who is non-compliant"
+        },
+        {
+          "speaker": "Joseph Mooney (National)",
+          "quote": "any regulatory response must be tightly targeted, must avoid unnecessary red tape, and must focus on lifting safety and quality outcomes in boarding houses"
+        }
+      ],
+      "tags": [
+        "boarding houses",
+        "tenant safety",
+        "housing",
+        "landlord register"
+      ]
+    },
+    {
+      "topic": "International Money-Transfer Bill Passes First Reading",
+      "whyItMatters": "Clearer disclosure of transfer costs could help people sending money overseas compare providers and understand the amount their recipients will receive.",
+      "content": "Arena Williams’ Financial Markets (International Money Transfers) Amendment Bill passed its first reading by 74 votes to 49 and was referred to the Governance and Administration Committee. The bill seeks to make the full cost of international transfers more transparent, including charges reflected in exchange-rate margins. Williams and Labour argued that opaque fees can particularly affect migrant and low-income families who send money regularly. National opposed the bill, saying extra compliance costs could be passed on to customers and that existing financial-conduct rules and competition from digital providers may address the issue. ACT, New Zealand First, the Greens and Te Pāti Māori voted with Labour to advance it.",
+      "keyExchanges": [
+        {
+          "speaker": "Nancy Lu (National)",
+          "quote": "the responsibility of that cost will be borne by New Zealand consumers who will be using the service."
+        },
+        {
+          "speaker": "Arena Williams (Labour)",
+          "quote": "The effect is that it will make prices transparent, and it is an issue of fairness"
+        }
+      ],
+      "tags": [
+        "remittances",
+        "banking fees",
+        "consumer protection",
+        "migrant communities"
+      ]
+    },
+    {
+      "topic": "Modern Slavery Bill Advances Despite ACT Opposition",
+      "whyItMatters": "The proposed reporting rules could require large businesses to examine and disclose risks of forced labour in their supply chains.",
+      "content": "A cross-party Modern Slavery Bill, co-sponsored by Labour’s Camilla Belich and National’s Greg Fleming, passed its first reading 112–11 and was referred to the Education and Workforce Committee, with a report due by 31 August 2026. The proposal would establish supply-chain reporting and related accountability measures; speakers cited estimates of 50 million people in modern slavery worldwide and about 8,000 in New Zealand. ACT opposed the bill, questioning whether reporting requirements would reduce exploitation and warning about compliance burdens and ministerial discretion over the reporting threshold. Supporters said the committee should test the bill’s effectiveness, costs and potential for due diligence, with Fleming saying he wanted businesses to investigate their supply chains rather than merely disclose information.",
+      "keyExchanges": [
+        {
+          "speaker": "Laura McClure (ACT)",
+          "quote": "The question is whether this bill as it is drafted will meaningfully make a difference here in New Zealand"
+        },
+        {
+          "speaker": "Greg Fleming (National)",
+          "quote": "I want to see companies doing annual due diligence on their operations and supply chains"
+        }
+      ],
+      "tags": [
+        "modern slavery",
+        "supply chains",
+        "business reporting",
+        "human rights"
+      ]
+    },
+    {
+      "topic": "India Trade Agreement Opens Market to New Zealand Exports",
+      "whyItMatters": "Lower tariffs could create new export opportunities for producers and businesses, while the agreement’s terms will undergo further scrutiny.",
+      "content": "Trade Minister Todd McClay told the House that New Zealand had signed a free-trade agreement with India, a market of 1.4 billion people. The Government said 95 percent of New Zealand exports would receive tariff elimination or reductions, with 57 percent duty-free from the agreement’s start and 82 percent when fully implemented. Ministers highlighted potential gains for seafood, forestry, apples, wine, honey and other products. The agreement is to go through treaty scrutiny and a further legislative process; New Zealand First leader Winston Peters questioned wording on Māori treatment in the agreement, and Finance Minister Nicola Willis criticised New Zealand First’s opposition to the deal and condemned a “butter chicken tsunami” remark attributed to Shane Jones as race-based rhetoric.",
+      "keyExchanges": [
+        {
+          "speaker": "Winston Peters (New Zealand First)",
+          "quote": "Why sign an FTA which included the phrase, “nothing in this Agreement shall preclude the adoption by New Zealand of measures it deems necessary to accord more favourable treatment to Māori”"
+        },
+        {
+          "speaker": "Todd McClay (National)",
+          "quote": "that language is in many agreements, including the UAE agreement and the EU agreement that that member’s party voted for during this term of Parliament."
+        }
+      ],
+      "tags": [
+        "India trade agreement",
+        "exports",
+        "tariffs",
+        "trade scrutiny"
+      ]
+    },
+    {
+      "topic": "Credit-Rating Outlooks Add Pressure Ahead of Budget",
+      "whyItMatters": "A possible downgrade could raise the Government’s borrowing costs, potentially affecting the public finances and future spending choices.",
+      "content": "Finance Minister Nicola Willis said Moody’s had kept New Zealand’s sovereign rating at triple A but changed its outlook from stable to negative; Fitch had also moved its outlook to negative. Willis said the agencies would monitor the fiscal position over the coming months, with Budget 2026 due on 28 May. She argued that the outlooks reinforced the Government’s focus on spending restraint and debt control, noting annual interest costs of about $9 billion. Opposition parties raised tax increases as an alternative approach to reducing deficits, while the Government pointed to savings and reprioritisation.",
+      "keyExchanges": [
+        {
+          "speaker": "Chlöe Swarbrick (Green)",
+          "quote": "Fair tax."
+        },
+        {
+          "speaker": "Nicola Willis (National)",
+          "quote": "Our approach is to keep a lid on spending, rather than increase taxes."
+        }
+      ],
+      "tags": [
+        "credit rating",
+        "public debt",
+        "Budget 2026",
+        "fiscal policy"
+      ]
+    },
+    {
+      "topic": "Vehicle Inspection Changes Set to Begin 1 November",
+      "whyItMatters": "Less frequent warrant-of-fitness checks for many vehicles could reduce inspection fees and time spent on compliance, while roadworthiness obligations remain.",
+      "content": "Associate Transport Minister James Meager said most light vehicles under 14 years old would move from annual to two-yearly warrant-of-fitness inspections, while new vehicles would not need their first inspection for four years. Older vehicles, motorcycles and light rental vehicles would move from six-monthly to yearly checks. The changes are due to take effect on 1 November, and officials estimated net benefits of $2.6 billion to $4.1 billion over 30 years. Meager said owners would still be responsible for keeping vehicles roadworthy and that penalties and enforcement would increase for those who did not.",
+      "keyExchanges": [
+        {
+          "speaker": "Rima Nakhle (National)",
+          "quote": "How much will this save Kiwis a year?"
+        },
+        {
+          "speaker": "James Meager (National)",
+          "quote": "these changes are expected to deliver between $2.6 billion and $4.1 billion in net benefits to Kiwis over 30 years"
+        }
+      ],
+      "tags": [
+        "vehicle inspections",
+        "WOF",
+        "transport",
+        "household costs"
+      ]
+    },
+    {
+      "topic": "Mining and Planning Reforms Prompt Questions Over Protected Areas",
+      "whyItMatters": "Decisions about mining and planning rules could affect conservation protections, regional employment and development opportunities.",
+      "content": "Green co-leader Marama Davidson challenged the Prime Minister over a prospecting permit in a UNESCO World Heritage area, arguing that mining could undermine a place of outstanding value. Christopher Luxon said the Government wanted to develop critical minerals and regional jobs while maintaining a balance and protecting national parks. Separately, Te Pāti Māori MP Oriini Kaipara raised concerns that replacement planning laws might weaken the Waitākere Ranges Heritage Area Act. RMA Reform Minister Chris Bishop said consequential amendments to the Waitākere law and about 100 other Acts would be considered by the Environment Committee, which is examining the planning bills.",
+      "keyExchanges": [
+        {
+          "speaker": "Marama Davidson (Green)",
+          "quote": "How does he justify granting a prospecting permit in one of only three of New Zealand’s UNESCO World Heritage Sites?"
+        },
+        {
+          "speaker": "Christopher Luxon (National)",
+          "quote": "we are very interested in developing more mining in this country because we need critical minerals to make the clean, green transition."
+        }
+      ],
+      "tags": [
+        "World Heritage",
+        "mining",
+        "RMA reform",
+        "conservation"
+      ]
+    },
+    {
+      "topic": "Deepfake Intimate-Image Bill Debate Continues Next Sitting",
+      "whyItMatters": "The proposal targets non-consensual AI-generated intimate images, which can cause serious harm even when the images are fabricated.",
+      "content": "ACT MP Laura McClure introduced a bill to amend the Crimes Act and Harmful Digital Communications Act so that synthetic or altered intimate images depicting an identifiable person without consent could be covered by existing offences. McClure said the bill was intended to address a gap in the law while avoiding ordinary editing, art and clearly identifiable satire. National, Labour and the Greens expressed support for further consideration and raised questions about definitions, penalties and safeguards. The debate was interrupted before a vote, and is scheduled to resume at the next sitting.",
+      "keyExchanges": [
+        {
+          "speaker": "Laura McClure (ACT)",
+          "quote": "The bill is not intended to capture clear parody or satire."
+        },
+        {
+          "speaker": "Ricardo Menéndez March (Green)",
+          "quote": "creating images that are synthesised or altered to appear to be intimate visual images, with the design to harm or shame someone, is a form of violence."
+        }
+      ],
+      "tags": [
+        "deepfakes",
+        "digital harm",
+        "consent",
+        "AI"
+      ]
+    },
+    {
+      "topic": "Carter Trust Amendment Bill Passes Unanimously",
+      "whyItMatters": "The changes are intended to make it easier for a community aged-care provider in Carterton to manage its operations and respond to local needs.",
+      "content": "The House passed the Carter Trust Amendment Bill at its third reading with unanimous support. The local legislation updates the framework governing the Carter Trust and Carter Society, which operates Carter Court, allowing the organisation greater flexibility and removing administrative requirements including ministerial sign-off for certain changes. MPs from across parties said the reforms would help the community provider continue its aged-care work while respecting the charitable purpose of Charles Rooking Carter’s bequest.",
+      "tags": [
+        "Carterton",
+        "aged care",
+        "community provider",
+        "local legislation"
+      ]
+    }
+  ],
+  "conclusion": "The day produced concrete legislative progress, but the central political divide remained over whether public protections and household relief require stronger rules or should give greater weight to costs, enforcement and economic growth."
+}
