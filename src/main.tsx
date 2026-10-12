@@ -6,6 +6,7 @@ import App from './App.tsx'
 import { ArticleDetail } from './components/ArticleDetail.tsx'
 import { About } from './components/About.tsx'
 import { Header } from './components/header.tsx'
+import { LawList } from './components/LawList.tsx'
 
 // Force dark mode regardless of user's system preference
 document.documentElement.classList.add('dark')
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+  },
+  {
+    path: '/laws',
+    element: <LawList />,
   },
   {
     path: '/patches',

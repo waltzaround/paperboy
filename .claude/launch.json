@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "paperboy-site",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["dev", "--port", "5174", "--strictPort"],
+      "port": 5174,
+      "autoPort": false
+    }
+  ]
+}
